@@ -1,0 +1,193 @@
+﻿<Window x:Class="Arknights_tools.MainWindow"
+        Closing="Window_Closing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="864" Width="1536">
+
+
+
+    <Window.Resources>
+        <Style x:Key="CheckChange" TargetType="{x:Type Button}">
+            <Setter Property="Width" Value="auto"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" Margin="5,0,5,0" Background="{TemplateBinding Background}" BorderThickness="2,2,2,2" BorderBrush="LightGray" SnapsToDevicePixels="true" CornerRadius="3,3,3,3">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" SnapsToDevicePixels="true" StrokeThickness="1" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="char" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            <Border.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform CenterX="63.2" CenterY="124.4"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Border.RenderTransform>
+                        </Border>
+                        <ControlTemplate.Resources>
+                            <Storyboard x:Key="Bigger">
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="border">
+                                    <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="1.08"/>
+                                </DoubleAnimationUsingKeyFrames>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="border">
+                                    <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="1.08"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                            <Storyboard x:Key="Smaller">
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="border">
+                                    <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+                                </DoubleAnimationUsingKeyFrames>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="border">
+                                    <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </ControlTemplate.Resources>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard Storyboard="{StaticResource Bigger}"/>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard Storyboard="{StaticResource Smaller}"/>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <TabControl>
+            <TabItem Header="仓库&#xD;&#xA;材料" Margin="-2,-2,2,0" Width="60" >
+                <ScrollViewer x:Name="StoreSv">
+                    <Grid x:Name="StoreMainGrid" Width="1513.2" Height="806.28"/>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="干员&#xD;&#xA;查询" Margin="-3,-2,3,0" Width="60">
+                <TabControl>
+                    <TabItem Header="干员搜索" Margin="-2,0,2,0" FontSize="20" Width="92" Height="31.4">
+                        <Grid>
+                            <StackPanel>
+                                <Border BorderBrush="LightGray" BorderThickness="3,3,3,3" Margin="30,30,30,5">
+                                    <StackPanel Name="Profession" Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
+                                        <TextBlock TextAlignment="Left" Margin="0,0,25,0" VerticalAlignment="Center" HorizontalAlignment="Stretch">职业</TextBlock>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="先锋"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="近卫"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="重装"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="医疗"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="术士"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="狙击"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="特种"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="辅助"/>
+                                    </StackPanel>
+                                </Border>
+                                <Border BorderBrush="LightGray" BorderThickness="3,3,3,3" Margin="30,5,30,10">
+                                    <StackPanel Name="Rarity" Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
+                                        <TextBlock TextAlignment="Left" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Stretch">稀有度</TextBlock>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="1★"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="2★"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="3★"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="4★"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="5★"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="6★"/>
+                                    </StackPanel>
+
+                                </Border>
+                                <Border BorderBrush="LightGray" BorderThickness="3,3,3,3" Margin="30,5,30,10">
+                                    <StackPanel Name="Taglist" Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
+                                        <TextBlock TextAlignment="Left" Margin="0,0,25,0" VerticalAlignment="Center" HorizontalAlignment="Stretch">词缀</TextBlock>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="治疗"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="支援"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="输出"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="群攻"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="减速"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="生存"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="防护"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="削弱"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="位移"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="控场"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="爆发"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="召唤"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="快速复活"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="费用回复"/>
+                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="支援机械"/>
+                                    </StackPanel>
+                                </Border>
+                                <ScrollViewer Margin="30,10,30,0" VerticalScrollBarVisibility="Hidden">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+                                        <Button Style="{DynamicResource char}" Grid.Column="0" Grid.Row="0" Margin="10">
+                                            <Image Source="/char_002_amiya_1.png"/>
+                                        </Button>
+                                    </Grid>
+                                </ScrollViewer>
+                            </StackPanel>
+
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="测试干员界面" Margin="-3,0,2,0">
+
+                    </TabItem>
+                </TabControl>
+            </TabItem>
+            <TabItem Header="公招&#xD;&#xA;查询" Margin="-4,-2,4,0" Width="60"/>
+            <TabItem Header="寻访&#xD;&#xA;模拟" Margin="-5,-2,5,0" Width="60"/>
+        </TabControl>
+    </Grid>
+</Window>

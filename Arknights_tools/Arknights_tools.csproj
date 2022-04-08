@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="5_D32钢.png" />
+    <None Remove="5_晶体电子单元.png" />
+    <None Remove="5_聚合剂.png" />
+    <None Remove="char_002_amiya_1+_.png" />
+    <None Remove="char_002_amiya_1.png" />
+    <None Remove="char_002_amiya_1[alpha]_.png" />
+    <None Remove="char_002_amiya_2b_.png" />
+    <None Remove="logo_action4.png" />
+    <None Remove="logo_egir.png" />
+    <None Remove="logo_rhodes_override.png" />
+    <None Remove="干员信息_背景.png" />
+    <None Remove="职业分支图标_中坚术师.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LitJson" Version="0.17.0" />
+    <PackageReference Include="NPOI" Version="2.5.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="char_002_amiya_1+_.png" />
+    <Resource Include="char_002_amiya_1.png" />
+    <Resource Include="char_002_amiya_1[alpha]_.png" />
+    <Resource Include="char_002_amiya_2b_.png" />
+    <Resource Include="logo_action4.png" />
+    <Resource Include="logo_egir.png" />
+    <Resource Include="logo_rhodes_override.png" />
+    <Resource Include="干员信息_背景.png" />
+    <Resource Include="职业分支图标_中坚术师.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Image\MakableMaterials\5_D32钢.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Image\MakableMaterials\5_晶体电子单元.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
