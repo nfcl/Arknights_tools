@@ -173,7 +173,7 @@
                                             <RowDefinition/>
                                         </Grid.RowDefinitions>
                                         <Button Style="{DynamicResource char}" Grid.Column="0" Grid.Row="0" Margin="10">
-                                            <Image Source="/char_002_amiya_1.png"/>
+                                            <Image Source="pack://application:,,,/char/char_002_amiya_1.png"/>
                                         </Button>
                                     </Grid>
                                 </ScrollViewer>
