@@ -37,7 +37,7 @@ namespace json_real
         public Matriels Matriels { get; set; }
     }
     //-----------------------------------------------------------------------------------------------------------------------------------
-
+    
     //-----------------------------------------------------------------------------------------------------------------------------------
 
     public class AttributesKeyFramesItem
@@ -260,12 +260,20 @@ namespace json_real
         public List<LvlUpCostItem> lvlUpCost { get; set; }
     }
 
-    public class ModeleItem
+    public class Char_infoItem
     {
         /// <summary>
         /// 名字
         /// </summary>
         public string name { get; set; }
+        /// <summary>
+        /// 实装顺序
+        /// </summary>
+        public int ImplementationOrder { get; set; }
+        /// <summary>
+        /// 皮肤名字
+        /// </summary>
+        public List<string> PicName { get; set; }
         /// <summary>
         /// 描述
         /// </summary>
@@ -273,7 +281,7 @@ namespace json_real
         /// <summary>
         /// 能否使用通用信物升潜能
         /// </summary>
-        public string canUseGeneralPotentialItem { get; set; }
+        public bool canUseGeneralPotentialItem { get; set; }
         /// <summary>
         /// 所属国家
         /// </summary>
@@ -317,11 +325,11 @@ namespace json_real
         /// <summary>
         /// 信物是否可获得
         /// </summary>
-        public string isNotObtainable { get; set; }
+        public bool isNotObtainable { get; set; }
         /// <summary>
         /// 是异格角色
         /// </summary>
-        public string isSpChar { get; set; }
+        public bool isSpChar { get; set; }
         /// <summary>
         /// 最大潜能等级
         /// </summary>
@@ -364,12 +372,53 @@ namespace json_real
         public List<AllSkillLvlupItem> allSkillLvlup { get; set; }
     }
 
-    public class Root
+    public class Root_CharTable
     {
         /// <summary>
         /// 
         /// </summary>
-        public List<ModeleItem> Modele { get; set; }
+        public List<Char_infoItem> char_info { get; set; }
+    }
+    // ------------------------------------------------------------------------------------------------------------------
+
+    // ------------------------------------------------------------------------------------------------------------------
+    public class CharacterItem
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Id { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public List<string> Picname { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public List<string> Qban { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Camp { get; set; }
+        /// <summary>
+        /// 阿米娅
+        /// </summary>
+        public string Ch_name { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string En_name { get; set; }
     }
 
+    public class Root_character
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        public List<string> Campname { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public List<CharacterItem> Character { get; set; }
+    }
 }

@@ -28,8 +28,13 @@ namespace Arknights_tools
         {
             InitializeComponent();
             InitStore();
+            InitCharCheck();
         }
 
+        /// <summary>
+        /// 初始化仓库界面
+        /// 从json中读取材料信息并动态生成界面
+        /// </summary>
         public void InitStore()
         {
             int STORE_MAIN_GRID_COLNUM = 8;
@@ -55,8 +60,13 @@ namespace Arknights_tools
                 GloabalArgs.MatrielMode[now].SetDownClick(Store.StoreDownClick);
                 GloabalArgs.MatrielMode[now].SetUpClick(Store.StoreUpClick);
                 GloabalArgs.MatrielMode[now].SetNumChange(Store.StoreNumChange);
-                now++;
+                ++now;
             }
+        }
+
+        public void InitCharCheck()
+        {
+
         }
         /// <summary>
         /// 点击干员筛选条件按钮
@@ -66,10 +76,7 @@ namespace Arknights_tools
         private void CheckChange(object sender, RoutedEventArgs e)
         {
             Button Sender = sender as Button;
-            if (Sender.Background == Brushes.SkyBlue)
-                Sender.Background = Brushes.White;
-            else
-                Sender.Background = Brushes.SkyBlue;
+            Sender.Background = Sender.Background == Brushes.SkyBlue ? Brushes.White : Brushes.SkyBlue;
         }
 
         /// <summary>
@@ -95,7 +102,10 @@ namespace Arknights_tools
         {
             StreamReader streamReader = new StreamReader(path, Encoding.Default);
             JsonReader js = new JsonReader(streamReader);
-            return JsonMapper.ToObject<T>(js);
+            T result = JsonMapper.ToObject<T>(js);
+            js.Close();
+            streamReader.Close();
+            return result;
         }
 
         /// <summary>
