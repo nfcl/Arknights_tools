@@ -29,7 +29,7 @@ namespace tool
         /// <para>可选 默认为0即auto</para>
         /// </param>
         /// <param name="width">设置列宽 和行高同理</param>
-        public void GridCutters(Grid GoalGrid, int row, int col,int height = 0,int width = 0)
+        public void GridCutters(Grid GoalGrid, int row, int col,double height = 0,double width = 0)
         {
             for (int i = 0; i < row; i++)
                 if (height == 0)

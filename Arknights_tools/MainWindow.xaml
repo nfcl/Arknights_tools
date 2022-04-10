@@ -11,35 +11,35 @@
 
     <Window.Resources>
         <Style x:Key="CheckChange" TargetType="{x:Type Button}">
-            <Setter Property="Width" Value="auto"/>
+            <Setter Property="Width" Value="100"/>
             <Setter Property="Background" Value="White"/>
             <Setter Property="BorderBrush" Value="White"/>
             <Setter Property="FontWeight" Value="Normal"/>
             <Setter Property="FontSize" Value="18"/>
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="1"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type Button}">
-                        <Border x:Name="border" Margin="5,0,5,0" Background="{TemplateBinding Background}" BorderThickness="2,2,2,2" BorderBrush="LightGray" SnapsToDevicePixels="true" CornerRadius="3,3,3,3">
-                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        <Border x:Name="border" Margin="5,0,5,0"
+                                Background="{TemplateBinding Background}" 
+                                BorderThickness="2,2,2,2" BorderBrush="LightGray"
+                                SnapsToDevicePixels="true" 
+                                CornerRadius="3,3,3,3">
+                            
+                            <ContentPresenter x:Name="contentPresenter"
+                                              Focusable="False"
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              Margin="3,1,3,3" 
+                                              RecognizesAccessKey="True"
+                                              SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" 
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
-        <Style x:Key="FocusVisual">
-            <Setter Property="Control.Template">
-                <Setter.Value>
-                    <ControlTemplate>
-                        <Rectangle Margin="2" StrokeDashArray="1 2" SnapsToDevicePixels="true" StrokeThickness="1" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
         <Style x:Key="char" TargetType="{x:Type Button}">
-            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
             <Setter Property="Background" Value="White"/>
             <Setter Property="BorderBrush" Value="White"/>
             <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
@@ -96,13 +96,64 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style x:Key="CheckBoxStyle1" TargetType="{x:Type CheckBox}">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height"  Value="30"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type CheckBox}">
+                        <Grid x:Name="templateRoot" Background="Transparent" SnapsToDevicePixels="True">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Path x:Name="ball" HorizontalAlignment="Left" Margin="8,0,0,0" Height="14" Width="14" Fill="Black">
+                                <Path.Data>
+                                    <EllipseGeometry RadiusX="7" RadiusY="7" Center="7 7"/>
+                                </Path.Data>
+                            </Path>
+                            <Border x:Name="border" Grid.Column="0" Width="60" CornerRadius="13" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"/>
+                            <ContentPresenter x:Name="contentPresenter" Grid.Column="1" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="5,0,0,0" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="true">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ThicknessAnimation Duration="0:0:0.2" To="38 0 0 0 " From="8 0 0 0" Storyboard.TargetProperty="Margin" Storyboard.TargetName="ball"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Setter Property="Content" TargetName="contentPresenter" Value="或"/>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ThicknessAnimation Duration="0:0:0.2" To="8 0 0 0 " From="38 0 0 0" Storyboard.TargetProperty="Margin" Storyboard.TargetName="ball"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="False">
+                                <Setter Property="Content" TargetName="contentPresenter" Value="与"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Window.Resources>
 
     <Grid>
         <TabControl>
             <TabItem Header="仓库&#xD;&#xA;材料" Margin="-2,-2,2,0" Width="60" >
                 <ScrollViewer x:Name="StoreSv">
-                    <Grid x:Name="StoreMainGrid" Width="1513.2" Height="806.28"/>
+                    <Grid x:Name="StoreMainGrid" Width="1513.2" Height="806.28">
+                    </Grid>
                 </ScrollViewer>
             </TabItem>
             <TabItem Header="干员&#xD;&#xA;查询" Margin="-3,-2,3,0" Width="60">
@@ -112,70 +163,67 @@
                             <StackPanel>
                                 <Border BorderBrush="LightGray" BorderThickness="3,3,3,3" Margin="30,30,30,5">
                                     <StackPanel Name="Profession" Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
-                                        <TextBlock TextAlignment="Left" Margin="0,0,25,0" VerticalAlignment="Center" HorizontalAlignment="Stretch">职业</TextBlock>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="先锋"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="近卫"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="重装"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="医疗"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="术士"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="狙击"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="特种"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="辅助"/>
+                                        <TextBlock TextAlignment="Left" Margin="0,0,25,0" VerticalAlignment="Center">职业</TextBlock>
+                                        <Button Content="全选" Margin="5,0,5,0"/>
+                                        <Button Content="清空" Margin="5,0,5,0"/>
+                                        <Button Uid="0" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="先锋"/>
+                                        <Button Uid="1" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="近卫"/>
+                                        <Button Uid="2" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="重装"/>
+                                        <Button Uid="3" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="狙击"/>
+                                        <Button Uid="4" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="术士"/>
+                                        <Button Uid="5" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="医疗"/>
+                                        <Button Uid="6" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="辅助"/>
+                                        <Button Uid="7" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="特种"/>
                                     </StackPanel>
                                 </Border>
                                 <Border BorderBrush="LightGray" BorderThickness="3,3,3,3" Margin="30,5,30,10">
                                     <StackPanel Name="Rarity" Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
-                                        <TextBlock TextAlignment="Left" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Stretch">稀有度</TextBlock>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="1★"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="2★"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="3★"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="4★"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="5★"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="6★"/>
+                                        <TextBlock TextAlignment="Left" Margin="0,0,5,0" VerticalAlignment="Center">稀有度</TextBlock>
+                                        <Button Content="全选" Margin="5,0,5,0"/>
+                                        <Button Content="清空" Margin="5,0,5,0"/>
+                                        <Button Uid="8" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="1★"/>
+                                        <Button Uid="9" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="2★"/>
+                                        <Button Uid="10" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="3★"/>
+                                        <Button Uid="11" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="4★"/>
+                                        <Button Uid="12" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="5★"/>
+                                        <Button Uid="13" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="6★"/>
                                     </StackPanel>
 
                                 </Border>
                                 <Border BorderBrush="LightGray" BorderThickness="3,3,3,3" Margin="30,5,30,10">
-                                    <StackPanel Name="Taglist" Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
-                                        <TextBlock TextAlignment="Left" Margin="0,0,25,0" VerticalAlignment="Center" HorizontalAlignment="Stretch">词缀</TextBlock>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="治疗"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="支援"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="输出"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="群攻"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="减速"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="生存"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="防护"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="削弱"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="位移"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="控场"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="爆发"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="召唤"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="快速复活"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="费用回复"/>
-                                        <Button Style="{DynamicResource CheckChange}" Click="CheckChange" Content="支援机械"/>
+                                    <StackPanel Orientation="Vertical">
+                                        <StackPanel Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
+                                            <TextBlock TextAlignment="Left" Margin="0,0,25,0" VerticalAlignment="Center">词缀</TextBlock>
+                                            <Button Content="全选" Width="98" Margin="5,0,5,0"/>
+                                            <Button Uid="14" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="新手"/>
+                                            <Button Uid="15" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="治疗"/>
+                                            <Button Uid="16" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="支援"/>
+                                            <Button Uid="17" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="输出"/>
+                                            <Button Uid="18" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="群攻"/>
+                                            <Button Uid="19" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="减速"/>
+                                            <Button Uid="20" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="生存"/>
+                                            <Button Uid="21" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="防护"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
+                                            <Button Content="清空" Width="98" Margin="70,0,5,0"/>
+                                            <Button Uid="22" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="削弱"/>
+                                            <Button Uid="23" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="位移"/>
+                                            <Button Uid="24" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="控场"/>
+                                            <Button Uid="25" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="爆发"/>
+                                            <Button Uid="26" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="召唤"/>
+                                            <Button Uid="27" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="快速复活"/>
+                                            <Button Uid="28" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="费用回复"/>
+                                            <Button Uid="29" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="支援机械"/>
+                                        </StackPanel>
                                     </StackPanel>
                                 </Border>
-                                <ScrollViewer Margin="30,10,30,0" VerticalScrollBarVisibility="Hidden">
-                                    <Grid>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition/>
-                                            <ColumnDefinition/>
-                                        </Grid.ColumnDefinitions>
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition/>
-                                        </Grid.RowDefinitions>
-                                        <Button Style="{DynamicResource char}" Grid.Column="0" Grid.Row="0" Margin="10">
-                                            <Image Source="pack://application:,,,/char/char_002_amiya_1.png"/>
-                                        </Button>
-                                    </Grid>
+                                <Border BorderBrush="LightGray" BorderThickness="3,3,3,3" Margin="30,5,30,10">
+                                    <StackPanel Name="Other" Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
+                                        <CheckBox x:Name="andor" Style="{DynamicResource CheckBoxStyle1}" />
+                                    </StackPanel>
+                                </Border>
+                                <ScrollViewer Margin="30,10,30,0" Height="430" >
+                                    <Grid x:Name="Grid_CharPreview" Width="1447.2"/>
                                 </ScrollViewer>
                             </StackPanel>
 

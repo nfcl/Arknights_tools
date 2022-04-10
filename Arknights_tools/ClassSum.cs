@@ -201,20 +201,52 @@ namespace ClassSum
         }
     }
 
-    public static class GloabalArgs
+    public class checkIdnum
+    {
+        public int Origanal { get; set; }
+        public int Profession { get; set; }
+        public int Rarity { get; set; }
+        public int Tag { get; set; }
+
+        public void setOriganal(int ori)
+        {
+            Profession  = ori & 0b000000000000000000000011111111;
+            Rarity      = ori & 0b000000000000000011111100000000;
+            Tag         = ori & 0b111111111111111100000000000000;
+        }
+
+        public checkIdnum()
+        {
+            Origanal = 0;
+        }
+    }
+
+    public static class GlobalArgs
     {
         /// <summary>
-        /// <para>仓库页面的单个材料展示面板组</para>
-        /// <para>包含：</para>
-        /// <para>一个Image用于展示材料图片</para>
-        /// <para>一个Textbox用于显示数量并快速更改数量</para>
-        /// <para>两个Button用于对数量进行+-1操作</para>
+        /// <para/>仓库页面的单个材料展示面板组
+        /// <para/>包含：
+        /// <para/>一个Image用于展示材料图片
+        /// <para/>一个Textbox用于显示数量并快速更改数量
+        /// <para/>两个Button用于对数量进行+-1操作
         /// </summary>
         public static StoreMatrielMode[] MatrielMode;
         /// <summary>
-        /// <para>matriels.json的json实体类</para>
-        /// <para>保存了材料的数量信息</para>
+        /// <para/>matriels.json的json实体类
+        /// <para/>保存了材料的数量信息
         /// </summary>
         public static Matriels_Root MatrielsMakble;
+        /// <summary>
+        /// 干员信息
+        /// </summary>
+        public static Root_CharTable Chartable;
+        /// <summary>
+        /// 筛选信息
+        /// <para/>包括:
+        /// <para/>职业
+        /// <para/>稀有度
+        /// <para/>tag
+        /// </summary>
+        public static checkIdnum CheckIdnum;
     }
 }
