@@ -1,0 +1,363 @@
+{
+  "Matriels": {
+    "Makable": [
+      {
+        "Ch_Name": "3_采购凭证",
+        "En_Name": "Proof_of_purchase",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 0
+      },
+      {
+        "Ch_Name": "4_龙门币",
+        "En_Name": "Dragon_Gate_Coin",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 0
+      },
+      {
+        "Ch_Name": "4_技巧概要·卷3",
+        "En_Name": "Summary_of_Techniques_Volume_3",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 0
+      },
+      {
+        "Ch_Name": "3_技巧概要·卷2",
+        "En_Name": "Summary_of_Techniques_Volume_2",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 0
+      },
+      {
+        "Ch_Name": "2_技巧概要·卷1",
+        "En_Name": "Summary_of_Techniques_Volume_1",
+        "Level": 2,
+        "Num": 0,
+        "Uid": 0
+      },
+      {
+        "Ch_Name": "双极纳米片",
+        "En_Name": "Bipolar_nanosheets",
+        "Level": 5,
+        "Num": 14,
+        "Uid": 30125
+      },
+      {
+        "Ch_Name": "聚合剂",
+        "En_Name": "Polymerizers",
+        "Level": 5,
+        "Num": 4,
+        "Uid": 30115
+      },
+      {
+        "Ch_Name": "晶体电子单元",
+        "En_Name": "Crystalline_electronic_unit",
+        "Level": 5,
+        "Num": 5,
+        "Uid": 30145
+      },
+      {
+        "Ch_Name": "D32钢",
+        "En_Name": "D32_steel",
+        "Level": 5,
+        "Num": 9,
+        "Uid": 30135
+      },
+      {
+        "Ch_Name": "异铁块",
+        "En_Name": "Hetero_iron_blocks",
+        "Level": 4,
+        "Num": 7,
+        "Uid": 30044
+      },
+      {
+        "Ch_Name": "五水研磨石",
+        "En_Name": "Five_water_grinding_stone",
+        "Level": 4,
+        "Num": 1218,
+        "Uid": 30094
+      },
+      {
+        "Ch_Name": "酮阵列",
+        "En_Name": "Keto_array",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 30054
+      },
+      {
+        "Ch_Name": "提纯源岩",
+        "En_Name": "Purify_the_source_rock",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 30014
+      },
+      {
+        "Ch_Name": "糖聚块",
+        "En_Name": "Glycoglomere",
+        "Level": 4,
+        "Num": 5,
+        "Uid": 30024
+      },
+      {
+        "Ch_Name": "三水锰矿",
+        "En_Name": "Manganese_ore_trihydrate",
+        "Level": 4,
+        "Num": 56,
+        "Uid": 30084
+      },
+      {
+        "Ch_Name": "切削原液",
+        "En_Name": "Cutting_stock_solution",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 31054
+      },
+      {
+        "Ch_Name": "聚酸酯块",
+        "En_Name": "Polyegric_block",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 30034
+      },
+      {
+        "Ch_Name": "聚合凝胶",
+        "En_Name": "Polymerization_gel",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 31014
+      },
+      {
+        "Ch_Name": "精炼溶剂",
+        "En_Name": "Refined_solvents",
+        "Level": 4,
+        "Num": 6,
+        "Uid": 31044
+      },
+      {
+        "Ch_Name": "晶体电路",
+        "En_Name": "Crystal_circuits",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 31034
+      },
+      {
+        "Ch_Name": "改量装置",
+        "En_Name": "Modification_device",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 30064
+      },
+      {
+        "Ch_Name": "炽合金块",
+        "En_Name": "Blazing_alloy_blocks",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 31024
+      },
+      {
+        "Ch_Name": "白马醇",
+        "En_Name": "White_horse_alcohol",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 30074
+      },
+      {
+        "Ch_Name": "RMA70-24",
+        "En_Name": "RMA70_24",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 30104
+      },
+      {
+        "Ch_Name": "异铁组",
+        "En_Name": "Hetero_iron_group",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30043
+      },
+      {
+        "Ch_Name": "研磨石",
+        "En_Name": "Grinding_stone",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30093
+      },
+      {
+        "Ch_Name": "酮凝集组",
+        "En_Name": "Ketoagglutination_group",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30053
+      },
+      {
+        "Ch_Name": "糖组",
+        "En_Name": "Sugar_group",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30023
+      },
+      {
+        "Ch_Name": "轻锰矿",
+        "En_Name": "Light_manganese_ore",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30083
+      },
+      {
+        "Ch_Name": "扭转醇",
+        "En_Name": "Torsional_alcohol",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30073
+      },
+      {
+        "Ch_Name": "凝胶",
+        "En_Name": "gel",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 31013
+      },
+      {
+        "Ch_Name": "聚酸酯组",
+        "En_Name": "Polyeste_group",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30033
+      },
+      {
+        "Ch_Name": "晶体元件",
+        "En_Name": "Crystal_elements",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 31033
+      },
+      {
+        "Ch_Name": "化合切削液",
+        "En_Name": "Compound_cutting_fluid",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 31053
+      },
+      {
+        "Ch_Name": "固源岩组",
+        "En_Name": "Guyuan_Rock_Formation",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30013
+      },
+      {
+        "Ch_Name": "炽合金",
+        "En_Name": "Incandescent_alloy",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 31023
+      },
+      {
+        "Ch_Name": "半自然溶剂",
+        "En_Name": "Semi_natural_solvent",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 31043
+      },
+      {
+        "Ch_Name": "RMA70-12",
+        "En_Name": "RMA70_12",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30103
+      },
+      {
+        "Ch_Name": "全新装置",
+        "En_Name": "New_unit",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 30063
+      },
+      {
+        "Ch_Name": "异铁",
+        "En_Name": "Iso_iron",
+        "Level": 2,
+        "Num": 0,
+        "Uid": 30042
+      },
+      {
+        "Ch_Name": "酮凝集",
+        "En_Name": "Ketone_agglutination",
+        "Level": 2,
+        "Num": 0,
+        "Uid": 30052
+      },
+      {
+        "Ch_Name": "糖",
+        "En_Name": "sugar",
+        "Level": 2,
+        "Num": 0,
+        "Uid": 30022
+      },
+      {
+        "Ch_Name": "装置",
+        "En_Name": "device",
+        "Level": 2,
+        "Num": 0,
+        "Uid": 30062
+      },
+      {
+        "Ch_Name": "聚酸酯",
+        "En_Name": "Polyegrind",
+        "Level": 2,
+        "Num": 0,
+        "Uid": 30032
+      },
+      {
+        "Ch_Name": "固源岩",
+        "En_Name": "Solid_source_rock",
+        "Level": 2,
+        "Num": 0,
+        "Uid": 30012
+      },
+      {
+        "Ch_Name": "酯原料",
+        "En_Name": "Ester_raw_material",
+        "Level": 1,
+        "Num": 0,
+        "Uid": 30031
+      },
+      {
+        "Ch_Name": "源岩",
+        "En_Name": "Source_Rock",
+        "Level": 1,
+        "Num": 0,
+        "Uid": 30011
+      },
+      {
+        "Ch_Name": "异铁碎片",
+        "En_Name": "Isotochron_fragments",
+        "Level": 1,
+        "Num": 0,
+        "Uid": 30041
+      },
+      {
+        "Ch_Name": "双酮",
+        "En_Name": "Diketones",
+        "Level": 1,
+        "Num": 0,
+        "Uid": 30051
+      },
+      {
+        "Ch_Name": "破损装置",
+        "En_Name": "Broken_device",
+        "Level": 1,
+        "Num": 0,
+        "Uid": 30061
+      },
+      {
+        "Ch_Name": "代糖",
+        "En_Name": "Sugar substitutes",
+        "Level": 1,
+        "Num": 7,
+        "Uid": 30021
+      }
+    ]
+  }
+}

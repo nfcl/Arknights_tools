@@ -1,0 +1,2238 @@
+{
+  "Campname": [
+    "logo_abyssal", 
+    "logo_action4",
+    "logo_babel",
+    "logo_blacksteel",
+    "logo_bolivar",
+    "logo_chiave",
+    "logo_columbia",
+    "logo_egir",
+    "logo_elite",
+    "logo_followers",
+    "logo_glasgow",
+    "logo_higashi",
+    "logo_iberia",
+    "logo_karlan",
+    "logo_kazimierz",
+    "logo_kjerag",
+    "logo_laterano",
+    "logo_lee",
+    "logo_leithanien",
+    "logo_lgd",
+    "logo_lungmen",
+    "logo_minos",
+    "logo_penguin",
+    "logo_pinus",
+    "logo_reserve1",
+    "logo_reserve4",
+    "logo_reserve6",
+    "logo_rhine",
+    "logo_rhodes",
+    "logo_rhodes_override",
+    "logo_rim",
+    "logo_sami",
+    "logo_sargon",
+    "logo_siesta",
+    "logo_siracusa",
+    "logo_student",
+    "logo_sui",
+    "logo_sweep",
+    "logo_ursus",
+    "logo_victoria",
+    "logo_yan",
+    "logo_rainbow"
+  ],
+  "Character": [
+    {
+      "Id": "002",
+      "Picname": [
+        "char_002_amiya_1",
+        "char_002_amiya_1+",
+        "char_002_amiya_2",
+        "char_002_amiya_epoque#4",
+        "char_002_amiya_winter#1",
+        "char_002_amiya_test#1"
+      ],
+      "Qban": [
+        "normal",
+        "epoque#4",
+        "winter#1",
+        "test#1"
+      ],
+      "Camp": "logo_rhodes_override",
+      "Ch_name": "°¢Ã×æ«",
+      "En_name": "Amiya"
+    },
+    {
+      "Id": "003",
+      "Picname": [
+        "char_003_kalts_1",
+        "char_003_kalts_2"
+      ],
+      "Qban": [
+        "normal"
+      ],
+      "Camp": "logo_rhodes_override",
+      "Ch_name": "¿­¶ûÏ£",
+      "En_name": "Kal'tsit"
+    },
+    {
+      "Id": "009",
+      "Picname": [
+        "char_009_12fce_1"
+      ],
+      "Qban": [
+        "normal"
+      ],
+      "Camp": "logo_rhodes_override",
+      "Ch_name": "12F",
+      "En_name": "12F"
+    },
+    {
+      "Id": "010",
+      "Picname": [
+        "char_010_chen_1",
+        "char_010_chen_2",
+        "char_010_chen_nian#2"
+      ],
+      "Ch_name": "³Â",
+      "En_name": "Ch'en"
+    },
+    {
+      "Id": "017",
+      "Picname": [
+        "char_017_huang_1",
+        "char_017_huang_2",
+        "char_017_huang_as#1"
+      ],
+      "Ch_name": "»Í",
+      "En_name": "Blaze"
+    },
+    {
+      "Id": "101",
+      "Picname": [
+        "char_101_sora_1",
+        "char_101_sora_2",
+        "char_101_sora_summer#1"
+      ],
+      "Ch_name": "¿Õ",
+      "En_name": "Sora"
+    },
+    {
+      "Id": "102",
+      "Picname": [
+        "char_102_texas_1",
+        "char_102_texas_2",
+        "char_102_texas_epoque#7",
+        "char_102_texas_winter#1"
+      ],
+      "Ch_name": "µÂ¿ËÈøË¹",
+      "En_name": "Texas"
+    },
+    {
+      "Id": "103",
+      "Picname": [
+        "char_103_angel_1",
+        "char_103_angel_2",
+        "char_103_angel_wild#1",
+        "char_103_angel_kfc#1"
+      ],
+      "Ch_name": "ÄÜÌìÊ¹",
+      "En_name": "Exusiai"
+    },
+    {
+      "Id": "106",
+      "Picname": [
+        "char_106_franka_1",
+        "char_106_franka_2"
+      ],
+      "Ch_name": "Ü½À¼¿¨",
+      "En_name": "Franka"
+    },
+    {
+      "Id": "107",
+      "Picname": [
+        "char_107_liskam_1",
+        "char_107_liskam_2",
+        "char_107_liskam_striker#1",
+        "char_107_liskam_nian#2"
+      ],
+      "Ch_name": "À×Éß",
+      "En_name": "Liskarm"
+    },
+    {
+      "Id": "108",
+      "Picname": [
+        "char_108_silent_1",
+        "char_108_silent_2",
+        "char_108_silent_sweep#1",
+        "char_108_silent_winter#2"
+      ],
+      "Ch_name": "ºÕÄ¬",
+      "En_name": "Silence"
+    },
+    {
+      "Id": "109",
+      "Picname": [
+        "char_109_fmout_1",
+        "char_109_fmout_2",
+        "char_109_fmout_epoque#2"
+      ],
+      "Ch_name": "Ô¶É½",
+      "En_name": "Gitano"
+    },
+    {
+      "Id": "110",
+      "Picname": [
+        "char_110_deepcl_1",
+        "char_110_deepcl_2"
+      ],
+      "Ch_name": "Éîº£É«",
+      "En_name": "Deepcolor"
+    },
+    {
+      "Id": "112",
+      "Picname": [
+        "char_112_siege_1",
+        "char_112_siege_2",
+        "char_112_siege_wild#2"
+      ],
+      "Ch_name": "ÍÆ½øÖ®Íõ",
+      "En_name": "Siege"
+    },
+    {
+      "Id": "113",
+      "Picname": [
+        "char_113_cqbw_1",
+        "char_113_cqbw_2",
+        "char_113_cqbw_epoque#7"
+      ],
+      "Ch_name": "W",
+      "En_name": "W"
+    },
+    {
+      "Id": "115",
+      "Picname": [
+        "char_115_headbr_1",
+        "char_115_headbr_2",
+        "char_115_headbr_marthe#2",
+        "char_115_headbr_it#1"
+      ],
+      "Ch_name": "ÁÝ¶¬",
+      "En_name": "§©§Ú§Þ§Ñ"
+    },
+    {
+      "Id": "117",
+      "Picname": [
+        "char_117_myrrh_1",
+        "char_117_myrrh_2",
+        "char_117_myrrh_wild#1"
+      ],
+      "Ch_name": "Ä©Ò©",
+      "En_name": "Myrrh"
+    },
+    {
+      "Id": "118",
+      "Picname": [
+        "char_118_yuki_1",
+        "char_118_yuki_2",
+        "char_118_yuki_boc#2"
+      ],
+      "Ch_name": "°×Ñ©",
+      "En_name": "ShiraYuki"
+    },
+    {
+      "Id": "120",
+      "Picname": [
+        "char_120_hibisc_1",
+        "char_120_hibisc_nian#1"
+      ],
+      "Ch_name": "Ü½ÈØ",
+      "En_name": "Hibiscus"
+    },
+    {
+      "Id": "121",
+      "Picname": [
+        "char_121_lava_1"
+      ],
+      "Ch_name": "Ñ×ÈÛ",
+      "En_name": "Lava"
+    },
+    {
+      "Id": "122",
+      "Picname": [
+        "char_122_beagle_1",
+        "char_122_beagle_boc#1"
+      ],
+      "Ch_name": "Ã×¸ñÂ³",
+      "En_name": "Beagle"
+    },
+    {
+      "Id": "123",
+      "Picname": [
+        "char_123_fang_1",
+        "char_123_fang_winter#1"
+      ],
+      "Ch_name": "·Ò",
+      "En_name": "Fang"
+    },
+    {
+      "Id": "124",
+      "Picname": [
+        "char_124_kroos_1",
+        "char_124_kroos_witch#1"
+      ],
+      "Ch_name": "¿ËÂåË¿",
+      "En_name": "Kroos"
+    },
+    {
+      "Id": "126",
+      "Picname": [
+        "char_126_shotst_1",
+        "char_126_shotst_2",
+        "char_126_shotst_epoque#10"
+      ],
+      "Ch_name": "Á÷ÐÇ",
+      "En_name": "Meteor"
+    },
+    {
+      "Id": "127",
+      "Picname": [
+        "char_127_estell_1",
+        "char_127_estell_2"
+      ],
+      "Ch_name": "°¬Ë¿÷ì¶û",
+      "En_name": "Estelle"
+    },
+    {
+      "Id": "128",
+      "Picname": [
+        "char_128_plosis_1",
+        "char_128_plosis_2",
+        "char_128_plosis_epoque#3"
+      ],
+      "Ch_name": "°×Ãæû^",
+      "En_name": "Ptilopsis"
+    },
+    {
+      "Id": "129",
+      "Picname": [
+        "char_129_bluep_1",
+        "char_129_bluep_2",
+        "char_129_bluep_marthe#3"
+      ],
+      "Ch_name": "À¶¶¾",
+      "En_name": "Blue Poison"
+    },
+    {
+      "Id": "130",
+      "Picname": [
+        "char_130_doberm_1",
+        "char_130_doberm_2",
+        "char_130_doberm_epoque#7"
+      ],
+      "Ch_name": "¶Å±ö",
+      "En_name": "Dobermann"
+    },
+    {
+      "Id": "131",
+      "Picname": [
+        "char_131_flameb_1",
+        "char_131_flameb_2"
+      ],
+      "Ch_name": "Ñ×¿Í",
+      "En_name": "Flamebringer"
+    },
+    {
+      "Id": "133",
+      "Picname": [
+        "char_133_mm_1",
+        "char_133_mm_2"
+      ],
+      "Ch_name": "Ã·",
+      "En_name": "May"
+    },
+    {
+      "Id": "134",
+      "Picname": [
+        "char_134_ifrit_1",
+        "char_134_ifrit_2",
+        "char_134_ifrit_summer#1",
+        "char_134_ifrit_kfc#1"
+      ],
+      "Ch_name": "ÒÁÜ½ÀûÌØ",
+      "En_name": "Ifrit"
+    },
+    {
+      "Id": "136",
+      "Picname": [
+        "char_136_hsguma_1",
+        "char_136_hsguma_2",
+        "char_136_hsguma_nian#3"
+      ],
+      "Ch_name": "ÐÇÐÜ",
+      "En_name": "Hoshiguma"
+    },
+    {
+      "Id": "137",
+      "Picname": [
+        "char_137_brownb_1",
+        "char_137_brownb_2",
+        "char_137_brownb_kitchen#1"
+      ],
+      "Ch_name": "ÁÔ·ä",
+      "En_name": "Beehunter"
+    },
+    {
+      "Id": "140",
+      "Picname": [
+        "char_140_whitew_1",
+        "char_140_whitew_2",
+        "char_140_whitew_boc#1"
+      ],
+      "Ch_name": "À­ÆÕÀ¼µÂ",
+      "En_name": "Lappland"
+    },
+    {
+      "Id": "141",
+      "Picname": [
+        "char_141_nights_1",
+        "char_141_nights_2"
+      ],
+      "Ch_name": "Ò¹ÑÌ",
+      "En_name": "Haze"
+    },
+    {
+      "Id": "143",
+      "Picname": [
+        "char_143_ghost_1",
+        "char_143_ghost_2",
+        "char_143_ghost_winter#1"
+      ],
+      "Ch_name": "ÓÄÁéöè",
+      "En_name": "Specter"
+    },
+    {
+      "Id": "144",
+      "Picname": [
+        "char_144_red_1",
+        "char_144_red_2",
+        "char_144_red_summer#6"
+      ],
+      "Ch_name": "ºì",
+      "En_name": "Projekt Red"
+    },
+    {
+      "Id": "145",
+      "Picname": [
+        "char_145_prove_1",
+        "char_145_prove_2",
+        "char_145_prove_summer#3",
+        "char_145_prove_wild#5"
+      ],
+      "Ch_name": "ÆÕÂÞÍúË¹",
+      "En_name": "Provence"
+    },
+    {
+      "Id": "147",
+      "Picname": [
+        "char_147_shining_1",
+        "char_147_shining_2",
+        "char_147_shining_summer#1"
+      ],
+      "Ch_name": "ÉÁÁé",
+      "En_name": "Shining"
+    },
+    {
+      "Id": "148",
+      "Picname": [
+        "char_148_nearl_1",
+        "char_148_nearl_2",
+        "char_148_nearl_summer#2"
+      ],
+      "Ch_name": "ÁÙ¹â",
+      "En_name": "Nearl"
+    },
+    {
+      "Id": "149",
+      "Picname": [
+        "char_149_scave_1",
+        "char_149_scave_2"
+      ],
+      "Ch_name": "ÇåµÀ·ò",
+      "En_name": "Scavenger"
+    },
+    {
+      "Id": "150",
+      "Picname": [
+        "char_150_snakek_1",
+        "char_150_snakek_2",
+        "char_150_snakek_wild#1"
+      ],
+      "Ch_name": "ÉßÍÀÏä",
+      "En_name": "Cuora"
+    },
+    {
+      "Id": "151",
+      "Picname": [
+        "char_151_myrtle_1",
+        "char_151_myrtle_2",
+        "char_151_myrtle_epoque#12"
+      ],
+      "Ch_name": "ÌÒ½ðÄï",
+      "En_name": "Myrtle"
+    },
+    {
+      "Id": "155",
+      "Picname": [
+        "char_155_tiger_1",
+        "char_155_tiger_2"
+      ],
+      "Ch_name": "ÒòÍÓÂÞ",
+      "En_name": "Indra"
+    },
+    {
+      "Id": "158",
+      "Picname": [
+        "char_158_milu_1",
+        "char_158_milu_2",
+        "char_158_milu_snow#2",
+        "char_158_milu_wild#2"
+      ],
+      "Ch_name": "ÊØÁÖÈË",
+      "En_name": "Firewatch"
+    },
+    {
+      "Id": "159",
+      "Picname": [
+        "char_159_peacok_1",
+        "char_159_peacok_2"
+      ],
+      "Ch_name": "¶Ï×ïÕß",
+      "En_name": "Conviction"
+    },
+    {
+      "Id": "163",
+      "Picname": [
+        "char_163_hpsts_1",
+        "char_163_hpsts_2"
+      ],
+      "Ch_name": "»ðÉñ",
+      "En_name": "Vulcan"
+    },
+    {
+      "Id": "164",
+      "Picname": [
+        "char_164_nightm_1",
+        "char_164_nightm_2",
+        "char_164_nightm_epoque#5"
+      ],
+      "Ch_name": "Ò¹Ä§",
+      "En_name": "Nightmare"
+    },
+    {
+      "Id": "166",
+      "Picname": [
+        "char_166_skfire_1",
+        "char_166_skfire_2",
+        "char_166_skfire_summer#1"
+      ],
+      "Ch_name": "Ìì»ð",
+      "En_name": "Skyfire"
+    },
+    {
+      "Id": "171",
+      "Picname": [
+        "char_171_bldsk_1",
+        "char_171_bldsk_2",
+        "char_171_bldsk_witch#1",
+        "char_171_bldsk_summer#7"
+      ],
+      "Ch_name": "»ª·¨ÁÕ",
+      "En_name": "Warfarin"
+    },
+    {
+      "Id": "172",
+      "Picname": [
+        "char_172_svrash_1",
+        "char_172_svrash_2",
+        "char_172_svrash_snow#1",
+        "char_172_svrash_summer#4"
+      ],
+      "Ch_name": "Òø»Ò",
+      "En_name": "SilverAsh"
+    },
+    {
+      "Id": "173",
+      "Picname": [
+        "char_173_slchan_1",
+        "char_173_slchan_2",
+        "char_173_slchan_wwf#1",
+        "char_173_slchan_wild#1"
+      ],
+      "Ch_name": "ÑÂÐÄ",
+      "En_name": "Cliffheart"
+    },
+    {
+      "Id": "174",
+      "Picname": [
+        "char_174_slbell_1",
+        "char_174_slbell_2",
+        "char_174_slbell_snow#1"
+      ],
+      "Ch_name": "³õÑ©",
+      "En_name": "Pramanix"
+    },
+    {
+      "Id": "179",
+      "Picname": [
+        "char_179_cgbird_1",
+        "char_179_cgbird_2",
+        "char_179_cgbird_witch#1"
+      ],
+      "Ch_name": "Ò¹Ýº",
+      "En_name": "Nightingale"
+    },
+    {
+      "Id": "180",
+      "Picname": [
+        "char_180_amgoat_1",
+        "char_180_amgoat_2",
+        "char_180_amgoat_summer#5"
+      ],
+      "Ch_name": "°¬ÑÅ·¨À­",
+      "En_name": "Eyjafjalla"
+    },
+    {
+      "Id": "181",
+      "Picname": [
+        "char_181_flower_1",
+        "char_181_flower_2",
+        "char_181_flower_epoque#9",
+        "char_181_flower_daily#1"
+      ],
+      "Ch_name": "µ÷ÏãÊ¦",
+      "En_name": "Perfumer"
+    },
+    {
+      "Id": "183",
+      "Picname": [
+        "char_183_skgoat_1",
+        "char_183_skgoat_2"
+      ],
+      "Ch_name": "µØÁé",
+      "En_name": "Earthspirit"
+    },
+    {
+      "Id": "185",
+      "Picname": [
+        "char_185_frncat_1",
+        "char_185_frncat_2"
+      ],
+      "Ch_name": "Ä½Ë¹",
+      "En_name": "Mousse"
+    },
+    {
+      "Id": "187",
+      "Picname": [
+        "char_187_ccheal_1",
+        "char_187_ccheal_2",
+        "char_187_ccheal_epoque#2"
+      ],
+      "Ch_name": "¼ÎÎ¬¶û",
+      "En_name": "Gavial"
+    },
+    {
+      "Id": "188",
+      "Picname": [
+        "char_188_helage_1",
+        "char_188_helage_2",
+        "char_188_helage_boc#2"
+      ],
+      "Ch_name": "ºÕÀ­¸ñ",
+      "En_name": "Hellagur"
+    },
+    {
+      "Id": "190",
+      "Picname": [
+        "char_190_clour_1",
+        "char_190_clour_2"
+      ],
+      "Ch_name": "ºìÔÆ",
+      "En_name": "Vermeil"
+    },
+    {
+      "Id": "192",
+      "Picname": [
+        "char_192_falco_1"
+      ],
+      "Ch_name": "ôáÓð",
+      "En_name": "Plume"
+    },
+    {
+      "Id": "193",
+      "Picname": [
+        "char_193_frostl_1",
+        "char_193_frostl_2"
+      ],
+      "Ch_name": "ËªÒ¶",
+      "En_name": "Frostleaf"
+    },
+    {
+      "Id": "195",
+      "Picname": [
+        "char_195_glassb_1",
+        "char_195_glassb_2",
+        "char_195_glassb_kitchen#1"
+      ],
+      "Ch_name": "ÕæÀí",
+      "En_name": "§ª§ã§ä§Ú§ß§Ñ"
+    },
+    {
+      "Id": "196",
+      "Picname": [
+        "char_196_sunbr_1",
+        "char_196_sunbr_2",
+        "char_196_sunbr_summer#1"
+      ],
+      "Ch_name": "¹ÅÃ×",
+      "En_name": "§¤§å§Þ"
+    },
+    {
+      "Id": "197",
+      "Picname": [
+        "char_197_poca_1",
+        "char_197_poca_2",
+        "char_197_poca_epoque#12"
+      ],
+      "Ch_name": "ÔçÂ¶",
+      "En_name": "Poca"
+    },
+    {
+      "Id": "198",
+      "Picname": [
+        "char_198_blackd_1",
+        "char_198_blackd_2",
+        "char_198_blackd_winter#1",
+        "char_198_blackd_as#1"
+      ],
+      "Ch_name": "Ñ¶Ê¹",
+      "En_name": "Courier"
+    },
+    {
+      "Id": "199",
+      "Picname": [
+        "char_199_yak_1",
+        "char_199_yak_2",
+        "char_199_yak_summer#1"
+      ],
+      "Ch_name": "½Ç·å",
+      "En_name": "Matterhorn"
+    },
+    {
+      "Id": "201",
+      "Picname": [
+        "char_201_moeshd_1",
+        "char_201_moeshd_2",
+        "char_201_moeshd_summer#4",
+        "char_201_moeshd_kfc#1"
+      ],
+      "Ch_name": "¿ÉËÌ",
+      "En_name": "Croissant"
+    },
+    {
+      "Id": "202",
+      "Picname": [
+        "char_202_demkni_1",
+        "char_202_demkni_2",
+        "char_202_demkni_test#1",
+        "char_202_demkni_boc#1"
+      ],
+      "Ch_name": "ÈûÀ×æ«",
+      "En_name": "Saria"
+    },
+    {
+      "Id": "204",
+      "Picname": [
+        "char_204_platnm_1",
+        "char_204_platnm_2",
+        "char_204_platnm_summer#3"
+      ],
+      "Ch_name": "°×½ð",
+      "En_name": "Platinum"
+    },
+    {
+      "Id": "206",
+      "Picname": [
+        "char_206_gnosis_1",
+        "char_206_gnosis_2"
+      ],
+      "Ch_name": "ÁéÖª",
+      "En_name": "Gnosis"
+    },
+    {
+      "Id": "208",
+      "Picname": [
+        "char_208_melan_1",
+        "char_208_melan_epoque#1"
+      ],
+      "Ch_name": "ÃµÀ¼É¯",
+      "En_name": "Melantha"
+    },
+    {
+      "Id": "209",
+      "Picname": [
+        "char_209_ardign_1",
+        "char_209_ardign_snow#1"
+      ],
+      "Ch_name": "¿¨ç¾",
+      "En_name": "Cardigan"
+    },
+    {
+      "Id": "210",
+      "Picname": [
+        "char_210_stward_1"
+      ],
+      "Ch_name": "Ê·¶¼»ªµÂ",
+      "En_name": "Steward"
+    },
+    {
+      "Id": "211",
+      "Picname": [
+        "char_211_adnach_1"
+      ],
+      "Ch_name": "°²µÂÇÐ¶û",
+      "En_name": "Adnachiel"
+    },
+    {
+      "Id": "212",
+      "Picname": [
+        "char_212_ansel_1",
+        "char_212_ansel_summer#1"
+      ],
+      "Ch_name": "°²Èü¶û",
+      "En_name": "Ansel"
+    },
+    {
+      "Id": "213",
+      "Picname": [
+        "char_213_mostma_1",
+        "char_213_mostma_2",
+        "char_213_mostma_epoque#5"
+      ],
+      "Ch_name": "ÄªË¹ÌáÂí",
+      "En_name": "Mostima"
+    },
+    {
+      "Id": "214",
+      "Picname": [
+        "char_214_kafka_1",
+        "char_214_kafka_2",
+        "char_214_kafka_snow#3"
+      ],
+      "Ch_name": "¿¨·ò¿¨",
+      "En_name": "Kafka"
+    },
+    {
+      "Id": "215",
+      "Picname": [
+        "char_215_mantic_1",
+        "char_215_mantic_2",
+        "char_215_mantic_epoque#4"
+      ],
+      "Ch_name": "Ê¨Ð«",
+      "En_name": "Manticore"
+    },
+    {
+      "Id": "218",
+      "Picname": [
+        "char_218_cuttle_1",
+        "char_218_cuttle_2",
+        "char_218_cuttle_epoque#12"
+      ],
+      "Ch_name": "°²ÕÜÀ­",
+      "En_name": "Andreana"
+    },
+    {
+      "Id": "219",
+      "Picname": [
+        "char_219_meteo_1",
+        "char_219_meteo_2",
+        "char_219_meteo_sweep#1"
+      ],
+      "Ch_name": "ÔÉÐÇ",
+      "En_name": "Meteorite"
+    },
+    {
+      "Id": "220",
+      "Picname": [
+        "char_220_grani_1",
+        "char_220_grani_2",
+        "char_220_grani_epoque#6"
+      ],
+      "Ch_name": "¸ñÀ­Äá",
+      "En_name": "Grani"
+    },
+    {
+      "Id": "222",
+      "Picname": [
+        "char_222_bpipe_1",
+        "char_222_bpipe_2",
+        "char_222_bpipe_race#1"
+      ],
+      "Ch_name": "·çµÑ",
+      "En_name": "Bagpipe"
+    },
+    {
+      "Id": "225",
+      "Picname": [
+        "char_225_haak_1",
+        "char_225_haak_2",
+        "char_225_haak_nian#4",
+        "char_225_haak_nian#5"
+      ],
+      "Ch_name": "°¢",
+      "En_name": "Aak"
+    },
+    {
+      "Id": "226",
+      "Picname": [
+        "char_226_hmau_1",
+        "char_226_hmau_2",
+        "char_226_hmau_nian#4"
+      ],
+      "Ch_name": "…Ë",
+      "En_name": "Hung"
+    },
+    {
+      "Id": "230",
+      "Picname": [
+        "char_230_savage_1",
+        "char_230_savage_2"
+      ],
+      "Ch_name": "±©ÐÐ",
+      "En_name": "Savage"
+    },
+    {
+      "Id": "235",
+      "Picname": [
+        "char_235_jesica_1",
+        "char_235_jesica_2",
+        "char_235_jesica_sweep#1",
+        "char_235_jesica_nian#2",
+        "char_235_jesica_wild#2"
+      ],
+      "Ch_name": "½ÜÎ÷¿¨",
+      "En_name": "Jessica"
+    },
+    {
+      "Id": "236",
+      "Picname": [
+        "char_236_rope_1",
+        "char_236_rope_2",
+        "char_236_rope_witch#1",
+        "char_236_rope_summer#2"
+      ],
+      "Ch_name": "°µË÷",
+      "En_name": "Rope"
+    },
+    {
+      "Id": "237",
+      "Picname": [
+        "char_237_gravel_1",
+        "char_237_gravel_2",
+        "char_237_gravel_winter#2"
+      ],
+      "Ch_name": "Àù",
+      "En_name": "Gravel"
+    },
+    {
+      "Id": "240",
+      "Picname": [
+        "char_240_wyvern_1"
+      ],
+      "Ch_name": "Ïã²Ý",
+      "En_name": "Vanilla"
+    },
+    {
+      "Id": "241",
+      "Picname": [
+        "char_241_panda_1",
+        "char_241_panda_2",
+        "char_241_panda_marthe#1"
+      ],
+      "Ch_name": "Ê³ÌúÊÞ",
+      "En_name": "FEater"
+    },
+    {
+      "Id": "242",
+      "Picname": [
+        "char_242_otter_1",
+        "char_242_otter_2",
+        "char_242_otter_ghost#1"
+      ],
+      "Ch_name": "Ã·¶û",
+      "En_name": "Mayer"
+    },
+    {
+      "Id": "243",
+      "Picname": [
+        "char_243_waaifu_1",
+        "char_243_waaifu_2"
+      ],
+      "Ch_name": "»±çú",
+      "En_name": "Waai Fu"
+    },
+    {
+      "Id": "248",
+      "Picname": [
+        "char_248_mgllan_1",
+        "char_248_mgllan_2",
+        "char_248_mgllan_kitchen#1"
+      ],
+      "Ch_name": "ÂóÕÜÂ×",
+      "En_name": "Magallan"
+    },
+    {
+      "Id": "250",
+      "Picname": [
+        "char_250_phatom_1",
+        "char_250_phatom_2",
+        "char_250_phatom_ghost#1"
+      ],
+      "Ch_name": "¿þÓ°",
+      "En_name": "Phantom"
+    },
+    {
+      "Id": "252",
+      "Picname": [
+        "char_252_bibeak_1",
+        "char_252_bibeak_2",
+        "char_252_bibeak_winter#2"
+      ],
+      "Ch_name": "°Øà¹",
+      "En_name": "Bibeak"
+    },
+    {
+      "Id": "253",
+      "Picname": [
+        "char_253_greyy_1",
+        "char_253_greyy_2",
+        "char_253_greyy_epoque#8"
+      ],
+      "Ch_name": "¸ñÀ×ÒÁ",
+      "En_name": "Greyy"
+    },
+    {
+      "Id": "254",
+      "Picname": [
+        "char_254_vodfox_1",
+        "char_254_vodfox_2",
+        "char_254_vodfox_witch#2"
+      ],
+      "Ch_name": "Î×Áµ",
+      "En_name": "Shamare"
+    },
+    {
+      "Id": "258",
+      "Picname": [
+        "char_258_podego_1",
+        "char_258_podego_2",
+        "char_258_podego_epoque#9"
+      ],
+      "Ch_name": "²¨µÇ¿É",
+      "En_name": "Podenco"
+    },
+    {
+      "Id": "260",
+      "Picname": [
+        "char_260_durnar_1",
+        "char_260_durnar_2"
+      ],
+      "Ch_name": "¼áÀ×",
+      "En_name": "Dur-nar"
+    },
+    {
+      "Id": "261",
+      "Picname": [
+        "char_261_sddrag_1",
+        "char_261_sddrag_2"
+      ],
+      "Ch_name": "Î­²Ý",
+      "En_name": "Reed"
+    },
+    {
+      "Id": "263",
+      "Picname": [
+        "char_263_skadi_1",
+        "char_263_skadi_2",
+        "char_263_skadi_summer#3"
+      ],
+      "Ch_name": "Ë¹¿¨µÙ",
+      "En_name": "Skadi"
+    },
+    {
+      "Id": "264",
+      "Picname": [
+        "char_264_f12yin_1",
+        "char_264_f12yin_2",
+        "char_264_f12yin_boc#3"
+      ],
+      "Ch_name": "É½",
+      "En_name": "Mountain"
+    },
+    {
+      "Id": "265",
+      "Picname": [
+        "char_265_sophia_1",
+        "char_265_sophia_2",
+        "char_265_sophia_epoque#11"
+      ],
+      "Ch_name": "±ÞÈÐ",
+      "En_name": "Whislash"
+    },
+    {
+      "Id": "271",
+      "Picname": [
+        "char_271_spikes_1",
+        "char_271_spikes_2",
+        "char_271_spikes_winter#2"
+      ],
+      "Ch_name": "·¼Í¡",
+      "En_name": "Arene"
+    },
+    {
+      "Id": "272",
+      "Picname": [
+        "char_272_strong_1",
+        "char_272_strong_2",
+        "char_272_strong_summer#6"
+      ],
+      "Ch_name": "æÝ",
+      "En_name": "Jaye"
+    },
+    {
+      "Id": "274",
+      "Picname": [
+        "char_274_astesi_1",
+        "char_274_astesi_2",
+        "char_274_astesi_shining#1",
+        "char_274_astesi_epoque#5"
+      ],
+      "Ch_name": "ÐÇ¼«",
+      "En_name": "Astesia"
+    },
+    {
+      "Id": "275",
+      "Picname": [
+        "char_275_breeze_1",
+        "char_275_breeze_2"
+      ],
+      "Ch_name": "Î¢·ç",
+      "En_name": "Breeze"
+    },
+    {
+      "Id": "277",
+      "Picname": [
+        "char_277_sqrrel_1",
+        "char_277_sqrrel_2",
+        "char_277_sqrrel_ghost#1"
+      ],
+      "Ch_name": "°¢Ïû",
+      "En_name": "Shaw"
+    },
+    {
+      "Id": "278",
+      "Picname": [
+        "char_278_orchid_1"
+      ],
+      "Ch_name": "è÷À¼",
+      "En_name": "Orchid"
+    },
+    {
+      "Id": "279",
+      "Picname": [
+        "char_279_excu_1",
+        "char_279_excu_2",
+        "char_279_excu_boc#1"
+      ],
+      "Ch_name": "ËÍÔáÈË",
+      "En_name": "Executor"
+    },
+    {
+      "Id": "281",
+      "Picname": [
+        "char_281_popka_1"
+      ],
+      "Ch_name": "ÅÝÆÕ¿¨",
+      "En_name": "Popukar"
+    },
+    {
+      "Id": "282",
+      "Picname": [
+        "char_282_catap_1"
+      ],
+      "Ch_name": "¿Õ±¬",
+      "En_name": "Catapult"
+    },
+    {
+      "Id": "283",
+      "Picname": [
+        "char_283_midn_1",
+        "char_283_midn_boc#1"
+      ],
+      "Ch_name": "ÔÂ¼ûÒ¹",
+      "En_name": "Midnight"
+    },
+    {
+      "Id": "284",
+      "Picname": [
+        "char_284_spot_1",
+        "char_284_spot_boc#3"
+      ],
+      "Ch_name": "°ßµã",
+      "En_name": "Spot"
+    },
+    {
+      "Id": "285",
+      "Picname": [
+        "char_285_medic2_1"
+      ],
+      "Ch_name": "Lancet-2",
+      "En_name": "Lancet-2"
+    },
+    {
+      "Id": "286",
+      "Picname": [
+        "char_286_cast3_1",
+        "char_286_cast3_summer#1"
+      ],
+      "Ch_name": "Castle-3",
+      "En_name": "Castle-3"
+    },
+    {
+      "Id": "289",
+      "Picname": [
+        "char_289_gyuki_1",
+        "char_289_gyuki_2"
+      ],
+      "Ch_name": "²øÍè",
+      "En_name": "Matoimaru"
+    },
+    {
+      "Id": "290",
+      "Picname": [
+        "char_290_vigna_1",
+        "char_290_vigna_2",
+        "char_290_vigna_summer#1",
+        "char_290_vigna_as#1"
+      ],
+      "Ch_name": "ºì¶¹",
+      "En_name": "Vigna"
+    },
+    {
+      "Id": "291",
+      "Picname": [
+        "char_291_aglina_1",
+        "char_291_aglina_2",
+        "char_291_aglina_boc#1",
+        "char_291_aglina_summer#5"
+      ],
+      "Ch_name": "°²½àÀòÄÈ",
+      "En_name": "Angelina"
+    },
+    {
+      "Id": "293",
+      "Picname": [
+        "char_293_thorns_1",
+        "char_293_thorns_2",
+        "char_293_thorns_it#1"
+      ],
+      "Ch_name": "¼¬´Ì",
+      "En_name": "Thorns"
+    },
+    {
+      "Id": "294",
+      "Picname": [
+        "char_294_ayer_1",
+        "char_294_ayer_2",
+        "char_294_ayer_boc#3"
+      ],
+      "Ch_name": "¶ÏÑÂ",
+      "En_name": "Ayerscarpe"
+    },
+    {
+      "Id": "298",
+      "Picname": [
+        "char_298_susuro_1",
+        "char_298_susuro_2",
+        "char_298_susuro_summer#6"
+      ],
+      "Ch_name": "ËÕËÕÂå",
+      "En_name": "Sussurro"
+    },
+    {
+      "Id": "301",
+      "Picname": [
+        "char_301_cutter_1",
+        "char_301_cutter_2"
+      ],
+      "Ch_name": "¿Ìµ¶",
+      "En_name": "Cutter"
+    },
+    {
+      "Id": "302",
+      "Picname": [
+        "char_302_glaze_1",
+        "char_302_glaze_2"
+      ],
+      "Ch_name": "°²±È¶û",
+      "En_name": "Ambriel"
+    },
+    {
+      "Id": "304",
+      "Picname": [
+        "char_304_zebra_1",
+        "char_304_zebra_2"
+      ],
+      "Ch_name": "±©Óê",
+      "En_name": "Heavyrain"
+    },
+    {
+      "Id": "306",
+      "Picname": [
+        "char_306_leizi_1",
+        "char_306_leizi_2"
+      ],
+      "Ch_name": "¾ªÕÝ",
+      "En_name": "Leizi"
+    },
+    {
+      "Id": "308",
+      "Picname": [
+        "char_308_swire_1",
+        "char_308_swire_2",
+        "char_308_swire_nian#2"
+      ],
+      "Ch_name": "Ê«»³ÑÅ",
+      "En_name": "Swire"
+    },
+    {
+      "Id": "311",
+      "Picname": [
+        "char_311_mudrok_1",
+        "char_311_mudrok_2",
+        "char_311_mudrok_summer#6"
+      ],
+      "Ch_name": "ÄàÑÒ",
+      "En_name": "Mudrock"
+    },
+    {
+      "Id": "325",
+      "Picname": [
+        "char_325_bison_1",
+        "char_325_bison_2"
+      ],
+      "Ch_name": "°ÝËÉ",
+      "En_name": "Bison"
+    },
+    {
+      "Id": "326",
+      "Picname": [
+        "char_326_glacus_1",
+        "char_326_glacus_2",
+        "char_326_glacus_ghost#1"
+      ],
+      "Ch_name": "¸ñÀÍ¿ËË¹",
+      "En_name": "Glaucus"
+    },
+    {
+      "Id": "328",
+      "Picname": [
+        "char_328_cammou_1",
+        "char_328_cammou_2",
+        "char_328_cammou_witch#2"
+      ],
+      "Ch_name": "¿¨´ï",
+      "En_name": "Click"
+    },
+    {
+      "Id": "332",
+      "Picname": [
+        "char_332_archet_1",
+        "char_332_archet_2",
+        "char_332_archet_shining#1"
+      ],
+      "Ch_name": "¿ÕÏÒ",
+      "En_name": "Archetto"
+    },
+    {
+      "Id": "333",
+      "Picname": [
+        "char_333_sidero_1",
+        "char_333_sidero_2",
+        "char_333_sidero_summer#6"
+      ],
+      "Ch_name": "ÖýÌú",
+      "En_name": "Sideroca"
+    },
+    {
+      "Id": "336",
+      "Picname": [
+        "char_336_folivo_1",
+        "char_336_folivo_2"
+      ],
+      "Ch_name": "Ï¡Òô",
+      "En_name": "Scene"
+    },
+    {
+      "Id": "337",
+      "Picname": [
+        "char_337_utage_1",
+        "char_337_utage_2",
+        "char_337_utage_summer#4"
+      ],
+      "Ch_name": "Ñç",
+      "En_name": "Utage"
+    },
+    {
+      "Id": "338",
+      "Picname": [
+        "char_338_iris_1",
+        "char_338_iris_2"
+      ],
+      "Ch_name": "°®ÀöË¿",
+      "En_name": "Iris"
+    },
+    {
+      "Id": "340",
+      "Picname": [
+        "char_340_shwaz_1",
+        "char_340_shwaz_2",
+        "char_340_shwaz_snow#1",
+        "char_340_shwaz_striker#1"
+      ],
+      "Ch_name": "ºÚ",
+      "En_name": "Schwarz"
+    },
+    {
+      "Id": "343",
+      "Picname": [
+        "char_343_tknogi_1",
+        "char_343_tknogi_2",
+        "char_343_tknogi_epoque#9"
+      ],
+      "Ch_name": "ÔÂºÌ",
+      "En_name": "Tsukinogi"
+    },
+    {
+      "Id": "344",
+      "Picname": [
+        "char_344_beewax_1",
+        "char_344_beewax_2",
+        "char_344_beewax_epoque#9"
+      ],
+      "Ch_name": "ÃÛÀ¯",
+      "En_name": "Beeswax"
+    },
+    {
+      "Id": "345",
+      "Picname": [
+        "char_345_folnic_1",
+        "char_345_folnic_2",
+        "char_345_folnic_wild#4"
+      ],
+      "Ch_name": "ÑÇÒ¶",
+      "En_name": "Folinic"
+    },
+    {
+      "Id": "346",
+      "Picname": [
+        "char_346_aosta_1",
+        "char_346_aosta_2"
+      ],
+      "Ch_name": "°ÂË¹Ëþ",
+      "En_name": "Aosta"
+    },
+    {
+      "Id": "347",
+      "Picname": [
+        "char_347_jaksel_1",
+        "char_347_jaksel_2"
+      ],
+      "Ch_name": "½Ü¿Ë",
+      "En_name": "Jackie"
+    },
+    {
+      "Id": "348",
+      "Picname": [
+        "char_348_ceylon_1",
+        "char_348_ceylon_2"
+      ],
+      "Ch_name": "ÎýÀ¼",
+      "En_name": "Ceylon"
+    },
+    {
+      "Id": "349",
+      "Picname": [
+        "char_349_chiave_1",
+        "char_349_chiave_2"
+      ],
+      "Ch_name": "¼ÖÎ¬",
+      "En_name": "Chiave"
+    },
+    {
+      "Id": "350",
+      "Picname": [
+        "char_350_surtr_1",
+        "char_350_surtr_2",
+        "char_350_surtr_it#1"
+      ],
+      "Ch_name": "Ê·¶ûÌØ¶û",
+      "En_name": "Surtr"
+    },
+    {
+      "Id": "355",
+      "Picname": [
+        "char_355_ethan_1",
+        "char_355_ethan_2",
+        "char_355_ethan_epoque#7"
+      ],
+      "Ch_name": "ÒÁÉ£",
+      "En_name": "Ethan"
+    },
+    {
+      "Id": "356",
+      "Picname": [
+        "char_356_broca_1",
+        "char_356_broca_2"
+      ],
+      "Ch_name": "²¼Âå¿¨",
+      "En_name": "Broca"
+    },
+    {
+      "Id": "358",
+      "Picname": [
+        "char_358_lisa_1",
+        "char_358_lisa_2",
+        "char_358_lisa_wild#3"
+      ],
+      "Ch_name": "ÁåÀ¼",
+      "En_name": "Suzuran"
+    },
+    {
+      "Id": "362",
+      "Picname": [
+        "char_362_saga_1",
+        "char_362_saga_2"
+      ],
+      "Ch_name": "áÏ¶ë",
+      "En_name": "Saga"
+    },
+    {
+      "Id": "363",
+      "Picname": [
+        "char_363_toddi_1",
+        "char_363_toddi_2"
+      ],
+      "Ch_name": "ÈÛÈª",
+      "En_name": "Toddifons"
+    },
+    {
+      "Id": "365",
+      "Picname": [
+        "char_365_aprl_1",
+        "char_365_aprl_2",
+        "char_365_aprl_wild#3"
+      ],
+      "Ch_name": "ËÄÔÂ",
+      "En_name": "April"
+    },
+    {
+      "Id": "366",
+      "Picname": [
+        "char_366_acdrop_1",
+        "char_366_acdrop_2"
+      ],
+      "Ch_name": "ËáÌÇ",
+      "En_name": "Aciddrop"
+    },
+    {
+      "Id": "367",
+      "Picname": [
+        "char_367_swllow_1",
+        "char_367_swllow_2",
+        "char_367_swllow_boc#1"
+      ],
+      "Ch_name": "»Òºí",
+      "En_name": "GreyThroat"
+    },
+    {
+      "Id": "369",
+      "Picname": [
+        "char_369_bena_1",
+        "char_369_bena_2"
+      ],
+      "Ch_name": "±´ÄÈ",
+      "En_name": "Bena"
+    },
+    {
+      "Id": "373",
+      "Picname": [
+        "char_373_lionhd_1",
+        "char_373_lionhd_2",
+        "char_373_lionhd_wild#3",
+        "char_373_lionhd_snow#3"
+      ],
+      "Ch_name": "À³¶÷¹þÌØ",
+      "En_name": "Leonhardt"
+    },
+    {
+      "Id": "376",
+      "Picname": [
+        "char_376_therex_1"
+      ],
+      "Ch_name": "THRM-EX",
+      "En_name": "Thermal-EX"
+    },
+    {
+      "Id": "378",
+      "Picname": [
+        "char_378_asbest_1",
+        "char_378_asbest_2"
+      ],
+      "Ch_name": "Ê¯ÃÞ",
+      "En_name": "Asbestos"
+    },
+    {
+      "Id": "379",
+      "Picname": [
+        "char_379_sesa_1",
+        "char_379_sesa_2"
+      ],
+      "Ch_name": "ÉåÉ°",
+      "En_name": "Sesa"
+    },
+    {
+      "Id": "381",
+      "Picname": [
+        "char_381_bubble_1",
+        "char_381_bubble_2"
+      ],
+      "Ch_name": "ÅÝÅÝ",
+      "En_name": "Bubble"
+    },
+    {
+      "Id": "383",
+      "Picname": [
+        "char_383_snsant_1",
+        "char_383_snsant_2",
+        "char_383_snsant_witch#2"
+      ],
+      "Ch_name": "Ñ©ïô",
+      "En_name": "Snowsant"
+    },
+    {
+      "Id": "385",
+      "Picname": [
+        "char_385_finlpp_1",
+        "char_385_finlpp_2"
+      ],
+      "Ch_name": "ÇåÁ÷",
+      "En_name": "Purestream"
+    },
+    {
+      "Id": "388",
+      "Picname": [
+        "char_388_mint_1",
+        "char_388_mint_2"
+      ],
+      "Ch_name": "±¡ÂÌ",
+      "En_name": "Mint"
+    },
+    {
+      "Id": "391",
+      "Picname": [
+        "char_391_rosmon_1",
+        "char_391_rosmon_2"
+      ],
+      "Ch_name": "ÃÔµüÏã",
+      "En_name": "Rosmontis"
+    },
+    {
+      "Id": "400",
+      "Picname": [
+        "char_400_weedy_1",
+        "char_400_weedy_2",
+        "char_400_weedy_snow#2"
+      ],
+      "Ch_name": "ÎÂµÙ",
+      "En_name": "Weedy"
+    },
+    {
+      "Id": "401",
+      "Picname": [
+        "char_401_elysm_1",
+        "char_401_elysm_2",
+        "char_401_elysm_snow#2"
+      ],
+      "Ch_name": "¼«¾³",
+      "En_name": "Elysium"
+    },
+    {
+      "Id": "402",
+      "Picname": [
+        "char_402_tuye_1",
+        "char_402_tuye_2"
+      ],
+      "Ch_name": "Í¼Ò®",
+      "En_name": "Tuye"
+    },
+    {
+      "Id": "405",
+      "Picname": [
+        "char_405_absin_1",
+        "char_405_absin_2"
+      ],
+      "Ch_name": "¿à°¬",
+      "En_name": "Absinthe"
+    },
+    {
+      "Id": "411",
+      "Picname": [
+        "char_411_tomimi_1",
+        "char_411_tomimi_2",
+        "char_411_tomimi_summer#5"
+      ],
+      "Ch_name": "ÌØÃ×Ã×",
+      "En_name": "Tomimi"
+    },
+    {
+      "Id": "415",
+      "Picname": [
+        "char_415_flint_1",
+        "char_415_flint_2",
+        "char_415_flint_boc#3"
+      ],
+      "Ch_name": "ìÝÊ¯",
+      "En_name": "Flint"
+    },
+    {
+      "Id": "416",
+      "Picname": [
+        "char_416_zumama_1",
+        "char_416_zumama_2",
+        "char_416_zumama_boc#3"
+      ],
+      "Ch_name": "É­òÅ",
+      "En_name": "Eunectes"
+    },
+    {
+      "Id": "420",
+      "Picname": [
+        "char_420_flamtl_1",
+        "char_420_flamtl_2"
+      ],
+      "Ch_name": "ÑæÎ²",
+      "En_name": "Flametail"
+    },
+    {
+      "Id": "421",
+      "Picname": [
+        "char_421_crow_1",
+        "char_421_crow_2"
+      ],
+      "Ch_name": "ÓðÃ«±Ê",
+      "En_name": "La Pluma"
+    },
+    {
+      "Id": "422",
+      "Picname": [
+        "char_422_aurora_1",
+        "char_422_aurora_2"
+      ],
+      "Ch_name": "¼«¹â",
+      "En_name": "Aurora"
+    },
+    {
+      "Id": "423",
+      "Picname": [
+        "char_423_blemsh_1",
+        "char_423_blemsh_2",
+        "char_423_blemsh_witch#2"
+      ],
+      "Ch_name": "è¦¹â",
+      "En_name": "Blemishine"
+    },
+    {
+      "Id": "426",
+      "Picname": [
+        "char_426_billro_1",
+        "char_426_billro_2",
+        "char_426_billro_snow#3"
+      ],
+      "Ch_name": "¿¨ÄùÀû°²",
+      "En_name": "Carnelian"
+    },
+    {
+      "Id": "430",
+      "Picname": [
+        "char_430_fartth_1",
+        "char_430_fartth_2"
+      ],
+      "Ch_name": "Ô¶ÑÀ",
+      "En_name": "Fartooth"
+    },
+    {
+      "Id": "431",
+      "Picname": [
+        "char_431_ashlok_1",
+        "char_431_ashlok_2"
+      ],
+      "Ch_name": "»ÒºÁ",
+      "En_name": "Ashlock"
+    },
+    {
+      "Id": "436",
+      "Picname": [
+        "char_436_whispr_1",
+        "char_436_whispr_2",
+        "char_436_whispr_nian#4"
+      ],
+      "Ch_name": "ÐõÓê",
+      "En_name": "Whisperain"
+    },
+    {
+      "Id": "437",
+      "Picname": [
+        "char_437_mizuki_1",
+        "char_437_mizuki_2"
+      ],
+      "Ch_name": "Ë®ÔÂ",
+      "En_name": "Mizuki"
+    },
+    {
+      "Id": "440",
+      "Picname": [
+        "char_440_pinecn_1",
+        "char_440_pinecn_2",
+        "char_440_pinecn_shining#1"
+      ],
+      "Ch_name": "ËÉ¹û",
+      "En_name": "Pinecone"
+    },
+    {
+      "Id": "449",
+      "Picname": [
+        "char_449_glider_1",
+        "char_449_glider_2"
+      ],
+      "Ch_name": "ÃÛÝ®",
+      "En_name": "Honeyberry"
+    },
+    {
+      "Id": "451",
+      "Picname": [
+        "char_451_robin_1",
+        "char_451_robin_2",
+        "char_451_robin_epoque#13"
+      ],
+      "Ch_name": "ÂÞ±ö",
+      "En_name": "Robin"
+    },
+    {
+      "Id": "452",
+      "Picname": [
+        "char_452_bstalk_1",
+        "char_452_bstalk_2",
+        "char_452_bstalk_snow#4"
+      ],
+      "Ch_name": "¶¹Ãç",
+      "En_name": "Beanstalk"
+    },
+    {
+      "Id": "455",
+      "Picname": [
+        "char_455_nothin_1",
+        "char_455_nothin_2"
+      ],
+      "Ch_name": "ÎÚÓÐ",
+      "En_name": "Mr.Nothing"
+    },
+    {
+      "Id": "456",
+      "Picname": [
+        "char_456_ash_1",
+        "char_456_ash_2",
+        "char_456_ash_rainbow6#1"
+      ],
+      "Ch_name": "»Ò½ý",
+      "En_name": "Ash"
+    },
+    {
+      "Id": "457",
+      "Picname": [
+        "char_457_blitz_1",
+        "char_457_blitz_2"
+      ],
+      "Ch_name": "ÉÁ»÷",
+      "En_name": "Blitz"
+    },
+    {
+      "Id": "458",
+      "Picname": [
+        "char_458_rfrost_1",
+        "char_458_rfrost_2"
+      ],
+      "Ch_name": "Ëª»ª",
+      "En_name": "Frost"
+    },
+    {
+      "Id": "459",
+      "Picname": [
+        "char_459_tachak_1",
+        "char_459_tachak_2",
+        "char_459_tachak_rainbow6#1"
+      ],
+      "Ch_name": "Õ½³µ",
+      "En_name": "Tachanka"
+    },
+    {
+      "Id": "469",
+      "Picname": [
+        "char_469_indigo_1",
+        "char_469_indigo_2"
+      ],
+      "Ch_name": "Éîµå",
+      "En_name": "Indigo"
+    },
+    {
+      "Id": "472",
+      "Picname": [
+        "char_472_pasngr_1",
+        "char_472_pasngr_2"
+      ],
+      "Ch_name": "Òì¿Í",
+      "En_name": "Passenger"
+    },
+    {
+      "Id": "473",
+      "Picname": [
+        "char_473_mberry_1",
+        "char_473_mberry_2"
+      ],
+      "Ch_name": "É£ÝØ",
+      "En_name": "Mulberry"
+    },
+    {
+      "Id": "474",
+      "Picname": [
+        "char_474_glady_1",
+        "char_474_glady_2"
+      ],
+      "Ch_name": "¸èÀÙµÙæ«",
+      "En_name": "Gladiia"
+    },
+    {
+      "Id": "475",
+      "Picname": [
+        "char_475_akafyu_1",
+        "char_475_akafyu_2"
+      ],
+      "Ch_name": "³à¶¬",
+      "En_name": "Akafuyu"
+    },
+    {
+      "Id": "478",
+      "Picname": [
+        "char_478_kirara_1",
+        "char_478_kirara_2"
+      ],
+      "Ch_name": "ç²Á¼",
+      "En_name": "Kirara"
+    },
+    {
+      "Id": "479",
+      "Picname": [
+        "char_479_sleach_1",
+        "char_479_sleach_2"
+      ],
+      "Ch_name": "ÇÙÁø",
+      "En_name": "Saileach"
+    },
+    {
+      "Id": "484",
+      "Picname": [
+        "char_484_robrta_1",
+        "char_484_robrta_2"
+      ],
+      "Ch_name": "ÂÞ±ÈÇ‰Ëþ",
+      "En_name": "Roberta"
+    },
+    {
+      "Id": "485",
+      "Picname": [
+        "char_485_pallas_1",
+        "char_485_pallas_2",
+        "char_485_pallas_epoque#12"
+      ],
+      "Ch_name": "ÅÁÀ­Ë¹",
+      "En_name": "Pallas"
+    },
+    {
+      "Id": "486",
+      "Picname": [
+        "char_486_takila_1",
+        "char_486_takila_2"
+      ],
+      "Ch_name": "ÁúÉàÀ¼",
+      "En_name": "Tequila"
+    },
+    {
+      "Id": "489",
+      "Picname": [
+        "char_489_serum_1",
+        "char_489_serum_2"
+      ],
+      "Ch_name": "Ê´Çå",
+      "En_name": "Corroserum"
+    },
+    {
+      "Id": "496",
+      "Picname": [
+        "char_496_wildmn_1",
+        "char_496_wildmn_2"
+      ],
+      "Ch_name": "Ò°××",
+      "En_name": "Wild Mane"
+    },
+    {
+      "Id": "500",
+      "Picname": [
+        "char_500_noirc_1"
+      ],
+      "Ch_name": "ºÚ½Ç",
+      "En_name": "Noir Corne"
+    },
+    {
+      "Id": "501",
+      "Picname": [
+        "char_501_durin_1"
+      ],
+      "Ch_name": "¶ÅÁÖ",
+      "En_name": "Durin"
+    },
+    {
+      "Id": "502",
+      "Picname": [
+        "char_502_nblade_1"
+      ],
+      "Ch_name": "Ò¹µ¶",
+      "En_name": "Yato"
+    },
+    {
+      "Id": "503",
+      "Picname": [
+        "char_503_rang_1"
+      ],
+      "Ch_name": "Ñ²ÁÖÕß",
+      "En_name": "Rangers"
+    },
+    {
+      "Id": "504",
+      "Picname": [
+        "char_504_rguard_1"
+      ],
+      "Ch_name": "Ô¤±¸¸ÉÔ±-½üÕ½",
+      "En_name": "Reserve(Melee)"
+    },
+    {
+      "Id": "505",
+      "Picname": [
+        "char_505_rcast_1"
+      ],
+      "Ch_name": "Ô¤±¸¸ÉÔ±-ÊõÊ¦",
+      "En_name": "Reserve(Caster)"
+    },
+    {
+      "Id": "506",
+      "Picname": [
+        "char_506_rmedic_1"
+      ],
+      "Ch_name": "Ô¤±¸¸ÉÔ±-ºóÇÚ",
+      "En_name": "Reserve(Logistic)"
+    },
+    {
+      "Id": "507",
+      "Picname": [
+        "char_507_rsnipe_1"
+      ],
+      "Ch_name": "Ô¤±¸¸ÉÔ±-¾Ñ»÷",
+      "En_name": "Reserve(Sniper)"
+    },
+    {
+      "Id": "508",
+      "Picname": [
+        "char_508_aguard_1",
+        "char_508_aguard_2"
+      ],
+      "Ch_name": "Sharp",
+      "En_name": "Sharp"
+    },
+    {
+      "Id": "509",
+      "Picname": [
+        "char_509_acast_1",
+        "char_509_acast_2"
+      ],
+      "Ch_name": "Pith",
+      "En_name": "Pith"
+    },
+    {
+      "Id": "510",
+      "Picname": [
+        "char_510_amedic_1",
+        "char_510_amedic_2"
+      ],
+      "Ch_name": "Touch",
+      "En_name": "Touch"
+    },
+    {
+      "Id": "511",
+      "Picname": [
+        "char_511_asnipe_1",
+        "char_511_asnipe_2"
+      ],
+      "Ch_name": "Stormeye",
+      "En_name": "Stormeye"
+    },
+    {
+      "Id": "512",
+      "Picname": [
+        "char_512_aprot_1",
+        "char_512_aprot_2"
+      ],
+      "Ch_name": "ÄºÂä",
+      "En_name": "Shalem"
+    },
+    {
+      "Id": "1001",
+      "Picname": [
+        "char_1001_amiya2_2"
+      ],
+      "Ch_name": "°¢Ã×æ«",
+      "En_name": "Amiya"
+    },
+    {
+      "Id": "1011",
+      "Picname": [
+        "char_1011_lava2_1",
+        "char_1011_lava2_2",
+        "char_1011_lava2_nian#6"
+      ],
+      "Ch_name": "Ñ×ÓüÑ×ÈÛ",
+      "En_name": "Lava the Purgatory"
+    },
+    {
+      "Id": "1012",
+      "Picname": [
+        "char_1012_skadi2_1",
+        "char_1012_skadi2_2"
+      ],
+      "Ch_name": "×ÇÐÄË¹¿¨µÙ",
+      "En_name": "Skadi the Corrupting Heart"
+    },
+    {
+      "Id": "1013",
+      "Picname": [
+        "char_1013_chen2_1",
+        "char_1013_chen2_2"
+      ],
+      "Ch_name": "¼ÙÈÕÍþÁú³Â",
+      "En_name": "Ch'en the Holungday"
+    },
+    {
+      "Id": "1014",
+      "Picname": [
+        "char_1014_nearl2_1",
+        "char_1014_nearl2_2"
+      ],
+      "Ch_name": "Ò«ÆïÊ¿ÁÙ¹â",
+      "En_name": "Nearl the Radiant Knight"
+    },
+    {
+      "Id": "2013",
+      "Picname": [
+        "char_2013_cerber_1",
+        "char_2013_cerber_2",
+        "char_2013_cerber_summer#4"
+      ],
+      "Ch_name": "¿Ì¶í°Ø",
+      "En_name": "Ceobe"
+    },
+    {
+      "Id": "2014",
+      "Picname": [
+        "char_2014_nian_1",
+        "char_2014_nian_2",
+        "char_2014_nian_nian#4"
+      ],
+      "Ch_name": "Äê",
+      "En_name": "Nian"
+    },
+    {
+      "Id": "2015",
+      "Picname": [
+        "char_2015_dusk_1",
+        "char_2015_dusk_2"
+      ],
+      "Ch_name": "Ï¦",
+      "En_name": "Dusk"
+    },
+    {
+      "Id": "4000",
+      "Picname": [
+        "char_4000_jnight_1"
+      ],
+      "Ch_name": "ÕýÒåÆïÊ¿ºÅ",
+      "En_name": "\"Justice Knight\""
+    },
+    {
+      "Id": "4004",
+      "Picname": [
+        "char_4004_pudd_1",
+        "char_4004_pudd_2"
+      ],
+      "Ch_name": "²¼¶¡",
+      "En_name": "Pudding"
+    },
+    {
+      "Id": "4013",
+      "Picname": [
+        "char_4013_kjera_1",
+        "char_4013_kjera_2"
+      ],
+      "Ch_name": "Ò®À­",
+      "En_name": "Kjera"
+    },
+    {
+      "Id": "4019",
+      "Picname": [
+        "char_4019_ncdeer_1",
+        "char_4019_ncdeer_2"
+      ],
+      "Ch_name": "¾ÅÉ«Â¹",
+      "En_name": "Nine-Colored Deer"
+    },
+    {
+      "Id": "4025",
+      "Picname": [
+        "char_4025_aprot2_1",
+        "char_4025_aprot2_2"
+      ],
+      "Ch_name": "ÄºÂä",
+      "En_name": "Shalem"
+    }
+  ]
+}

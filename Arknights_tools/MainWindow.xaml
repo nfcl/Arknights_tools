@@ -265,7 +265,7 @@
                                 <StackPanel>
                                     <TextBlock FontSize="70" Margin="10" Grid.Row="0">干员名称</TextBlock>
                                     <Grid>
-                                        <Image Source="pack://application:,,,/bin/Debug/netcoreapp3.1/Image/Background/干员信息_背景.png"></Image>
+                                        <Image Source="pack://application:,,,/"></Image>
                                     </Grid>
                                 </StackPanel>
                             </ScrollViewer>

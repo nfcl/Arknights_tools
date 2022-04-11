@@ -573,26 +573,6 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        public static System.Drawing.Bitmap Background_CharPic1 {
-            get {
-                object obj = ResourceManager.GetObject("Background_CharPic1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        public static System.Drawing.Bitmap Background_CharPic2 {
-            get {
-                object obj = ResourceManager.GetObject("Background_CharPic2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
         public static System.Drawing.Bitmap char_002_amiya_1 {
             get {
                 object obj = ResourceManager.GetObject("char_002_amiya_1", resourceCulture);
@@ -613,9 +593,39 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_002_amiya_1_1 {
+            get {
+                object obj = ResourceManager.GetObject("char_002_amiya_1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_002_amiya_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_002_amiya_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_002_amiya_2 {
             get {
                 object obj = ResourceManager.GetObject("char_002_amiya_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_002_amiya_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_002_amiya_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,9 +643,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_002_amiya_epoque_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_002_amiya_epoque_41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_002_amiya_test_1 {
             get {
                 object obj = ResourceManager.GetObject("char_002_amiya_test_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_002_amiya_test_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_002_amiya_test_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -653,9 +683,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_002_amiya_winter_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_002_amiya_winter_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_003_kalts_1 {
             get {
                 object obj = ResourceManager.GetObject("char_003_kalts_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_003_kalts_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_003_kalts_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,9 +723,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_003_kalts_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_003_kalts_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_009_12fce_1 {
             get {
                 object obj = ResourceManager.GetObject("char_009_12fce_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_009_12fce_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_009_12fce_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -693,9 +763,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_010_chen_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_010_chen_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_010_chen_2 {
             get {
                 object obj = ResourceManager.GetObject("char_010_chen_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_010_chen_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_010_chen_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -713,9 +803,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_010_chen_nian_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_010_chen_nian_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_017_huang_1 {
             get {
                 object obj = ResourceManager.GetObject("char_017_huang_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_017_huang_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_017_huang_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -733,9 +843,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_017_huang_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_017_huang_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_017_huang_as_1 {
             get {
                 object obj = ResourceManager.GetObject("char_017_huang_as_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_017_huang_as_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_017_huang_as_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -753,9 +883,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_1001_amiya2_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_1001_amiya2_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_101_sora_1 {
             get {
                 object obj = ResourceManager.GetObject("char_101_sora_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_101_sora_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_101_sora_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -773,9 +923,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_101_sora_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_101_sora_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_101_sora_summer_1 {
             get {
                 object obj = ResourceManager.GetObject("char_101_sora_summer_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_101_sora_summer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_101_sora_summer_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -793,9 +963,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_1011_lava2_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_1011_lava2_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_1011_lava2_2 {
             get {
                 object obj = ResourceManager.GetObject("char_1011_lava2_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_1011_lava2_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_1011_lava2_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -813,9 +1003,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_1011_lava2_nian_61 {
+            get {
+                object obj = ResourceManager.GetObject("char_1011_lava2_nian_61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_1012_skadi2_1 {
             get {
                 object obj = ResourceManager.GetObject("char_1012_skadi2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_1012_skadi2_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_1012_skadi2_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -833,9 +1043,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_1012_skadi2_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_1012_skadi2_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_1013_chen2_1 {
             get {
                 object obj = ResourceManager.GetObject("char_1013_chen2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_1013_chen2_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_1013_chen2_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -853,9 +1083,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_1013_chen2_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_1013_chen2_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_1014_nearl2_1 {
             get {
                 object obj = ResourceManager.GetObject("char_1014_nearl2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_1014_nearl2_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_1014_nearl2_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -873,9 +1123,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_1014_nearl2_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_1014_nearl2_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_102_texas_1 {
             get {
                 object obj = ResourceManager.GetObject("char_102_texas_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_102_texas_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_102_texas_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -893,9 +1163,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_102_texas_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_102_texas_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_102_texas_epoque_7 {
             get {
                 object obj = ResourceManager.GetObject("char_102_texas_epoque_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_102_texas_epoque_71 {
+            get {
+                object obj = ResourceManager.GetObject("char_102_texas_epoque_71", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -913,9 +1203,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_102_texas_winter_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_102_texas_winter_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_1021_kroos2_1 {
             get {
                 object obj = ResourceManager.GetObject("char_1021_kroos2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_1021_kroos2_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_1021_kroos2_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -933,9 +1243,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_1021_kroos2_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_1021_kroos2_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_103_angel_1 {
             get {
                 object obj = ResourceManager.GetObject("char_103_angel_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_103_angel_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_103_angel_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -953,9 +1283,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_103_angel_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_103_angel_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_103_angel_kfc_1 {
             get {
                 object obj = ResourceManager.GetObject("char_103_angel_kfc_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_103_angel_kfc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_103_angel_kfc_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -973,9 +1323,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_103_angel_wild_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_103_angel_wild_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_106_franka_1 {
             get {
                 object obj = ResourceManager.GetObject("char_106_franka_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_106_franka_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_106_franka_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -993,9 +1363,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_106_franka_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_106_franka_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_107_liskam_1 {
             get {
                 object obj = ResourceManager.GetObject("char_107_liskam_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_107_liskam_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_107_liskam_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1013,9 +1403,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_107_liskam_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_107_liskam_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_107_liskam_nian_2 {
             get {
                 object obj = ResourceManager.GetObject("char_107_liskam_nian_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_107_liskam_nian_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_107_liskam_nian_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1033,9 +1443,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_107_liskam_striker_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_107_liskam_striker_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_108_silent_1 {
             get {
                 object obj = ResourceManager.GetObject("char_108_silent_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_108_silent_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_108_silent_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1053,9 +1483,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_108_silent_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_108_silent_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_108_silent_sweep_1 {
             get {
                 object obj = ResourceManager.GetObject("char_108_silent_sweep_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_108_silent_sweep_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_108_silent_sweep_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1073,9 +1523,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_108_silent_winter_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_108_silent_winter_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_109_fmout_1 {
             get {
                 object obj = ResourceManager.GetObject("char_109_fmout_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_109_fmout_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_109_fmout_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1093,9 +1563,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_109_fmout_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_109_fmout_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_109_fmout_epoque_2 {
             get {
                 object obj = ResourceManager.GetObject("char_109_fmout_epoque_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_109_fmout_epoque_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_109_fmout_epoque_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1113,9 +1603,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_110_deepcl_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_110_deepcl_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_110_deepcl_2 {
             get {
                 object obj = ResourceManager.GetObject("char_110_deepcl_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_110_deepcl_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_110_deepcl_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1133,9 +1643,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_112_siege_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_112_siege_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_112_siege_2 {
             get {
                 object obj = ResourceManager.GetObject("char_112_siege_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_112_siege_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_112_siege_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1153,9 +1683,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_112_siege_wild_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_112_siege_wild_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_113_cqbw_1 {
             get {
                 object obj = ResourceManager.GetObject("char_113_cqbw_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_113_cqbw_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_113_cqbw_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1173,9 +1723,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_113_cqbw_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_113_cqbw_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_113_cqbw_epoque_7 {
             get {
                 object obj = ResourceManager.GetObject("char_113_cqbw_epoque_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_113_cqbw_epoque_71 {
+            get {
+                object obj = ResourceManager.GetObject("char_113_cqbw_epoque_71", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1193,9 +1763,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_115_headbr_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_115_headbr_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_115_headbr_2 {
             get {
                 object obj = ResourceManager.GetObject("char_115_headbr_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_115_headbr_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_115_headbr_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1213,9 +1803,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_115_headbr_it_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_115_headbr_it_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_115_headbr_marthe_2 {
             get {
                 object obj = ResourceManager.GetObject("char_115_headbr_marthe_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_115_headbr_marthe_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_115_headbr_marthe_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1233,9 +1843,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_117_myrrh_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_117_myrrh_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_117_myrrh_2 {
             get {
                 object obj = ResourceManager.GetObject("char_117_myrrh_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_117_myrrh_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_117_myrrh_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1253,9 +1883,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_117_myrrh_wild_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_117_myrrh_wild_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_118_yuki_1 {
             get {
                 object obj = ResourceManager.GetObject("char_118_yuki_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_118_yuki_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_118_yuki_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1273,9 +1923,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_118_yuki_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_118_yuki_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_118_yuki_boc_2 {
             get {
                 object obj = ResourceManager.GetObject("char_118_yuki_boc_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_118_yuki_boc_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_118_yuki_boc_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1293,9 +1963,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_120_hibisc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_120_hibisc_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_120_hibisc_nian_1 {
             get {
                 object obj = ResourceManager.GetObject("char_120_hibisc_nian_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_120_hibisc_nian_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_120_hibisc_nian_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1313,9 +2003,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_121_lava_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_121_lava_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_122_beagle_1 {
             get {
                 object obj = ResourceManager.GetObject("char_122_beagle_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_122_beagle_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_122_beagle_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1333,9 +2043,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_122_beagle_boc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_122_beagle_boc_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_123_fang_1 {
             get {
                 object obj = ResourceManager.GetObject("char_123_fang_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_123_fang_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_123_fang_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1353,9 +2083,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_123_fang_winter_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_123_fang_winter_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_124_kroos_1 {
             get {
                 object obj = ResourceManager.GetObject("char_124_kroos_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_124_kroos_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_124_kroos_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1373,9 +2123,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_124_kroos_witch_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_124_kroos_witch_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_126_shotst_1 {
             get {
                 object obj = ResourceManager.GetObject("char_126_shotst_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_126_shotst_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_126_shotst_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1393,9 +2163,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_126_shotst_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_126_shotst_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_126_shotst_epoque_10 {
             get {
                 object obj = ResourceManager.GetObject("char_126_shotst_epoque_10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_126_shotst_epoque_101 {
+            get {
+                object obj = ResourceManager.GetObject("char_126_shotst_epoque_101", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1413,9 +2203,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_127_estell_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_127_estell_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_127_estell_2 {
             get {
                 object obj = ResourceManager.GetObject("char_127_estell_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_127_estell_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_127_estell_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1433,9 +2243,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_128_plosis_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_128_plosis_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_128_plosis_2 {
             get {
                 object obj = ResourceManager.GetObject("char_128_plosis_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_128_plosis_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_128_plosis_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1453,9 +2283,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_128_plosis_epoque_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_128_plosis_epoque_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_129_bluep_1 {
             get {
                 object obj = ResourceManager.GetObject("char_129_bluep_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_129_bluep_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_129_bluep_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1473,9 +2323,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_129_bluep_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_129_bluep_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_129_bluep_marthe_3 {
             get {
                 object obj = ResourceManager.GetObject("char_129_bluep_marthe_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_129_bluep_marthe_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_129_bluep_marthe_31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1493,9 +2363,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_130_doberm_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_130_doberm_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_130_doberm_2 {
             get {
                 object obj = ResourceManager.GetObject("char_130_doberm_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_130_doberm_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_130_doberm_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1513,9 +2403,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_130_doberm_epoque_71 {
+            get {
+                object obj = ResourceManager.GetObject("char_130_doberm_epoque_71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_131_flameb_1 {
             get {
                 object obj = ResourceManager.GetObject("char_131_flameb_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_131_flameb_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_131_flameb_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1533,9 +2443,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_131_flameb_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_131_flameb_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_133_mm_1 {
             get {
                 object obj = ResourceManager.GetObject("char_133_mm_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_133_mm_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_133_mm_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1553,9 +2483,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_133_mm_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_133_mm_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_134_ifrit_1 {
             get {
                 object obj = ResourceManager.GetObject("char_134_ifrit_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_134_ifrit_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_134_ifrit_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1573,9 +2523,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_134_ifrit_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_134_ifrit_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_134_ifrit_kfc_1 {
             get {
                 object obj = ResourceManager.GetObject("char_134_ifrit_kfc_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_134_ifrit_kfc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_134_ifrit_kfc_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1593,9 +2563,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_134_ifrit_summer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_134_ifrit_summer_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_136_hsguma_1 {
             get {
                 object obj = ResourceManager.GetObject("char_136_hsguma_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_136_hsguma_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_136_hsguma_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1613,9 +2603,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_136_hsguma_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_136_hsguma_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_136_hsguma_nian_3 {
             get {
                 object obj = ResourceManager.GetObject("char_136_hsguma_nian_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_136_hsguma_nian_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_136_hsguma_nian_31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1633,9 +2643,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_137_brownb_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_137_brownb_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_137_brownb_2 {
             get {
                 object obj = ResourceManager.GetObject("char_137_brownb_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_137_brownb_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_137_brownb_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1653,9 +2683,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_137_brownb_kitchen_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_137_brownb_kitchen_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_140_whitew_1 {
             get {
                 object obj = ResourceManager.GetObject("char_140_whitew_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_140_whitew_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_140_whitew_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1673,9 +2723,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_140_whitew_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_140_whitew_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_140_whitew_boc_1 {
             get {
                 object obj = ResourceManager.GetObject("char_140_whitew_boc_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_140_whitew_boc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_140_whitew_boc_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1693,9 +2763,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_141_nights_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_141_nights_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_141_nights_2 {
             get {
                 object obj = ResourceManager.GetObject("char_141_nights_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_141_nights_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_141_nights_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1713,9 +2803,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_143_ghost_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_143_ghost_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_143_ghost_2 {
             get {
                 object obj = ResourceManager.GetObject("char_143_ghost_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_143_ghost_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_143_ghost_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1733,9 +2843,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_143_ghost_winter_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_143_ghost_winter_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_144_red_1 {
             get {
                 object obj = ResourceManager.GetObject("char_144_red_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_144_red_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_144_red_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1753,9 +2883,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_144_red_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_144_red_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_144_red_summer_6 {
             get {
                 object obj = ResourceManager.GetObject("char_144_red_summer_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_144_red_summer_61 {
+            get {
+                object obj = ResourceManager.GetObject("char_144_red_summer_61", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1773,9 +2923,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_145_prove_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_145_prove_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_145_prove_2 {
             get {
                 object obj = ResourceManager.GetObject("char_145_prove_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_145_prove_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_145_prove_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1793,9 +2963,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_145_prove_summer_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_145_prove_summer_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_145_prove_wild_5 {
             get {
                 object obj = ResourceManager.GetObject("char_145_prove_wild_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_145_prove_wild_51 {
+            get {
+                object obj = ResourceManager.GetObject("char_145_prove_wild_51", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1813,9 +3003,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_147_shining_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_147_shining_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_147_shining_2 {
             get {
                 object obj = ResourceManager.GetObject("char_147_shining_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_147_shining_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_147_shining_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1833,9 +3043,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_147_shining_summer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_147_shining_summer_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_148_nearl_1 {
             get {
                 object obj = ResourceManager.GetObject("char_148_nearl_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_148_nearl_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_148_nearl_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1853,9 +3083,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_148_nearl_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_148_nearl_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_148_nearl_summer_2 {
             get {
                 object obj = ResourceManager.GetObject("char_148_nearl_summer_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_148_nearl_summer_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_148_nearl_summer_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1873,9 +3123,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_149_scave_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_149_scave_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_149_scave_2 {
             get {
                 object obj = ResourceManager.GetObject("char_149_scave_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_149_scave_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_149_scave_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1893,9 +3163,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_150_snakek_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_150_snakek_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_150_snakek_2 {
             get {
                 object obj = ResourceManager.GetObject("char_150_snakek_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_150_snakek_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_150_snakek_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1913,9 +3203,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_150_snakek_wild_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_150_snakek_wild_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_151_myrtle_1 {
             get {
                 object obj = ResourceManager.GetObject("char_151_myrtle_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_151_myrtle_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_151_myrtle_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1933,9 +3243,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_151_myrtle_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_151_myrtle_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_151_myrtle_epoque_12 {
             get {
                 object obj = ResourceManager.GetObject("char_151_myrtle_epoque_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_151_myrtle_epoque_121 {
+            get {
+                object obj = ResourceManager.GetObject("char_151_myrtle_epoque_121", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1953,9 +3283,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_155_tiger_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_155_tiger_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_155_tiger_2 {
             get {
                 object obj = ResourceManager.GetObject("char_155_tiger_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_155_tiger_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_155_tiger_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1973,9 +3323,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_158_milu_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_158_milu_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_158_milu_2 {
             get {
                 object obj = ResourceManager.GetObject("char_158_milu_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_158_milu_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_158_milu_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1993,9 +3363,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_158_milu_snow_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_158_milu_snow_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_158_milu_wild_2 {
             get {
                 object obj = ResourceManager.GetObject("char_158_milu_wild_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_158_milu_wild_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_158_milu_wild_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2013,9 +3403,39 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_159_peacok_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_159_peacok_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_159_peacok_2 {
             get {
                 object obj = ResourceManager.GetObject("char_159_peacok_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_159_peacok_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_159_peacok_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_159_peacok_game_1 {
+            get {
+                object obj = ResourceManager.GetObject("char_159_peacok_game_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2033,9 +3453,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_163_hpsts_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_163_hpsts_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_163_hpsts_2 {
             get {
                 object obj = ResourceManager.GetObject("char_163_hpsts_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_163_hpsts_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_163_hpsts_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2053,9 +3493,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_164_nightm_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_164_nightm_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_164_nightm_2 {
             get {
                 object obj = ResourceManager.GetObject("char_164_nightm_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_164_nightm_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_164_nightm_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2073,9 +3533,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_164_nightm_epoque_51 {
+            get {
+                object obj = ResourceManager.GetObject("char_164_nightm_epoque_51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_166_skfire_1 {
             get {
                 object obj = ResourceManager.GetObject("char_166_skfire_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_166_skfire_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_166_skfire_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2093,9 +3573,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_166_skfire_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_166_skfire_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_166_skfire_summer_1 {
             get {
                 object obj = ResourceManager.GetObject("char_166_skfire_summer_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_166_skfire_summer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_166_skfire_summer_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2113,9 +3613,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_171_bldsk_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_171_bldsk_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_171_bldsk_2 {
             get {
                 object obj = ResourceManager.GetObject("char_171_bldsk_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_171_bldsk_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_171_bldsk_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2133,9 +3653,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_171_bldsk_summer_71 {
+            get {
+                object obj = ResourceManager.GetObject("char_171_bldsk_summer_71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_171_bldsk_witch_1 {
             get {
                 object obj = ResourceManager.GetObject("char_171_bldsk_witch_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_171_bldsk_witch_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_171_bldsk_witch_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2153,9 +3693,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_172_svrash_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_172_svrash_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_172_svrash_2 {
             get {
                 object obj = ResourceManager.GetObject("char_172_svrash_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_172_svrash_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_172_svrash_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2173,9 +3733,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_172_svrash_snow_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_172_svrash_snow_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_172_svrash_summer_4 {
             get {
                 object obj = ResourceManager.GetObject("char_172_svrash_summer_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_172_svrash_summer_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_172_svrash_summer_41", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2193,9 +3773,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_173_slchan_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_173_slchan_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_173_slchan_2 {
             get {
                 object obj = ResourceManager.GetObject("char_173_slchan_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_173_slchan_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_173_slchan_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2213,9 +3813,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_173_slchan_wild_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_173_slchan_wild_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_173_slchan_wwf_1 {
             get {
                 object obj = ResourceManager.GetObject("char_173_slchan_wwf_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_173_slchan_wwf_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_173_slchan_wwf_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2233,9 +3853,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_174_slbell_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_174_slbell_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_174_slbell_2 {
             get {
                 object obj = ResourceManager.GetObject("char_174_slbell_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_174_slbell_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_174_slbell_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2253,9 +3893,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_174_slbell_snow_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_174_slbell_snow_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_179_cgbird_1 {
             get {
                 object obj = ResourceManager.GetObject("char_179_cgbird_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_179_cgbird_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_179_cgbird_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2273,9 +3933,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_179_cgbird_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_179_cgbird_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_179_cgbird_witch_1 {
             get {
                 object obj = ResourceManager.GetObject("char_179_cgbird_witch_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_179_cgbird_witch_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_179_cgbird_witch_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2293,9 +3973,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_180_amgoat_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_180_amgoat_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_180_amgoat_2 {
             get {
                 object obj = ResourceManager.GetObject("char_180_amgoat_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_180_amgoat_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_180_amgoat_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2313,9 +4013,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_180_amgoat_summer_51 {
+            get {
+                object obj = ResourceManager.GetObject("char_180_amgoat_summer_51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_181_flower_1 {
             get {
                 object obj = ResourceManager.GetObject("char_181_flower_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_181_flower_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_181_flower_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2333,9 +4053,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_181_flower_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_181_flower_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_181_flower_daily_1 {
             get {
                 object obj = ResourceManager.GetObject("char_181_flower_daily_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_181_flower_daily_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_181_flower_daily_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2353,9 +4093,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_181_flower_epoque_91 {
+            get {
+                object obj = ResourceManager.GetObject("char_181_flower_epoque_91", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_183_skgoat_1 {
             get {
                 object obj = ResourceManager.GetObject("char_183_skgoat_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_183_skgoat_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_183_skgoat_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2373,9 +4133,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_183_skgoat_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_183_skgoat_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_185_frncat_1 {
             get {
                 object obj = ResourceManager.GetObject("char_185_frncat_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_185_frncat_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_185_frncat_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2393,9 +4173,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_185_frncat_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_185_frncat_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_187_ccheal_1 {
             get {
                 object obj = ResourceManager.GetObject("char_187_ccheal_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_187_ccheal_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_187_ccheal_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2413,9 +4213,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_187_ccheal_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_187_ccheal_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_187_ccheal_epoque_2 {
             get {
                 object obj = ResourceManager.GetObject("char_187_ccheal_epoque_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_187_ccheal_epoque_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_187_ccheal_epoque_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2433,9 +4253,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_188_helage_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_188_helage_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_188_helage_2 {
             get {
                 object obj = ResourceManager.GetObject("char_188_helage_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_188_helage_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_188_helage_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2453,9 +4293,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_188_helage_boc_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_188_helage_boc_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_190_clour_1 {
             get {
                 object obj = ResourceManager.GetObject("char_190_clour_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_190_clour_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_190_clour_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2473,9 +4333,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_190_clour_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_190_clour_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_192_falco_1 {
             get {
                 object obj = ResourceManager.GetObject("char_192_falco_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_192_falco_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_192_falco_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2493,9 +4373,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_193_frostl_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_193_frostl_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_193_frostl_2 {
             get {
                 object obj = ResourceManager.GetObject("char_193_frostl_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_193_frostl_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_193_frostl_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2513,9 +4413,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_195_glassb_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_195_glassb_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_195_glassb_2 {
             get {
                 object obj = ResourceManager.GetObject("char_195_glassb_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_195_glassb_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_195_glassb_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2533,9 +4453,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_195_glassb_kitchen_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_195_glassb_kitchen_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_196_sunbr_1 {
             get {
                 object obj = ResourceManager.GetObject("char_196_sunbr_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_196_sunbr_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_196_sunbr_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2553,9 +4493,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_196_sunbr_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_196_sunbr_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_196_sunbr_summer_1 {
             get {
                 object obj = ResourceManager.GetObject("char_196_sunbr_summer_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_196_sunbr_summer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_196_sunbr_summer_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2573,9 +4533,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_197_poca_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_197_poca_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_197_poca_2 {
             get {
                 object obj = ResourceManager.GetObject("char_197_poca_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_197_poca_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_197_poca_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2593,9 +4573,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_197_poca_epoque_121 {
+            get {
+                object obj = ResourceManager.GetObject("char_197_poca_epoque_121", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_198_blackd_1 {
             get {
                 object obj = ResourceManager.GetObject("char_198_blackd_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_198_blackd_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_198_blackd_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2613,9 +4613,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_198_blackd_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_198_blackd_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_198_blackd_as_1 {
             get {
                 object obj = ResourceManager.GetObject("char_198_blackd_as_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_198_blackd_as_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_198_blackd_as_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2633,9 +4653,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_198_blackd_winter_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_198_blackd_winter_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_199_yak_1 {
             get {
                 object obj = ResourceManager.GetObject("char_199_yak_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_199_yak_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_199_yak_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2653,9 +4693,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_199_yak_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_199_yak_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_199_yak_summer_1 {
             get {
                 object obj = ResourceManager.GetObject("char_199_yak_summer_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_199_yak_summer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_199_yak_summer_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2673,9 +4733,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_201_moeshd_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_201_moeshd_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_201_moeshd_2 {
             get {
                 object obj = ResourceManager.GetObject("char_201_moeshd_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_201_moeshd_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_201_moeshd_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2693,9 +4773,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_201_moeshd_kfc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_201_moeshd_kfc_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_201_moeshd_summer_4 {
             get {
                 object obj = ResourceManager.GetObject("char_201_moeshd_summer_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_201_moeshd_summer_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_201_moeshd_summer_41", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2713,9 +4813,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_2013_cerber_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_2013_cerber_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_2013_cerber_2 {
             get {
                 object obj = ResourceManager.GetObject("char_2013_cerber_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_2013_cerber_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_2013_cerber_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2733,9 +4853,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_2013_cerber_summer_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_2013_cerber_summer_41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_2013_cerber_whirlwind_2 {
             get {
                 object obj = ResourceManager.GetObject("char_2013_cerber_whirlwind_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_2013_cerber_whirlwind_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_2013_cerber_whirlwind_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2753,9 +4893,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_2014_nian_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_2014_nian_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_2014_nian_2 {
             get {
                 object obj = ResourceManager.GetObject("char_2014_nian_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_2014_nian_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_2014_nian_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2773,9 +4933,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_2014_nian_nian_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_2014_nian_nian_41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_2015_dusk_1 {
             get {
                 object obj = ResourceManager.GetObject("char_2015_dusk_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_2015_dusk_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_2015_dusk_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2793,9 +4973,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_2015_dusk_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_2015_dusk_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_2015_dusk_nian_7 {
             get {
                 object obj = ResourceManager.GetObject("char_2015_dusk_nian_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_2015_dusk_nian_71 {
+            get {
+                object obj = ResourceManager.GetObject("char_2015_dusk_nian_71", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2813,9 +5013,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_202_demkni_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_202_demkni_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_202_demkni_2 {
             get {
                 object obj = ResourceManager.GetObject("char_202_demkni_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_202_demkni_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_202_demkni_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2833,9 +5053,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_202_demkni_boc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_202_demkni_boc_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_202_demkni_test_1 {
             get {
                 object obj = ResourceManager.GetObject("char_202_demkni_test_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_202_demkni_test_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_202_demkni_test_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2853,9 +5093,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_2023_ling_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_2023_ling_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_2023_ling_2 {
             get {
                 object obj = ResourceManager.GetObject("char_2023_ling_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_2023_ling_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_2023_ling_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2873,9 +5133,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_204_platnm_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_204_platnm_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_204_platnm_2 {
             get {
                 object obj = ResourceManager.GetObject("char_204_platnm_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_204_platnm_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_204_platnm_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2893,9 +5173,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_204_platnm_summer_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_204_platnm_summer_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_206_gnosis_1 {
             get {
                 object obj = ResourceManager.GetObject("char_206_gnosis_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_206_gnosis_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_206_gnosis_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2913,9 +5213,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_206_gnosis_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_206_gnosis_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_208_melan_1 {
             get {
                 object obj = ResourceManager.GetObject("char_208_melan_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_208_melan_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_208_melan_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2933,9 +5253,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_208_melan_epoque_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_208_melan_epoque_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_209_ardign_1 {
             get {
                 object obj = ResourceManager.GetObject("char_209_ardign_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_209_ardign_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_209_ardign_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2953,9 +5293,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_209_ardign_snow_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_209_ardign_snow_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_210_stward_1 {
             get {
                 object obj = ResourceManager.GetObject("char_210_stward_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_210_stward_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_210_stward_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2973,9 +5333,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_211_adnach_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_211_adnach_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_212_ansel_1 {
             get {
                 object obj = ResourceManager.GetObject("char_212_ansel_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_212_ansel_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_212_ansel_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2993,9 +5373,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_212_ansel_summer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_212_ansel_summer_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_213_mostma_1 {
             get {
                 object obj = ResourceManager.GetObject("char_213_mostma_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_213_mostma_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_213_mostma_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3013,9 +5413,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_213_mostma_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_213_mostma_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_213_mostma_epoque_5 {
             get {
                 object obj = ResourceManager.GetObject("char_213_mostma_epoque_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_213_mostma_epoque_51 {
+            get {
+                object obj = ResourceManager.GetObject("char_213_mostma_epoque_51", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3033,9 +5453,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_214_kafka_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_214_kafka_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_214_kafka_2 {
             get {
                 object obj = ResourceManager.GetObject("char_214_kafka_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_214_kafka_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_214_kafka_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3053,9 +5493,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_214_kafka_snow_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_214_kafka_snow_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_215_mantic_1 {
             get {
                 object obj = ResourceManager.GetObject("char_215_mantic_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_215_mantic_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_215_mantic_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3073,9 +5533,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_215_mantic_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_215_mantic_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_215_mantic_epoque_4 {
             get {
                 object obj = ResourceManager.GetObject("char_215_mantic_epoque_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_215_mantic_epoque_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_215_mantic_epoque_41", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3093,9 +5573,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_218_cuttle_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_218_cuttle_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_218_cuttle_2 {
             get {
                 object obj = ResourceManager.GetObject("char_218_cuttle_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_218_cuttle_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_218_cuttle_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3113,9 +5613,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_218_cuttle_epoque_121 {
+            get {
+                object obj = ResourceManager.GetObject("char_218_cuttle_epoque_121", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_219_meteo_1 {
             get {
                 object obj = ResourceManager.GetObject("char_219_meteo_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_219_meteo_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_219_meteo_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3133,9 +5653,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_219_meteo_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_219_meteo_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_219_meteo_sweep_1 {
             get {
                 object obj = ResourceManager.GetObject("char_219_meteo_sweep_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_219_meteo_sweep_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_219_meteo_sweep_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3153,9 +5693,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_220_grani_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_220_grani_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_220_grani_2 {
             get {
                 object obj = ResourceManager.GetObject("char_220_grani_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_220_grani_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_220_grani_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3173,9 +5733,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_220_grani_epoque_61 {
+            get {
+                object obj = ResourceManager.GetObject("char_220_grani_epoque_61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_222_bpipe_1 {
             get {
                 object obj = ResourceManager.GetObject("char_222_bpipe_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_222_bpipe_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_222_bpipe_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3193,9 +5773,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_222_bpipe_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_222_bpipe_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_222_bpipe_race_1 {
             get {
                 object obj = ResourceManager.GetObject("char_222_bpipe_race_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_222_bpipe_race_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_222_bpipe_race_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3213,9 +5813,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_225_haak_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_225_haak_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_225_haak_2 {
             get {
                 object obj = ResourceManager.GetObject("char_225_haak_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_225_haak_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_225_haak_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3233,9 +5853,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_225_haak_nian_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_225_haak_nian_41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_225_haak_nian_5 {
             get {
                 object obj = ResourceManager.GetObject("char_225_haak_nian_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_225_haak_nian_51 {
+            get {
+                object obj = ResourceManager.GetObject("char_225_haak_nian_51", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3253,9 +5893,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_226_hmau_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_226_hmau_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_226_hmau_2 {
             get {
                 object obj = ResourceManager.GetObject("char_226_hmau_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_226_hmau_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_226_hmau_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3273,9 +5933,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_226_hmau_nian_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_226_hmau_nian_41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_230_savage_1 {
             get {
                 object obj = ResourceManager.GetObject("char_230_savage_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_230_savage_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_230_savage_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3293,9 +5973,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_230_savage_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_230_savage_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_235_jesica_1 {
             get {
                 object obj = ResourceManager.GetObject("char_235_jesica_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_235_jesica_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_235_jesica_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3313,9 +6013,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_235_jesica_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_235_jesica_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_235_jesica_nian_2 {
             get {
                 object obj = ResourceManager.GetObject("char_235_jesica_nian_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_235_jesica_nian_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_235_jesica_nian_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3333,9 +6053,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_235_jesica_sweep_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_235_jesica_sweep_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_235_jesica_wild_2 {
             get {
                 object obj = ResourceManager.GetObject("char_235_jesica_wild_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_235_jesica_wild_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_235_jesica_wild_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3353,9 +6093,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_236_rope_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_236_rope_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_236_rope_2 {
             get {
                 object obj = ResourceManager.GetObject("char_236_rope_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_236_rope_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_236_rope_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3373,9 +6133,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_236_rope_summer_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_236_rope_summer_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_236_rope_witch_1 {
             get {
                 object obj = ResourceManager.GetObject("char_236_rope_witch_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_236_rope_witch_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_236_rope_witch_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3393,9 +6173,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_237_gravel_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_237_gravel_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_237_gravel_2 {
             get {
                 object obj = ResourceManager.GetObject("char_237_gravel_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_237_gravel_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_237_gravel_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3413,9 +6213,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_237_gravel_winter_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_237_gravel_winter_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_240_wyvern_1 {
             get {
                 object obj = ResourceManager.GetObject("char_240_wyvern_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_240_wyvern_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_240_wyvern_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3433,9 +6253,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_241_panda_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_241_panda_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_241_panda_2 {
             get {
                 object obj = ResourceManager.GetObject("char_241_panda_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_241_panda_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_241_panda_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3453,9 +6293,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_241_panda_marthe_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_241_panda_marthe_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_241_panda_nian_7 {
             get {
                 object obj = ResourceManager.GetObject("char_241_panda_nian_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_241_panda_nian_71 {
+            get {
+                object obj = ResourceManager.GetObject("char_241_panda_nian_71", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3473,9 +6333,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_242_otter_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_242_otter_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_242_otter_2 {
             get {
                 object obj = ResourceManager.GetObject("char_242_otter_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_242_otter_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_242_otter_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3493,9 +6373,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_242_otter_ghost_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_242_otter_ghost_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_243_waaifu_1 {
             get {
                 object obj = ResourceManager.GetObject("char_243_waaifu_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_243_waaifu_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_243_waaifu_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3513,9 +6413,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_243_waaifu_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_243_waaifu_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_243_waaifu_whirlwind_2 {
             get {
                 object obj = ResourceManager.GetObject("char_243_waaifu_whirlwind_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_243_waaifu_whirlwind_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_243_waaifu_whirlwind_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3533,9 +6453,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_248_mgllan_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_248_mgllan_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_248_mgllan_2 {
             get {
                 object obj = ResourceManager.GetObject("char_248_mgllan_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_248_mgllan_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_248_mgllan_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3553,9 +6493,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_248_mgllan_kitchen_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_248_mgllan_kitchen_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_250_phatom_1 {
             get {
                 object obj = ResourceManager.GetObject("char_250_phatom_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_250_phatom_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_250_phatom_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3573,9 +6533,39 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_250_phatom_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_250_phatom_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_250_phatom_ghost_1 {
             get {
                 object obj = ResourceManager.GetObject("char_250_phatom_ghost_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_250_phatom_ghost_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_250_phatom_ghost_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_250_phatom_sale_4 {
+            get {
+                object obj = ResourceManager.GetObject("char_250_phatom_sale_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3593,9 +6583,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_252_bibeak_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_252_bibeak_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_252_bibeak_2 {
             get {
                 object obj = ResourceManager.GetObject("char_252_bibeak_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_252_bibeak_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_252_bibeak_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3613,9 +6623,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_252_bibeak_winter_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_252_bibeak_winter_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_253_greyy_1 {
             get {
                 object obj = ResourceManager.GetObject("char_253_greyy_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_253_greyy_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_253_greyy_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3633,9 +6663,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_253_greyy_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_253_greyy_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_253_greyy_epoque_8 {
             get {
                 object obj = ResourceManager.GetObject("char_253_greyy_epoque_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_253_greyy_epoque_81 {
+            get {
+                object obj = ResourceManager.GetObject("char_253_greyy_epoque_81", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3653,9 +6703,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_254_vodfox_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_254_vodfox_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_254_vodfox_2 {
             get {
                 object obj = ResourceManager.GetObject("char_254_vodfox_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_254_vodfox_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_254_vodfox_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3673,9 +6743,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_254_vodfox_witch_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_254_vodfox_witch_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_258_podego_1 {
             get {
                 object obj = ResourceManager.GetObject("char_258_podego_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_258_podego_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_258_podego_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3693,9 +6783,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_258_podego_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_258_podego_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_258_podego_epoque_9 {
             get {
                 object obj = ResourceManager.GetObject("char_258_podego_epoque_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_258_podego_epoque_91 {
+            get {
+                object obj = ResourceManager.GetObject("char_258_podego_epoque_91", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3713,9 +6823,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_260_durnar_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_260_durnar_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_260_durnar_2 {
             get {
                 object obj = ResourceManager.GetObject("char_260_durnar_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_260_durnar_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_260_durnar_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3733,9 +6863,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_261_sddrag_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_261_sddrag_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_261_sddrag_2 {
             get {
                 object obj = ResourceManager.GetObject("char_261_sddrag_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_261_sddrag_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_261_sddrag_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3753,9 +6903,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_263_skadi_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_263_skadi_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_263_skadi_2 {
             get {
                 object obj = ResourceManager.GetObject("char_263_skadi_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_263_skadi_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_263_skadi_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3773,9 +6943,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_263_skadi_summer_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_263_skadi_summer_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_264_f12yin_1 {
             get {
                 object obj = ResourceManager.GetObject("char_264_f12yin_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_264_f12yin_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_264_f12yin_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3793,9 +6983,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_264_f12yin_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_264_f12yin_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_264_f12yin_boc_3 {
             get {
                 object obj = ResourceManager.GetObject("char_264_f12yin_boc_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_264_f12yin_boc_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_264_f12yin_boc_31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3813,9 +7023,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_265_sophia_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_265_sophia_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_265_sophia_2 {
             get {
                 object obj = ResourceManager.GetObject("char_265_sophia_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_265_sophia_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_265_sophia_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3833,9 +7063,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_265_sophia_epoque_111 {
+            get {
+                object obj = ResourceManager.GetObject("char_265_sophia_epoque_111", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_271_spikes_1 {
             get {
                 object obj = ResourceManager.GetObject("char_271_spikes_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_271_spikes_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_271_spikes_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3853,9 +7103,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_271_spikes_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_271_spikes_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_271_spikes_winter_2 {
             get {
                 object obj = ResourceManager.GetObject("char_271_spikes_winter_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_271_spikes_winter_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_271_spikes_winter_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3873,9 +7143,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_272_strong_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_272_strong_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_272_strong_2 {
             get {
                 object obj = ResourceManager.GetObject("char_272_strong_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_272_strong_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_272_strong_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3893,9 +7183,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_272_strong_summer_61 {
+            get {
+                object obj = ResourceManager.GetObject("char_272_strong_summer_61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_274_astesi_1 {
             get {
                 object obj = ResourceManager.GetObject("char_274_astesi_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_274_astesi_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_274_astesi_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3913,9 +7223,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_274_astesi_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_274_astesi_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_274_astesi_epoque_5 {
             get {
                 object obj = ResourceManager.GetObject("char_274_astesi_epoque_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_274_astesi_epoque_51 {
+            get {
+                object obj = ResourceManager.GetObject("char_274_astesi_epoque_51", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3933,9 +7263,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_274_astesi_shining_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_274_astesi_shining_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_275_breeze_1 {
             get {
                 object obj = ResourceManager.GetObject("char_275_breeze_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_275_breeze_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_275_breeze_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3953,9 +7303,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_275_breeze_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_275_breeze_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_277_sqrrel_1 {
             get {
                 object obj = ResourceManager.GetObject("char_277_sqrrel_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_277_sqrrel_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_277_sqrrel_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3973,9 +7343,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_277_sqrrel_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_277_sqrrel_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_277_sqrrel_ghost_1 {
             get {
                 object obj = ResourceManager.GetObject("char_277_sqrrel_ghost_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_277_sqrrel_ghost_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_277_sqrrel_ghost_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -3993,9 +7383,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_278_orchid_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_278_orchid_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_279_excu_1 {
             get {
                 object obj = ResourceManager.GetObject("char_279_excu_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_279_excu_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_279_excu_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4013,9 +7423,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_279_excu_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_279_excu_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_279_excu_boc_1 {
             get {
                 object obj = ResourceManager.GetObject("char_279_excu_boc_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_279_excu_boc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_279_excu_boc_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4033,9 +7463,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_281_popka_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_281_popka_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_282_catap_1 {
             get {
                 object obj = ResourceManager.GetObject("char_282_catap_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_282_catap_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_282_catap_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4053,9 +7503,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_283_midn_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_283_midn_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_283_midn_boc_1 {
             get {
                 object obj = ResourceManager.GetObject("char_283_midn_boc_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_283_midn_boc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_283_midn_boc_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4073,9 +7543,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_284_spot_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_284_spot_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_284_spot_boc_3 {
             get {
                 object obj = ResourceManager.GetObject("char_284_spot_boc_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_284_spot_boc_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_284_spot_boc_31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4093,9 +7583,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_285_medic2_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_285_medic2_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_286_cast3_1 {
             get {
                 object obj = ResourceManager.GetObject("char_286_cast3_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_286_cast3_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_286_cast3_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4113,9 +7623,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_286_cast3_summer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_286_cast3_summer_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_289_gyuki_1 {
             get {
                 object obj = ResourceManager.GetObject("char_289_gyuki_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_289_gyuki_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_289_gyuki_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4133,9 +7663,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_289_gyuki_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_289_gyuki_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_290_vigna_1 {
             get {
                 object obj = ResourceManager.GetObject("char_290_vigna_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_290_vigna_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_290_vigna_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4153,9 +7703,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_290_vigna_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_290_vigna_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_290_vigna_as_1 {
             get {
                 object obj = ResourceManager.GetObject("char_290_vigna_as_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_290_vigna_as_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_290_vigna_as_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4173,9 +7743,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_290_vigna_summer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_290_vigna_summer_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_291_aglina_1 {
             get {
                 object obj = ResourceManager.GetObject("char_291_aglina_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_291_aglina_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_291_aglina_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4193,9 +7783,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_291_aglina_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_291_aglina_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_291_aglina_boc_1 {
             get {
                 object obj = ResourceManager.GetObject("char_291_aglina_boc_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_291_aglina_boc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_291_aglina_boc_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4213,9 +7823,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_291_aglina_summer_51 {
+            get {
+                object obj = ResourceManager.GetObject("char_291_aglina_summer_51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_293_thorns_1 {
             get {
                 object obj = ResourceManager.GetObject("char_293_thorns_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_293_thorns_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_293_thorns_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4233,9 +7863,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_293_thorns_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_293_thorns_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_293_thorns_it_1 {
             get {
                 object obj = ResourceManager.GetObject("char_293_thorns_it_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_293_thorns_it_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_293_thorns_it_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4253,9 +7903,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_294_ayer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_294_ayer_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_294_ayer_2 {
             get {
                 object obj = ResourceManager.GetObject("char_294_ayer_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_294_ayer_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_294_ayer_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4273,9 +7943,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_294_ayer_boc_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_294_ayer_boc_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_298_susuro_1 {
             get {
                 object obj = ResourceManager.GetObject("char_298_susuro_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_298_susuro_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_298_susuro_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4293,9 +7983,49 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_298_susuro_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_298_susuro_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_298_susuro_summer_6 {
             get {
                 object obj = ResourceManager.GetObject("char_298_susuro_summer_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_298_susuro_summer_61 {
+            get {
+                object obj = ResourceManager.GetObject("char_298_susuro_summer_61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_300_phenxi_1 {
+            get {
+                object obj = ResourceManager.GetObject("char_300_phenxi_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_300_phenxi_2 {
+            get {
+                object obj = ResourceManager.GetObject("char_300_phenxi_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4313,9 +8043,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_301_cutter_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_301_cutter_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_301_cutter_2 {
             get {
                 object obj = ResourceManager.GetObject("char_301_cutter_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_301_cutter_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_301_cutter_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4333,9 +8083,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_302_glaze_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_302_glaze_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_302_glaze_2 {
             get {
                 object obj = ResourceManager.GetObject("char_302_glaze_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_302_glaze_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_302_glaze_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4353,9 +8123,39 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_304_zebra_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_304_zebra_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_304_zebra_2 {
             get {
                 object obj = ResourceManager.GetObject("char_304_zebra_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_304_zebra_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_304_zebra_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_304_zebra_wild_6 {
+            get {
+                object obj = ResourceManager.GetObject("char_304_zebra_wild_6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4373,9 +8173,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_306_leizi_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_306_leizi_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_306_leizi_2 {
             get {
                 object obj = ResourceManager.GetObject("char_306_leizi_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_306_leizi_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_306_leizi_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4393,9 +8213,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_308_swire_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_308_swire_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_308_swire_2 {
             get {
                 object obj = ResourceManager.GetObject("char_308_swire_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_308_swire_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_308_swire_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4413,9 +8253,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_308_swire_nian_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_308_swire_nian_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_311_mudrok_1 {
             get {
                 object obj = ResourceManager.GetObject("char_311_mudrok_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_311_mudrok_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_311_mudrok_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4433,9 +8293,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_311_mudrok_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_311_mudrok_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_311_mudrok_summer_6 {
             get {
                 object obj = ResourceManager.GetObject("char_311_mudrok_summer_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_311_mudrok_summer_61 {
+            get {
+                object obj = ResourceManager.GetObject("char_311_mudrok_summer_61", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4453,9 +8333,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_322_lmlee_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_322_lmlee_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_322_lmlee_2 {
             get {
                 object obj = ResourceManager.GetObject("char_322_lmlee_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_322_lmlee_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_322_lmlee_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4473,9 +8373,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_325_bison_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_325_bison_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_325_bison_2 {
             get {
                 object obj = ResourceManager.GetObject("char_325_bison_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_325_bison_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_325_bison_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4493,9 +8413,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_326_glacus_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_326_glacus_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_326_glacus_2 {
             get {
                 object obj = ResourceManager.GetObject("char_326_glacus_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_326_glacus_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_326_glacus_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4513,9 +8453,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_326_glacus_ghost_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_326_glacus_ghost_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_328_cammou_1 {
             get {
                 object obj = ResourceManager.GetObject("char_328_cammou_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_328_cammou_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_328_cammou_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4533,9 +8493,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_328_cammou_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_328_cammou_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_328_cammou_witch_2 {
             get {
                 object obj = ResourceManager.GetObject("char_328_cammou_witch_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_328_cammou_witch_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_328_cammou_witch_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4553,9 +8533,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_332_archet_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_332_archet_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_332_archet_2 {
             get {
                 object obj = ResourceManager.GetObject("char_332_archet_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_332_archet_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_332_archet_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4573,9 +8573,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_332_archet_shining_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_332_archet_shining_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_333_sidero_1 {
             get {
                 object obj = ResourceManager.GetObject("char_333_sidero_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_333_sidero_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_333_sidero_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4593,9 +8613,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_333_sidero_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_333_sidero_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_333_sidero_summer_6 {
             get {
                 object obj = ResourceManager.GetObject("char_333_sidero_summer_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_333_sidero_summer_61 {
+            get {
+                object obj = ResourceManager.GetObject("char_333_sidero_summer_61", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4613,9 +8653,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_336_folivo_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_336_folivo_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_336_folivo_2 {
             get {
                 object obj = ResourceManager.GetObject("char_336_folivo_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_336_folivo_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_336_folivo_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4633,9 +8693,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_337_utage_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_337_utage_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_337_utage_2 {
             get {
                 object obj = ResourceManager.GetObject("char_337_utage_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_337_utage_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_337_utage_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4653,9 +8733,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_337_utage_summer_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_337_utage_summer_41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_338_iris_1 {
             get {
                 object obj = ResourceManager.GetObject("char_338_iris_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_338_iris_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_338_iris_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4673,9 +8773,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_338_iris_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_338_iris_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_340_shwaz_1 {
             get {
                 object obj = ResourceManager.GetObject("char_340_shwaz_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_340_shwaz_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_340_shwaz_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4693,9 +8813,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_340_shwaz_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_340_shwaz_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_340_shwaz_snow_1 {
             get {
                 object obj = ResourceManager.GetObject("char_340_shwaz_snow_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_340_shwaz_snow_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_340_shwaz_snow_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4713,9 +8853,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_340_shwaz_striker_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_340_shwaz_striker_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_343_tknogi_1 {
             get {
                 object obj = ResourceManager.GetObject("char_343_tknogi_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_343_tknogi_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_343_tknogi_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4733,9 +8893,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_343_tknogi_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_343_tknogi_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_343_tknogi_epoque_9 {
             get {
                 object obj = ResourceManager.GetObject("char_343_tknogi_epoque_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_343_tknogi_epoque_91 {
+            get {
+                object obj = ResourceManager.GetObject("char_343_tknogi_epoque_91", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4753,9 +8933,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_344_beewax_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_344_beewax_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_344_beewax_2 {
             get {
                 object obj = ResourceManager.GetObject("char_344_beewax_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_344_beewax_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_344_beewax_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4773,9 +8973,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_344_beewax_epoque_91 {
+            get {
+                object obj = ResourceManager.GetObject("char_344_beewax_epoque_91", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_345_folnic_1 {
             get {
                 object obj = ResourceManager.GetObject("char_345_folnic_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_345_folnic_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_345_folnic_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4793,9 +9013,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_345_folnic_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_345_folnic_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_345_folnic_wild_4 {
             get {
                 object obj = ResourceManager.GetObject("char_345_folnic_wild_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_345_folnic_wild_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_345_folnic_wild_41", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4813,9 +9053,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_346_aosta_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_346_aosta_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_346_aosta_2 {
             get {
                 object obj = ResourceManager.GetObject("char_346_aosta_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_346_aosta_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_346_aosta_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4833,9 +9093,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_347_jaksel_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_347_jaksel_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_347_jaksel_2 {
             get {
                 object obj = ResourceManager.GetObject("char_347_jaksel_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_347_jaksel_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_347_jaksel_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4853,9 +9133,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_347_jaksel_whirlwind_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_347_jaksel_whirlwind_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_348_ceylon_1 {
             get {
                 object obj = ResourceManager.GetObject("char_348_ceylon_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_348_ceylon_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_348_ceylon_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4873,9 +9173,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_348_ceylon_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_348_ceylon_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_349_chiave_1 {
             get {
                 object obj = ResourceManager.GetObject("char_349_chiave_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_349_chiave_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_349_chiave_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4893,9 +9213,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_349_chiave_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_349_chiave_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_350_surtr_1 {
             get {
                 object obj = ResourceManager.GetObject("char_350_surtr_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_350_surtr_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_350_surtr_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4913,9 +9253,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_350_surtr_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_350_surtr_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_350_surtr_it_1 {
             get {
                 object obj = ResourceManager.GetObject("char_350_surtr_it_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_350_surtr_it_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_350_surtr_it_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4933,9 +9293,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_355_ethan_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_355_ethan_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_355_ethan_2 {
             get {
                 object obj = ResourceManager.GetObject("char_355_ethan_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_355_ethan_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_355_ethan_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4953,9 +9333,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_355_ethan_epoque_71 {
+            get {
+                object obj = ResourceManager.GetObject("char_355_ethan_epoque_71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_356_broca_1 {
             get {
                 object obj = ResourceManager.GetObject("char_356_broca_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_356_broca_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_356_broca_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4973,9 +9373,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_356_broca_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_356_broca_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_358_lisa_1 {
             get {
                 object obj = ResourceManager.GetObject("char_358_lisa_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_358_lisa_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_358_lisa_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -4993,9 +9413,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_358_lisa_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_358_lisa_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_358_lisa_wild_3 {
             get {
                 object obj = ResourceManager.GetObject("char_358_lisa_wild_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_358_lisa_wild_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_358_lisa_wild_31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5013,9 +9453,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_362_saga_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_362_saga_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_362_saga_2 {
             get {
                 object obj = ResourceManager.GetObject("char_362_saga_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_362_saga_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_362_saga_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5033,9 +9493,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_363_toddi_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_363_toddi_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_363_toddi_2 {
             get {
                 object obj = ResourceManager.GetObject("char_363_toddi_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_363_toddi_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_363_toddi_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5053,9 +9533,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_365_aprl_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_365_aprl_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_365_aprl_2 {
             get {
                 object obj = ResourceManager.GetObject("char_365_aprl_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_365_aprl_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_365_aprl_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5073,9 +9573,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_365_aprl_wild_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_365_aprl_wild_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_366_acdrop_1 {
             get {
                 object obj = ResourceManager.GetObject("char_366_acdrop_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_366_acdrop_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_366_acdrop_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5093,9 +9613,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_366_acdrop_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_366_acdrop_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_367_swllow_1 {
             get {
                 object obj = ResourceManager.GetObject("char_367_swllow_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_367_swllow_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_367_swllow_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5113,9 +9653,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_367_swllow_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_367_swllow_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_367_swllow_boc_1 {
             get {
                 object obj = ResourceManager.GetObject("char_367_swllow_boc_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_367_swllow_boc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_367_swllow_boc_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5133,9 +9693,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_369_bena_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_369_bena_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_369_bena_2 {
             get {
                 object obj = ResourceManager.GetObject("char_369_bena_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_369_bena_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_369_bena_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5153,9 +9733,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_373_lionhd_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_373_lionhd_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_373_lionhd_2 {
             get {
                 object obj = ResourceManager.GetObject("char_373_lionhd_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_373_lionhd_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_373_lionhd_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5173,9 +9773,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_373_lionhd_snow_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_373_lionhd_snow_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_373_lionhd_wild_3 {
             get {
                 object obj = ResourceManager.GetObject("char_373_lionhd_wild_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_373_lionhd_wild_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_373_lionhd_wild_31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5193,9 +9813,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_376_therex_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_376_therex_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_377_gdglow_1 {
             get {
                 object obj = ResourceManager.GetObject("char_377_gdglow_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_377_gdglow_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_377_gdglow_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5213,9 +9853,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_377_gdglow_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_377_gdglow_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_378_asbest_1 {
             get {
                 object obj = ResourceManager.GetObject("char_378_asbest_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_378_asbest_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_378_asbest_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5233,9 +9893,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_378_asbest_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_378_asbest_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_378_asbest_whirlwind_3 {
             get {
                 object obj = ResourceManager.GetObject("char_378_asbest_whirlwind_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_378_asbest_whirlwind_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_378_asbest_whirlwind_31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5253,9 +9933,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_379_sesa_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_379_sesa_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_379_sesa_2 {
             get {
                 object obj = ResourceManager.GetObject("char_379_sesa_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_379_sesa_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_379_sesa_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5273,9 +9973,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_381_bubble_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_381_bubble_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_381_bubble_2 {
             get {
                 object obj = ResourceManager.GetObject("char_381_bubble_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_381_bubble_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_381_bubble_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5293,9 +10013,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_383_snsant_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_383_snsant_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_383_snsant_2 {
             get {
                 object obj = ResourceManager.GetObject("char_383_snsant_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_383_snsant_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_383_snsant_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5313,9 +10053,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_383_snsant_witch_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_383_snsant_witch_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_385_finlpp_1 {
             get {
                 object obj = ResourceManager.GetObject("char_385_finlpp_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_385_finlpp_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_385_finlpp_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5333,9 +10093,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_385_finlpp_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_385_finlpp_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_388_mint_1 {
             get {
                 object obj = ResourceManager.GetObject("char_388_mint_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_388_mint_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_388_mint_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5353,9 +10133,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_388_mint_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_388_mint_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_391_rosmon_1 {
             get {
                 object obj = ResourceManager.GetObject("char_391_rosmon_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_391_rosmon_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_391_rosmon_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5373,9 +10173,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_391_rosmon_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_391_rosmon_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_400_weedy_1 {
             get {
                 object obj = ResourceManager.GetObject("char_400_weedy_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_400_weedy_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_400_weedy_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5393,9 +10213,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_400_weedy_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_400_weedy_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_400_weedy_snow_2 {
             get {
                 object obj = ResourceManager.GetObject("char_400_weedy_snow_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_400_weedy_snow_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_400_weedy_snow_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5413,9 +10253,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_4000_jnight_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_4000_jnight_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_4004_pudd_1 {
             get {
                 object obj = ResourceManager.GetObject("char_4004_pudd_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_4004_pudd_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_4004_pudd_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5433,9 +10293,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_4004_pudd_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_4004_pudd_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_401_elysm_1 {
             get {
                 object obj = ResourceManager.GetObject("char_401_elysm_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_401_elysm_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_401_elysm_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5453,9 +10333,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_401_elysm_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_401_elysm_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_401_elysm_snow_2 {
             get {
                 object obj = ResourceManager.GetObject("char_401_elysm_snow_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_401_elysm_snow_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_401_elysm_snow_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5473,9 +10373,49 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_4013_kjera_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_4013_kjera_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_4013_kjera_2 {
             get {
                 object obj = ResourceManager.GetObject("char_4013_kjera_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_4013_kjera_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_4013_kjera_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_4016_kazema_1 {
+            get {
+                object obj = ResourceManager.GetObject("char_4016_kazema_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_4016_kazema_2 {
+            get {
+                object obj = ResourceManager.GetObject("char_4016_kazema_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5493,9 +10433,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_4019_ncdeer_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_4019_ncdeer_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_4019_ncdeer_2 {
             get {
                 object obj = ResourceManager.GetObject("char_4019_ncdeer_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_4019_ncdeer_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_4019_ncdeer_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5513,9 +10473,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_402_tuye_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_402_tuye_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_402_tuye_2 {
             get {
                 object obj = ResourceManager.GetObject("char_402_tuye_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_402_tuye_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_402_tuye_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5533,9 +10513,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_402_tuye_epoque_141 {
+            get {
+                object obj = ResourceManager.GetObject("char_402_tuye_epoque_141", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_4025_aprot2_1 {
             get {
                 object obj = ResourceManager.GetObject("char_4025_aprot2_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_4025_aprot2_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_4025_aprot2_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5553,9 +10553,49 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_4025_aprot2_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_4025_aprot2_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_4036_forcer_1 {
+            get {
+                object obj = ResourceManager.GetObject("char_4036_forcer_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_4036_forcer_2 {
+            get {
+                object obj = ResourceManager.GetObject("char_4036_forcer_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_405_absin_1 {
             get {
                 object obj = ResourceManager.GetObject("char_405_absin_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_405_absin_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_405_absin_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5573,9 +10613,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_405_absin_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_405_absin_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_411_tomimi_1 {
             get {
                 object obj = ResourceManager.GetObject("char_411_tomimi_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_411_tomimi_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_411_tomimi_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5593,9 +10653,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_411_tomimi_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_411_tomimi_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_411_tomimi_summer_5 {
             get {
                 object obj = ResourceManager.GetObject("char_411_tomimi_summer_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_411_tomimi_summer_51 {
+            get {
+                object obj = ResourceManager.GetObject("char_411_tomimi_summer_51", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5613,9 +10693,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_415_flint_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_415_flint_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_415_flint_2 {
             get {
                 object obj = ResourceManager.GetObject("char_415_flint_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_415_flint_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_415_flint_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5633,9 +10733,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_415_flint_boc_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_415_flint_boc_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_416_zumama_1 {
             get {
                 object obj = ResourceManager.GetObject("char_416_zumama_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_416_zumama_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_416_zumama_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5653,9 +10773,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_416_zumama_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_416_zumama_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_416_zumama_boc_3 {
             get {
                 object obj = ResourceManager.GetObject("char_416_zumama_boc_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_416_zumama_boc_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_416_zumama_boc_31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5673,9 +10813,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_420_flamtl_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_420_flamtl_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_420_flamtl_2 {
             get {
                 object obj = ResourceManager.GetObject("char_420_flamtl_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_420_flamtl_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_420_flamtl_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5693,9 +10853,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_421_crow_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_421_crow_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_421_crow_2 {
             get {
                 object obj = ResourceManager.GetObject("char_421_crow_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_421_crow_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_421_crow_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5713,9 +10893,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_422_aurora_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_422_aurora_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_422_aurora_2 {
             get {
                 object obj = ResourceManager.GetObject("char_422_aurora_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_422_aurora_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_422_aurora_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5733,9 +10933,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_423_blemsh_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_423_blemsh_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_423_blemsh_2 {
             get {
                 object obj = ResourceManager.GetObject("char_423_blemsh_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_423_blemsh_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_423_blemsh_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5753,9 +10973,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_423_blemsh_witch_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_423_blemsh_witch_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_426_billro_1 {
             get {
                 object obj = ResourceManager.GetObject("char_426_billro_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_426_billro_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_426_billro_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5773,9 +11013,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_426_billro_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_426_billro_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_426_billro_snow_3 {
             get {
                 object obj = ResourceManager.GetObject("char_426_billro_snow_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_426_billro_snow_31 {
+            get {
+                object obj = ResourceManager.GetObject("char_426_billro_snow_31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5793,9 +11053,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_430_fartth_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_430_fartth_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_430_fartth_2 {
             get {
                 object obj = ResourceManager.GetObject("char_430_fartth_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_430_fartth_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_430_fartth_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5813,9 +11093,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_431_ashlok_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_431_ashlok_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_431_ashlok_2 {
             get {
                 object obj = ResourceManager.GetObject("char_431_ashlok_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_431_ashlok_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_431_ashlok_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5833,9 +11133,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_436_whispr_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_436_whispr_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_436_whispr_2 {
             get {
                 object obj = ResourceManager.GetObject("char_436_whispr_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_436_whispr_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_436_whispr_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5853,9 +11173,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_436_whispr_nian_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_436_whispr_nian_41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_437_mizuki_1 {
             get {
                 object obj = ResourceManager.GetObject("char_437_mizuki_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_437_mizuki_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_437_mizuki_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5873,9 +11213,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_437_mizuki_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_437_mizuki_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_440_pinecn_1 {
             get {
                 object obj = ResourceManager.GetObject("char_440_pinecn_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_440_pinecn_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_440_pinecn_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5893,9 +11253,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_440_pinecn_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_440_pinecn_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_440_pinecn_shining_1 {
             get {
                 object obj = ResourceManager.GetObject("char_440_pinecn_shining_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_440_pinecn_shining_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_440_pinecn_shining_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5913,9 +11293,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_449_glider_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_449_glider_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_449_glider_2 {
             get {
                 object obj = ResourceManager.GetObject("char_449_glider_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_449_glider_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_449_glider_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5933,9 +11333,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_451_robin_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_451_robin_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_451_robin_2 {
             get {
                 object obj = ResourceManager.GetObject("char_451_robin_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_451_robin_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_451_robin_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5953,9 +11373,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_451_robin_epoque_131 {
+            get {
+                object obj = ResourceManager.GetObject("char_451_robin_epoque_131", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_452_bstalk_1 {
             get {
                 object obj = ResourceManager.GetObject("char_452_bstalk_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_452_bstalk_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_452_bstalk_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5973,9 +11413,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_452_bstalk_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_452_bstalk_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_452_bstalk_snow_4 {
             get {
                 object obj = ResourceManager.GetObject("char_452_bstalk_snow_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_452_bstalk_snow_41 {
+            get {
+                object obj = ResourceManager.GetObject("char_452_bstalk_snow_41", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -5993,9 +11453,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_455_nothin_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_455_nothin_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_455_nothin_2 {
             get {
                 object obj = ResourceManager.GetObject("char_455_nothin_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_455_nothin_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_455_nothin_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6013,9 +11493,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_455_nothin_nian_71 {
+            get {
+                object obj = ResourceManager.GetObject("char_455_nothin_nian_71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_456_ash_1 {
             get {
                 object obj = ResourceManager.GetObject("char_456_ash_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_456_ash_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_456_ash_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6033,9 +11533,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_456_ash_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_456_ash_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_456_ash_rainbow6_1 {
             get {
                 object obj = ResourceManager.GetObject("char_456_ash_rainbow6_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_456_ash_rainbow6_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_456_ash_rainbow6_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6053,9 +11573,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_457_blitz_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_457_blitz_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_457_blitz_2 {
             get {
                 object obj = ResourceManager.GetObject("char_457_blitz_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_457_blitz_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_457_blitz_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6073,9 +11613,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_458_rfrost_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_458_rfrost_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_458_rfrost_2 {
             get {
                 object obj = ResourceManager.GetObject("char_458_rfrost_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_458_rfrost_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_458_rfrost_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6093,9 +11653,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_459_tachak_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_459_tachak_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_459_tachak_2 {
             get {
                 object obj = ResourceManager.GetObject("char_459_tachak_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_459_tachak_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_459_tachak_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6113,9 +11693,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_459_tachak_rainbow6_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_459_tachak_rainbow6_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_469_indigo_1 {
             get {
                 object obj = ResourceManager.GetObject("char_469_indigo_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_469_indigo_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_469_indigo_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6133,9 +11733,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_469_indigo_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_469_indigo_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_469_indigo_nian_7 {
             get {
                 object obj = ResourceManager.GetObject("char_469_indigo_nian_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_469_indigo_nian_71 {
+            get {
+                object obj = ResourceManager.GetObject("char_469_indigo_nian_71", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6153,9 +11773,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_472_pasngr_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_472_pasngr_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_472_pasngr_2 {
             get {
                 object obj = ResourceManager.GetObject("char_472_pasngr_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_472_pasngr_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_472_pasngr_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6173,9 +11813,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_473_mberry_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_473_mberry_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_473_mberry_2 {
             get {
                 object obj = ResourceManager.GetObject("char_473_mberry_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_473_mberry_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_473_mberry_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6193,9 +11853,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_473_mberry_epoque_141 {
+            get {
+                object obj = ResourceManager.GetObject("char_473_mberry_epoque_141", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_474_glady_1 {
             get {
                 object obj = ResourceManager.GetObject("char_474_glady_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_474_glady_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_474_glady_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6213,9 +11893,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_474_glady_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_474_glady_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_475_akafyu_1 {
             get {
                 object obj = ResourceManager.GetObject("char_475_akafyu_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_475_akafyu_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_475_akafyu_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6233,9 +11933,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_475_akafyu_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_475_akafyu_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_476_blkngt_1 {
             get {
                 object obj = ResourceManager.GetObject("char_476_blkngt_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_476_blkngt_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_476_blkngt_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6253,9 +11973,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_476_blkngt_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_476_blkngt_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_478_kirara_1 {
             get {
                 object obj = ResourceManager.GetObject("char_478_kirara_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_478_kirara_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_478_kirara_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6273,9 +12013,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_478_kirara_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_478_kirara_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_479_sleach_1 {
             get {
                 object obj = ResourceManager.GetObject("char_479_sleach_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_479_sleach_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_479_sleach_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6293,9 +12053,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_479_sleach_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_479_sleach_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_479_sleach_epoque_14 {
             get {
                 object obj = ResourceManager.GetObject("char_479_sleach_epoque_14", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_479_sleach_epoque_141 {
+            get {
+                object obj = ResourceManager.GetObject("char_479_sleach_epoque_141", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6313,9 +12093,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_484_robrta_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_484_robrta_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_484_robrta_2 {
             get {
                 object obj = ResourceManager.GetObject("char_484_robrta_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_484_robrta_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_484_robrta_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6333,9 +12133,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_485_pallas_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_485_pallas_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_485_pallas_2 {
             get {
                 object obj = ResourceManager.GetObject("char_485_pallas_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_485_pallas_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_485_pallas_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6353,9 +12173,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_485_pallas_epoque_121 {
+            get {
+                object obj = ResourceManager.GetObject("char_485_pallas_epoque_121", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_486_takila_1 {
             get {
                 object obj = ResourceManager.GetObject("char_486_takila_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_486_takila_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_486_takila_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6373,9 +12213,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_486_takila_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_486_takila_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_489_serum_1 {
             get {
                 object obj = ResourceManager.GetObject("char_489_serum_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_489_serum_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_489_serum_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6393,9 +12253,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_489_serum_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_489_serum_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_492_quercu_1 {
             get {
                 object obj = ResourceManager.GetObject("char_492_quercu_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_492_quercu_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_492_quercu_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6413,9 +12293,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_492_quercu_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_492_quercu_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_496_wildmn_1 {
             get {
                 object obj = ResourceManager.GetObject("char_496_wildmn_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_496_wildmn_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_496_wildmn_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6433,9 +12333,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_496_wildmn_21 {
+            get {
+                object obj = ResourceManager.GetObject("char_496_wildmn_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_500_noirc_1 {
             get {
                 object obj = ResourceManager.GetObject("char_500_noirc_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_500_noirc_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_500_noirc_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6453,9 +12373,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_501_durin_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_501_durin_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_502_nblade_1 {
             get {
                 object obj = ResourceManager.GetObject("char_502_nblade_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_502_nblade_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_502_nblade_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6473,9 +12413,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_503_rang_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_503_rang_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_504_rguard_1 {
             get {
                 object obj = ResourceManager.GetObject("char_504_rguard_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_504_rguard_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_504_rguard_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6493,9 +12453,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_505_rcast_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_505_rcast_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_506_rmedic_1 {
             get {
                 object obj = ResourceManager.GetObject("char_506_rmedic_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_506_rmedic_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_506_rmedic_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6513,9 +12493,29 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_507_rsnipe_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_507_rsnipe_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_508_aguard_1 {
             get {
                 object obj = ResourceManager.GetObject("char_508_aguard_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_508_aguard_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_508_aguard_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6543,6 +12543,16 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_509_acast_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_509_acast_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_509_acast_2 {
             get {
                 object obj = ResourceManager.GetObject("char_509_acast_2", resourceCulture);
@@ -6556,6 +12566,16 @@ namespace Arknights_tools {
         public static System.Drawing.Bitmap char_510_amedic_1 {
             get {
                 object obj = ResourceManager.GetObject("char_510_amedic_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_510_amedic_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_510_amedic_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -6583,6 +12603,16 @@ namespace Arknights_tools {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        public static System.Drawing.Bitmap char_511_asnipe_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_511_asnipe_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         public static System.Drawing.Bitmap char_511_asnipe_2 {
             get {
                 object obj = ResourceManager.GetObject("char_511_asnipe_2", resourceCulture);
@@ -6596,6 +12626,16 @@ namespace Arknights_tools {
         public static System.Drawing.Bitmap char_512_aprot_1 {
             get {
                 object obj = ResourceManager.GetObject("char_512_aprot_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap char_512_aprot_11 {
+            get {
+                object obj = ResourceManager.GetObject("char_512_aprot_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
