@@ -210,6 +210,7 @@ namespace ClassSum
 
         public void setOriganal(int ori)
         {
+            Origanal    = ori;
             Profession  = ori & 0b000000000000000000000011111111;
             Rarity      = ori & 0b000000000000000011111100000000;
             Tag         = ori & 0b111111111111111100000000000000;

@@ -10,9 +10,13 @@ namespace json_real
     public class MakableItem
     {
         /// <summary>
-        /// 材料名字
+        /// 材料中文名字
         /// </summary>
-        public string Name { get; set; }
+        public string Ch_Name { get; set; }
+        /// <summary>
+        /// 材料英文名字
+        /// </summary>
+        public string En_Name { get; set; }
         /// <summary>
         /// 材料稀有度等级
         /// </summary>
