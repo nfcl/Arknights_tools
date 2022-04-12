@@ -195,7 +195,7 @@ namespace ClassSum
         {
             Image picture = new Image();
             picture.Uid = Uid.ToString();
-            picture.Source = new BitmapImage(new Uri(path));
+            picture.Source = new BitmapImage(new Uri("pack://application:,,,/" + path));
             picture.Width = width;
             return picture;
         }

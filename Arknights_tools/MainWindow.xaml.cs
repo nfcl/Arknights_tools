@@ -147,7 +147,7 @@ namespace Arknights_tools
         private void InitStore()
         {
             int STORE_MAIN_GRID_COLNUM = 8;
-            GlobalArgs.MatrielsMakble = JsonReader<Matriels_Root>(Directory.GetCurrentDirectory() + "/json/matriels.json");
+            GlobalArgs.MatrielsMakble = JsonReader<Matriels_Root>(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json");
             int matrielnum = GlobalArgs.MatrielsMakble.Matriels.Makable.Count();
             GlobalArgs.MatrielMode = new StoreMatrielMode[matrielnum];
             Grid_tool grid_Tool = new Grid_tool();
@@ -158,7 +158,7 @@ namespace Arknights_tools
             int now = 0;
             foreach (MakableItem i in GlobalArgs.MatrielsMakble.Matriels.Makable)
             {
-                path = Directory.GetCurrentDirectory() + "/Image/MakableMaterials/" + i.Level.ToString() + "_" + i.En_Name + ".png";
+                path = "Resources/image/Materials/" + i.Level.ToString() + "_" + i.En_Name + ".png";
                 DockPanel tmpdock = new DockPanel();
                 StoreMainGrid.Children.Add(tmpdock);
                 Grid.SetColumn(tmpdock, now % STORE_MAIN_GRID_COLNUM);
@@ -178,7 +178,7 @@ namespace Arknights_tools
         /// </summary>
         private void InitCharCheck()
         {
-            GlobalArgs.Chartable = JsonReader<Root_CharTable>(Directory.GetCurrentDirectory() + "/json/character_table.json");
+            GlobalArgs.Chartable = JsonReader<Root_CharTable>(Directory.GetCurrentDirectory() + "/Resources/json/character_table.json");
             int char_previewcols = 10;
             int char_previewrows = (GlobalArgs.Chartable.char_info.Count() + char_previewcols - 1) / char_previewcols;
             double CharPicWidth = Grid_CharPreview.Width / char_previewcols;
@@ -187,12 +187,12 @@ namespace Arknights_tools
             grid_Tool.GridCutters(Grid_CharPreview, char_previewrows, char_previewcols, CharPicHeight, CharPicWidth);
             int colnow = 0, rownow = 0;
             for (int sx = GlobalArgs.Chartable.char_info.Count - 1; sx >= 0; --sx)
-            {
+            { 
                 Char_infoItem i = GlobalArgs.Chartable.char_info[sx];
                 Button newcharButton = new Button();
                 Image newcharImage = new Image();
                 newcharButton.Content = newcharImage;
-                newcharImage.Source = new BitmapImage(new Uri(Directory.GetCurrentDirectory() + "/char/" + i.PicName[0] + ".png"));
+                newcharImage.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/bust/" + i.PicName[0] + ".png"));
                 newcharButton.Style = FindResource("char") as Style;
                 Grid_CharPreview.RegisterName("char" + i.ImplementationOrder.ToString(), newcharButton);
                 Grid_CharPreview.Children.Add(newcharButton);
@@ -392,7 +392,7 @@ namespace Arknights_tools
         /// <param name="e"></param>
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            JsonWrite(Directory.GetCurrentDirectory() + "/json/matriels.json", GlobalArgs.MatrielsMakble);
+            JsonWrite(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json", GlobalArgs.MatrielsMakble);
         }
     }
 }

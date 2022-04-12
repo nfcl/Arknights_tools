@@ -10,164 +10,6 @@
 
 
     <Window.Resources>
-        <Style x:Key="CheckChange" TargetType="{x:Type Button}">
-            <Setter Property="Width" Value="100"/>
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="BorderBrush" Value="White"/>
-            <Setter Property="FontWeight" Value="Normal"/>
-            <Setter Property="FontSize" Value="18"/>
-            <Setter Property="HorizontalContentAlignment" Value="Center"/>
-            <Setter Property="VerticalContentAlignment" Value="Center"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border x:Name="border" Margin="5,0,5,0"
-                                Background="{TemplateBinding Background}" 
-                                BorderThickness="2,2,2,2" BorderBrush="LightGray"
-                                SnapsToDevicePixels="true" 
-                                CornerRadius="3,3,3,3">
-                            
-                            <ContentPresenter x:Name="contentPresenter"
-                                              Focusable="False"
-                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
-                                              Margin="3,1,3,3" 
-                                              RecognizesAccessKey="True"
-                                              SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" 
-                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style x:Key="char" TargetType="{x:Type Button}">
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="BorderBrush" Value="White"/>
-            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="HorizontalContentAlignment" Value="Center"/>
-            <Setter Property="VerticalContentAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="1"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" SnapsToDevicePixels="true">
-                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
-                            <Border.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform CenterX="63.2" CenterY="124.4"/>
-                                    <SkewTransform/>
-                                    <RotateTransform/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </Border.RenderTransform>
-                        </Border>
-                        <ControlTemplate.Resources>
-                            <Storyboard x:Key="Bigger">
-                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="border">
-                                    <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="1.08"/>
-                                </DoubleAnimationUsingKeyFrames>
-                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="border">
-                                    <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="1.08"/>
-                                </DoubleAnimationUsingKeyFrames>
-                            </Storyboard>
-                            <Storyboard x:Key="Smaller">
-                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="border">
-                                    <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
-                                </DoubleAnimationUsingKeyFrames>
-                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="border">
-                                    <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
-                                </DoubleAnimationUsingKeyFrames>
-                            </Storyboard>
-                        </ControlTemplate.Resources>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsDefaulted" Value="true">
-                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
-                            </Trigger>
-                            <Trigger Property="IsMouseOver" Value="true">
-                                <Trigger.EnterActions>
-                                    <BeginStoryboard Storyboard="{StaticResource Bigger}"/>
-                                </Trigger.EnterActions>
-                                <Trigger.ExitActions>
-                                    <BeginStoryboard Storyboard="{StaticResource Smaller}"/>
-                                </Trigger.ExitActions>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style x:Key="CheckBoxStyle1" TargetType="{x:Type CheckBox}">
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="BorderBrush" Value="Gray"/>
-            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
-            <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Width" Value="100"/>
-            <Setter Property="Height"  Value="30"/>
-            <Setter Property="BorderThickness" Value="3"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type CheckBox}">
-                        <Grid x:Name="templateRoot" Background="Transparent" SnapsToDevicePixels="True">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Path x:Name="ball" HorizontalAlignment="Left" Margin="8,0,0,0" Height="14" Width="14" Fill="Black">
-                                <Path.Data>
-                                    <EllipseGeometry RadiusX="7" RadiusY="7" Center="7 7"/>
-                                </Path.Data>
-                            </Path>
-                            <Border x:Name="border" Grid.Column="0" Width="60" CornerRadius="13" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}"/>
-                            <ContentPresenter x:Name="contentPresenter" Grid.Column="1" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="5,0,0,0" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
-                        </Grid>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsChecked" Value="true">
-                                <Trigger.EnterActions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <ThicknessAnimation Duration="0:0:0.2" To="38 0 0 0 " From="8 0 0 0" Storyboard.TargetProperty="Margin" Storyboard.TargetName="ball"/>
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </Trigger.EnterActions>
-                                <Setter Property="Content" TargetName="contentPresenter" Value="或"/>
-                                <Trigger.ExitActions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <ThicknessAnimation Duration="0:0:0.2" To="8 0 0 0 " From="38 0 0 0" Storyboard.TargetProperty="Margin" Storyboard.TargetName="ball"/>
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </Trigger.ExitActions>
-                            </Trigger>
-                            <Trigger Property="IsChecked" Value="False">
-                                <Setter Property="Content" TargetName="contentPresenter" Value="与"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style x:Key="TextOnlyButton" TargetType="{x:Type Button}">
-            <Setter Property="Foreground" Value="CornflowerBlue"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="HorizontalContentAlignment" Value="Center"/>
-            <Setter Property="VerticalContentAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="1"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type ButtonBase}">
-                        <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="true">
-                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="Gray"/>
-                            </Trigger>
-                            <Trigger Property="IsPressed" Value="true">
-                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="LightGray"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
     </Window.Resources>
 
     <Grid>
@@ -263,16 +105,74 @@
                         <Grid>
                             <ScrollViewer>
                                 <StackPanel>
-                                    <TextBlock FontSize="70" Margin="10" Grid.Row="0">干员名称</TextBlock>
                                     <Grid>
-                                        <Image Source="pack://application:,,,/"></Image>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+                                        <TextBlock FontSize="40" Margin="10">干员信息</TextBlock>
+                                        <Border BorderBrush="#111111" BorderThickness="1"/>
+                                        <Rectangle Grid.Row="1" Fill="LightGray"></Rectangle>
+                                        <Image Name="Char_Background" Grid.Row="1" Margin="10" Source="/Resources/image/Background/Charinfo_background1.png" ></Image>
+                                        <Grid Grid.Row="1">
+                                            <Image Stretch="Uniform" Height="{Binding ElementName=Char_Background, Path=ActualHeight}" Margin="10"
+                                                   Source="/Resources/image/char/Stdpaint/char_002_amiya_1.png"/>
+                                            <Border Name="professional_ico_background" BorderBrush="#AAAAAA" BorderThickness="3" Width="100" Height="100" 
+                                                    Background="#222222" Opacity="0.8" CornerRadius="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30"/>
+                                            <Image Source="E:\C#\Arknights_tools\Arknights_tools\Resources\image\Optbch\职业分支图标_中坚术师.png"
+                                                    Width="80" Margin="40" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+                                            <Border Name="professional_name_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="200" Height="30" 
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 100"/>
+                                            <TextBlock FontSize="20" Width="{Binding ElementName=professional_name_border, Path=Width}" Height="{Binding ElementName=professional_name_border, Path=Height}" 
+                                                       Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 99" TextAlignment="Center" Text="术士 - 中坚术士"/>
+                                            <Border Name="tag_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="200" Height="60" 
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 30"/>
+                                            <TextBlock FontSize="20" Width="{Binding ElementName=tag_border, Path=Width}" Height="{Binding ElementName=tag_border, Path=Height}" 
+                                                       Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 15" TextAlignment="Center" Text="输出"/>
+                                            <TextBlock Text="阿米娅" FontSize="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30 130"/>
+                                            <TextBlock Text="Amiya" FontSize="50" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="35 250"/>
+                                            <Border Name="skin_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Height="200" 
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30"/>
+                                            <TextBlock Text="描述&#13;&#13;阿米娅最常穿着的服装，过大的尺寸似乎暗示了这件衣服曾不属于她不少细节部分都经过手工改造，而时间的痕迹也多有残留。" 
+                                                       FontSize="20" Width="380" Height="{Binding ElementName=skin_describle_border, Path=Height}"
+                                                       TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 40 10"/>
+                                            <Border Name="special_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Height="150" 
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 30 240"/>
+                                            <TextBlock Text="特性&#13;&#13;攻击造成法术伤害" FontSize="20" Width="380" Height="{Binding ElementName=special_describle_border, Path=Height}"
+                                                       TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 40 230"/>
+                                        </Grid> 
+                                    </Grid>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto"/>
+                                            <ColumnDefinition Width="auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock FontSize="40" Grid.Row="0">获得方式</TextBlock>
+                                        <Border Name="getway_zd_border" BorderBrush="#AAAAAA" Background="Gray" Height="150" Width="250" BorderThickness="3" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                            <TextBlock Text="&#13;获得方式&#13;" FontSize="30" TextAlignment="Center" Margin="30 0 30 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <Border BorderBrush="#AAAAAA" Background="Gray" Width="{Binding ElementName=getway_zd_border, Path=ActualWidth}" BorderThickness="3" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                            <TextBlock Text="&#13;上线时间&#13;" FontSize="30" TextAlignment="Center" Margin="30 0 30 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <Border Name="getway_value_border" BorderBrush="#AAAAAA" MinWidth="1000" Background="Gray" Height="{Binding ElementName=getway_zd_border, Path=ActualHeight}" BorderThickness="3" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                            <TextBlock Text="&#13;主线剧情&#13;（首次通关主题曲2-10、3-8、4-9、6-17、7-18获取）&#13;" FontSize="30" TextAlignment="Center" Margin="30 0 30 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <Border BorderBrush="#AAAAAA" Background="Gray" BorderThickness="3" Width="{Binding ElementName=getway_value_border, Path=ActualWidth}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                            <TextBlock Text="&#13;2019年4月30日 10:00&#13;" FontSize="30" TextAlignment="Center" Margin="30 0 30 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
                                     </Grid>
                                 </StackPanel>
                             </ScrollViewer>
-                            <Border BorderBrush="Gray" BorderThickness="3" HorizontalAlignment="Left" VerticalAlignment="Center">
+                            <Border BorderBrush="Gray" Background="White" Opacity="1" BorderThickness="3" HorizontalAlignment="Left" VerticalAlignment="Center">
                                 <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center">
                                     <TextBlock Margin="3">目录</TextBlock>
-                                    <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">干员立绘</Button>
+                                    <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">干员信息</Button>
+                                    <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">获得方式</Button>
                                     <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">技能</Button>
                                     <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">天赋</Button>
                                 </StackPanel>
