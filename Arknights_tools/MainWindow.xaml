@@ -111,18 +111,18 @@
                                             <RowDefinition/>
                                         </Grid.RowDefinitions>
                                         <TextBlock FontSize="40" Margin="10">干员信息</TextBlock>
-                                        <Border BorderBrush="#111111" BorderThickness="1"/>
-                                        <Rectangle Grid.Row="1" Fill="LightGray"></Rectangle>
-                                        <Image Name="Char_Background" Grid.Row="1" Margin="10" Source="/Resources/image/Background/Charinfo_background1.png" ></Image>
+                                        <Border Grid.Row="1" Background="LightGray"/>
+                                        <Image Name="Char_Background" Grid.Row="1" Margin="10" Source="/Resources/image/Background/Charinfo_background1.png" />
                                         <Grid Grid.Row="1">
                                             <Image Stretch="Uniform" Height="{Binding ElementName=Char_Background, Path=ActualHeight}" Margin="10"
                                                    Source="/Resources/image/char/Stdpaint/char_002_amiya_1.png"/>
                                             <Border Name="professional_ico_background" BorderBrush="#AAAAAA" BorderThickness="3" Width="100" Height="100" 
                                                     Background="#222222" Opacity="0.8" CornerRadius="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30"/>
-                                            <Image Source="E:\C#\Arknights_tools\Arknights_tools\Resources\image\Optbch\职业分支图标_中坚术师.png"
+                                            <Image Source="/Resources/image/Optbch/corecaster.png"
                                                     Width="80" Margin="40" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
                                             <Border Name="professional_name_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="200" Height="30" 
                                                     Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 100"/>
+                                            
                                             <TextBlock FontSize="20" Width="{Binding ElementName=professional_name_border, Path=Width}" Height="{Binding ElementName=professional_name_border, Path=Height}" 
                                                        Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 99" TextAlignment="Center" Text="术士 - 中坚术士"/>
                                             <Border Name="tag_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="200" Height="60" 

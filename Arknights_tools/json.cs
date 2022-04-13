@@ -275,7 +275,7 @@ namespace json_real
         /// <para/>从低位到高位分别为
         /// <para/>职业：先锋 近卫 重装 狙击 术士 医疗 辅助 特种
         /// <para/>稀有度：1星 2星 3星 4星 5星 6星
-        /// <para/>tag：新手 治疗 支援 输出 群攻 减速 生存 防护 削弱 位移 控场 爆发 召唤 快速复活 费用回复 支援机械<para/>
+        /// <para/>tag：新手 治疗 支援 输出 群攻 减速 生存 防护 削弱 位移 控场 爆发 召唤 快速复活 费用回复 支援机械
         /// </summary>
         public int tagIdnum { get; set; }
         /// <summary>

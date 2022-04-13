@@ -14,6 +14,61 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\image\Optbch\aoesniper.png" />
+    <Resource Include="Resources\image\Optbch\artsfghter.png" />
+    <Resource Include="Resources\image\Optbch\artsprotector.png" />
+    <Resource Include="Resources\image\Optbch\bard.png" />
+    <Resource Include="Resources\image\Optbch\bearer.png" />
+    <Resource Include="Resources\image\Optbch\blastcaster.png" />
+    <Resource Include="Resources\image\Optbch\blessing.png" />
+    <Resource Include="Resources\image\Optbch\bombarder.png" />
+    <Resource Include="Resources\image\Optbch\centurion.png" />
+    <Resource Include="Resources\image\Optbch\chain.png" />
+    <Resource Include="Resources\image\Optbch\charger.png" />
+    <Resource Include="Resources\image\Optbch\closerange.png" />
+    <Resource Include="Resources\image\Optbch\corecaster.png" />
+    <Resource Include="Resources\image\Optbch\craftsman.png" />
+    <Resource Include="Resources\image\Optbch\dollkeeper.png" />
+    <Resource Include="Resources\image\Optbch\duelist.png" />
+    <Resource Include="Resources\image\Optbch\executor.png" />
+    <Resource Include="Resources\image\Optbch\fastshot.png" />
+    <Resource Include="Resources\image\Optbch\fearless.png" />
+    <Resource Include="Resources\image\Optbch\fighter.png" />
+    <Resource Include="Resources\image\Optbch\fortress.png" />
+    <Resource Include="Resources\image\Optbch\funnel.png" />
+    <Resource Include="Resources\image\Optbch\geek.png" />
+    <Resource Include="Resources\image\Optbch\guardian.png" />
+    <Resource Include="Resources\image\Optbch\healer.png" />
+    <Resource Include="Resources\image\Optbch\hookmaster.png" />
+    <Resource Include="Resources\image\Optbch\instructor.png" />
+    <Resource Include="Resources\image\Optbch\librator.png" />
+    <Resource Include="Resources\image\Optbch\longrange.png" />
+    <Resource Include="Resources\image\Optbch\lord.png" />
+    <Resource Include="Resources\image\Optbch\merchant.png" />
+    <Resource Include="Resources\image\Optbch\musha.png" />
+    <Resource Include="Resources\image\Optbch\mystic.png" />
+    <Resource Include="Resources\image\Optbch\phalanx.png" />
+    <Resource Include="Resources\image\Optbch\physician.png" />
+    <Resource Include="Resources\image\Optbch\pioneer.png" />
+    <Resource Include="Resources\image\Optbch\protector.png" />
+    <Resource Include="Resources\image\Optbch\pusher.png" />
+    <Resource Include="Resources\image\Optbch\reaper.png" />
+    <Resource Include="Resources\image\Optbch\reaperrange.png" />
+    <Resource Include="Resources\image\Optbch\ringhealer.png" />
+    <Resource Include="Resources\image\Optbch\siegesniper.png" />
+    <Resource Include="Resources\image\Optbch\slower.png" />
+    <Resource Include="Resources\image\Optbch\splashcaster.png" />
+    <Resource Include="Resources\image\Optbch\stalker.png" />
+    <Resource Include="Resources\image\Optbch\summoner.png" />
+    <Resource Include="Resources\image\Optbch\sword.png" />
+    <Resource Include="Resources\image\Optbch\tactician.png" />
+    <Resource Include="Resources\image\Optbch\traper.png" />
+    <Resource Include="Resources\image\Optbch\underminer.png" />
+    <Resource Include="Resources\image\Optbch\unyield.png" />
+    <Resource Include="Resources\image\Optbch\wandermedic.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Handlebars.Net" Version="2.1.2" />
     <PackageReference Include="LitJson" Version="0.17.0" />
     <PackageReference Include="NPOI" Version="2.5.5" />
