@@ -5,6 +5,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Media;
 using json_real;
 using System.Windows.Data;
+using System.Collections.ObjectModel;
 
 namespace ClassSum
 {
@@ -286,137 +287,17 @@ namespace ClassSum
         /// <para/>tag
         /// </summary>
         public static checkIdnum CheckIdnum;
+        /// <summary>
+        /// 人物卡信息
+        /// </summary>
+        public static ObservableCollection<Charinfo_Tapitem> Charinfo_tapItem;
     }
 
     public class Charinfo_Tapitem
     {
-        public TabItem Main_Content;
-        private ScrollViewer Main_Scroll;
-        private Grid Main_Grid;
-        public Charinfo_Tapitem(int id)
-        {
-            Main_Content = new TabItem();
-            Main_Content.Header = GlobalArgs.Chartable.char_info[id].name;
-            {
-                Main_Grid = new Grid();
-                Main_Content.Content = Main_Grid;
-                {
-                    Main_Scroll = new ScrollViewer();
-                    Main_Grid.Children.Add(Main_Scroll);
-                    {
-                        StackPanel Main_Stackpannel = new StackPanel();
-                        Main_Scroll.Content = Main_Stackpannel;
-                        {
-                            Grid Charinfo_Grid = new Grid();
-                            GridCutters(Charinfo_Grid, 2, 1);
-                            {
-                                TextBlock CharInfo_Topic_TextBlock = new TextBlock();
-                                {
-                                    CharInfo_Topic_TextBlock.Text = "干员信息";
-                                    CharInfo_Topic_TextBlock.FontSize = 40;
-                                    CharInfo_Topic_TextBlock.Margin = new Thickness(10);
-                                    Charinfo_Grid.Children.Add(CharInfo_Topic_TextBlock);
-                                    Grid.SetRow(CharInfo_Topic_TextBlock, 0);
-                                }
-                                Image Charinfo_Background_Image = new Image();
-                                {
-                                    Charinfo_Background_Image.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/Background/Charinfo_background1.png"));
-                                    Charinfo_Background_Image.Margin = new Thickness(10);
-                                    Charinfo_Grid.Children.Add(Charinfo_Background_Image);
-                                    Grid.SetRow(Charinfo_Background_Image, 1);
-                                }
-                                Border Charinfo_Background_Border = new Border();
-                                {
-                                    Charinfo_Background_Border.Background = Brushes.LightGray;
-                                    Charinfo_Grid.Children.Add(Charinfo_Background_Border);
-                                    Grid.SetRow(Charinfo_Background_Border, 1);
-                                }
-                                Grid Charinfo_Sum_Grid = new Grid();
-                                {
-                                    Charinfo_Grid.Children.Add(Charinfo_Sum_Grid);
-                                    Grid.SetRow(Charinfo_Sum_Grid, 1);
-                                    Image Charinfo_Stdpaint_Image = new Image();
-                                    {
-                                        Charinfo_Sum_Grid.Children.Add(Charinfo_Stdpaint_Image);
-                                        Charinfo_Stdpaint_Image.Stretch = Stretch.Uniform;
-                                        Charinfo_Stdpaint_Image.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/Stdpaint/" + GlobalArgs.Chartable.char_info[id].PicName[0] + ".png"));
-                                        Charinfo_Stdpaint_Image.Margin = new Thickness(10);
-                                        Binding tmpbinding = new Binding("Height");
-                                        BindingOperations.SetBinding(Charinfo_Stdpaint_Image, Image.ActualHeightProperty, tmpbinding);
-                                    }
-                                    Border Charinfo_Professional_Ico_Border = new Border();
-                                    {
-                                        Charinfo_Sum_Grid.Children.Add(Charinfo_Professional_Ico_Border);
-                                        Charinfo_Professional_Ico_Border.BorderBrush = new SolidColorBrush(Color.FromRgb(170, 170, 170));
-                                        Charinfo_Professional_Ico_Border.BorderThickness = new Thickness(3);
-                                        Charinfo_Professional_Ico_Border.Width = 100;
-                                        Charinfo_Professional_Ico_Border.Height = 100;
-                                        Charinfo_Professional_Ico_Border.Background = new SolidColorBrush(Color.FromRgb(34, 34, 34));
-                                        Charinfo_Professional_Ico_Border.Opacity = 0.8;
-                                        Charinfo_Professional_Ico_Border.CornerRadius = new CornerRadius(10);
-                                        Charinfo_Professional_Ico_Border.HorizontalAlignment = HorizontalAlignment.Left;
-                                        Charinfo_Professional_Ico_Border.VerticalAlignment = VerticalAlignment.Bottom;
-                                        Charinfo_Professional_Ico_Border.Margin = new Thickness(30);
-                                    }
-                                    Image Charinfo_Professional_Ico_Image = new Image();
-                                    {
-                                        Charinfo_Sum_Grid.Children.Add(Charinfo_Professional_Ico_Image);
-                                        Charinfo_Professional_Ico_Image.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/Optbch/" + GlobalArgs.Chartable.char_info[id].subProfessionId + ".png"));
-                                        Charinfo_Professional_Ico_Image.Width = 80;
-                                        Charinfo_Professional_Ico_Image.Height = 80;
-                                        Charinfo_Professional_Ico_Image.Margin = new Thickness(40);
-                                        Charinfo_Professional_Ico_Image.HorizontalAlignment = HorizontalAlignment.Left;
-                                        Charinfo_Professional_Ico_Image.VerticalAlignment = VerticalAlignment.Bottom;
-                                    }
-                                    Border Charinfo_Professional_Name_Border = new Border();
-                                    {
-                                        Charinfo_Sum_Grid.Children.Add(Charinfo_Professional_Name_Border);
-                                        Charinfo_Professional_Name_Border.BorderBrush = new SolidColorBrush(Color.FromRgb(170, 170, 170));
-                                        Charinfo_Professional_Name_Border.Opacity = 0.8;
-                                        Charinfo_Professional_Name_Border.BorderThickness = new Thickness(3);
-                                        Charinfo_Professional_Name_Border.Width = 200;
-                                        Charinfo_Professional_Name_Border.Height = 30;
-                                        Charinfo_Professional_Name_Border.Background = new SolidColorBrush(Color.FromRgb(34, 34, 34));
-                                        Charinfo_Professional_Name_Border.CornerRadius = new CornerRadius(5);
-                                        Charinfo_Professional_Name_Border.VerticalAlignment = VerticalAlignment.Bottom;
-                                        Charinfo_Professional_Name_Border.HorizontalAlignment = HorizontalAlignment.Left;
-                                        Charinfo_Professional_Name_Border.Margin = new Thickness(140, 100, 0, 0);
-                                    }
-                                    TextBlock Charinfo_Professional_Name_TextBlock = new TextBlock();
-                                    {
-                                        Charinfo_Professional_Name_TextBlock.FontSize = 20;
-                                        Charinfo_Professional_Name_TextBlock.Text = GlobalArgs.Chartable.char_info[id].profession + " - " + GlobalArgs.Chartable.char_info[id].subProfessionId;
-
-
-
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-        }
-
-        /// <summary>
-        /// 将一个Grid切割为row行col列
-        /// </summary>
-        /// <param name="GoalGrid">目标Grid</param>
-        /// <param name="row">目标行数</param>
-        /// <param name="col">目标列数</param>
-        /// <param name="height">
-        /// <para>设置行高</para>
-        /// <para>可选 默认为0即auto</para>
-        /// </param>
-        /// <param name="width">设置列宽 和行高同理</param>
-        public void GridCutters(Grid GoalGrid, int row, int col, double height = 0, double width = 0)
-        {
-            for (int i = 0; i < row; i++)
-                GoalGrid.RowDefinitions.Add(new RowDefinition { Height = (height == 0 ? GridLength.Auto : new GridLength(height)) });
-            for (int i = 0; i < col; i++)
-                GoalGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = (width == 0 ? GridLength.Auto : new GridLength(width)) });
-        }
-
+        public string Ch_name;
+        public string En_name;
+        public int rarity;
     }
+
 }

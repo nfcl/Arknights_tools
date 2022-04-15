@@ -351,13 +351,21 @@ namespace json_real
         /// </summary>
         public int rarity { get; set; }
         /// <summary>
-        /// 主职业
+        /// 主职业(英)
         /// </summary>
-        public string profession { get; set; }
+        public string Profession_En { get; set; }
         /// <summary>
-        /// 职业分支
+        /// 主职业(中)
         /// </summary>
-        public string subProfessionId { get; set; }
+        public string Profession_Ch { get; set; }
+        /// <summary>
+        /// 职业分支(英)
+        /// </summary>
+        public string SubProfessionId_En { get; set; }
+        /// <summary>
+        /// 职业分支(中)
+        /// </summary>
+        public string SubProfessionId_Ch { get; set; }
         /// <summary>
         /// 精英化相关数据（不包含信赖加成）
         /// </summary>

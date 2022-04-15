@@ -14,15 +14,15 @@
 
     <Grid>
         <TabControl>
-            <TabItem Header="仓库&#xD;&#xA;材料" Margin="-2,-2,2,0" Width="60" >
+            <TabItem Header="仓库&#xD;&#xA;材料" Margin="-2,-2,2,0" Width="383" >
                 <ScrollViewer x:Name="StoreSv">
                     <Grid x:Name="StoreMainGrid" Width="1513.2" Height="806.28">
                     </Grid>
                 </ScrollViewer>
             </TabItem>
-            <TabItem Header="干员&#xD;&#xA;查询" Margin="-3,-2,3,0" Width="60">
-                <TabControl>
-                    <TabItem Header="干员搜索" Margin="-2,0,2,0" FontSize="20" Width="92" Height="31.4">
+            <TabItem Header="干员&#xD;&#xA;查询" Margin="-3,-2,3,0" Width="383">
+                <TabControl x:Name="Navigation_bar">
+                    <TabItem x:Name="check" Header="干员搜索" Margin="-2,0,2,0" FontSize="20" Width="763" Height="31.4">
                         <Grid>
                             <StackPanel>
                                 <Border BorderBrush="LightGray" BorderThickness="3,3,3,3" Margin="30,30,30,5">
@@ -101,47 +101,83 @@
 
                         </Grid>
                     </TabItem>
-                    <TabItem Header="测试干员界面" Margin="-3,0,2,0">
+                    <TabItem Header="干员查看" FontSize="20" Margin="-3,0,2,0" Width="763">
                         <Grid>
-                            <ScrollViewer>
-                                <StackPanel>
-                                    <Grid>
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition/>
-                                            <RowDefinition/>
-                                        </Grid.RowDefinitions>
-                                        <TextBlock FontSize="40" Margin="10">干员信息</TextBlock>
-                                        <Border Grid.Row="1" Background="LightGray"/>
-                                        <Image Name="Char_Background" Grid.Row="1" Margin="10" Source="/Resources/image/Background/Charinfo_background1.png" />
-                                        <Grid Grid.Row="1">
-                                            <Image Stretch="Uniform" Height="{Binding ElementName=Char_Background, Path=ActualHeight}" Margin="10"
-                                                   Source="/Resources/image/char/Stdpaint/char_002_amiya_1.png"/>
-                                            <Border Name="professional_ico_background" BorderBrush="#AAAAAA" BorderThickness="3" Width="100" Height="100" 
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Border Background="#11111101">
+                                <ScrollViewer VerticalScrollBarVisibility="Hidden">
+                                    <StackPanel Orientation="Vertical" Margin="10">
+                                        <Button Background="#222222">
+                                            <Grid Height="100" Width="100">
+                                                <Border Background="#222222" BorderBrush="#AAAAAA" Opacity="0.8" BorderThickness="3"/>
+                                                <Image/>
+                                                <TextBlock Text="阿米娅" VerticalAlignment="Bottom" Foreground="White" HorizontalAlignment="Center"/>
+                                            </Grid>
+                                        </Button>
+                                    </StackPanel>
+                                </ScrollViewer>
+                            </Border>
+                            <Grid Grid.Column="1">
+                                <ScrollViewer>
+                                    <StackPanel>
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition/>
+                                                <RowDefinition/>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock FontSize="40" Margin="10" Text="干员信息"></TextBlock>
+                                            <Grid Grid.Row="1">
+                                                <Border Background="LightGray"/>
+                                                <Image Name="Char_Background" Margin="10" Source="/Resources/image/Background/Charinfo_background1.png" />
+                                                <Image Height="767" Margin="10" Source="/Resources/image/char/Stdpaint/char_002_amiya_1.png" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                <Border Name="professional_ico_background" BorderBrush="#AAAAAA" BorderThickness="3" Width="100" Height="100" 
                                                     Background="#222222" Opacity="0.8" CornerRadius="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30"/>
-                                            <Image Source="/Resources/image/Optbch/corecaster.png"
+                                                <Image Source="/Resources/image/Optbch/corecaster.png"
                                                     Width="80" Margin="40" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
-                                            <Border Name="professional_name_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="200" Height="30" 
-                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 100"/>
-                                            
-                                            <TextBlock FontSize="20" Width="{Binding ElementName=professional_name_border, Path=Width}" Height="{Binding ElementName=professional_name_border, Path=Height}" 
-                                                       Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 99" TextAlignment="Center" Text="术士 - 中坚术士"/>
-                                            <Border Name="tag_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="200" Height="60" 
-                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 30"/>
-                                            <TextBlock FontSize="20" Width="{Binding ElementName=tag_border, Path=Width}" Height="{Binding ElementName=tag_border, Path=Height}" 
-                                                       Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 15" TextAlignment="Center" Text="输出"/>
-                                            <TextBlock Text="阿米娅" FontSize="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30 130"/>
-                                            <TextBlock Text="Amiya" FontSize="50" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="35 250"/>
-                                            <Border Name="skin_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Height="200" 
-                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30"/>
-                                            <TextBlock Text="描述&#13;&#13;阿米娅最常穿着的服装，过大的尺寸似乎暗示了这件衣服曾不属于她不少细节部分都经过手工改造，而时间的痕迹也多有残留。" 
-                                                       FontSize="20" Width="380" Height="{Binding ElementName=skin_describle_border, Path=Height}"
-                                                       TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 40 10"/>
-                                            <Border Name="special_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Height="150" 
-                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 30 240"/>
-                                            <TextBlock Text="特性&#13;&#13;攻击造成法术伤害" FontSize="20" Width="380" Height="{Binding ElementName=special_describle_border, Path=Height}"
-                                                       TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 40 230"/>
-                                        </Grid> 
-                                    </Grid>
+                                                <Border Name="professional_name_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="200" Height="30"
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 100">
+                                                    <TextBlock FontSize="20" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Text="术士 - 中坚术士"/>
+                                                </Border>
+                                                <Border Name="position_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="100" Height="30" 
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="345 100">
+                                                    <TextBlock FontSize="20" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Text="远程位"/>
+                                                </Border>
+                                                <Border Name="tag_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="305" Height="60" 
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 30">
+                                                    <TextBlock FontSize="20" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Text="输出"/>
+                                                </Border>
+
+                                                <TextBlock Text="阿米娅" FontSize="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30 130"/>
+                                                <TextBlock Text="Amiya" FontSize="40" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="35 250"/>
+                                                <Border Name="skin_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Height="200" 
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30">
+                                                    <Grid>
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition Height="auto"/>
+                                                            <RowDefinition/>
+                                                        </Grid.RowDefinitions>
+                                                        <TextBlock Text="描述" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="10 10 0 0" />
+                                                        <TextBlock Text="阿米娅最常穿着的服装，过大的尺寸似乎暗示了这件衣服曾不属于她不少细节部分都经过手工改造，而时间的痕迹也多有残留。" 
+                                                       FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" Margin="30 0 20 0"  VerticalAlignment="Center" Grid.Row="1" />
+                                                    </Grid>
+                                                </Border>
+                                                <Border Name="special_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Height="150" 
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 30 240">
+                                                    <Grid >
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition Height="auto"/>
+                                                            <RowDefinition/>
+                                                        </Grid.RowDefinitions>
+                                                        <TextBlock Text="特性" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10 10 0 0"/>
+                                                        <TextBlock Text="攻击造成法术伤害" Grid.Row="1" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="30 0 20 0"/>
+                                                    </Grid>
+                                                </Border>
+                                            </Grid>
+                                        </Grid>
+                                        <!--
                                     <Grid>
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="auto"/>
@@ -156,33 +192,35 @@
                                         <Border Name="getway_zd_border" BorderBrush="#AAAAAA" Background="Gray" Height="150" Width="250" BorderThickness="3" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">
                                             <TextBlock Text="&#13;获得方式&#13;" FontSize="30" TextAlignment="Center" Margin="30 0 30 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                         </Border>
-                                        <Border BorderBrush="#AAAAAA" Background="Gray" Width="{Binding ElementName=getway_zd_border, Path=ActualWidth}" BorderThickness="3" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                        <Border BorderBrush="#AAAAAA" Background="Gray" BorderThickness="3" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">
                                             <TextBlock Text="&#13;上线时间&#13;" FontSize="30" TextAlignment="Center" Margin="30 0 30 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                         </Border>
-                                        <Border Name="getway_value_border" BorderBrush="#AAAAAA" MinWidth="1000" Background="Gray" Height="{Binding ElementName=getway_zd_border, Path=ActualHeight}" BorderThickness="3" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                        <Border Name="getway_value_border" BorderBrush="#AAAAAA" MinWidth="1000" Background="Gray" BorderThickness="3" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
                                             <TextBlock Text="&#13;主线剧情&#13;（首次通关主题曲2-10、3-8、4-9、6-17、7-18获取）&#13;" FontSize="30" TextAlignment="Center" Margin="30 0 30 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                         </Border>
-                                        <Border BorderBrush="#AAAAAA" Background="Gray" BorderThickness="3" Width="{Binding ElementName=getway_value_border, Path=ActualWidth}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                        <Border BorderBrush="#AAAAAA" Background="Gray" BorderThickness="3" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
                                             <TextBlock Text="&#13;2019年4月30日 10:00&#13;" FontSize="30" TextAlignment="Center" Margin="30 0 30 0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                         </Border>
                                     </Grid>
-                                </StackPanel>
-                            </ScrollViewer>
-                            <Border BorderBrush="Gray" Background="White" Opacity="1" BorderThickness="3" HorizontalAlignment="Left" VerticalAlignment="Center">
-                                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center">
-                                    <TextBlock Margin="3">目录</TextBlock>
-                                    <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">干员信息</Button>
-                                    <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">获得方式</Button>
-                                    <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">技能</Button>
-                                    <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">天赋</Button>
-                                </StackPanel>
-                            </Border>
+                                    -->
+                                    </StackPanel>
+                                </ScrollViewer>
+                                <!--
+                                <Border BorderBrush="Gray" Background="White" Opacity="1" BorderThickness="3" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+                                        <TextBlock Margin="3">目录</TextBlock>
+                                        <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">干员信息</Button>
+                                        <Button Style="{DynamicResource TextOnlyButton}" Margin="15 3 3 3">获得方式</Button>
+                                    </StackPanel>
+                                </Border>
+                                -->
+                            </Grid>
                         </Grid>
                     </TabItem>
                 </TabControl>
             </TabItem>
-            <TabItem Header="公招&#xD;&#xA;查询" Margin="-4,-2,4,0" Width="60"/>
-            <TabItem Header="寻访&#xD;&#xA;模拟" Margin="-5,-2,5,0" Width="60"/>
+            <TabItem Header="公招&#xD;&#xA;查询" Margin="-4,-2,4,0" Width="383"/>
+            <TabItem Header="寻访&#xD;&#xA;模拟" Margin="-5,-2,5,0" Width="383" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
         </TabControl>
     </Grid>
 </Window>

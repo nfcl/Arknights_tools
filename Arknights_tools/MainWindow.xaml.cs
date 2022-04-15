@@ -21,17 +21,21 @@ using InitFunction;
 using tool;
 using System.Windows.Controls.Primitives;
 using HandlebarsDotNet.StringUtils;
+using System.ComponentModel;
+using System.Net;
 
 namespace Arknights_tools
 {
 
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
             InitStore();
             InitCharCheck();
+            ceshi();
         }
 
         /// <summary>
@@ -117,6 +121,132 @@ namespace Arknights_tools
             //    }
             //    real.Save(resultpath + fsinfo.Name, System.Drawing.Imaging.ImageFormat.Png);
             //}
+            //Charinfo_Tapitem amiya = new Charinfo_Tapitem(54, Navigation_bar);
+            //Navigation_bar.Items.Add(amiya.Main_Content);
+            //Dictionary<string, string> Professional = new Dictionary<string, string>()
+            //{
+            //    {"PIONEER","先锋" },{"WARRIOR","近卫" },{"TANK","重装" },{"SNIPER","狙击" },
+            //    {"CASTER","术士" },{"MEDIC","医疗" },{"SUPPORT","辅助" },{"SPECIAL","特种" },
+            //};//先锋 近卫 重装 狙击 术士 医疗 辅助 特种
+            //Dictionary<string, string> sub_professional = new Dictionary<string, string>()
+            //{
+            //    {"charger","冲锋手" },{"pioneer","尖兵" },{"tactician","战术家" },{"bearer","执旗手" },
+            //    {"fighter","斗士" },{"sword","剑豪" },{"instructor","教官" },{"librator","解放者" },
+            //    {"lord","领主" },{"centurion","强攻手" },{"reaper","收割者" },{"artsfghter","术战者" },
+            //    {"fearless","无畏者" },{"musha","武者" },{"unyield","不屈者" },{"duelist","决战者" },
+            //    {"guardian","守护者" },{"protector","铁卫" },{"fortress","要塞" },{"artsprotector","驭法铁卫" },
+            //    {"siegesniper","攻城手" },{"aoesniper","炮手" },{"reaperrange","散射手" },{"longrange","神射手" },
+            //    {"fastshot","速射手" },{"bombarder","投掷手" },{"closerange","重射手" },{"blastcaster","轰击术师" },
+            //    {"splashcaster","扩散术师" },{"chain","链术师" },{"mystic","秘术师" },{"funnel","驭械术师" },
+            //    {"phalanx","阵法术师" },{"corecaster","中坚术师" },{"wandermedic","行医" },{"healer","疗养师" },
+            //    {"ringhealer","群愈师" },{"physician","医师" },{"craftsman","工匠" },{"blessing","护佑者" },
+            //    {"slower","凝滞师" },{"underminer","削弱者" },{"bard","吟游者" },{"summoner","召唤师" },
+            //    {"executor","处决者" },{"stalker","伏击客" },{"hookmaster","钩索师" },{"geek","怪杰" },
+            //    {"dollkeeper","傀儡师" },{"merchant","行商" },{"pusher","推击手" },{"traper","陷阱师" },
+            //};
+            //foreach (Char_infoItem i in GlobalArgs.Chartable.char_info)
+            //{
+            //    i.Profession_Ch = Professional[i.Profession_En];
+            //    i.SubProfessionId_Ch = sub_professional[i.SubProfessionId_En];
+            //}
+            //amiya 54
+            //Navigation_bar.DataContext = GlobalArgs.Charinfo_tapItem;
+            //Navigation_bar.SetBinding(ItemsControl.ItemsSourceProperty, new Binding());
+            //GlobalArgs.Charinfo_tapItem = new System.Collections.ObjectModel.ObservableCollection<Charinfo_Tapitem>();
+
+            //Charinfo_Tapitem testDataItem = new Charinfo_Tapitem();
+            //testDataItem.Ch_name = GlobalArgs.Chartable.char_info[54].name;
+            //testDataItem.En_name = GlobalArgs.Chartable.char_info[54].appellation;
+            //testDataItem.rarity  = GlobalArgs.Chartable.char_info[54].rarity;
+            //GlobalArgs.Charinfo_tapItem.Add(testDataItem);
+            //Navigation_bar.SelectedIndex = GlobalArgs.Charinfo_tapItem.Count;
+            //string qzkt = "<meta property=\"og:image\" content=\"";
+            //int n, m;
+            //string s, result;
+            //foreach (Char_infoItem i in GlobalArgs.Chartable.char_info)
+            //{
+            //    if (File.Exists("E:/tmp/" + i.PicName[0] + ".png"))
+            //        continue;
+            //    s = GetHtmlStr("https://prts.wiki/w/%E6%96%87%E4%BB%B6:%E5%A4%B4%E5%83%8F_" + i.name + ".png", "UTF8");
+            //    //s = "<meta property=\"og:image\"content=\"http://prts.wiki/images/b/b6/%E5%A4%B4%E5%83%8F_Lancet-2.png\"/>";
+            //    for (n = 0; n < s.Length; ++n)
+            //    {
+            //        for (m = 0; m < qzkt.Length; ++m)
+            //        {
+            //            if (s[n + m] != qzkt[m])
+            //            {
+            //                break;
+            //            }
+            //        }
+            //        if (m == qzkt.Length)
+            //        {
+            //            n += m;
+            //            result = "";
+            //            while (s[n] != '\"')
+            //            {
+            //                result += s[n];
+            //                ++n;
+            //            }
+            //            SaveAsWebImg(result, i.PicName[0], "E:/tmp/");
+            //            break;
+            //        }
+            //    }
+            //}
+        }
+
+        /// <summary>
+        /// 获取网页的HTML码
+        /// </summary>
+        /// <param name="url">链接地址</param>
+        /// <param name="encoding">编码类型</param>
+        /// <returns></returns>
+        public static string GetHtmlStr(string url, string encoding)
+        {
+            string htmlStr = "";
+            if (!String.IsNullOrEmpty(url))
+            {
+                WebRequest request = WebRequest.Create(url);            //实例化WebRequest对象
+                WebResponse response = request.GetResponse();           //创建WebResponse对象
+                Stream datastream = response.GetResponseStream();       //创建流对象
+                Encoding ec = Encoding.Default;
+                if (encoding == "UTF8")
+                {
+                    ec = Encoding.UTF8;
+                }
+                else if (encoding == "Default")
+                {
+                    ec = Encoding.Default;
+                }
+                StreamReader reader = new StreamReader(datastream, ec);
+                htmlStr = reader.ReadToEnd();                           //读取数据
+                reader.Close();
+                datastream.Close();
+                response.Close();
+            }
+            return htmlStr;
+        }
+
+        /// <summary>
+        /// 下载网站图片
+        /// </summary>
+        /// <param name="picUrl"></param>
+        /// <returns></returns>
+        public void SaveAsWebImg(string picUrl, string picname, string filepath)
+        {
+            try
+            {
+                if (!String.IsNullOrEmpty(picUrl))
+                {
+                    Random rd = new Random();
+                    DateTime nowTime = DateTime.Now;
+                    WebClient webClient = new WebClient();
+                    webClient.DownloadFile(picUrl, filepath + picname + ".png");
+                }
+            }
+            catch
+            {
+
+            }
         }
 
         /// <summary>
@@ -187,7 +317,7 @@ namespace Arknights_tools
             grid_Tool.GridCutters(Grid_CharPreview, char_previewrows, char_previewcols, CharPicHeight, CharPicWidth);
             int colnow = 0, rownow = 0;
             for (int sx = GlobalArgs.Chartable.char_info.Count - 1; sx >= 0; --sx)
-            { 
+            {
                 Char_infoItem i = GlobalArgs.Chartable.char_info[sx];
                 Button newcharButton = new Button();
                 Image newcharImage = new Image();

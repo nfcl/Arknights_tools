@@ -21,8 +21,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 0,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -193,8 +195,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 0,
-      "profession": "WARRIOR",
-      "subProfessionId": "fearless",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fearless",
+      "SubProfessionId_Ch": "无畏者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -365,8 +369,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 1,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -492,8 +498,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 1,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -619,8 +627,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 1,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -746,8 +756,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 1,
-      "profession": "CASTER",
-      "subProfessionId": "corecaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "corecaster",
+      "SubProfessionId_Ch": "中坚术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -873,8 +885,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 1,
-      "profession": "CASTER",
-      "subProfessionId": "splashcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "splashcaster",
+      "SubProfessionId_Ch": "扩散术师",
       "phases": [
         {
           "rangeId": "2-3",
@@ -1000,8 +1014,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -1266,8 +1282,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -1541,8 +1559,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "PIONEER",
-      "subProfessionId": "charger",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "charger",
+      "SubProfessionId_Ch": "冲锋手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -1816,8 +1836,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "WARRIOR",
-      "subProfessionId": "fearless",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fearless",
+      "SubProfessionId_Ch": "无畏者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -2091,8 +2113,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -2366,8 +2390,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -2641,8 +2667,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -2934,8 +2962,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -3209,8 +3239,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "CASTER",
-      "subProfessionId": "splashcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "splashcaster",
+      "SubProfessionId_Ch": "扩散术师",
       "phases": [
         {
           "rangeId": "2-3",
@@ -3502,8 +3534,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -3777,8 +3811,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -4070,8 +4106,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "CASTER",
-      "subProfessionId": "corecaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "corecaster",
+      "SubProfessionId_Ch": "中坚术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -4345,8 +4383,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "SUPPORT",
-      "subProfessionId": "slower",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "slower",
+      "SubProfessionId_Ch": "凝滞师",
       "phases": [
         {
           "rangeId": "y-2",
@@ -4620,8 +4660,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "CASTER",
-      "subProfessionId": "corecaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "corecaster",
+      "SubProfessionId_Ch": "中坚术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -5112,8 +5154,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "CASTER",
-      "subProfessionId": "splashcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "splashcaster",
+      "SubProfessionId_Ch": "扩散术师",
       "phases": [
         {
           "rangeId": "2-3",
@@ -5604,8 +5648,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -6078,8 +6124,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -6570,8 +6618,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SNIPER",
-      "subProfessionId": "aoesniper",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "aoesniper",
+      "SubProfessionId_Ch": "炮手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -7035,8 +7085,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -7527,8 +7579,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -8019,8 +8073,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "PIONEER",
-      "subProfessionId": "charger",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "charger",
+      "SubProfessionId_Ch": "冲锋手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -8511,8 +8567,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "instructor",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "instructor",
+      "SubProfessionId_Ch": "教官",
       "phases": [
         {
           "rangeId": "2-2",
@@ -9003,8 +9061,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "fearless",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fearless",
+      "SubProfessionId_Ch": "无畏者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -9477,8 +9537,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "lord",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "lord",
+      "SubProfessionId_Ch": "领主",
       "phases": [
         {
           "rangeId": "2-3",
@@ -9942,8 +10004,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "centurion",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "centurion",
+      "SubProfessionId_Ch": "强攻手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -10434,8 +10498,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "artsfghter",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "artsfghter",
+      "SubProfessionId_Ch": "术战者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -10926,8 +10992,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SPECIAL",
-      "subProfessionId": "executor",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "executor",
+      "SubProfessionId_Ch": "处决者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -11409,8 +11477,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SPECIAL",
-      "subProfessionId": "hookmaster",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "hookmaster",
+      "SubProfessionId_Ch": "钩索师",
       "phases": [
         {
           "rangeId": "2-2",
@@ -11901,8 +11971,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -12393,8 +12465,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -12885,8 +12959,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "MEDIC",
-      "subProfessionId": "ringhealer",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "ringhealer",
+      "SubProfessionId_Ch": "群愈师",
       "phases": [
         {
           "rangeId": "y-1",
@@ -13377,8 +13453,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -13851,8 +13929,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -14325,8 +14405,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "TANK",
-      "subProfessionId": "guardian",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "guardian",
+      "SubProfessionId_Ch": "守护者",
       "phases": [
         {
           "rangeId": "0-1",
@@ -14817,8 +14899,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SUPPORT",
-      "subProfessionId": "summoner",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "summoner",
+      "SubProfessionId_Ch": "召唤师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -15300,8 +15384,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SUPPORT",
-      "subProfessionId": "slower",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "slower",
+      "SubProfessionId_Ch": "凝滞师",
       "phases": [
         {
           "rangeId": "y-2",
@@ -15774,8 +15860,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SPECIAL",
-      "subProfessionId": "pusher",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "pusher",
+      "SubProfessionId_Ch": "推击手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -16248,8 +16336,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "ringhealer",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "ringhealer",
+      "SubProfessionId_Ch": "群愈师",
       "phases": [
         {
           "rangeId": "y-1",
@@ -16726,8 +16816,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -17204,8 +17296,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -17682,8 +17776,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "fearless",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fearless",
+      "SubProfessionId_Ch": "无畏者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -18160,8 +18256,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "fighter",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fighter",
+      "SubProfessionId_Ch": "斗士",
       "phases": [
         {
           "rangeId": "1-1",
@@ -18656,8 +18754,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "lord",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "lord",
+      "SubProfessionId_Ch": "领主",
       "phases": [
         {
           "rangeId": "2-3",
@@ -19152,8 +19252,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "centurion",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "centurion",
+      "SubProfessionId_Ch": "强攻手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -19648,8 +19750,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -20144,8 +20248,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -20640,8 +20746,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "aoesniper",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "aoesniper",
+      "SubProfessionId_Ch": "炮手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -21118,8 +21226,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "corecaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "corecaster",
+      "SubProfessionId_Ch": "中坚术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -21673,8 +21783,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "splashcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "splashcaster",
+      "SubProfessionId_Ch": "扩散术师",
       "phases": [
         {
           "rangeId": "2-3",
@@ -22169,8 +22281,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "summoner",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "summoner",
+      "SubProfessionId_Ch": "召唤师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -22656,8 +22770,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -23152,8 +23268,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -23630,8 +23748,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "guardian",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "guardian",
+      "SubProfessionId_Ch": "守护者",
       "phases": [
         {
           "rangeId": "0-1",
@@ -24126,8 +24246,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "executor",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "executor",
+      "SubProfessionId_Ch": "处决者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -24622,8 +24744,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "2-2",
@@ -25113,8 +25237,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -25609,8 +25735,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "unyield",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "unyield",
+      "SubProfessionId_Ch": "不屈者",
       "phases": [
         {
           "rangeId": "0-1",
@@ -26105,8 +26233,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "closerange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "closerange",
+      "SubProfessionId_Ch": "重射手",
       "phases": [
         {
           "rangeId": "2-3",
@@ -26601,8 +26731,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "longrange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "longrange",
+      "SubProfessionId_Ch": "神射手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -27097,8 +27229,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "hookmaster",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "hookmaster",
+      "SubProfessionId_Ch": "钩索师",
       "phases": [
         {
           "rangeId": "2-2",
@@ -27593,8 +27727,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "underminer",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "underminer",
+      "SubProfessionId_Ch": "削弱者",
       "phases": [
         {
           "rangeId": "y-2",
@@ -28102,8 +28238,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "slower",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "slower",
+      "SubProfessionId_Ch": "凝滞师",
       "phases": [
         {
           "rangeId": "y-2",
@@ -28580,8 +28718,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "bard",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "bard",
+      "SubProfessionId_Ch": "吟游者",
       "phases": [
         {
           "rangeId": "x-4",
@@ -29058,8 +29198,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "stalker",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "stalker",
+      "SubProfessionId_Ch": "伏击客",
       "phases": [
         {
           "rangeId": "y-1",
@@ -29554,8 +29696,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "pusher",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "pusher",
+      "SubProfessionId_Ch": "推击手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -30050,8 +30194,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -30644,8 +30790,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -31229,8 +31377,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "CASTER",
-      "subProfessionId": "blastcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "blastcaster",
+      "SubProfessionId_Ch": "轰击术师",
       "phases": [
         {
           "rangeId": "4-1",
@@ -31841,8 +31991,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "CASTER",
-      "subProfessionId": "corecaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "corecaster",
+      "SubProfessionId_Ch": "中坚术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -32435,8 +32587,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SUPPORT",
-      "subProfessionId": "slower",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "slower",
+      "SubProfessionId_Ch": "凝滞师",
       "phases": [
         {
           "rangeId": "y-2",
@@ -33029,8 +33183,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -33641,8 +33797,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "MEDIC",
-      "subProfessionId": "ringhealer",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "ringhealer",
+      "SubProfessionId_Ch": "群愈师",
       "phases": [
         {
           "rangeId": "y-1",
@@ -34244,8 +34402,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "1-1",
@@ -34838,8 +34998,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "TANK",
-      "subProfessionId": "guardian",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "guardian",
+      "SubProfessionId_Ch": "守护者",
       "phases": [
         {
           "rangeId": "0-1",
@@ -35423,8 +35585,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "lord",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "lord",
+      "SubProfessionId_Ch": "领主",
       "phases": [
         {
           "rangeId": "2-3",
@@ -36008,8 +36172,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 2,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "centurion",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "centurion",
+      "SubProfessionId_Ch": "强攻手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -36483,8 +36649,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "SNIPER",
-      "subProfessionId": "aoesniper",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "aoesniper",
+      "SubProfessionId_Ch": "炮手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -36749,8 +36917,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "WARRIOR",
-      "subProfessionId": "lord",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "lord",
+      "SubProfessionId_Ch": "领主",
       "phases": [
         {
           "rangeId": "2-3",
@@ -37042,8 +37212,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "fighter",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fighter",
+      "SubProfessionId_Ch": "斗士",
       "phases": [
         {
           "rangeId": "1-1",
@@ -37534,8 +37706,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "corecaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "corecaster",
+      "SubProfessionId_Ch": "中坚术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -38030,8 +38204,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "PIONEER",
-      "subProfessionId": "charger",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "charger",
+      "SubProfessionId_Ch": "冲锋手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -38526,8 +38702,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "fearless",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fearless",
+      "SubProfessionId_Ch": "无畏者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -39111,8 +39289,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "WARRIOR",
-      "subProfessionId": "centurion",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "centurion",
+      "SubProfessionId_Ch": "强攻手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -39404,8 +39584,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 2,
-      "profession": "TANK",
-      "subProfessionId": "guardian",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "guardian",
+      "SubProfessionId_Ch": "守护者",
       "phases": [
         {
           "rangeId": "0-1",
@@ -39697,8 +39879,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "CASTER",
-      "subProfessionId": "splashcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "splashcaster",
+      "SubProfessionId_Ch": "扩散术师",
       "phases": [
         {
           "rangeId": "2-3",
@@ -40171,8 +40355,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "instructor",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "instructor",
+      "SubProfessionId_Ch": "教官",
       "phases": [
         {
           "rangeId": "2-2",
@@ -40685,8 +40871,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "sword",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "sword",
+      "SubProfessionId_Ch": "剑豪",
       "phases": [
         {
           "rangeId": "1-1",
@@ -41261,8 +41449,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -41753,8 +41943,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "healer",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "healer",
+      "SubProfessionId_Ch": "疗养师",
       "phases": [
         {
           "rangeId": "3-3",
@@ -42249,8 +42441,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "slower",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "slower",
+      "SubProfessionId_Ch": "凝滞师",
       "phases": [
         {
           "rangeId": "y-2",
@@ -42745,8 +42939,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SNIPER",
-      "subProfessionId": "closerange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "closerange",
+      "SubProfessionId_Ch": "重射手",
       "phases": [
         {
           "rangeId": "2-3",
@@ -43330,8 +43526,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "PIONEER",
-      "subProfessionId": "bearer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "bearer",
+      "SubProfessionId_Ch": "执旗手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -43804,8 +44002,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "artsfghter",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "artsfghter",
+      "SubProfessionId_Ch": "术战者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -44282,8 +44482,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "musha",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "musha",
+      "SubProfessionId_Ch": "武者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -44867,8 +45069,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "TANK",
-      "subProfessionId": "artsprotector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "artsprotector",
+      "SubProfessionId_Ch": "驭法铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -45341,8 +45545,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -45815,8 +46021,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "fearless",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fearless",
+      "SubProfessionId_Ch": "无畏者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -46311,8 +46519,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "reaperrange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "reaperrange",
+      "SubProfessionId_Ch": "散射手",
       "phases": [
         {
           "rangeId": "2-4",
@@ -46807,8 +47017,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SUPPORT",
-      "subProfessionId": "summoner",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "summoner",
+      "SubProfessionId_Ch": "召唤师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -47410,8 +47622,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SPECIAL",
-      "subProfessionId": "stalker",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "stalker",
+      "SubProfessionId_Ch": "伏击客",
       "phases": [
         {
           "rangeId": "y-1",
@@ -47884,8 +48098,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "ringhealer",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "ringhealer",
+      "SubProfessionId_Ch": "群愈师",
       "phases": [
         {
           "rangeId": "y-1",
@@ -48362,8 +48578,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -48854,8 +49072,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -49350,8 +49570,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "executor",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "executor",
+      "SubProfessionId_Ch": "处决者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -49846,8 +50068,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "CASTER",
-      "subProfessionId": "splashcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "splashcaster",
+      "SubProfessionId_Ch": "扩散术师",
       "phases": [
         {
           "rangeId": "2-3",
@@ -50422,8 +50646,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "PIONEER",
-      "subProfessionId": "charger",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "charger",
+      "SubProfessionId_Ch": "冲锋手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -50900,8 +51126,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "centurion",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "centurion",
+      "SubProfessionId_Ch": "强攻手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -51396,8 +51624,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SNIPER",
-      "subProfessionId": "longrange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "longrange",
+      "SubProfessionId_Ch": "神射手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -51870,8 +52100,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -52348,8 +52580,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "centurion",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "centurion",
+      "SubProfessionId_Ch": "强攻手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -52942,8 +53176,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "hookmaster",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "hookmaster",
+      "SubProfessionId_Ch": "钩索师",
       "phases": [
         {
           "rangeId": "2-2",
@@ -53438,8 +53674,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "guardian",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "guardian",
+      "SubProfessionId_Ch": "守护者",
       "phases": [
         {
           "rangeId": "0-1",
@@ -53934,8 +54172,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SPECIAL",
-      "subProfessionId": "geek",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "geek",
+      "SubProfessionId_Ch": "怪杰",
       "phases": [
         {
           "rangeId": "3-1",
@@ -54519,8 +54759,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "1-1",
@@ -55104,8 +55346,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "chain",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "chain",
+      "SubProfessionId_Ch": "链术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -55600,8 +55844,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "CASTER",
-      "subProfessionId": "corecaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "corecaster",
+      "SubProfessionId_Ch": "中坚术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -56185,8 +56431,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "MEDIC",
-      "subProfessionId": "healer",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "healer",
+      "SubProfessionId_Ch": "疗养师",
       "phases": [
         {
           "rangeId": "3-3",
@@ -56659,8 +56907,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "musha",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "musha",
+      "SubProfessionId_Ch": "武者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -57142,8 +57392,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "sword",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "sword",
+      "SubProfessionId_Ch": "剑豪",
       "phases": [
         {
           "rangeId": "1-1",
@@ -57638,8 +57890,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "aoesniper",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "aoesniper",
+      "SubProfessionId_Ch": "炮手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -58134,8 +58388,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "PIONEER",
-      "subProfessionId": "charger",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "charger",
+      "SubProfessionId_Ch": "冲锋手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -58728,8 +58984,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 0,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "fearless",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fearless",
+      "SubProfessionId_Ch": "无畏者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -59196,8 +59454,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "sword",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "sword",
+      "SubProfessionId_Ch": "剑豪",
       "phases": [
         {
           "rangeId": "1-1",
@@ -59688,8 +59948,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "artsfghter",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "artsfghter",
+      "SubProfessionId_Ch": "术战者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -60166,8 +60428,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "underminer",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "underminer",
+      "SubProfessionId_Ch": "削弱者",
       "phases": [
         {
           "rangeId": "y-2",
@@ -60680,8 +60944,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SPECIAL",
-      "subProfessionId": "executor",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "executor",
+      "SubProfessionId_Ch": "处决者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -61247,8 +61513,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 0,
-      "profession": "SPECIAL",
-      "subProfessionId": "executor",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "executor",
+      "SubProfessionId_Ch": "处决者",
       "phases": [
         {
           "rangeId": "x-4",
@@ -61419,8 +61687,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "PIONEER",
-      "subProfessionId": "bearer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "bearer",
+      "SubProfessionId_Ch": "执旗手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -61915,8 +62185,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SPECIAL",
-      "subProfessionId": "pusher",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "pusher",
+      "SubProfessionId_Ch": "推击手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -62482,8 +62754,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SNIPER",
-      "subProfessionId": "aoesniper",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "aoesniper",
+      "SubProfessionId_Ch": "炮手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -63058,8 +63332,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "artsprotector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "artsprotector",
+      "SubProfessionId_Ch": "驭法铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -63536,8 +63812,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "blessing",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "blessing",
+      "SubProfessionId_Ch": "护佑者",
       "phases": [
         {
           "rangeId": "y-2",
@@ -64032,8 +64310,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SUPPORT",
-      "subProfessionId": "slower",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "slower",
+      "SubProfessionId_Ch": "凝滞师",
       "phases": [
         {
           "rangeId": "y-2",
@@ -64524,8 +64804,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "corecaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "corecaster",
+      "SubProfessionId_Ch": "中坚术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -65020,8 +65302,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "splashcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "splashcaster",
+      "SubProfessionId_Ch": "扩散术师",
       "phases": [
         {
           "rangeId": "2-3",
@@ -65516,8 +65800,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SNIPER",
-      "subProfessionId": "siegesniper",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "siegesniper",
+      "SubProfessionId_Ch": "攻城手",
       "phases": [
         {
           "rangeId": "4-4",
@@ -66092,8 +66378,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "CASTER",
-      "subProfessionId": "funnel",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "funnel",
+      "SubProfessionId_Ch": "驭械术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -66566,8 +66854,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -67053,8 +67343,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "lord",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "lord",
+      "SubProfessionId_Ch": "领主",
       "phases": [
         {
           "rangeId": "2-3",
@@ -67549,8 +67841,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SUPPORT",
-      "subProfessionId": "slower",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "slower",
+      "SubProfessionId_Ch": "凝滞师",
       "phases": [
         {
           "rangeId": "y-2",
@@ -68125,8 +68419,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "summoner",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "summoner",
+      "SubProfessionId_Ch": "召唤师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -68612,8 +68908,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "phalanx",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "phalanx",
+      "SubProfessionId_Ch": "阵法术师",
       "phases": [
         {
           "rangeId": "x-4",
@@ -69090,8 +69388,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -69586,8 +69886,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SPECIAL",
-      "subProfessionId": "merchant",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "merchant",
+      "SubProfessionId_Ch": "行商",
       "phases": [
         {
           "rangeId": "1-1",
@@ -70078,8 +70380,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "longrange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "longrange",
+      "SubProfessionId_Ch": "神射手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -70574,8 +70878,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "lord",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "lord",
+      "SubProfessionId_Ch": "领主",
       "phases": [
         {
           "rangeId": "2-3",
@@ -71168,8 +71474,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SNIPER",
-      "subProfessionId": "closerange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "closerange",
+      "SubProfessionId_Ch": "重射手",
       "phases": [
         {
           "rangeId": "2-3",
@@ -71642,8 +71950,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "corecaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "corecaster",
+      "SubProfessionId_Ch": "中坚术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -72156,8 +72466,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "fighter",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fighter",
+      "SubProfessionId_Ch": "斗士",
       "phases": [
         {
           "rangeId": "1-1",
@@ -72652,8 +72964,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "TANK",
-      "subProfessionId": "duelist",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "duelist",
+      "SubProfessionId_Ch": "决战者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -73237,8 +73551,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "lord",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "lord",
+      "SubProfessionId_Ch": "领主",
       "phases": [
         {
           "rangeId": "2-3",
@@ -73738,8 +74054,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "phalanx",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "phalanx",
+      "SubProfessionId_Ch": "阵法术师",
       "phases": [
         {
           "rangeId": "x-4",
@@ -74234,8 +74552,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -74712,8 +75032,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "artsfghter",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "artsfghter",
+      "SubProfessionId_Ch": "术战者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -75324,8 +75646,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -75798,8 +76122,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "instructor",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "instructor",
+      "SubProfessionId_Ch": "教官",
       "phases": [
         {
           "rangeId": "2-2",
@@ -76312,8 +76638,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "reaperrange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "reaperrange",
+      "SubProfessionId_Ch": "散射手",
       "phases": [
         {
           "rangeId": "2-4",
@@ -76808,8 +77136,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "TANK",
-      "subProfessionId": "guardian",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "guardian",
+      "SubProfessionId_Ch": "守护者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -77393,8 +77723,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "WARRIOR",
-      "subProfessionId": "fighter",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fighter",
+      "SubProfessionId_Ch": "斗士",
       "phases": [
         {
           "rangeId": "1-1",
@@ -77885,8 +78217,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "healer",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "healer",
+      "SubProfessionId_Ch": "疗养师",
       "phases": [
         {
           "rangeId": "3-3",
@@ -78381,8 +78715,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "TANK",
-      "subProfessionId": "unyield",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "unyield",
+      "SubProfessionId_Ch": "不屈者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -78984,8 +79320,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SNIPER",
-      "subProfessionId": "bombarder",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "bombarder",
+      "SubProfessionId_Ch": "投掷手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -79569,8 +79907,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SNIPER",
-      "subProfessionId": "reaperrange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "reaperrange",
+      "SubProfessionId_Ch": "散射手",
       "phases": [
         {
           "rangeId": "2-4",
@@ -80061,8 +80401,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "traper",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "traper",
+      "SubProfessionId_Ch": "陷阱师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -80575,8 +80917,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "executor",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "executor",
+      "SubProfessionId_Ch": "处决者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -81080,8 +81424,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "fighter",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fighter",
+      "SubProfessionId_Ch": "斗士",
       "phases": [
         {
           "rangeId": "1-1",
@@ -81665,8 +82011,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "PIONEER",
-      "subProfessionId": "tactician",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "tactician",
+      "SubProfessionId_Ch": "战术家",
       "phases": [
         {
           "rangeId": "3-1",
@@ -82148,8 +82496,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "mystic",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "mystic",
+      "SubProfessionId_Ch": "秘术师",
       "phases": [
         {
           "rangeId": "3-13",
@@ -82644,8 +82994,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -83220,8 +83572,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -83716,8 +84070,10 @@
       "isSpChar": true,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "splashcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "splashcaster",
+      "SubProfessionId_Ch": "扩散术师",
       "phases": [
         {
           "rangeId": "2-3",
@@ -84212,8 +84568,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "merchant",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "merchant",
+      "SubProfessionId_Ch": "行商",
       "phases": [
         {
           "rangeId": "1-1",
@@ -84708,8 +85066,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -85284,8 +85644,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "CASTER",
-      "subProfessionId": "splashcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "splashcaster",
+      "SubProfessionId_Ch": "扩散术师",
       "phases": [
         {
           "rangeId": "2-3",
@@ -85869,8 +86231,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "sword",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "sword",
+      "SubProfessionId_Ch": "剑豪",
       "phases": [
         {
           "rangeId": "1-1",
@@ -86374,8 +86738,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "2-2",
@@ -86883,8 +87249,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "traper",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "traper",
+      "SubProfessionId_Ch": "陷阱师",
       "phases": [
         {
           "rangeId": "3-1",
@@ -87397,8 +87765,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -87973,8 +88343,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "protector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "protector",
+      "SubProfessionId_Ch": "铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -88469,8 +88841,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "siegesniper",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "siegesniper",
+      "SubProfessionId_Ch": "攻城手",
       "phases": [
         {
           "rangeId": "4-4",
@@ -88965,8 +89339,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "CASTER",
-      "subProfessionId": "chain",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "chain",
+      "SubProfessionId_Ch": "链术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -89559,8 +89935,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "musha",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "musha",
+      "SubProfessionId_Ch": "武者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -90046,8 +90424,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SPECIAL",
-      "subProfessionId": "hookmaster",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "hookmaster",
+      "SubProfessionId_Ch": "钩索师",
       "phases": [
         {
           "rangeId": "2-2",
@@ -90622,8 +91002,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "MEDIC",
-      "subProfessionId": "physician",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "physician",
+      "SubProfessionId_Ch": "医师",
       "phases": [
         {
           "rangeId": "3-3",
@@ -91207,8 +91589,10 @@
       "isSpChar": true,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SUPPORT",
-      "subProfessionId": "bard",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "bard",
+      "SubProfessionId_Ch": "吟游者",
       "phases": [
         {
           "rangeId": "x-4",
@@ -91783,8 +92167,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "CASTER",
-      "subProfessionId": "mystic",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "mystic",
+      "SubProfessionId_Ch": "秘术师",
       "phases": [
         {
           "rangeId": "3-13",
@@ -92275,8 +92661,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "dollkeeper",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "dollkeeper",
+      "SubProfessionId_Ch": "傀儡师",
       "phases": [
         {
           "rangeId": "1-1",
@@ -92780,8 +93168,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SPECIAL",
-      "subProfessionId": "stalker",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "stalker",
+      "SubProfessionId_Ch": "伏击客",
       "phases": [
         {
           "rangeId": "y-1",
@@ -93276,8 +93666,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "CASTER",
-      "subProfessionId": "phalanx",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "phalanx",
+      "SubProfessionId_Ch": "阵法术师",
       "phases": [
         {
           "rangeId": "x-4",
@@ -93861,8 +94253,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "instructor",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "instructor",
+      "SubProfessionId_Ch": "教官",
       "phases": [
         {
           "rangeId": "2-2",
@@ -94437,8 +94831,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "librator",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "librator",
+      "SubProfessionId_Ch": "解放者",
       "phases": [
         {
           "rangeId": "1-2",
@@ -94933,8 +95329,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "WARRIOR",
-      "subProfessionId": "reaper",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "reaper",
+      "SubProfessionId_Ch": "收割者",
       "phases": [
         {
           "rangeId": "1-3",
@@ -95420,8 +95818,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SPECIAL",
-      "subProfessionId": "stalker",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "stalker",
+      "SubProfessionId_Ch": "伏击客",
       "phases": [
         {
           "rangeId": "y-1",
@@ -96005,8 +96405,10 @@
       "isSpChar": true,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SNIPER",
-      "subProfessionId": "reaperrange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "reaperrange",
+      "SubProfessionId_Ch": "散射手",
       "phases": [
         {
           "rangeId": "2-4",
@@ -96590,8 +96992,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "SUPPORT",
-      "subProfessionId": "craftsman",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "craftsman",
+      "SubProfessionId_Ch": "工匠",
       "phases": [
         {
           "rangeId": "1-1",
@@ -97100,8 +97504,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "wandermedic",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "wandermedic",
+      "SubProfessionId_Ch": "行医",
       "phases": [
         {
           "rangeId": "3-3",
@@ -97596,8 +98002,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "PIONEER",
-      "subProfessionId": "bearer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "bearer",
+      "SubProfessionId_Ch": "执旗手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -98174,15 +98582,17 @@
       "appellation": "Ashlock",
       "position": "MELEE",
       "tagList": [ "输出", "防护" ],
-      "itemUsage": "	“灰毫”骑士格蕾纳蒂，整装待发迎接挑战。",
+      "itemUsage": "\t“灰毫”骑士格蕾纳蒂，整装待发迎接挑战。",
       "itemDesc": "对手将被迫在盾击和炮击中做出选择。",
       "itemObtainApproach": "招募寻访",
       "isNotObtainable": false,
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "fortress",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "fortress",
+      "SubProfessionId_Ch": "要塞",
       "phases": [
         {
           "rangeId": "4-5",
@@ -98677,8 +99087,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SNIPER",
-      "subProfessionId": "longrange",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "longrange",
+      "SubProfessionId_Ch": "神射手",
       "phases": [
         {
           "rangeId": "3-3",
@@ -99262,8 +99674,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 0,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -99434,8 +99848,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 3,
-      "profession": "CASTER",
-      "subProfessionId": "chain",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "chain",
+      "SubProfessionId_Ch": "链术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -99908,8 +100324,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "MEDIC",
-      "subProfessionId": "wandermedic",
+      "Profession_En": "MEDIC",
+      "Profession_Ch": "医疗",
+      "SubProfessionId_En": "wandermedic",
+      "SubProfessionId_Ch": "行医",
       "phases": [
         {
           "rangeId": "3-3",
@@ -100404,8 +100822,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "PIONEER",
-      "subProfessionId": "charger",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "charger",
+      "SubProfessionId_Ch": "冲锋手",
       "phases": [
         {
           "rangeId": "1-1",
@@ -100882,8 +101302,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "blastcaster",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "blastcaster",
+      "SubProfessionId_Ch": "轰击术师",
       "phases": [
         {
           "rangeId": "4-1",
@@ -101378,8 +101800,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "PIONEER",
-      "subProfessionId": "pioneer",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "pioneer",
+      "SubProfessionId_Ch": "尖兵",
       "phases": [
         {
           "rangeId": "1-1",
@@ -101954,8 +102378,10 @@
       "isSpChar": true,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "WARRIOR",
-      "subProfessionId": "fearless",
+      "Profession_En": "WARRIOR",
+      "Profession_Ch": "近卫",
+      "SubProfessionId_En": "fearless",
+      "SubProfessionId_Ch": "无畏者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -102530,8 +102956,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "CASTER",
-      "subProfessionId": "funnel",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "funnel",
+      "SubProfessionId_Ch": "驭械术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -103026,8 +103454,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "duelist",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "duelist",
+      "SubProfessionId_Ch": "决战者",
       "phases": [
         {
           "rangeId": "1-1",
@@ -103522,8 +103952,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SUPPORT",
-      "subProfessionId": "underminer",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "underminer",
+      "SubProfessionId_Ch": "削弱者",
       "phases": [
         {
           "rangeId": "y-2",
@@ -104107,8 +104539,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "TANK",
-      "subProfessionId": "artsprotector",
+      "Profession_En": "TANK",
+      "Profession_Ch": "重装",
+      "SubProfessionId_En": "artsprotector",
+      "SubProfessionId_Ch": "驭法铁卫",
       "phases": [
         {
           "rangeId": "0-1",
@@ -104616,8 +105050,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 0,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "blessing",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "blessing",
+      "SubProfessionId_Ch": "护佑者",
       "phases": [
         {
           "rangeId": "y-2",
@@ -105097,8 +105533,10 @@
       "isSpChar": true,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SNIPER",
-      "subProfessionId": "fastshot",
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "fastshot",
+      "SubProfessionId_Ch": "速射手",
       "phases": [
         {
           "rangeId": "3-1",
@@ -105593,8 +106031,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "PIONEER",
-      "subProfessionId": "tactician",
+      "Profession_En": "PIONEER",
+      "Profession_Ch": "先锋",
+      "SubProfessionId_En": "tactician",
+      "SubProfessionId_Ch": "战术家",
       "phases": [
         {
           "rangeId": "3-1",
@@ -106080,8 +106520,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SPECIAL",
-      "subProfessionId": "merchant",
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "merchant",
+      "SubProfessionId_Ch": "行商",
       "phases": [
         {
           "rangeId": "1-1",
@@ -106665,8 +107107,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "SUPPORT",
-      "subProfessionId": "summoner",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "summoner",
+      "SubProfessionId_Ch": "召唤师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -107268,8 +107712,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 4,
-      "profession": "SUPPORT",
-      "subProfessionId": "blessing",
+      "Profession_En": "SUPPORT",
+      "Profession_Ch": "辅助",
+      "SubProfessionId_En": "blessing",
+      "SubProfessionId_Ch": "护佑者",
       "phases": [
         {
           "rangeId": "y-2",
@@ -107764,8 +108210,10 @@
       "isSpChar": false,
       "maxPotentialLevel": 5,
       "rarity": 5,
-      "profession": "CASTER",
-      "subProfessionId": "funnel",
+      "Profession_En": "CASTER",
+      "Profession_Ch": "术士",
+      "SubProfessionId_En": "funnel",
+      "SubProfessionId_Ch": "驭械术师",
       "phases": [
         {
           "rangeId": "3-6",
@@ -108339,4 +108787,3 @@
     }
   ]
 }
-
