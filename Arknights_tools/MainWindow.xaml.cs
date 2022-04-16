@@ -308,6 +308,7 @@ namespace Arknights_tools
         /// </summary>
         private void InitCharCheck()
         {
+            GlobalArgs.charinfo_Tapitems = new List<Charinfo_Tapitem>();
             GlobalArgs.Chartable = JsonReader<Root_CharTable>(Directory.GetCurrentDirectory() + "/Resources/json/character_table.json");
             int char_previewcols = 10;
             int char_previewrows = (GlobalArgs.Chartable.char_info.Count() + char_previewcols - 1) / char_previewcols;
@@ -320,6 +321,8 @@ namespace Arknights_tools
             {
                 Char_infoItem i = GlobalArgs.Chartable.char_info[sx];
                 Button newcharButton = new Button();
+                newcharButton.Uid = i.ImplementationOrder.ToString();
+                newcharButton.Click += Click_Char_In_Check;
                 Image newcharImage = new Image();
                 newcharButton.Content = newcharImage;
                 newcharImage.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/bust/" + i.PicName[0] + ".png"));
@@ -352,6 +355,38 @@ namespace Arknights_tools
                 GlobalArgs.CheckIdnum.setOriganal(GlobalArgs.CheckIdnum.Origanal + (1 << int.Parse(Sender.Uid)));
             }
             Movecharcard();
+        }
+
+        /// <summary>
+        /// <para>点击干员筛选界面的干员按钮</para>
+        /// <para>会在@Gloargs.charinfo_Tapitems添加一个新的成员</para>
+        /// </summary>
+        private void Click_Char_In_Check(object sender, RoutedEventArgs e)
+        {
+            Button tmp_button = sender as Button;
+            foreach (Charinfo_Tapitem i in GlobalArgs.charinfo_Tapitems)
+            {
+                if (i.ImplementationOrder == tmp_button.Uid)
+                    return;
+            }
+            Charinfo_Tapitem newCharinfo = new Charinfo_Tapitem(GlobalArgs.Chartable.char_info[int.Parse(tmp_button.Uid) - 1]);
+            newCharinfo.Avatar_Select_Button.Click += Click_Select_Button;
+            GlobalArgs.charinfo_Tapitems.Add(newCharinfo);
+            Select_Char_Stackpanel.Children.Add(newCharinfo.Avatar_Select_Button);
+            Select_Char_Stackpanel.RegisterName("Select_button_" + tmp_button.Uid, newCharinfo.Avatar_Select_Button);
+        }
+
+        private void Click_Select_Button(object sender, RoutedEventArgs e)
+        {
+            Button tmp_button = sender as Button;
+            foreach (Charinfo_Tapitem i in GlobalArgs.charinfo_Tapitems)
+            {
+                if (tmp_button == i.Avatar_Select_Button)
+                {
+                    Charinfo_Pannel.DataContext = i;
+                    return;
+                }
+            }
         }
 
         /// <summary>

@@ -6,9 +6,11 @@ using System.Windows.Media;
 using json_real;
 using System.Windows.Data;
 using System.Collections.ObjectModel;
+using System.Collections.Generic;
 
 namespace ClassSum
 {
+
     public class StoreMatrielMode
     {
         private Button _up;
@@ -287,17 +289,95 @@ namespace ClassSum
         /// <para/>tag
         /// </summary>
         public static checkIdnum CheckIdnum;
-        /// <summary>
-        /// 人物卡信息
-        /// </summary>
-        public static ObservableCollection<Charinfo_Tapitem> Charinfo_tapItem;
+        public static List<Charinfo_Tapitem> charinfo_Tapitems;
     }
 
+    /// <summary>
+    /// 用于储存人物展示的数据和UI进行绑定
+    /// </summary>
     public class Charinfo_Tapitem
     {
-        public string Ch_name;
-        public string En_name;
-        public int rarity;
+        private string name;
+        private string taglist;
+        private string position;
+        private string description;
+        private string appellation;
+        private string Profession_Ch;
+        private string SubProfessionId_Ch;
+        private string SubProfessionId_En;
+        private string implementationOrder;
+        private List<string> picname;
+
+        public string       Name_Ch                 => name;
+        public string       Name_En                 => appellation;
+        public string       Special                 => description;
+        public string       Tag                     => taglist;
+        public string       Position                => position == "RANGED" ? "远程位" : "近战位";
+        public string       Professional_Text       => Profession_Ch + " - " + SubProfessionId_Ch;
+        public string      ImplementationOrder      => implementationOrder;
+        public BitmapImage  Bust_Paint              => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/bust/" + picname[0] + ".png"));
+        public BitmapImage  Avatar_Paint            => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/avatar/" + picname[0] + ".png"));
+        public BitmapImage  Stand_Paint             => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/Stdpaint/" + picname[0] + ".png"));
+        public BitmapImage  Professional_Image      => new BitmapImage(new Uri("pack://application:,,,/Resources/image/Optbch/" + SubProfessionId_En + ".png"));
+
+        public Button Avatar_Select_Button;
+        
+        public Charinfo_Tapitem(Char_infoItem original)
+        {
+            name = original.name;
+            position = original.position;
+            description = original.description;
+            appellation = original.appellation;
+            Profession_Ch = original.Profession_Ch;
+            SubProfessionId_En = original.SubProfessionId_En;
+            SubProfessionId_Ch = original.SubProfessionId_Ch;
+            picname = original.PicName;
+            taglist = original.tagList[0];
+            implementationOrder = original.ImplementationOrder.ToString();
+            for (int i = 1; i < original.tagList.Count; ++i)
+            {
+                taglist += " ";
+                taglist += original.tagList[i];
+            }
+            Avatar_Select_Button = new Button();
+            {
+                Avatar_Select_Button.HorizontalAlignment = HorizontalAlignment.Center;
+                Avatar_Select_Button.VerticalAlignment = VerticalAlignment.Center;
+                Border Out_Border = new Border();
+                {
+                    Avatar_Select_Button.Content = Out_Border;
+                    Out_Border.BorderBrush = new SolidColorBrush(Color.FromArgb(200, 34, 34, 34));
+                    Out_Border.BorderThickness = new Thickness(3);
+                    Out_Border.HorizontalAlignment = HorizontalAlignment.Center;
+                    Out_Border.VerticalAlignment = VerticalAlignment.Center;
+                    Grid Middle_Grid = new Grid();
+                    {
+                        Out_Border.Child = Middle_Grid;
+                        Middle_Grid.Height = 100;
+                        Middle_Grid.Width = 100;
+                        Middle_Grid.Background = new SolidColorBrush(Color.FromRgb( 34, 34, 34));
+                        Middle_Grid.HorizontalAlignment = HorizontalAlignment.Center;
+                        Middle_Grid.VerticalAlignment = VerticalAlignment.Center;
+                        Border Inner_Border = new Border();
+                        {
+                            Middle_Grid.Children.Add(Inner_Border);
+                            Inner_Border.Background = new SolidColorBrush(Color.FromArgb(200, 34, 34, 34));
+                            Inner_Border.BorderBrush = new SolidColorBrush(Color.FromArgb(200, 170, 170, 170));
+                            Inner_Border.BorderThickness = new Thickness(2);
+                            Inner_Border.HorizontalAlignment = HorizontalAlignment.Center;
+                            Inner_Border.VerticalAlignment = VerticalAlignment.Center;
+                            Image Avatar_Image = new Image();
+                            {
+                                Inner_Border.Child = Avatar_Image;
+                                Avatar_Image.Source = Avatar_Paint;
+                                Avatar_Image.HorizontalAlignment = HorizontalAlignment.Center;
+                                Avatar_Image.VerticalAlignment = VerticalAlignment.Center;
+                            }
+                        };
+                    }
+                }
+            }
+        }
     }
 
 }
