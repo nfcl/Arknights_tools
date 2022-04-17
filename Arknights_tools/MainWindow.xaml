@@ -11,7 +11,8 @@
         <TabControl>
             <TabItem Header="仓库&#xD;&#xA;材料" Margin="-2,-2,2,0" Width="383" >
                 <ScrollViewer x:Name="StoreSv">
-                    <Grid x:Name="StoreMainGrid" Width="1513.2" Height="806.28"/>
+                    <Grid x:Name="StoreMainGrid" Width="1513.2" Height="806.28">
+                    </Grid>
                 </ScrollViewer>
             </TabItem>
             <TabItem Header="干员&#xD;&#xA;查询" Margin="-3,-2,3,0" Width="383">

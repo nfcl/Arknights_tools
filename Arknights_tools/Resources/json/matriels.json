@@ -1,36 +1,22 @@
 {
   "Matriels": {
-    "Makable": [
+    "Compositable": [
       {
-        "Ch_Name": "3_采购凭证",
-        "En_Name": "Proof_of_purchase",
-        "Level": 3,
-        "Num": 0,
-        "Uid": 0
-      },
-      {
-        "Ch_Name": "4_龙门币",
-        "En_Name": "Dragon_Gate_Coin",
-        "Level": 4,
-        "Num": 0,
-        "Uid": 0
-      },
-      {
-        "Ch_Name": "4_技巧概要·卷3",
+        "Ch_Name": "技巧概要·卷3",
         "En_Name": "Summary_of_Techniques_Volume_3",
         "Level": 4,
         "Num": 0,
         "Uid": 0
       },
       {
-        "Ch_Name": "3_技巧概要·卷2",
+        "Ch_Name": "技巧概要·卷2",
         "En_Name": "Summary_of_Techniques_Volume_2",
         "Level": 3,
         "Num": 0,
         "Uid": 0
       },
       {
-        "Ch_Name": "2_技巧概要·卷1",
+        "Ch_Name": "技巧概要·卷1",
         "En_Name": "Summary_of_Techniques_Volume_1",
         "Level": 2,
         "Num": 0,
@@ -357,6 +343,176 @@
         "Level": 1,
         "Num": 7,
         "Uid": 30021
+      }
+    ],
+    "chip": [
+      {
+        "Ch_Name": "先锋芯片",
+        "En_Name": "PIONEER_1",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 3211
+      },
+      {
+        "Ch_Name": "先锋芯片组",
+        "En_Name": "PIONEER_2",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 3212
+      },
+      {
+        "Ch_Name": "先锋双芯片",
+        "En_Name": "PIONEER_3",
+        "Level": 5,
+        "Num": 0,
+        "Uid": 3213
+      },
+      {
+        "Ch_Name": "近卫芯片",
+        "En_Name": "WARRIOR_1",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 3221
+      },
+      {
+        "Ch_Name": "近卫芯片组",
+        "En_Name": "WARRIOR_2",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 3222
+      },
+      {
+        "Ch_Name": "近卫双芯片",
+        "En_Name": "WARRIOR_3",
+        "Level": 5,
+        "Num": 0,
+        "Uid": 3223
+      },
+      {
+        "Ch_Name": "重装芯片",
+        "En_Name": "TANK_1",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 3231
+      },
+      {
+        "Ch_Name": "重装芯片组",
+        "En_Name": "TANK_2",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 3232
+      },
+      {
+        "Ch_Name": "重装双芯片",
+        "En_Name": "TANK_3",
+        "Level": 5,
+        "Num": 0,
+        "Uid": 3233
+      },
+      {
+        "Ch_Name": "狙击芯片",
+        "En_Name": "SNIPER_1",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 3241
+      },
+      {
+        "Ch_Name": "狙击芯片组",
+        "En_Name": "SNIPER_2",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 3242
+      },
+      {
+        "Ch_Name": "狙击双芯片",
+        "En_Name": "SNIPER_3",
+        "Level": 5,
+        "Num": 0,
+        "Uid": 3243
+      },
+      {
+        "Ch_Name": "术师芯片",
+        "En_Name": "CASTER_1",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 3251
+      },
+      {
+        "Ch_Name": "术师芯片组",
+        "En_Name": "CASTER_2",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 3252
+      },
+      {
+        "Ch_Name": "术师双芯片",
+        "En_Name": "CASTER_3",
+        "Level": 5,
+        "Num": 0,
+        "Uid": 3253
+      },
+      {
+        "Ch_Name": "医疗芯片",
+        "En_Name": "MEDIC_1",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 3261
+      },
+      {
+        "Ch_Name": "医疗芯片组",
+        "En_Name": "MEDIC_2",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 3262
+      },
+      {
+        "Ch_Name": "医疗双芯片",
+        "En_Name": "MEDIC_3",
+        "Level": 5,
+        "Num": 0,
+        "Uid": 3263
+      },
+      {
+        "Ch_Name": "辅助芯片",
+        "En_Name": "SUPPORT_1",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 3271
+      },
+      {
+        "Ch_Name": "辅助芯片组",
+        "En_Name": "SUPPORT_2",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 3272
+      },
+      {
+        "Ch_Name": "辅助双芯片",
+        "En_Name": "SUPPORT_3",
+        "Level": 5,
+        "Num": 0,
+        "Uid": 3273
+      },
+      {
+        "Ch_Name": "特种芯片",
+        "En_Name": "SPECIAL_1",
+        "Level": 3,
+        "Num": 0,
+        "Uid": 3281
+      },
+      {
+        "Ch_Name": "特种芯片组",
+        "En_Name": "SPECIAL_2",
+        "Level": 4,
+        "Num": 0,
+        "Uid": 3282
+      },
+      {
+        "Ch_Name": "特种双芯片",
+        "En_Name": "SPECIAL_3",
+        "Level": 5,
+        "Num": 0,
+        "Uid": 3283
       }
     ]
   }

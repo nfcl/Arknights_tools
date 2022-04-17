@@ -108784,6 +108784,1607 @@
           ]
         }
       ]
+    },
+    {
+      "name": "见行者",
+      "tagIdnum": 139280,
+      "ImplementationOrder": 225,
+      "PicName": [ "char_4036_forcer_1", "char_4036_forcer_2" ],
+      "description": "同时攻击阻挡的所有敌人\n可以放置于远程位",
+      "canUseGeneralPotentialItem": true,
+      "nationId": "victoria",
+      "groupId": null,
+      "teamId": null,
+      "displayNumber": "LT10",
+      "appellation": "Enforcer",
+      "position": "MELEE",
+      "tagList": [ "位移", "控场" ],
+      "itemUsage": "拉特兰公证所执行者见行者，将为你调解纷争。",
+      "itemDesc": "他唯一的秘诀是足够耐心。",
+      "itemObtainApproach": "活动获得",
+      "isNotObtainable": false,
+      "isSpChar": false,
+      "maxPotentialLevel": 5,
+      "rarity": 4,
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "pusher",
+      "SubProfessionId_Ch": "推击手",
+      "phases": [
+        {
+          "rangeId": "1-1",
+          "maxLevel": 50,
+          "attributesKeyFrames": [
+            {
+              "level": 1,
+              "data": {
+                "maxHp": 825,
+                "atk": 285,
+                "def": 158,
+                "magicResistance": 0,
+                "cost": 20,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 80,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            },
+            {
+              "level": 50,
+              "data": {
+                "maxHp": 1147,
+                "atk": 396,
+                "def": 240,
+                "magicResistance": 0,
+                "cost": 20,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 80,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            }
+          ],
+          "evolveCost": null
+        },
+        {
+          "rangeId": "1-1",
+          "maxLevel": 80,
+          "attributesKeyFrames": [
+            {
+              "level": 1,
+              "data": {
+                "maxHp": 1147,
+                "atk": 396,
+                "def": 240,
+                "magicResistance": 0,
+                "cost": 22,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 80,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            },
+            {
+              "level": 80,
+              "data": {
+                "maxHp": 1510,
+                "atk": 528,
+                "def": 316,
+                "magicResistance": 0,
+                "cost": 22,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 80,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            }
+          ],
+          "evolveCost": [
+            {
+              "id": "3281",
+              "count": 5
+            },
+            {
+              "id": "30012",
+              "count": 8
+            },
+            {
+              "id": "30022",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "rangeId": "1-1",
+          "maxLevel": 90,
+          "attributesKeyFrames": [
+            {
+              "level": 1,
+              "data": {
+                "maxHp": 1510,
+                "atk": 528,
+                "def": 316,
+                "magicResistance": 0,
+                "cost": 22,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 80,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            },
+            {
+              "level": 90,
+              "data": {
+                "maxHp": 1937,
+                "atk": 653,
+                "def": 381,
+                "magicResistance": 0,
+                "cost": 22,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 80,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            }
+          ],
+          "evolveCost": [
+            {
+              "id": "3283",
+              "count": 3
+            },
+            {
+              "id": "31014",
+              "count": 8
+            },
+            {
+              "id": "31053",
+              "count": 12
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "skillId": "skchr_forcer_1",
+          "levelUpCostCond": [
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 28800,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 8
+                },
+                {
+                  "id": "31034",
+                  "count": 3
+                },
+                {
+                  "id": "31013",
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 57600,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 12
+                },
+                {
+                  "id": "30064",
+                  "count": 3
+                },
+                {
+                  "id": "30044",
+                  "count": 3
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 86400,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 15
+                },
+                {
+                  "id": "30125",
+                  "count": 4
+                },
+                {
+                  "id": "31054",
+                  "count": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "skillId": "skchr_forcer_2",
+          "levelUpCostCond": [
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 28800,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 8
+                },
+                {
+                  "id": "31054",
+                  "count": 3
+                },
+                {
+                  "id": "30063",
+                  "count": 3
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 57600,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 12
+                },
+                {
+                  "id": "30074",
+                  "count": 3
+                },
+                {
+                  "id": "30054",
+                  "count": 5
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 86400,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 15
+                },
+                {
+                  "id": "30115",
+                  "count": 4
+                },
+                {
+                  "id": "31024",
+                  "count": 4
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "talents": [
+        {
+          "candidates": [
+            {
+              "unlockCondition": {
+                "phase": 1,
+                "level": 1
+              },
+              "requiredPotentialRank": 0,
+              "name": "技巧射击",
+              "description": "攻击重量大于等于3的敌人时无视目标90的防御力"
+            },
+            {
+              "unlockCondition": {
+                "phase": 1,
+                "level": 1
+              },
+              "requiredPotentialRank": 4,
+              "name": "技巧射击",
+              "description": "攻击重量大于等于3的敌人时无视目标110（+20）的防御力"
+            },
+            {
+              "unlockCondition": {
+                "phase": 2,
+                "level": 1
+              },
+              "requiredPotentialRank": 0,
+              "name": "技巧射击",
+              "description": "攻击重量大于等于3的敌人时无视目标180的防御力"
+            },
+            {
+              "unlockCondition": {
+                "phase": 2,
+                "level": 1
+              },
+              "requiredPotentialRank": 4,
+              "name": "技巧射击",
+              "description": "攻击重量大于等于3的敌人时无视目标200（+20）的防御力"
+            }
+          ]
+        }
+      ],
+      "potentialRanks": [
+        { "description": "部署费用-1" },
+        { "description": "再部署时间-10秒\t" },
+        { "description": "部署费用-1" },
+        { "description": "天赋效果增强" },
+        { "description": "部署费用-1" }
+      ],
+      "favorKeyFrames": [
+        {
+          "level": 0,
+          "data": {
+            "maxHp": 0,
+            "atk": 0,
+            "def": 0,
+            "magicResistance": 0.0,
+            "cost": 0,
+            "blockCnt": 0,
+            "attackSpeed": 0.0,
+            "baseAttackTime": 0.0,
+            "respawnTime": 0,
+            "spRecoveryPerSec": 0.0,
+            "maxDeployCount": 0,
+            "tauntLevel": 0
+          }
+        },
+        {
+          "level": 50,
+          "data": {
+            "maxHp": 350,
+            "atk": 0,
+            "def": 35,
+            "magicResistance": 0.0,
+            "cost": 0,
+            "blockCnt": 0,
+            "attackSpeed": 0.0,
+            "baseAttackTime": 0.0,
+            "respawnTime": 0,
+            "spRecoveryPerSec": 0.0,
+            "maxDeployCount": 0,
+            "tauntLevel": 0
+          }
+        }
+      ],
+      "allSkillLvlup": [
+        {
+          "unlockCond": {
+            "phase": 0,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3301",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 0,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3301",
+              "count": 4
+            },
+            {
+              "id": "30031",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 0,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3302",
+              "count": 6
+            },
+            {
+              "id": "30042",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 1,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3302",
+              "count": 6
+            },
+            {
+              "id": "30052",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 1,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3302",
+              "count": 6
+            },
+            {
+              "id": "30103",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 1,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3303",
+              "count": 6
+            },
+            {
+              "id": "31033",
+              "count": 3
+            },
+            {
+              "id": "31043",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "风丸",
+      "tagIdnum": 134353024,
+      "ImplementationOrder": 226,
+      "PicName": [ "char_4016_kazema_1", "char_4016_kazema_2" ],
+      "description": "受到致命伤时不撤退，切换成<替身>作战（替身阻挡数为0），持续20s后自身再次替换<替身>",
+      "canUseGeneralPotentialItem": true,
+      "nationId": "victoria",
+      "groupId": null,
+      "teamId": null,
+      "displayNumber": "HK09",
+      "appellation": "Kazemaru",
+      "position": "MELEE",
+      "tagList": [ "输出", "快速复活" ],
+      "itemUsage": "情报员风丸，你可以从她那里获得任何你想要的消息。",
+      "itemDesc": "但要注意，和你说话的究竟是哪一个“她”呢？",
+      "itemObtainApproach": "招募寻访",
+      "isNotObtainable": false,
+      "isSpChar": false,
+      "maxPotentialLevel": 5,
+      "rarity": 4,
+      "Profession_En": "SPECIAL",
+      "Profession_Ch": "特种",
+      "SubProfessionId_En": "dollkeeper",
+      "SubProfessionId_Ch": "傀儡师",
+      "phases": [
+        {
+          "rangeId": "1-1",
+          "maxLevel": 50,
+          "attributesKeyFrames": [
+            {
+              "level": 1,
+              "data": {
+                "maxHp": 1109,
+                "atk": 313,
+                "def": 131,
+                "magicResistance": 0.0,
+                "cost": 13,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            },
+            {
+              "level": 50,
+              "data": {
+                "maxHp": 1479,
+                "atk": 430,
+                "def": 202,
+                "magicResistance": 0.0,
+                "cost": 13,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            }
+          ],
+          "evolveCost": null
+        },
+        {
+          "rangeId": "1-1",
+          "maxLevel": 70,
+          "attributesKeyFrames": [
+            {
+              "level": 1,
+              "data": {
+                "maxHp": 1479,
+                "atk": 430,
+                "def": 202,
+                "magicResistance": 0.0,
+                "cost": 15,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            },
+            {
+              "level": 70,
+              "data": {
+                "maxHp": 1873,
+                "atk": 567,
+                "def": 263,
+                "magicResistance": 0.0,
+                "cost": 15,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            }
+          ],
+          "evolveCost": [
+            {
+              "id": "3281",
+              "count": 4
+            },
+            {
+              "id": "30062",
+              "count": 3
+            },
+            {
+              "id": "30022",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "rangeId": "1-1",
+          "maxLevel": 80,
+          "attributesKeyFrames": [
+            {
+              "level": 1,
+              "data": {
+                "maxHp": 1873,
+                "atk": 567,
+                "def": 263,
+                "magicResistance": 0.0,
+                "cost": 15,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            },
+            {
+              "level": 80,
+              "data": {
+                "maxHp": 2372,
+                "atk": 692,
+                "def": 318,
+                "magicResistance": 0.0,
+                "cost": 15,
+                "blockCnt": 2,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 1.2,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            }
+          ],
+          "evolveCost": [
+            {
+              "id": "3283",
+              "count": 3
+            },
+            {
+              "id": "30014",
+              "count": 9
+            },
+            {
+              "id": "31043",
+              "count": 13
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "skillId": "skchr_kazema_1",
+          "levelUpCostCond": [
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 28800,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 5
+                },
+                {
+                  "id": "30094",
+                  "count": 3
+                },
+                {
+                  "id": "30073",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 57600,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 6
+                },
+                {
+                  "id": "30044",
+                  "count": 3
+                },
+                {
+                  "id": "31024",
+                  "count": 5
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 86400,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 10
+                },
+                {
+                  "id": "30145",
+                  "count": 4
+                },
+                {
+                  "id": "30014",
+                  "count": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "skillId": "skchr_kazema_2",
+          "levelUpCostCond": [
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 28800,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 5
+                },
+                {
+                  "id": "30104",
+                  "count": 3
+                },
+                {
+                  "id": "30083",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 57600,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 6
+                },
+                {
+                  "id": "30054",
+                  "count": 3
+                },
+                {
+                  "id": "31044",
+                  "count": 5
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 86400,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 10
+                },
+                {
+                  "id": "30145",
+                  "count": 4
+                },
+                {
+                  "id": "30104",
+                  "count": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "talents": [
+        {
+          "candidates": [
+            {
+              "unlockCondition": {
+                "phase": 0,
+                "level": 1
+              },
+              "requiredPotentialRank": 0,
+              "name": "折纸生花",
+              "description": "<替身>出现时对其周围8格内所有敌方地面单位造成相当于其攻击力150%的法术伤害"
+            },
+            {
+              "unlockCondition": {
+                "phase": 0,
+                "level": 1
+              },
+              "requiredPotentialRank": 4,
+              "name": "折纸生花",
+              "description": "<替身>出现时对其周围8格内所有敌方地面单位造成相当于其攻击力155%（+5%）的法术伤害"
+            },
+            {
+              "unlockCondition": {
+                "phase": 1,
+                "level": 1
+              },
+              "requiredPotentialRank": 0,
+              "name": "折纸生花",
+              "description": "<替身>出现时对其周围8格内所有敌方地面单位造成相当于其攻击力225%（+5%）的法术伤害"
+            },
+            {
+              "unlockCondition": {
+                "phase": 1,
+                "level": 1
+              },
+              "requiredPotentialRank": 4,
+              "name": "折纸生花",
+              "description": "<替身>出现时对其周围8格内所有敌方地面单位造成相当于其攻击力230%（+5%）的法术伤害"
+            },
+            {
+              "unlockCondition": {
+                "phase": 2,
+                "level": 1
+              },
+              "requiredPotentialRank": 0,
+              "name": "折纸生花",
+              "description": "<替身>出现时对其周围8格内所有敌方地面单位造成相当于其攻击力270%（+5%）的法术伤害"
+            },
+            {
+              "unlockCondition": {
+                "phase": 2,
+                "level": 1
+              },
+              "requiredPotentialRank": 4,
+              "name": "折纸生花",
+              "description": "<替身>出现时对其周围8格内所有敌方地面单位造成相当于其攻击力275%（+5%）的法术伤害"
+            }
+          ]
+        }
+      ],
+      "potentialRanks": [
+        { "description": "部署费用-1" },
+        { "description": "再部署时间-4秒" },
+        { "description": "攻击力+27" },
+        { "description": "天赋效果增强" },
+        { "description": "部署费用-1" }
+      ],
+      "favorKeyFrames": [
+        {
+          "level": 0,
+          "data": {
+            "maxHp": 0,
+            "atk": 0,
+            "def": 0,
+            "magicResistance": 0.0,
+            "cost": 0,
+            "blockCnt": 0,
+            "attackSpeed": 0.0,
+            "baseAttackTime": 0.0,
+            "respawnTime": 0,
+            "spRecoveryPerSec": 0.0,
+            "maxDeployCount": 0,
+            "tauntLevel": 0
+          }
+        },
+        {
+          "level": 50,
+          "data": {
+            "maxHp": 0,
+            "atk": 80,
+            "def": 0,
+            "magicResistance": 0.0,
+            "cost": 0,
+            "blockCnt": 0,
+            "attackSpeed": 0.0,
+            "baseAttackTime": 0.0,
+            "respawnTime": 0,
+            "spRecoveryPerSec": 0.0,
+            "maxDeployCount": 0,
+            "tauntLevel": 0
+          }
+        }
+      ],
+      "allSkillLvlup": [
+        {
+          "unlockCond": {
+            "phase": 0,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3301",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 0,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3301",
+              "count": 4
+            },
+            {
+              "id": "30021",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 0,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3302",
+              "count": 6
+            },
+            {
+              "id": "30032",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 1,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3302",
+              "count": 6
+            },
+            {
+              "id": "30042",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 1,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3302",
+              "count": 6
+            },
+            {
+              "id": "30093",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 1,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3303",
+              "count": 6
+            },
+            {
+              "id": "30103",
+              "count": 3
+            },
+            {
+              "id": "31023",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "菲亚梅塔",
+      "tagIdnum": 16916488,
+      "ImplementationOrder": 226,
+      "PicName": [ "char_300_phenxi_1", "char_300_phenxi_2" ],
+      "description": "攻击造成群体物理伤害",
+      "canUseGeneralPotentialItem": true,
+      "nationId": null,
+      "groupId": "babel",
+      "teamId": null,
+      "displayNumber": "LT11",
+      "appellation": "Fiammetta",
+      "position": "RANGED",
+      "tagList": [ "输出" ],
+      "itemUsage": "拉特兰公证所高级特派员菲亚梅塔，只要定下目标，就一定会坚持到底。",
+      "itemDesc": "别问她的代号，否则她会抽空把你也干掉。",
+      "itemObtainApproach": "招募寻访",
+      "isNotObtainable": false,
+      "isSpChar": false,
+      "maxPotentialLevel": 5,
+      "rarity": 5,
+      "Profession_En": "SNIPER",
+      "Profession_Ch": "狙击",
+      "SubProfessionId_En": "aoesniper",
+      "SubProfessionId_Ch": "炮手",
+      "phases": [
+        {
+          "rangeId": "3-3",
+          "maxLevel": 50,
+          "attributesKeyFrames": [
+            {
+              "level": 1,
+              "data": {
+                "maxHp": 985,
+                "atk": 375,
+                "def": 80,
+                "magicResistance": 0.0,
+                "cost": 25,
+                "blockCnt": 1,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 2.8,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            },
+            {
+              "level": 50,
+              "data": {
+                "maxHp": 1232,
+                "atk": 536,
+                "def": 104,
+                "magicResistance": 0.0,
+                "cost": 25,
+                "blockCnt": 1,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 2.8,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            }
+          ],
+          "evolveCost": null
+        },
+        {
+          "rangeId": "3-8",
+          "maxLevel": 80,
+          "attributesKeyFrames": [
+            {
+              "level": 1,
+              "data": {
+                "maxHp": 1232,
+                "atk": 536,
+                "def": 104,
+                "magicResistance": 0.0,
+                "cost": 27,
+                "blockCnt": 1,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 2.8,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            },
+            {
+              "level": 80,
+              "data": {
+                "maxHp": 1540,
+                "atk": 671,
+                "def": 132,
+                "magicResistance": 0.0,
+                "cost": 27,
+                "blockCnt": 1,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 2.8,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            }
+          ],
+          "evolveCost": [
+            {
+              "id": "3241",
+              "count": 5
+            },
+            {
+              "id": "30062",
+              "count": 6
+            },
+            {
+              "id": "30022",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "rangeId": "3-10",
+          "maxLevel": 90,
+          "attributesKeyFrames": [
+            {
+              "level": 1,
+              "data": {
+                "maxHp": 1540,
+                "atk": 671,
+                "def": 132,
+                "magicResistance": 0.0,
+                "cost": 29,
+                "blockCnt": 1,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 2.8,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            },
+            {
+              "level": 90,
+              "data": {
+                "maxHp": 1926,
+                "atk": 861,
+                "def": 156,
+                "magicResistance": 0.0,
+                "cost": 29,
+                "blockCnt": 1,
+                "attackSpeed": 100.0,
+                "baseAttackTime": 2.8,
+                "respawnTime": 70,
+                "spRecoveryPerSec": 1.0,
+                "maxDeployCount": 1,
+                "tauntLevel": 0
+              }
+            }
+          ],
+          "evolveCost": [
+            {
+              "id": "3243",
+              "count": 4
+            },
+            {
+              "id": "30145",
+              "count": 3
+            },
+            {
+              "id": "30094",
+              "count": 6
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "skillId": "skchr_phenxi_1",
+          "levelUpCostCond": [
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 28800,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 8
+                },
+                {
+                  "id": "30094",
+                  "count": 4
+                },
+                {
+                  "id": "30073",
+                  "count": 7
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 57600,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 12
+                },
+                {
+                  "id": "30054",
+                  "count": 4
+                },
+                {
+                  "id": "31054",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 86400,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 15
+                },
+                {
+                  "id": "30145",
+                  "count": 6
+                },
+                {
+                  "id": "30094",
+                  "count": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "skillId": "skchr_phenxi_2",
+          "levelUpCostCond": [
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 28800,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 8
+                },
+                {
+                  "id": "30104",
+                  "count": 3
+                },
+                {
+                  "id": "30083",
+                  "count": 9
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 57600,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 12
+                },
+                {
+                  "id": "30064",
+                  "count": 3
+                },
+                {
+                  "id": "30044",
+                  "count": 6
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 86400,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 15
+                },
+                {
+                  "id": "30125",
+                  "count": 6
+                },
+                {
+                  "id": "30074",
+                  "count": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "skillId": "skchr_phenxi_3",
+          "levelUpCostCond": [
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 28800,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 8
+                },
+                {
+                  "id": "31034",
+                  "count": 4
+                },
+                {
+                  "id": "31013",
+                  "count": 3
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 57600,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 12
+                },
+                {
+                  "id": "30074",
+                  "count": 4
+                },
+                {
+                  "id": "30054",
+                  "count": 8
+                }
+              ]
+            },
+            {
+              "unlockCond": {
+                "phase": 2,
+                "level": 1
+              },
+              "lvlUpTime": 86400,
+              "levelUpCost": [
+                {
+                  "id": "3303",
+                  "count": 15
+                },
+                {
+                  "id": "30115",
+                  "count": 6
+                },
+                {
+                  "id": "30084",
+                  "count": 7
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "talents": [
+        {
+          "candidates": [
+            {
+              "unlockCondition": {
+                "phase": 0,
+                "level": 1
+              },
+              "requiredPotentialRank": 0,
+              "name": "陈述苦难",
+              "description": "自身生命会不断流失（该效果不会使生命降至0）；生命值高于50%时获得+15%攻击力的精力充沛；高于80%效果翻倍"
+            },
+            {
+              "unlockCondition": {
+                "phase": 1,
+                "level": 1
+              },
+              "requiredPotentialRank": 0,
+              "name": "陈述苦难",
+              "description": "自身生命会不断流失（该效果不会使生命降至0）；生命值高于50%时获得+20%攻击力的精力充沛；高于80%效果翻倍"
+            },
+            {
+              "unlockCondition": {
+                "phase": 2,
+                "level": 1
+              },
+              "requiredPotentialRank": 0,
+              "name": "陈述苦难",
+              "description": "自身生命会不断流失（该效果不会使生命降至0）；生命值高于50%时获得+25%攻击力的精力充沛；高于80%效果翻倍"
+            }
+          ]
+        },
+        {
+          "candidates": [
+            {
+              "unlockCondition": {
+                "phase": 2,
+                "level": 1
+              },
+              "requiredPotentialRank": 0,
+              "name": "宣告终局",
+              "description": "技能持续期间外，攻击速度+27"
+            },
+            {
+              "unlockCondition": {
+                "phase": 2,
+                "level": 1
+              },
+              "requiredPotentialRank": 4,
+              "name": "宣告终局",
+              "description": "技能持续期间外，攻击速度+30（+3）"
+            }
+          ]
+        }
+      ],
+      "potentialRanks": [
+        { "description": "部署费用-1" },
+        { "description": "再部署时间-4秒" },
+        { "description": "攻击力+35" },
+        { "description": "第二天赋效果增强" },
+        { "description": "部署费用-1" }
+      ],
+      "favorKeyFrames": [
+        {
+          "level": 0,
+          "data": {
+            "maxHp": 0,
+            "atk": 0,
+            "def": 0,
+            "magicResistance": 0.0,
+            "cost": 0,
+            "blockCnt": 0,
+            "attackSpeed": 0.0,
+            "baseAttackTime": 0.0,
+            "respawnTime": 0,
+            "spRecoveryPerSec": 0.0,
+            "maxDeployCount": 0,
+            "tauntLevel": 0
+          }
+        },
+        {
+          "level": 50,
+          "data": {
+            "maxHp": 0,
+            "atk": 100,
+            "def": 0,
+            "magicResistance": 0.0,
+            "cost": 0,
+            "blockCnt": 0,
+            "attackSpeed": 0.0,
+            "baseAttackTime": 0.0,
+            "respawnTime": 0,
+            "spRecoveryPerSec": 0.0,
+            "maxDeployCount": 0,
+            "tauntLevel": 0
+          }
+        }
+      ],
+      "allSkillLvlup": [
+        {
+          "unlockCond": {
+            "phase": 0,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3301",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 0,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3301",
+              "count": 5
+            },
+            {
+              "id": "30011",
+              "count": 6
+            },
+            {
+              "id": "30061",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 0,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3302",
+              "count": 8
+            },
+            {
+              "id": "30022",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 1,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3302",
+              "count": 8
+            },
+            {
+              "id": "30032",
+              "count": 4
+            },
+            {
+              "id": "30042",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 1,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3302",
+              "count": 8
+            },
+            {
+              "id": "31013",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "unlockCond": {
+            "phase": 1,
+            "level": 1
+          },
+          "lvlUpCost": [
+            {
+              "id": "3303",
+              "count": 8
+            },
+            {
+              "id": "31023",
+              "count": 4
+            },
+            {
+              "id": "30083",
+              "count": 5
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -43,56 +43,6 @@ namespace Arknights_tools
         /// </summary>
         private void ceshi()
         {
-            //Dictionary<string, int> professionToint = new Dictionary<string, int>()
-            //{
-            //    { "PIONEER",0b00000001 } ,
-            //    { "WARRIOR",0b00000010 } ,
-            //    { "TANK",   0b00000100 } ,
-            //    { "SNIPER", 0b00001000 } ,
-            //    { "CASTER", 0b00010000 } ,
-            //    { "MEDIC",  0b00100000 } ,
-            //    { "SUPPORT",0b01000000 } ,
-            //    { "SPECIAL",0b10000000 } ,
-            //};
-            //Dictionary<int, int> rarityToint = new Dictionary<int, int>()
-            //{
-            //    {0,0b00000100000000 },
-            //    {1,0b00001000000000 },
-            //    {2,0b00010000000000 },
-            //    {3,0b00100000000000 },
-            //    {4,0b01000000000000 },
-            //    {5,0b10000000000000 },
-            //};
-            //Dictionary<string, int> tagToint = new Dictionary<string, int>()
-            //{
-            //    {"新手",     0b000000000000000100000000000000},
-            //    {"治疗",     0b000000000000001000000000000000},
-            //    {"支援",     0b000000000000010000000000000000},
-            //    {"输出",     0b000000000000100000000000000000},
-            //    {"群攻",     0b000000000001000000000000000000},
-            //    {"减速",     0b000000000010000000000000000000},
-            //    {"生存",     0b000000000100000000000000000000},
-            //    {"防护",     0b000000001000000000000000000000},
-            //    {"削弱",     0b000000010000000000000000000000},
-            //    {"位移",     0b000000100000000000000000000000},
-            //    {"控场",     0b000001000000000000000000000000},
-            //    {"爆发",     0b000010000000000000000000000000},
-            //    {"召唤",     0b000100000000000000000000000000},
-            //    {"快速复活", 0b001000000000000000000000000000},
-            //    {"费用回复", 0b010000000000000000000000000000},
-            //    {"支援机械", 0b100000000000000000000000000000},
-            //};
-            //foreach (Char_infoItem i in GlobalArgs.Chartable.char_info)
-            //{
-            //    i.tagIdnum = professionToint[i.profession] + rarityToint[i.rarity];
-            //    foreach (string j in i.tagList)
-            //    {
-            //        i.tagIdnum += tagToint[j];
-            //    }
-            //}
-            //JsonWrite(Directory.GetCurrentDirectory() + "/json/character_table.json", GlobalArgs.Chartable);
-
-
             //DirectoryInfo mian = new DirectoryInfo("C:/Users/煖風遲來/Desktop/1/charpic/skin/Texture2D");
             //FileSystemInfo[] fsinfos = mian.GetFileSystemInfos();
             //string s = "[alpha].png";
@@ -276,19 +226,19 @@ namespace Arknights_tools
         /// </summary>
         private void InitStore()
         {
+            Tool tool = new Tool();
             int STORE_MAIN_GRID_COLNUM = 8;
-            GlobalArgs.MatrielsMakble = JsonReader<Matriels_Root>(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json");
-            int matrielnum = GlobalArgs.MatrielsMakble.Matriels.Makable.Count();
+            GlobalArgs.MatrielsMakble = tool.JsonReader<Matriels_Root>(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json");
+            int matrielnum = GlobalArgs.MatrielsMakble.Matriels.Compositable.Count();
             GlobalArgs.MatrielMode = new StoreMatrielMode[matrielnum];
-            Grid_tool grid_Tool = new Grid_tool();
-            grid_Tool.GridCutters(StoreMainGrid,
+            tool.GridCutters(StoreMainGrid,
                                   (matrielnum + STORE_MAIN_GRID_COLNUM - 1) / STORE_MAIN_GRID_COLNUM, STORE_MAIN_GRID_COLNUM,
                                   StoreMainGrid.Width / STORE_MAIN_GRID_COLNUM * 1.15);
             string path;
             int now = 0;
-            foreach (MakableItem i in GlobalArgs.MatrielsMakble.Matriels.Makable)
+            foreach (CompositableItem i in GlobalArgs.MatrielsMakble.Matriels.Compositable)
             {
-                path = "Resources/image/Materials/" + i.Level.ToString() + "_" + i.En_Name + ".png";
+                path = "Resources/image/Materials/Compositable/" + i.Level.ToString() + "_" + i.En_Name + ".png";
                 DockPanel tmpdock = new DockPanel();
                 StoreMainGrid.Children.Add(tmpdock);
                 Grid.SetColumn(tmpdock, now % STORE_MAIN_GRID_COLNUM);
@@ -308,14 +258,14 @@ namespace Arknights_tools
         /// </summary>
         private void InitCharCheck()
         {
+            Tool tool = new Tool();
             GlobalArgs.charinfo_Tapitems = new List<Charinfo_Tapitem>();
-            GlobalArgs.Chartable = JsonReader<Root_CharTable>(Directory.GetCurrentDirectory() + "/Resources/json/character_table.json");
+            GlobalArgs.Chartable = tool.JsonReader<Root_CharTable>(Directory.GetCurrentDirectory() + "/Resources/json/character_table.json");
             int char_previewcols = 10;
             int char_previewrows = (GlobalArgs.Chartable.char_info.Count() + char_previewcols - 1) / char_previewcols;
             double CharPicWidth = Grid_CharPreview.Width / char_previewcols;
             double CharPicHeight = CharPicWidth * 288.8 / 146.4;
-            Grid_tool grid_Tool = new Grid_tool();
-            grid_Tool.GridCutters(Grid_CharPreview, char_previewrows, char_previewcols, CharPicHeight, CharPicWidth);
+            tool.GridCutters(Grid_CharPreview, char_previewrows, char_previewcols, CharPicHeight, CharPicWidth);
             int colnow = 0, rownow = 0;
             for (int sx = GlobalArgs.Chartable.char_info.Count - 1; sx >= 0; --sx)
             {
@@ -406,22 +356,26 @@ namespace Arknights_tools
         private void Movecharcard()
         {
             int rownow = 0, colnow = 0;
+            int char_previewcols = 10;
+            int maxrow = (GlobalArgs.Chartable.char_info.Count() + char_previewcols - 1) / char_previewcols;
             for (int sx = GlobalArgs.Chartable.char_info.Count - 1; sx >= 0; --sx)
             {
                 Char_infoItem i = GlobalArgs.Chartable.char_info[sx];
                 if (GlobalArgs.CheckIdnum.Profession != 0 && ((i.tagIdnum & 0b000000000000000000000011111111) & GlobalArgs.CheckIdnum.Profession) == 0)
                 {
                     Button tmpbutton = FindName("char" + i.ImplementationOrder.ToString()) as Button;
-                    Grid.SetColumn(tmpbutton, 0);
-                    Grid.SetRow(tmpbutton, 0);
+                    Grid.SetColumn(tmpbutton, char_previewcols - 1);
+                    Grid.SetRow(tmpbutton, maxrow - 1);
+                    tmpbutton.IsEnabled = false;
                     tmpbutton.Opacity = 0;
                     continue;
                 }
                 if (GlobalArgs.CheckIdnum.Rarity != 0 && ((i.tagIdnum & 0b000000000000000011111100000000) & GlobalArgs.CheckIdnum.Rarity) == 0)
                 {
                     Button tmpbutton = FindName("char" + i.ImplementationOrder.ToString()) as Button;
-                    Grid.SetColumn(tmpbutton, 0);
-                    Grid.SetRow(tmpbutton, 0);
+                    Grid.SetColumn(tmpbutton, char_previewcols - 1);
+                    Grid.SetRow(tmpbutton, maxrow - 1);
+                    tmpbutton.IsEnabled = false;
                     tmpbutton.Opacity = 0;
                     continue;
                 }
@@ -432,8 +386,9 @@ namespace Arknights_tools
                         if (((i.tagIdnum & 0b111111111111111100000000000000) & GlobalArgs.CheckIdnum.Tag) == 0)
                         {
                             Button tmpbutton = FindName("char" + i.ImplementationOrder.ToString()) as Button;
-                            Grid.SetColumn(tmpbutton, 0);
-                            Grid.SetRow(tmpbutton, 0);
+                            Grid.SetColumn(tmpbutton, char_previewcols - 1);
+                            Grid.SetRow(tmpbutton, maxrow - 1);
+                            tmpbutton.IsEnabled = false;
                             tmpbutton.Opacity = 0;
                             continue;
                         }
@@ -443,8 +398,9 @@ namespace Arknights_tools
                         if (((i.tagIdnum & 0b111111111111111100000000000000) & GlobalArgs.CheckIdnum.Tag) != GlobalArgs.CheckIdnum.Tag)
                         {
                             Button tmpbutton = FindName("char" + i.ImplementationOrder.ToString()) as Button;
-                            Grid.SetColumn(tmpbutton, 0);
-                            Grid.SetRow(tmpbutton, 0);
+                            Grid.SetColumn(tmpbutton, char_previewcols - 1);
+                            Grid.SetRow(tmpbutton, maxrow - 1);
+                            tmpbutton.IsEnabled = false;
                             tmpbutton.Opacity = 0;
                             continue;
                         }
@@ -453,11 +409,16 @@ namespace Arknights_tools
                 Button tmp = FindName("char" + i.ImplementationOrder.ToString()) as Button;
                 Grid.SetColumn(tmp, colnow);
                 Grid.SetRow(tmp, rownow);
+                tmp.IsEnabled = true;
                 tmp.Opacity = 1;
                 colnow += 1;
                 rownow += colnow / Grid_CharPreview.ColumnDefinitions.Count();
                 colnow %= Grid_CharPreview.ColumnDefinitions.Count();
             }
+            int char_previewrows = rownow + (colnow != 0 ? 1 : 0);
+            double CharPicWidth = Grid_CharPreview.Width / char_previewcols;
+            double CharPicHeight = CharPicWidth * 288.8 / 146.4;
+            Grid_CharPreview.Height = CharPicHeight * char_previewrows;
         }
 
         /// <summary>
@@ -522,42 +483,14 @@ namespace Arknights_tools
         }
 
         /// <summary>
-        /// 将jsonobject转换为json字符串并写入到path位置的json文件
-        /// </summary>
-        /// <param name="path">写入的json文件地址</param>
-        /// <param name="jsonobject">需要保存的json对象</param>
-        private void JsonWrite(string path, object jsonobject)
-        {
-            string jsonstr = JsonMapper.ToJson(jsonobject);
-            jsonstr = Regex.Unescape(jsonstr);
-            StreamWriter sw = new StreamWriter(path);
-            sw.WriteLine(jsonstr);
-            sw.Flush();
-            sw.Close();
-        }
-
-        /// <summary>
-        /// 将path位置的json文件读取为json字符串并转换为json对象
-        /// </summary>
-        /// <param name="path">读入的json文件地址</param>
-        private T JsonReader<T>(string path)
-        {
-            StreamReader streamReader = new StreamReader(path, Encoding.Default);
-            JsonReader js = new JsonReader(streamReader);
-            T result = JsonMapper.ToObject<T>(js);
-            js.Close();
-            streamReader.Close();
-            return result;
-        }
-
-        /// <summary>
         /// 窗口关闭事件触发函数
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            JsonWrite(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json", GlobalArgs.MatrielsMakble);
+            Tool tool = new Tool();
+            tool.JsonWrite(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json", GlobalArgs.MatrielsMakble);
         }
     }
 }
