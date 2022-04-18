@@ -11,15 +11,15 @@ namespace InitFunction
             Button but = sender as Button;
             try
             {
-                GlobalArgs.MatrielsMakble.Matriels.Makable[int.Parse(but.Uid)].Num--;
+                --GlobalArgs.MatrielsMakble.Matriels.Compositable[int.Parse(but.Uid)].Num;
             }
             catch
             {
-                GlobalArgs.MatrielMode[int.Parse(but.Uid)].Num.Text = GlobalArgs.MatrielsMakble.Matriels.Makable[int.Parse(but.Uid)].Num.ToString();
+                GlobalArgs.MatrielMode[int.Parse(but.Uid)].Num.Text = GlobalArgs.MatrielsMakble.Matriels.Compositable[int.Parse(but.Uid)].Num.ToString();
             }
             finally
             {
-                GlobalArgs.MatrielMode[int.Parse(but.Uid)].Num.Text = GlobalArgs.MatrielsMakble.Matriels.Makable[int.Parse(but.Uid)].Num.ToString();
+                GlobalArgs.MatrielMode[int.Parse(but.Uid)].Num.Text = GlobalArgs.MatrielsMakble.Matriels.Compositable[int.Parse(but.Uid)].Num.ToString();
             }
         }
 
@@ -28,15 +28,15 @@ namespace InitFunction
             Button but = sender as Button;
             try
             {
-                GlobalArgs.MatrielsMakble.Matriels.Makable[int.Parse(but.Uid)].Num++;
+                ++GlobalArgs.MatrielsMakble.Matriels.Compositable[int.Parse(but.Uid)].Num;
             }
             catch
             {
-                GlobalArgs.MatrielMode[int.Parse(but.Uid)].Num.Text = GlobalArgs.MatrielsMakble.Matriels.Makable[int.Parse(but.Uid)].Num.ToString();
+                GlobalArgs.MatrielMode[int.Parse(but.Uid)].Num.Text = GlobalArgs.MatrielsMakble.Matriels.Compositable[int.Parse(but.Uid)].Num.ToString();
             }
             finally
             {
-                GlobalArgs.MatrielMode[int.Parse(but.Uid)].Num.Text = GlobalArgs.MatrielsMakble.Matriels.Makable[int.Parse(but.Uid)].Num.ToString();
+                GlobalArgs.MatrielMode[int.Parse(but.Uid)].Num.Text = GlobalArgs.MatrielsMakble.Matriels.Compositable[int.Parse(but.Uid)].Num.ToString();
             }
         }
 
@@ -45,16 +45,17 @@ namespace InitFunction
             TextBox txt = sender as TextBox;
             try
             {
-                GlobalArgs.MatrielsMakble.Matriels.Makable[int.Parse(txt.Uid)].Num = int.Parse(txt.Text);
+                GlobalArgs.MatrielsMakble.Matriels.Compositable[int.Parse(txt.Uid)].Num = int.Parse(txt.Text);
             }
             catch
             {
-                txt.Text = GlobalArgs.MatrielsMakble.Matriels.Makable[int.Parse(txt.Uid)].Num.ToString();
+                txt.Text = GlobalArgs.MatrielsMakble.Matriels.Compositable[int.Parse(txt.Uid)].Num.ToString();
             }
             finally
             {
-                txt.Text = GlobalArgs.MatrielsMakble.Matriels.Makable[int.Parse(txt.Uid)].Num.ToString();
+                txt.Text = GlobalArgs.MatrielsMakble.Matriels.Compositable[int.Parse(txt.Uid)].Num.ToString();
             }
         }
     }
+
 }

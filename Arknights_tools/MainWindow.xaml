@@ -8,14 +8,14 @@
         Title="MainWindow" Height="864" Width="1536">
 
     <Grid>
-        <TabControl>
-            <TabItem Header="仓库&#xD;&#xA;材料" Margin="-2,-2,2,0" Width="383" >
+        <TabControl Style="{DynamicResource TabControlStyle1}">
+            <TabItem Style="{DynamicResource TabItemStyle1}" Header="仓库材料" Margin="-2,-2,2,0" Width="383" HorizontalAlignment="Center" >
                 <ScrollViewer x:Name="StoreSv">
                     <Grid x:Name="StoreMainGrid" Width="1513.2" Height="806.28">
                     </Grid>
                 </ScrollViewer>
             </TabItem>
-            <TabItem Header="干员&#xD;&#xA;查询" Margin="-3,-2,3,0" Width="383">
+            <TabItem Style="{DynamicResource TabItemStyle1}" Header="干员查询" Margin="-3,-2,3,0" Width="383">
                 <TabControl x:Name="Navigation_bar">
                     <TabItem x:Name="check" Header="干员搜索" Margin="-2,0,2,0" FontSize="20" Width="763" Height="31.4">
                         <Grid>
@@ -80,17 +80,17 @@
                                             <Button Name="check_tag_12" Uid="26" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="召唤"/>
                                             <Button Name="check_tag_13" Uid="27" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="快速复活"/>
                                             <Button Name="check_tag_14" Uid="28" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="费用回复"/>
-                                            <Button Name="check_tag_15" Uid="29" Style="{DynamicResource CheckChange}" Click="CheckChange" Content="支援机械"/>
                                         </StackPanel>
                                     </Grid>
                                 </Border>
                                 <Border BorderBrush="LightGray" BorderThickness="3,3,3,3" Margin="30,5,30,10">
                                     <StackPanel Name="Other" Orientation="Horizontal" Height=" 30" Margin="10,10,10,10">
-                                        <CheckBox x:Name="andor" Style="{DynamicResource CheckBoxStyle1}" Checked="andorchange" Unchecked="andorchange"/>
+                                        <CheckBox x:Name="Tag_calculate" Style="{DynamicResource CheckBoxStyle1}" Content="词缀计算方式(与/或)" Checked="andorchange" Unchecked="andorchange"/>
+                                        <CheckBox x:Name="Jump_After_Click" Style="{DynamicResource CheckBoxStyle1}" Content="点击人物后跳转(是/否)"/>
                                     </StackPanel>
                                 </Border>
                                 <ScrollViewer Margin="30,10,30,0" Height="377" >
-                                    <Grid x:Name="Grid_CharPreview" Width="1447.2"/>
+                                    <Grid x:Name="Grid_CharPreview" Width="1447.2" VerticalAlignment="Top"/>
                                 </ScrollViewer>
                             </StackPanel>
 
@@ -126,9 +126,10 @@
                                                     </Grid>
                                                 </Border>
                                                 <Border Name="professional_ico_background" BorderBrush="#AAAAAA" BorderThickness="3" Width="100" Height="100" 
-                                                    Background="#222222" Opacity="0.8" CornerRadius="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30"/>
-                                                <Image Source="{Binding Professional_Image}"
-                                                    Width="80" Margin="40" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+                                                    Background="#222222" Opacity="0.8" CornerRadius="10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30">
+                                                    <Image Source="{Binding Professional_Image}"
+                                                        Width="80"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                </Border>
                                                 <Border Name="professional_name_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="200" Height="30"
                                                     Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="140 100">
                                                     <TextBlock FontSize="20" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Text="{Binding Professional_Text}"/>
@@ -197,6 +198,80 @@
                                         </Border>
                                     </Grid>
                                     -->
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition/>
+                                                <RowDefinition/>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock FontSize="40" Margin="10" Text="技能信息"/>
+                                            <Grid Grid.Row="1" Margin="10">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition/>
+                                                    <RowDefinition/>
+                                                    <RowDefinition/>
+                                                </Grid.RowDefinitions>
+                                                <Grid x:Name="Skill1" Grid.Row="0" ShowGridLines="False">
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition/>
+                                                        <RowDefinition/>
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="200"/>
+                                                        <ColumnDefinition Width="400"/>
+                                                        <ColumnDefinition Width="300"/>
+                                                        <ColumnDefinition/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <Image Grid.Row="0" Grid.Column="0" Source="{Binding Skill_Images[0]}" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    <TextBlock Grid.Row="0" Margin="10" Grid.Column="1" Text="{Binding Skill_Names[0]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    <TextBlock Grid.Row="0" Grid.Column=" 2" Text="{Binding Skill_Kinds[0]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    <Image Grid.Row="0" Grid.Column=" 3"/>
+                                                    <DataGrid Style="{DynamicResource Skill_DataGrid}" x:Name="Skill_DataGrid1" Grid.Row="1" Grid.ColumnSpan="4">
+                                                        
+                                                    </DataGrid>
+                                                </Grid>
+
+                                                <Grid x:Name="Skill2" Grid.Row="1" ShowGridLines="False">
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition/>
+                                                        <RowDefinition/>
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="200"/>
+                                                        <ColumnDefinition Width="400"/>
+                                                        <ColumnDefinition Width="300"/>
+                                                        <ColumnDefinition/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <Image Grid.Row="0" Grid.Column="0" Source="{Binding Skill_Images[1]}" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    <TextBlock Grid.Row="0" Margin="10" Grid.Column="1" Text="{Binding Skill_Names[1]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    <TextBlock Grid.Row="0" Grid.Column=" 2" Text="{Binding Skill_Kinds[1]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    <Image Grid.Row="0" Grid.Column=" 3"/>
+                                                    <DataGrid Style="{DynamicResource Skill_DataGrid}" x:Name="Skill_DataGrid2" Grid.Row="1" Grid.ColumnSpan="4">
+
+                                                    </DataGrid>
+                                                </Grid>
+
+                                                <Grid x:Name="Skill3" Grid.Row="2" ShowGridLines="False">
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition/>
+                                                        <RowDefinition/>
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="200"/>
+                                                        <ColumnDefinition Width="400"/>
+                                                        <ColumnDefinition Width="300"/>
+                                                        <ColumnDefinition/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <Image Grid.Row="0" Grid.Column="0" Source="{Binding Skill_Images[2]}" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    <TextBlock Grid.Row="0" Margin="10" Grid.Column="1" Text="{Binding Skill_Names[2]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    <TextBlock Grid.Row="0" Grid.Column=" 2" Text="{Binding Skill_Kinds[2]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    <Image Grid.Row="0" Grid.Column=" 3"/>
+                                                    <DataGrid Style="{DynamicResource Skill_DataGrid}" x:Name="Skill_DataGrid3" Grid.Row="1" Grid.ColumnSpan="4">
+
+                                                    </DataGrid>
+                                                </Grid>
+
+                                            </Grid>
+                                        </Grid>
                                     </StackPanel>
                                 </ScrollViewer>
                                 <!--
@@ -213,8 +288,8 @@
                     </TabItem>
                 </TabControl>
             </TabItem>
-            <TabItem Header="公招&#xD;&#xA;查询" Margin="-4,-2,4,0" Width="383"/>
-            <TabItem Header="寻访&#xD;&#xA;模拟" Margin="-5,-2,5,0" Width="383" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <TabItem Style="{DynamicResource TabItemStyle1}" Header="公招查询" Margin="-4,-2,4,0" Width="383"/>
+            <TabItem Style="{DynamicResource TabItemStyle1}" Header="寻访模拟" Margin="-5,-2,5,0" Width="383" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
         </TabControl>
     </Grid>
 </Window>

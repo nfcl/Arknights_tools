@@ -86,7 +86,7 @@ namespace tool
                     i.tagIdnum += 1 << (num + tagToint[j]);
                 }
             }
-            JsonWrite(Directory.GetCurrentDirectory() + "/json/character_table.json", ClassSum.GlobalArgs.Chartable);
+            JsonWrite("E:/C#/Arknights_tools/Arknights_tools/Resources/json/character_table.json", ClassSum.GlobalArgs.Chartable);
         }
 
         /// <summary>
@@ -117,7 +117,81 @@ namespace tool
             streamReader.Close();
             return result;
         }
+        /// <summary>
+        /// 获取网页的HTML码
+        /// </summary>
+        /// <param name="url">链接地址</param>
+        /// <param name="encoding">编码类型</param>
+        /// <returns></returns>
+        public string GetHtmlStr(string url, string encoding)
+        {
+            string htmlStr = "";
+            if (!String.IsNullOrEmpty(url))
+            {
+                System.Net.WebRequest request = System.Net.WebRequest.Create(url);  //实例化WebRequest对象
+                System.Net.WebResponse response = request.GetResponse();            //创建WebResponse对象
+                Stream datastream = response.GetResponseStream();                   //创建流对象
+                Encoding ec = Encoding.Default;
+                if (encoding == "UTF8")
+                {
+                    ec = Encoding.UTF8;
+                }
+                else if (encoding == "Default")
+                {
+                    ec = Encoding.Default;
+                }
+                StreamReader reader = new StreamReader(datastream, ec);
+                htmlStr = reader.ReadToEnd();                                       //读取数据
+                reader.Close();
+                datastream.Close();
+                response.Close();
+            }
+            return htmlStr;
+        }
 
+        /// <summary>
+        /// 下载网站图片
+        /// </summary>
+        /// <param name="picUrl"></param>
+        /// <returns></returns>
+        public void SaveAsWebImg(string picUrl, string picname, string filepath)
+        {
+            try
+            {
+                if (!String.IsNullOrEmpty(picUrl))
+                {
+                    Random rd = new Random();
+                    DateTime nowTime = DateTime.Now;
+                    System.Net.WebClient webClient = new System.Net.WebClient();
+                    webClient.DownloadFile(picUrl, filepath + picname + ".png");
+                }
+            }
+            catch
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// 以流读入bitmapimage
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        BitmapImage bmpRead(string path)
+        {
+            // Read byte[] from png file
+            BinaryReader binReader = new BinaryReader(File.Open(path, FileMode.Open));
+            FileInfo fileInfo = new FileInfo(path);
+            byte[] bytes = binReader.ReadBytes((int)fileInfo.Length);
+            binReader.Close();
+
+            // Init bitmap
+            BitmapImage bitmap = new BitmapImage();
+            bitmap.BeginInit();
+            bitmap.StreamSource = new MemoryStream(bytes);
+            bitmap.EndInit();
+            return bitmap;
+        }
     }
 
 }

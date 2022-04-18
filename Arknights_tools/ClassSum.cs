@@ -220,22 +220,28 @@ namespace ClassSum
         /// <summary>
         /// <para/>职业码
         /// <para/>从低位到高位依次为
-        /// <para/>先锋 近卫 重装 狙击 术士 医疗 辅助 特种
+        /// <para/>先锋 近卫 重装 狙击 
+        /// <para/>术士 医疗 辅助 特种
         /// </summary>
         public int Profession { get; set; }
+        public int Professional_All = 0b11111111;
         /// <summary>
         /// <para/>稀有度码
         /// <para/>从低位到高位依次为
         /// <para/>1星 2星 3星 4星 5星 6星
         /// </summary>
         public int Rarity { get; set; }
+        public int Rarity_All = 0b11111100000000;
         /// <summary>
         /// <para/>tag码
         /// <para/>从低位到高位依次为
-        /// <para/>新手 治疗 支援 输出 群攻 减速 生存 防护
-        /// <para/>削弱 位移 控场 爆发 召唤 快速复活 费用回复 支援机械
+        /// <para/>新手   治疗        支援        输出  
+        /// <para/>群攻   减速        生存        防护
+        /// <para/>削弱   位移        控场        爆发  
+        /// <para/>召唤   快速复活    费用回复
         /// </summary>
         public int Tag { get; set; }
+        public int Tag_All = 0b11111111111111100000000000000;
 
         /// <summary>
         /// 设置原始码
@@ -245,9 +251,9 @@ namespace ClassSum
         public void setOriganal(int ori)
         {
             Origanal    = ori;
-            Profession  = ori & 0b000000000000000000000011111111;
-            Rarity      = ori & 0b000000000000000011111100000000;
-            Tag         = ori & 0b111111111111111100000000000000;
+            Profession  = ori & Professional_All;
+            Rarity      = ori & Rarity_All;
+            Tag         = ori & Tag_All;
         }
 
         public checkIdnum()
@@ -308,17 +314,21 @@ namespace ClassSum
         private string implementationOrder;
         private List<string> picname;
 
-        public string       Name_Ch                 => name;
-        public string       Name_En                 => appellation;
-        public string       Special                 => description;
-        public string       Tag                     => taglist;
-        public string       Position                => position == "RANGED" ? "远程位" : "近战位";
-        public string       Professional_Text       => Profession_Ch + " - " + SubProfessionId_Ch;
-        public string      ImplementationOrder      => implementationOrder;
-        public BitmapImage  Bust_Paint              => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/bust/" + picname[0] + ".png"));
-        public BitmapImage  Avatar_Paint            => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/avatar/" + picname[0] + ".png"));
-        public BitmapImage  Stand_Paint             => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/Stdpaint/" + picname[0] + ".png"));
-        public BitmapImage  Professional_Image      => new BitmapImage(new Uri("pack://application:,,,/Resources/image/Optbch/" + SubProfessionId_En + ".png"));
+        public string Name_Ch => name;
+        public string Name_En => appellation;
+        public string Special => description;
+        public string Tag => taglist;
+        public string Position => position == "RANGED" ? "远程位" : "近战位";
+        public string Professional_Text => Profession_Ch + " - " + SubProfessionId_Ch;
+        public string ImplementationOrder => implementationOrder;
+        public BitmapImage Bust_Paint => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/bust/" + picname[0] + ".png"));
+        public BitmapImage Avatar_Paint => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/avatar/" + picname[0] + ".png"));
+        public BitmapImage Stand_Paint => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/Stdpaint/" + picname[0] + ".png"));
+        public BitmapImage Professional_Image => new BitmapImage(new Uri("pack://application:,,,/Resources/image/Optbch/" + SubProfessionId_En + ".png"));
+        public List<BitmapImage> Skill_Images { get; set; }
+        public List<string> Skill_Names { get; set; }
+        public List<string> Skill_Kinds { get; set; }
+        public List<System.Data.DataTable> Skills { get; set; }
 
         public Button Avatar_Select_Button;
         
@@ -334,6 +344,45 @@ namespace ClassSum
             picname = original.PicName;
             taglist = original.tagList[0];
             implementationOrder = original.ImplementationOrder.ToString();
+            Skill_Images = new List<BitmapImage>();
+            Skill_Names = new List<string>();
+            Skill_Kinds = new List<string>();
+            Skills = new List<System.Data.DataTable>();
+            string tmpstr;
+            foreach (SkillsItem i in original.skills)
+            {
+                System.Data.DataTable TmpDataGrid = new System.Data.DataTable();
+                TmpDataGrid.Columns.Add("技能描述", typeof(string));
+                TmpDataGrid.Columns.Add("初始技力", typeof(string));
+                TmpDataGrid.Columns.Add("消耗技力", typeof(string));
+                TmpDataGrid.Columns.Add("持续时间", typeof(string));
+                foreach (SkillDescribleItem j in i.skillDescrible)
+                {
+                    System.Data.DataRow row = TmpDataGrid.NewRow();
+                    row["技能描述"] = j.describle;
+                    row["初始技力"] = j.start;
+                    row["消耗技力"] = j.deplete;
+                    row["持续时间"] = j.continued;
+                    TmpDataGrid.Rows.Add(row);
+                }
+                Skills.Add(TmpDataGrid);
+                Skill_Images.Add(new BitmapImage(new Uri("pack://application:,,,/Resources/image/skillico/skill_icon_" + i.skillId + ".png")));
+                Skill_Names.Add(i.skillname);
+                tmpstr = "";
+                if (i.replykind != null)
+                {
+                    tmpstr += i.replykind;
+                }
+                if (i.triggerkind != null)
+                {
+                    if (i.replykind != null)
+                    {
+                        tmpstr += '\n';
+                    }
+                    tmpstr += i.triggerkind;
+                }
+                Skill_Kinds.Add(tmpstr);
+            }
             for (int i = 1; i < original.tagList.Count; ++i)
             {
                 taglist += " ";

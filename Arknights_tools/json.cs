@@ -154,12 +154,52 @@ namespace json_real
         public List<LevelUpCostItem> levelUpCost { get; set; }
     }
 
+    public class SkillDescribleItem
+    {
+        /// <summary>
+        /// 当前等级技能描述
+        /// </summary>
+        public string describle { get; set; }
+        /// <summary>
+        /// 当前等级技能初始技力
+        /// </summary>
+        public int? start { get; set; }
+        /// <summary>
+        /// 当前等级技能消耗技力
+        /// </summary>
+        public int? deplete { get; set; }
+        /// <summary>
+        /// 当前等级技能持续时间
+        /// </summary>
+        public int? continued { get; set; }
+    }
+
     public class SkillsItem
     {
         /// <summary>
-        /// 技能名称
+        /// 技能名字（中文）
+        /// </summary>
+        public string skillname { get; set; }
+        /// <summary>
+        /// 技能图片名称
         /// </summary>
         public string skillId { get; set; }
+        /// <summary>
+        /// <para/>技能描述
+        /// <para/>按顺序为1-7级 专精1，2，3
+        /// <para/>因此存在1星和2星干员没有技能所以该成员数量为0
+        /// <para/>3星没有精二所以成员数量为7
+        /// <para/>正常（有不正常的吗？）4星，5星6星成员数量为10
+        /// </summary>
+        public List<SkillDescribleItem> skillDescrible { get; set; }
+        /// <summary>
+        /// 技能回复类型
+        /// </summary>
+        public string replykind { get; set; }
+        /// <summary>
+        /// 技能触发方式
+        /// </summary>
+        public string triggerkind { get; set; }
         /// <summary>
         /// 技能升级消耗
         /// </summary>
