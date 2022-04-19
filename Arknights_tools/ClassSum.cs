@@ -23,16 +23,16 @@ namespace ClassSum
         /// <summary>
         /// 数量+1按钮
         /// </summary>
-        public Button Up 
+        public Button Up
         {
-            get 
+            get
             {
                 return _up;
             }
             set
-            { 
+            {
                 _up = value;
-            } 
+            }
         }
 
         /// <summary>
@@ -84,8 +84,8 @@ namespace ClassSum
         /// <summary>
         /// 材料等级（意义不明的）
         /// </summary>
-        public int Level 
-        { 
+        public int Level
+        {
             get
             {
                 return _level;
@@ -99,7 +99,7 @@ namespace ClassSum
         /// <summary>
         /// 当前控件组的UID序号
         /// </summary>
-        public int Uid 
+        public int Uid
         {
             get
             {
@@ -166,7 +166,7 @@ namespace ClassSum
             Num.TextChanged += REH; ;
         }
 
-        private TextBox create_num( int value)
+        private TextBox create_num(int value)
         {
             TextBox num = new TextBox();
             num.Uid = Uid.ToString();
@@ -250,18 +250,18 @@ namespace ClassSum
         /// <param name="ori">传入的原始码</param>
         public void setOriganal(int ori)
         {
-            Origanal    = ori;
-            Profession  = ori & Professional_All;
-            Rarity      = ori & Rarity_All;
-            Tag         = ori & Tag_All;
+            Origanal = ori;
+            Profession = ori & Professional_All;
+            Rarity = ori & Rarity_All;
+            Tag = ori & Tag_All;
         }
 
         public checkIdnum()
         {
-            Origanal    = 0;
-            Profession  = 0;
-            Rarity      = 0;
-            Tag         = 0;
+            Origanal = 0;
+            Profession = 0;
+            Rarity = 0;
+            Tag = 0;
         }
     }
 
@@ -295,6 +295,9 @@ namespace ClassSum
         /// <para/>tag
         /// </summary>
         public static checkIdnum CheckIdnum;
+        /// <summary>
+        /// 
+        /// </summary>
         public static List<Charinfo_Tapitem> charinfo_Tapitems;
     }
 
@@ -306,7 +309,7 @@ namespace ClassSum
         private string name;
         private string taglist;
         private string position;
-        private string description;
+        private string special;
         private string appellation;
         private string Profession_Ch;
         private string SubProfessionId_Ch;
@@ -316,7 +319,7 @@ namespace ClassSum
 
         public string Name_Ch => name;
         public string Name_En => appellation;
-        public string Special => description;
+        public string Special => special;
         public string Tag => taglist;
         public string Position => position == "RANGED" ? "远程位" : "近战位";
         public string Professional_Text => Profession_Ch + " - " + SubProfessionId_Ch;
@@ -331,65 +334,280 @@ namespace ClassSum
         public List<System.Data.DataTable> Skills { get; set; }
 
         public Button Avatar_Select_Button;
-        
+        public Grid Skill_DataGrid;
+
         public Charinfo_Tapitem(Char_infoItem original)
         {
+            //名字（中文）
             name = original.name;
+
+            //位置（近战位和远程位）
             position = original.position;
-            description = original.description;
+
+            //描述
+            special = original.description;
+
+            //外文名
             appellation = original.appellation;
+
+            //主职业（中文）
             Profession_Ch = original.Profession_Ch;
+
+            //职业分支（英文）
             SubProfessionId_En = original.SubProfessionId_En;
+
+            //职业分支（中文）
             SubProfessionId_Ch = original.SubProfessionId_Ch;
+
+            //皮肤名称（英文图片名）
             picname = original.PicName;
-            taglist = original.tagList[0];
+
+            //干员序号
             implementationOrder = original.ImplementationOrder.ToString();
-            Skill_Images = new List<BitmapImage>();
-            Skill_Names = new List<string>();
-            Skill_Kinds = new List<string>();
-            Skills = new List<System.Data.DataTable>();
-            string tmpstr;
-            foreach (SkillsItem i in original.skills)
+
+            //技能部分
+            Skill_DataGrid = new Grid();
+            TextBlock TmpText;
+            Border TmpBorder;
+            SolidColorBrush BackgroundColor;
+            Dictionary<string, SolidColorBrush> Colors = new Dictionary<string, SolidColorBrush>()
             {
-                System.Data.DataTable TmpDataGrid = new System.Data.DataTable();
-                TmpDataGrid.Columns.Add("技能描述", typeof(string));
-                TmpDataGrid.Columns.Add("初始技力", typeof(string));
-                TmpDataGrid.Columns.Add("消耗技力", typeof(string));
-                TmpDataGrid.Columns.Add("持续时间", typeof(string));
-                foreach (SkillDescribleItem j in i.skillDescrible)
+                { "自动回复", new SolidColorBrush(Color.FromArgb(200,142,195,31 ))},
+                { "攻击回复", new SolidColorBrush(Color.FromArgb(200,252,121,62 ))},
+                { "受击回复", new SolidColorBrush(Color.FromArgb(200,251,178,2  ))},
+                { "手动触发", new SolidColorBrush(Color.FromArgb(200,115,115,115))},
+                { "自动触发", new SolidColorBrush(Color.FromArgb(200,115,115,115))},
+            };
+            foreach (SkillsItem skilltmp in original.skills)
+            {
+                Skill_DataGrid.RowDefinitions.Add(new RowDefinition());
                 {
-                    System.Data.DataRow row = TmpDataGrid.NewRow();
-                    row["技能描述"] = j.describle;
-                    row["初始技力"] = j.start;
-                    row["消耗技力"] = j.deplete;
-                    row["持续时间"] = j.continued;
-                    TmpDataGrid.Rows.Add(row);
-                }
-                Skills.Add(TmpDataGrid);
-                Skill_Images.Add(new BitmapImage(new Uri("pack://application:,,,/Resources/image/skillico/skill_icon_" + i.skillId + ".png")));
-                Skill_Names.Add(i.skillname);
-                tmpstr = "";
-                if (i.replykind != null)
-                {
-                    tmpstr += i.replykind;
-                }
-                if (i.triggerkind != null)
-                {
-                    if (i.replykind != null)
+                    Grid Single_Skill_Grid = new Grid();
                     {
-                        tmpstr += '\n';
+                        Skill_DataGrid.Children.Add(Single_Skill_Grid);
+                        Grid.SetRow(Single_Skill_Grid, Skill_DataGrid.RowDefinitions.Count - 1);
+                        Single_Skill_Grid.RowDefinitions.Add(new RowDefinition());
+                        Single_Skill_Grid.RowDefinitions.Add(new RowDefinition());
+                        Grid Single_Skill_Outface_Grid = new Grid();
+                        {
+                            Single_Skill_Grid.Children.Add(Single_Skill_Outface_Grid);
+                            Grid.SetRow(Single_Skill_Outface_Grid, 0);
+                            int[] Skill_Outface_Percent = new int[4] { 1, 4, 2, 1 };
+                            foreach (int tmp1 in Skill_Outface_Percent)
+                            {
+                                Single_Skill_Outface_Grid.ColumnDefinitions.Add(new ColumnDefinition());
+                                Single_Skill_Outface_Grid.ColumnDefinitions[Single_Skill_Outface_Grid.ColumnDefinitions.Count - 1].Width = new GridLength(tmp1, GridUnitType.Star);
+                            }
+                            Image Skill_Icon_Image = new Image()
+                            {
+                                Margin = new Thickness(40),
+                                Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/skillico/skill_icon_" + skilltmp.skillId + ".png")),
+                                VerticalAlignment = VerticalAlignment.Center,
+                                HorizontalAlignment = HorizontalAlignment.Center
+                            };
+                            Single_Skill_Outface_Grid.Children.Add(Skill_Icon_Image);
+                            Grid.SetColumn(Skill_Icon_Image, 0);
+                            Grid.SetRow(Skill_Icon_Image, 0);
+
+                            TextBlock Skill_Name_TextBlock = new TextBlock()
+                            {
+                                Text = skilltmp.skillname,
+                                HorizontalAlignment = HorizontalAlignment.Center,
+                                VerticalAlignment = VerticalAlignment.Center
+                            };
+                            Single_Skill_Outface_Grid.Children.Add(Skill_Name_TextBlock);
+                            Grid.SetColumn(Skill_Name_TextBlock, 1);
+                            Grid.SetRow(Skill_Name_TextBlock, 0);
+
+                            Grid Skill_Kind_Grid = new Grid();
+                            Skill_Kind_Grid.RowDefinitions.Add(new RowDefinition());
+                            Skill_Kind_Grid.RowDefinitions.Add(new RowDefinition());
+                            Single_Skill_Outface_Grid.Children.Add(Skill_Kind_Grid);
+                            Grid.SetColumn(Skill_Kind_Grid, 2);
+                            Grid.SetRow(Skill_Kind_Grid, 0);
+                            {
+                                if (skilltmp.replykind != null)
+                                {
+                                    TmpText = new TextBlock()
+                                    {
+                                        Margin = new Thickness(15, 7, 15, 7),
+                                        Foreground = Brushes.White,
+                                        Text = skilltmp.replykind,
+                                        HorizontalAlignment = HorizontalAlignment.Center,
+                                        VerticalAlignment = VerticalAlignment.Center
+                                    };
+                                    TmpBorder = new Border()
+                                    {
+                                        CornerRadius = new CornerRadius(5),
+                                        Child = TmpText,
+                                        Background = Colors[skilltmp.replykind],
+                                        HorizontalAlignment = HorizontalAlignment.Center,
+                                        VerticalAlignment = VerticalAlignment.Center
+                                    };
+                                    Grid.SetRow(TmpBorder, Skill_Kind_Grid.Children.Add(TmpBorder));
+                                }
+                                if (skilltmp.triggerkind != null)
+                                {
+                                    TmpText = new TextBlock()
+                                    {
+                                        Margin = new Thickness(15, 7, 15, 7),
+                                        Foreground = Brushes.White,
+                                        Text = skilltmp.triggerkind,
+                                        HorizontalAlignment = HorizontalAlignment.Center,
+                                        VerticalAlignment = VerticalAlignment.Center
+                                    };
+                                    TmpBorder = new Border()
+                                    {
+                                        CornerRadius = new CornerRadius(5),
+                                        Child = TmpText,
+                                        Background = Colors[skilltmp.triggerkind],
+                                        HorizontalAlignment = HorizontalAlignment.Center,
+                                        VerticalAlignment = VerticalAlignment.Center
+                                    };
+                                    Grid.SetRow(TmpBorder, Skill_Kind_Grid.Children.Add(TmpBorder));
+                                }
+                            }
+                        }
                     }
-                    tmpstr += i.triggerkind;
+
+                    Grid Single_Skill_Describle_Grid = new Grid();
+                    {
+                        Single_Skill_Grid.Children.Add(Single_Skill_Describle_Grid);
+                        Grid.SetRow(Single_Skill_Describle_Grid, 1);
+                        double[] Skill_Describle_Width_Percent = new double[] { 1, 10, 1.3, 1.3, 1.3 };
+                        string[] Skill_Describle_Header = new string[] { "等级", "描述", "初始技力", "消耗技力", "持续时间" };
+                        Single_Skill_Describle_Grid.RowDefinitions.Add(new RowDefinition());
+                        for (int i = 0; i < 5; ++i)
+                        {
+                            Single_Skill_Describle_Grid.ColumnDefinitions.Add(new ColumnDefinition());
+                            Single_Skill_Describle_Grid.ColumnDefinitions[i].Width = new GridLength(Skill_Describle_Width_Percent[i], GridUnitType.Star);
+                            TmpText = new TextBlock
+                            {
+                                Text = Skill_Describle_Header[i],
+                                HorizontalAlignment = HorizontalAlignment.Center,
+                                VerticalAlignment = VerticalAlignment.Center,
+                                Margin = new Thickness(10)
+                            };
+                            TmpBorder = new Border
+                            {
+                                Background = new SolidColorBrush(Color.FromArgb(80, 34, 34, 34)),
+                                Child = TmpText
+                            };
+                            Grid.SetColumn(TmpBorder, Single_Skill_Describle_Grid.Children.Add(TmpBorder));
+                            Grid.SetRow(TmpBorder, 0);
+                        }
+                        for (int i = 0; i < skilltmp.skillDescrible.Count; ++i)
+                        {
+                            if (i % 2 == 0)
+                            {
+                                BackgroundColor = new SolidColorBrush(Color.FromArgb(80, 200, 200, 200));
+
+                            }
+                            else
+                            {
+                                BackgroundColor = new SolidColorBrush(Color.FromArgb(80, 34, 34, 34));
+
+                            }
+                            Single_Skill_Describle_Grid.RowDefinitions.Add(new RowDefinition());
+                            TmpText = new TextBlock()
+                            {
+                                Margin = new Thickness(10),
+                                Text = (i + 1 >= 8 ? "RANK" + (i - 6).ToString() : (i + 1).ToString()),
+                                HorizontalAlignment = HorizontalAlignment.Center,
+                                VerticalAlignment = VerticalAlignment.Center
+                            };
+                            TmpBorder = new Border
+                            {
+                                Margin = new Thickness(1, 10, 1, 10),
+                                Background = BackgroundColor,
+                                Child = TmpText
+                            };
+                            Single_Skill_Describle_Grid.Children.Add(TmpBorder);
+                            Grid.SetColumn(TmpBorder, 0);
+                            Grid.SetRow(TmpBorder, i + 1);
+                            TmpText = new TextBlock()
+                            {
+                                Margin = new Thickness(10),
+                                Text = skilltmp.skillDescrible[i].describle,
+                                HorizontalAlignment = HorizontalAlignment.Center,
+                                VerticalAlignment = VerticalAlignment.Center,
+                                TextWrapping = TextWrapping.Wrap
+                            };
+                            TmpBorder = new Border
+                            {
+                                Margin = new Thickness(1, 10, 1, 10),
+                                Background = BackgroundColor,
+                                Child = TmpText
+                            };
+                            Single_Skill_Describle_Grid.Children.Add(TmpBorder);
+                            Grid.SetColumn(TmpBorder, 1);
+                            Grid.SetRow(TmpBorder, i + 1);
+                            TmpText = new TextBlock()
+                            {
+                                Margin = new Thickness(10),
+                                Text = skilltmp.skillDescrible[i].start.ToString(),
+                                HorizontalAlignment = HorizontalAlignment.Center,
+                                VerticalAlignment = VerticalAlignment.Center
+                            };
+                            TmpBorder = new Border
+                            {
+                                Margin = new Thickness(1, 10, 1, 10),
+                                Background = BackgroundColor,
+                                Child = TmpText
+                            };
+                            Single_Skill_Describle_Grid.Children.Add(TmpBorder);
+                            Grid.SetColumn(TmpBorder, 2);
+                            Grid.SetRow(TmpBorder, i + 1);
+                            TmpText = new TextBlock()
+                            {
+                                Margin = new Thickness(10),
+                                Text = skilltmp.skillDescrible[i].deplete.ToString(),
+                                HorizontalAlignment = HorizontalAlignment.Center,
+                                VerticalAlignment = VerticalAlignment.Center
+                            };
+                            TmpBorder = new Border
+                            {
+                                Margin = new Thickness(1, 10, 1, 10),
+                                Background = BackgroundColor,
+                                Child = TmpText
+                            };
+                            Single_Skill_Describle_Grid.Children.Add(TmpBorder);
+                            Grid.SetColumn(TmpBorder, 3);
+                            Grid.SetRow(TmpBorder, i + 1);
+                            TmpText = new TextBlock()
+                            {
+                                Margin = new Thickness(10),
+                                Text = skilltmp.skillDescrible[i].continued.ToString(),
+                                HorizontalAlignment = HorizontalAlignment.Center,
+                                VerticalAlignment = VerticalAlignment.Center
+                            };
+                            TmpBorder = new Border
+                            {
+                                Margin = new Thickness(1, 10, 1, 10),
+                                Background = BackgroundColor,
+                                Child = TmpText
+                            };
+                            Single_Skill_Describle_Grid.Children.Add(TmpBorder);
+                            Grid.SetColumn(TmpBorder, 4);
+                            Grid.SetRow(TmpBorder, i + 1);
+                        }
+                    }
                 }
-                Skill_Kinds.Add(tmpstr);
             }
+
+
+            //tag词缀（用于绑定数据到UI）
+            taglist = original.tagList[0];
             for (int i = 1; i < original.tagList.Count; ++i)
             {
                 taglist += " ";
                 taglist += original.tagList[i];
             }
+
+            //左侧选择栏头像
             Avatar_Select_Button = new Button();
             {
+                Avatar_Select_Button.Uid = implementationOrder;
                 Avatar_Select_Button.HorizontalAlignment = HorizontalAlignment.Center;
                 Avatar_Select_Button.VerticalAlignment = VerticalAlignment.Center;
                 Border Out_Border = new Border();
@@ -404,7 +622,7 @@ namespace ClassSum
                         Out_Border.Child = Middle_Grid;
                         Middle_Grid.Height = 100;
                         Middle_Grid.Width = 100;
-                        Middle_Grid.Background = new SolidColorBrush(Color.FromRgb( 34, 34, 34));
+                        Middle_Grid.Background = new SolidColorBrush(Color.FromRgb(34, 34, 34));
                         Middle_Grid.HorizontalAlignment = HorizontalAlignment.Center;
                         Middle_Grid.VerticalAlignment = VerticalAlignment.Center;
                         Border Inner_Border = new Border();

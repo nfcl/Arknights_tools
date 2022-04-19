@@ -4714,7 +4714,7 @@
       "skills": [
         {
           "skillname": "强力击·α型",
-          "skillId": "skchr_stward_1",
+          "skillId": "skcom_powerstrike[1]",
           "skillDescrible": [
             {
               "describle": "下次攻击的攻击力提高至150%",
@@ -6677,7 +6677,7 @@
       "skills": [
         {
           "skillname": "强力击·β型",
-          "skillId": "skchr_jesica_1",
+          "skillId": "skcom_powerstrike[2]",
           "skillDescrible": [
             {
               "describle": "下次攻击的攻击力提高至170%",
@@ -9752,7 +9752,7 @@
       "skills": [
         {
           "skillname": "攻击力强化·β型",
-          "skillId": "skchr_vigna_1",
+          "skillId": "skcom_quickattack[2]",
           "skillDescrible": [
             {
               "describle": "攻击力+20%",
@@ -10376,7 +10376,7 @@
       "skills": [
         {
           "skillname": "强力击·β型",
-          "skillId": "skchr_doberm_1",
+          "skillId": "skcom_powerstrike[2]",
           "skillDescrible": [
             {
               "describle": "下次攻击的攻击力提高至170%",
@@ -44934,7 +44934,7 @@
       "skills": [
         {
           "skillname": "强力击·γ型",
-          "skillId": "skchr_svrash_1",
+          "skillId": "skcom_powerstrike[3]",
           "skillDescrible": [
             {
               "describle": "下次攻击的攻击力提高至190%",
@@ -45716,7 +45716,7 @@
       "skills": [
         {
           "skillname": "强力击·β型",
-          "skillId": "skchr_savage_1",
+          "skillId": "skcom_powerstrike[2]",
           "skillDescrible": [
             {
               "describle": "下次攻击的攻击力提高至170%",
@@ -46256,7 +46256,7 @@
       "skills": [
         {
           "skillname": "爆破范围提升·α型",
-          "skillId": "skchr_catap_1",
+          "skillId": "skcom_blowrange_up[1]",
           "skillDescrible": [
             {
               "describle": "普通攻击的爆炸范围提升至150%",
@@ -46571,7 +46571,7 @@
       "skills": [
         {
           "skillname": "武器附魔·α型",
-          "skillId": "skchr_midn_1",
+          "skillId": "skcom_enchant[1]",
           "skillDescrible": [
             {
               "describle": "攻击力+5%，普通攻击的伤害类型变为法术",
@@ -66602,7 +66602,7 @@
       "skills": [
         {
           "skillname": "强力击·γ型",
-          "skillId": "skchr_huang_1",
+          "skillId": "skcom_powerstrike[3]",
           "skillDescrible": [
             {
               "describle": "下次攻击的攻击力提高至190%",

@@ -14,6 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Resources\image\skillico\skill_icon_skchr_catap_1.png" />
+    <None Remove="Resources\image\skillico\skill_icon_skchr_midn_1.png" />
+    <None Remove="Resources\image\skillico\skill_icon_skcom_blowrange_up[1].png" />
+    <None Remove="Resources\image\skillico\skill_icon_skcom_enchant[1].png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Resources\image\char\avatar\char_002_amiya_1.png" />
     <Resource Include="Resources\image\char\avatar\char_003_kalts_1.png" />
     <Resource Include="Resources\image\char\avatar\char_009_12fce_1.png" />

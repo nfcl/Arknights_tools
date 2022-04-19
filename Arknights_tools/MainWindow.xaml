@@ -105,7 +105,7 @@
                             <Border Background="#11111101">
                                 <ScrollViewer VerticalScrollBarVisibility="Hidden">
                                     <StackPanel x:Name="Select_Char_Stackpanel" Orientation="Vertical" Margin="10">
-                                        
+
                                     </StackPanel>
                                 </ScrollViewer>
                             </Border>
@@ -204,73 +204,7 @@
                                                 <RowDefinition/>
                                             </Grid.RowDefinitions>
                                             <TextBlock FontSize="40" Margin="10" Text="技能信息"/>
-                                            <Grid Grid.Row="1" Margin="10">
-                                                <Grid.RowDefinitions>
-                                                    <RowDefinition/>
-                                                    <RowDefinition/>
-                                                    <RowDefinition/>
-                                                </Grid.RowDefinitions>
-                                                <Grid x:Name="Skill1" Grid.Row="0" ShowGridLines="False">
-                                                    <Grid.RowDefinitions>
-                                                        <RowDefinition/>
-                                                        <RowDefinition/>
-                                                    </Grid.RowDefinitions>
-                                                    <Grid.ColumnDefinitions>
-                                                        <ColumnDefinition Width="200"/>
-                                                        <ColumnDefinition Width="400"/>
-                                                        <ColumnDefinition Width="300"/>
-                                                        <ColumnDefinition/>
-                                                    </Grid.ColumnDefinitions>
-                                                    <Image Grid.Row="0" Grid.Column="0" Source="{Binding Skill_Images[0]}" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                    <TextBlock Grid.Row="0" Margin="10" Grid.Column="1" Text="{Binding Skill_Names[0]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                    <TextBlock Grid.Row="0" Grid.Column=" 2" Text="{Binding Skill_Kinds[0]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                    <Image Grid.Row="0" Grid.Column=" 3"/>
-                                                    <DataGrid Style="{DynamicResource Skill_DataGrid}" x:Name="Skill_DataGrid1" Grid.Row="1" Grid.ColumnSpan="4">
-                                                        
-                                                    </DataGrid>
-                                                </Grid>
-
-                                                <Grid x:Name="Skill2" Grid.Row="1" ShowGridLines="False">
-                                                    <Grid.RowDefinitions>
-                                                        <RowDefinition/>
-                                                        <RowDefinition/>
-                                                    </Grid.RowDefinitions>
-                                                    <Grid.ColumnDefinitions>
-                                                        <ColumnDefinition Width="200"/>
-                                                        <ColumnDefinition Width="400"/>
-                                                        <ColumnDefinition Width="300"/>
-                                                        <ColumnDefinition/>
-                                                    </Grid.ColumnDefinitions>
-                                                    <Image Grid.Row="0" Grid.Column="0" Source="{Binding Skill_Images[1]}" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                    <TextBlock Grid.Row="0" Margin="10" Grid.Column="1" Text="{Binding Skill_Names[1]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                    <TextBlock Grid.Row="0" Grid.Column=" 2" Text="{Binding Skill_Kinds[1]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                    <Image Grid.Row="0" Grid.Column=" 3"/>
-                                                    <DataGrid Style="{DynamicResource Skill_DataGrid}" x:Name="Skill_DataGrid2" Grid.Row="1" Grid.ColumnSpan="4">
-
-                                                    </DataGrid>
-                                                </Grid>
-
-                                                <Grid x:Name="Skill3" Grid.Row="2" ShowGridLines="False">
-                                                    <Grid.RowDefinitions>
-                                                        <RowDefinition/>
-                                                        <RowDefinition/>
-                                                    </Grid.RowDefinitions>
-                                                    <Grid.ColumnDefinitions>
-                                                        <ColumnDefinition Width="200"/>
-                                                        <ColumnDefinition Width="400"/>
-                                                        <ColumnDefinition Width="300"/>
-                                                        <ColumnDefinition/>
-                                                    </Grid.ColumnDefinitions>
-                                                    <Image Grid.Row="0" Grid.Column="0" Source="{Binding Skill_Images[2]}" Margin="10" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                    <TextBlock Grid.Row="0" Margin="10" Grid.Column="1" Text="{Binding Skill_Names[2]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                    <TextBlock Grid.Row="0" Grid.Column=" 2" Text="{Binding Skill_Kinds[2]}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                    <Image Grid.Row="0" Grid.Column=" 3"/>
-                                                    <DataGrid Style="{DynamicResource Skill_DataGrid}" x:Name="Skill_DataGrid3" Grid.Row="1" Grid.ColumnSpan="4">
-
-                                                    </DataGrid>
-                                                </Grid>
-
-                                            </Grid>
+                                            <Grid x:Name="Skills_Grid" Grid.Row="1" Margin="10"/>
                                         </Grid>
                                     </StackPanel>
                                 </ScrollViewer>

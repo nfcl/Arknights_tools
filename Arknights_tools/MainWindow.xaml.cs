@@ -32,6 +32,14 @@ namespace Arknights_tools
         /// </summary>
         private void ceshi()
         {
+            //foreach (Char_infoItem i in GlobalArgs.Chartable.char_info)
+            //{
+            //    Charinfo_Tapitem newCharinfo = new Charinfo_Tapitem(i);
+            //    newCharinfo.Avatar_Select_Button.Click += Click_Select_Button;
+            //    GlobalArgs.charinfo_Tapitems.Add(newCharinfo);
+            //    Select_Char_Stackpanel.Children.Add(newCharinfo.Avatar_Select_Button);
+            //    Select_Char_Stackpanel.RegisterName("Select_button_" + i.ImplementationOrder, newCharinfo.Avatar_Select_Button);
+            //}
             //string s, strtmp;
             //int skilldescribles = 0;
             //int skills = 0;
@@ -284,24 +292,10 @@ namespace Arknights_tools
             Button tmp_button = sender as Button;
             foreach (Charinfo_Tapitem i in GlobalArgs.charinfo_Tapitems)
             {
-
-                if (tmp_button == i.Avatar_Select_Button)
+                if (tmp_button.Uid == i.ImplementationOrder)
                 {
-                    for (int tmp1 = 1; tmp1 <= 3; ++tmp1)
-                    {
-                        if (i.Skill_Names.Count >= tmp1)
-                        {
-                            (FindName("Skill" + tmp1.ToString()) as Grid).Opacity = 1;
-                            (FindName("Skill_DataGrid" + tmp1.ToString()) as DataGrid).ItemsSource = i.Skills[tmp1 - 1].DefaultView;
-                            (FindName("Skill_DataGrid" + tmp1.ToString()) as DataGrid).Columns[(FindName("Skill_DataGrid" + tmp1.ToString()) as DataGrid).Columns.Count - 1].Width = new DataGridLength(1, DataGridLengthUnitType.Star);
-                            (FindName("Skill_DataGrid" + tmp1.ToString()) as DataGrid).IsEnabled = false;
-                        }
-                        else
-                        {
-                            (FindName("Skill" + tmp1.ToString()) as Grid).Opacity = 0;
-                            (FindName("Skill_DataGrid" + tmp1.ToString()) as DataGrid).ItemsSource = null;
-                        }
-                    }
+                    Skills_Grid.Children.Clear();
+                    Skills_Grid.Children.Add(i.Skill_DataGrid);
                     Charinfo_Pannel.DataContext = i;
                     return;
                 }
