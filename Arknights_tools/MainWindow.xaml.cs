@@ -287,6 +287,9 @@ namespace Arknights_tools
             Select_Char_Stackpanel.RegisterName("Select_button_" + tmp_button.Uid, newCharinfo.Avatar_Select_Button);
         }
 
+        /// <summary>
+        /// 点击干员查看界面左侧干员按钮，右侧显示干员信息
+        /// </summary>
         private void Click_Select_Button(object sender, RoutedEventArgs e)
         {
             Button tmp_button = sender as Button;
@@ -296,6 +299,8 @@ namespace Arknights_tools
                 {
                     Skills_Grid.Children.Clear();
                     Skills_Grid.Children.Add(i.Skill_DataGrid);
+                    Talent_Grid.Children.Clear();
+                    Talent_Grid.Children.Add(i.Talent_DataGrid);
                     Charinfo_Pannel.DataContext = i;
                     return;
                 }
