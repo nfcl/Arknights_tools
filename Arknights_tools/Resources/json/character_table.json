@@ -34946,7 +34946,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "虚弱化",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得15%的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得15%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -34955,7 +34955,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "虚弱化",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得18%（+3%）的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得18%（+3%）的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -34964,7 +34964,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "虚弱化",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得30%的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得30%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -34973,7 +34973,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "虚弱化",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得33%（+3%）的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得33%（+3%）的脆弱效果"
             }
           ]
         },
@@ -36807,7 +36807,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "隐匿的杀手·中级",
-              "description": "平时处于<$ba.invisible>隐匿状态，攻击时会解除<$ba.invisible>隐匿状态，且当次攻击的攻击力+25%。停止攻击6秒后，重新进入<$ba.invisible>隐匿状态"
+              "description": "平时处于隐匿状态，攻击时会解除隐匿状态，且当次攻击的攻击力+25%。停止攻击6秒后，重新进入隐匿状态"
             },
             {
               "unlockCondition": {
@@ -36816,7 +36816,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "隐匿的杀手·中级",
-              "description": "平时处于<$ba.invisible>隐匿状态，攻击时会解除<$ba.invisible>隐匿状态，且当次攻击的攻击力+29%（+4%）。停止攻击6秒后，重新进入<$ba.invisible>隐匿状态"
+              "description": "平时处于隐匿状态，攻击时会解除隐匿状态，且当次攻击的攻击力+29%（+4%）。停止攻击6秒后，重新进入隐匿状态"
             },
             {
               "unlockCondition": {
@@ -36825,7 +36825,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "隐匿的杀手·精英",
-              "description": "平时处于<$ba.invisible>隐匿状态，攻击时会解除<$ba.invisible>隐匿状态，且当次攻击的攻击力+50%。停止攻击5秒后，重新进入<$ba.invisible>隐匿状态"
+              "description": "平时处于隐匿状态，攻击时会解除隐匿状态，且当次攻击的攻击力+50%。停止攻击5秒后，重新进入隐匿状态"
             },
             {
               "unlockCondition": {
@@ -36834,7 +36834,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "隐匿的杀手·精英",
-              "description": "平时处于<$ba.invisible>隐匿状态，攻击时会解除<$ba.invisible>隐匿状态，且当次攻击的攻击力+54%（+4%）。停止攻击5秒后，重新进入<$ba.invisible>隐匿状态"
+              "description": "平时处于隐匿状态，攻击时会解除隐匿状态，且当次攻击的攻击力+54%（+4%）。停止攻击5秒后，重新进入隐匿状态"
             }
           ]
         }
@@ -45382,7 +45382,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "鹰眼视觉",
-              "description": "攻击范围内敌人的<$ba.invisible>隐匿效果失效"
+              "description": "攻击范围内敌人的隐匿效果失效"
             }
           ]
         }
@@ -59918,7 +59918,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "光学折射配件",
-              "description": "无人机在部署后的12秒内处于<$ba.invisible>隐匿状态（不会成为敌方远程单位的攻击目标）"
+              "description": "无人机在部署后的12秒内处于隐匿状态（不会成为敌方远程单位的攻击目标）"
             },
             {
               "unlockCondition": {
@@ -59927,7 +59927,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "光学折射配件",
-              "description": "无人机在部署后的14（+2）秒内处于<$ba.invisible>隐匿状态（不会成为敌方远程单位的攻击目标）"
+              "description": "无人机在部署后的14（+2）秒内处于隐匿状态（不会成为敌方远程单位的攻击目标）"
             },
             {
               "unlockCondition": {
@@ -59936,7 +59936,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "光学折射配件",
-              "description": "无人机在部署后的20秒内处于<$ba.invisible>隐匿状态（不会成为敌方远程单位的攻击目标）"
+              "description": "无人机在部署后的20秒内处于隐匿状态（不会成为敌方远程单位的攻击目标）"
             },
             {
               "unlockCondition": {
@@ -59945,7 +59945,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "光学折射配件",
-              "description": "无人机在部署后的22（+2）秒内处于<$ba.invisible>隐匿状态（不会成为敌方远程单位的攻击目标）"
+              "description": "无人机在部署后的22（+2）秒内处于隐匿状态（不会成为敌方远程单位的攻击目标）"
             }
           ]
         }
@@ -60554,7 +60554,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "缠绕",
-              "description": "攻击时有25%的几率使目标<$ba.root>束缚2秒"
+              "description": "攻击时有25%的几率使目标束缚2秒"
             },
             {
               "unlockCondition": {
@@ -60563,7 +60563,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "缠绕",
-              "description": "攻击时有25%的几率使目标<$ba.root>束缚3秒"
+              "description": "攻击时有25%的几率使目标束缚3秒"
             }
           ]
         }
@@ -61160,7 +61160,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "医疗班保护",
-              "description": "技能开启时，所有【医疗】干员获得<$ba.buffres>抵抗"
+              "description": "技能开启时，所有【医疗】干员获得抵抗"
             },
             {
               "unlockCondition": {
@@ -61169,7 +61169,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "医疗班保护",
-              "description": "技能开启时，所有【医疗】和【辅助】干员获得<$ba.buffres>抵抗"
+              "description": "技能开启时，所有【医疗】和【辅助】干员获得抵抗"
             }
           ]
         }
@@ -67050,7 +67050,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "严酷训练",
-              "description": "在战场停留15秒后获得<$ba.buffres>抵抗"
+              "description": "在战场停留15秒后获得抵抗"
             },
             {
               "unlockCondition": {
@@ -67059,7 +67059,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "严酷训练",
-              "description": "在战场停留12（-3）秒后获得<$ba.buffres>抵抗"
+              "description": "在战场停留12（-3）秒后获得抵抗"
             }
           ]
         }
@@ -69879,7 +69879,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "干明可鉴",
-              "description": "部署后立即获得3层<$ba.shield>护盾"
+              "description": "部署后立即获得3层护盾"
             }
           ]
         }
@@ -71898,7 +71898,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "快速愈合",
-              "description": "在治疗目标后使其获得2秒<$ba.buffres>抵抗"
+              "description": "在治疗目标后使其获得2秒抵抗"
             },
             {
               "unlockCondition": {
@@ -71907,7 +71907,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "快速愈合",
-              "description": "在治疗目标后使其获得4秒<$ba.buffres>抵抗"
+              "description": "在治疗目标后使其获得4秒抵抗"
             }
           ]
         }
@@ -76390,7 +76390,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "佣兵之韧",
-              "description": "击杀7个敌人后获得攻击速度+15和<$ba.buffres>抵抗"
+              "description": "击杀7个敌人后获得攻击速度+15和抵抗"
             },
             {
               "unlockCondition": {
@@ -76399,7 +76399,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "佣兵之韧",
-              "description": "击杀5（-2）个敌人后获得攻击速度+15和<$ba.buffres>抵抗"
+              "description": "击杀5（-2）个敌人后获得攻击速度+15和抵抗"
             }
           ]
         }
@@ -77000,7 +77000,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "溃败暗示 ",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得10%的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得10%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -77009,7 +77009,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "溃败暗示 ",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得13%（+3%）的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得13%（+3%）的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -77018,7 +77018,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "溃败暗示 ",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得20%的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得20%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -77027,7 +77027,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "溃败暗示 ",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得23%（+3%）的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得23%（+3%）的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -77036,7 +77036,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "溃败暗示 ",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得30%的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得30%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -77045,7 +77045,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "溃败暗示 ",
-              "description": "攻击范围内的敌人生命少于40%时，令其获得33%（+3%）的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内的敌人生命少于40%时，令其获得33%（+3%）的脆弱效果"
             }
           ]
         }
@@ -78035,7 +78035,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "延迟引爆·I",
-              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力300%的物理伤害，并令其获得8秒10%的<$ba.fragile>脆弱效果，之后自身强制退出战场"
+              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力300%的物理伤害，并令其获得8秒10%的脆弱效果，之后自身强制退出战场"
             },
             {
               "unlockCondition": {
@@ -78044,7 +78044,7 @@
               },
               "requiredPotentialRank": 1,
               "name": "延迟引爆·II",
-              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力320%的物理伤害，并令其获得8秒18%的<$ba.fragile>脆弱效果，之后自身强制退出战场"
+              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力320%的物理伤害，并令其获得8秒18%的脆弱效果，之后自身强制退出战场"
             },
             {
               "unlockCondition": {
@@ -78053,7 +78053,7 @@
               },
               "requiredPotentialRank": 2,
               "name": "延迟引爆·III",
-              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力340%的物理伤害，并令其获得8秒21%的<$ba.fragile>脆弱效果，之后自身强制退出战场"
+              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力340%的物理伤害，并令其获得8秒21%的脆弱效果，之后自身强制退出战场"
             },
             {
               "unlockCondition": {
@@ -78062,7 +78062,7 @@
               },
               "requiredPotentialRank": 3,
               "name": "延迟引爆·IV",
-              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力360%的物理伤害，并令其获得8秒24%的<$ba.fragile>脆弱效果，之后自身强制退出战场"
+              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力360%的物理伤害，并令其获得8秒24%的脆弱效果，之后自身强制退出战场"
             },
             {
               "unlockCondition": {
@@ -78071,7 +78071,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "延迟引爆·V",
-              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力380%的物理伤害，并令其获得8秒27%的<$ba.fragile>脆弱效果，之后自身强制退出战场"
+              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力380%的物理伤害，并令其获得8秒27%的脆弱效果，之后自身强制退出战场"
             },
             {
               "unlockCondition": {
@@ -78080,7 +78080,7 @@
               },
               "requiredPotentialRank": 5,
               "name": "延迟引爆·VI",
-              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力400%的物理伤害，并令其获得8秒30%的<$ba.fragile>脆弱效果，之后自身强制退出战场"
+              "description": "部署经过3秒后，对周围8格内的所有敌人造成相当于攻击力400%的物理伤害，并令其获得8秒30%的脆弱效果，之后自身强制退出战场"
             }
           ]
         }
@@ -81359,7 +81359,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "祝",
-              "description": "攻击范围内的友军生命少于40%时，使其获得12%的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命少于40%时，使其获得12%的庇护"
             },
             {
               "unlockCondition": {
@@ -81368,7 +81368,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "祝",
-              "description": "攻击范围内的友军生命少于40%时，使其获得14%（+2%）的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命少于40%时，使其获得14%（+2%）的庇护"
             },
             {
               "unlockCondition": {
@@ -81377,7 +81377,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "祝",
-              "description": "攻击范围内的友军生命少于40%时，使其获得18%的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命少于40%时，使其获得18%的庇护"
             },
             {
               "unlockCondition": {
@@ -81386,7 +81386,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "祝",
-              "description": "攻击范围内的友军生命少于40%时，使其获得20%（+2%）的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命少于40%时，使其获得20%（+2%）的庇护"
             }
           ]
         }
@@ -85246,7 +85246,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "药物阻断技巧",
-              "description": "拥有<$ba.buffres>抵抗"
+              "description": "拥有抵抗"
             },
             {
               "unlockCondition": {
@@ -85255,7 +85255,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "药物阻断技巧",
-              "description": "拥有<$ba.buffres>抵抗且受到来自自然环境的伤害-40%"
+              "description": "拥有抵抗且受到来自自然环境的伤害-40%"
             },
             {
               "unlockCondition": {
@@ -85264,7 +85264,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "药物阻断技巧",
-              "description": "拥有<$ba.buffres>抵抗且受到来自自然环境的伤害-50%（+10%）"
+              "description": "拥有抵抗且受到来自自然环境的伤害-50%（+10%）"
             }
           ]
         }
@@ -86648,7 +86648,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "画地为牢",
-              "description": "攻击范围内被停顿的敌人在下一瞬间起还会受到等长时间的20%的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内被停顿的敌人在下一瞬间起还会受到等长时间的20%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -86657,7 +86657,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "画地为牢",
-              "description": "攻击范围内被停顿的敌人在下一瞬间起还会受到等长时间的23%（+3%）的<$ba.fragile>脆弱效果"
+              "description": "攻击范围内被停顿的敌人在下一瞬间起还会受到等长时间的23%（+3%）的脆弱效果"
             }
           ]
         }
@@ -87266,7 +87266,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "摄影小队",
-              "description": "可以使用3个移动摄影车。摄影车周围8格内敌人的<$ba.invisible>隐匿效果失效"
+              "description": "可以使用3个移动摄影车。摄影车周围8格内敌人的隐匿效果失效"
             },
             {
               "unlockCondition": {
@@ -87275,7 +87275,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "摄影小队",
-              "description": "可以使用4个移动摄影车。摄影车周围8格内敌人的<$ba.invisible>隐匿效果失效"
+              "description": "可以使用4个移动摄影车。摄影车周围8格内敌人的隐匿效果失效"
             },
             {
               "unlockCondition": {
@@ -87284,7 +87284,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "摄影小队",
-              "description": "可以使用5个移动摄影车。摄影车周围8格内敌人的<$ba.invisible>隐匿效果失效"
+              "description": "可以使用5个移动摄影车。摄影车周围8格内敌人的隐匿效果失效"
             }
           ]
         }
@@ -93179,7 +93179,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "勇冠三军",
-              "description": "生命值高于一半时，攻击力造成108%伤害；生命值不高于一半时，获得10%的<$ba.protect>庇护"
+              "description": "生命值高于一半时，攻击力造成108%伤害；生命值不高于一半时，获得10%的庇护"
             },
             {
               "unlockCondition": {
@@ -93188,7 +93188,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "勇冠三军",
-              "description": "生命值高于一半时，攻击力造成110%（+2%）伤害；生命值不高于一半时，获得12%（+2%）的<$ba.protect>庇护"
+              "description": "生命值高于一半时，攻击力造成110%（+2%）伤害；生命值不高于一半时，获得12%（+2%）的庇护"
             },
             {
               "unlockCondition": {
@@ -93197,7 +93197,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "勇冠三军",
-              "description": "生命值高于一半时，攻击力造成115%伤害；生命值不高于一半时，获得20%的<$ba.protect>庇护"
+              "description": "生命值高于一半时，攻击力造成115%伤害；生命值不高于一半时，获得20%的庇护"
             },
             {
               "unlockCondition": {
@@ -93206,7 +93206,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "勇冠三军",
-              "description": "生命值高于一半时，攻击力造成117%（+2%）伤害；生命值不高于一半时，获得22%（+2%）的<$ba.protect>庇护"
+              "description": "生命值高于一半时，攻击力造成117%（+2%）伤害；生命值不高于一半时，获得22%（+2%）的庇护"
             }
           ]
         },
@@ -98534,7 +98534,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "仁慈",
-              "description": "自身可以攻击并优先攻击<$ba.sleep>沉睡的目标且攻击力提升至120%"
+              "description": "自身可以攻击并优先攻击沉睡的目标且攻击力提升至120%"
             },
             {
               "unlockCondition": {
@@ -98543,7 +98543,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "仁慈",
-              "description": "自身可以攻击并优先攻击<$ba.sleep>沉睡的目标且攻击力提升至124%（+4%）"
+              "description": "自身可以攻击并优先攻击沉睡的目标且攻击力提升至124%（+4%）"
             },
             {
               "unlockCondition": {
@@ -98552,7 +98552,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "仁慈",
-              "description": "自身可以攻击并优先攻击<$ba.sleep>沉睡的目标且攻击力提升至140%"
+              "description": "自身可以攻击并优先攻击沉睡的目标且攻击力提升至140%"
             },
             {
               "unlockCondition": {
@@ -98561,7 +98561,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "仁慈",
-              "description": "自身可以攻击并优先攻击<$ba.sleep>沉睡的目标且攻击力提升至144%（+4%）"
+              "description": "自身可以攻击并优先攻击沉睡的目标且攻击力提升至144%（+4%）"
             }
           ]
         }
@@ -99794,7 +99794,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "生命塔台",
-              "description": "攻击范围内拥有<$ba.buffres>抵抗的友方单位每秒恢复相当于絮雨攻击力3%的生命（不受特性影响）"
+              "description": "攻击范围内拥有抵抗的友方单位每秒恢复相当于絮雨攻击力3%的生命（不受特性影响）"
             },
             {
               "unlockCondition": {
@@ -99803,7 +99803,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "生命塔台",
-              "description": "攻击范围内拥有<$ba.buffres>抵抗的友方单位每秒恢复相当于絮雨攻击力4%（+1%）的生命（不受特性影响）"
+              "description": "攻击范围内拥有抵抗的友方单位每秒恢复相当于絮雨攻击力4%（+1%）的生命（不受特性影响）"
             },
             {
               "unlockCondition": {
@@ -99812,7 +99812,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "生命塔台",
-              "description": "攻击范围内拥有<$ba.buffres>抵抗的友方单位每秒恢复相当于絮雨攻击力6%的生命（不受特性影响）"
+              "description": "攻击范围内拥有抵抗的友方单位每秒恢复相当于絮雨攻击力6%的生命（不受特性影响）"
             },
             {
               "unlockCondition": {
@@ -99821,7 +99821,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "生命塔台",
-              "description": "攻击范围内拥有<$ba.buffres>抵抗的友方单位每秒恢复相当于絮雨攻击力7%（+1%）的生命（不受特性影响）"
+              "description": "攻击范围内拥有抵抗的友方单位每秒恢复相当于絮雨攻击力7%（+1%）的生命（不受特性影响）"
             }
           ]
         }
@@ -100555,7 +100555,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "沃土予身",
-              "description": "每9秒获得1层<$ba.shield>护盾（最多2层，部署后立即获得1层），每层护盾破裂时恢复自身15%最大生命"
+              "description": "每9秒获得1层护盾（最多2层，部署后立即获得1层），每层护盾破裂时恢复自身15%最大生命"
             },
             {
               "unlockCondition": {
@@ -100564,7 +100564,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "沃土予身",
-              "description": "每9秒获得1层<$ba.shield>护盾（最多2层，部署后立即获得1层），每层护盾破裂时恢复自身17%（+2%）最大生命"
+              "description": "每9秒获得1层护盾（最多2层，部署后立即获得1层），每层护盾破裂时恢复自身17%（+2%）最大生命"
             },
             {
               "unlockCondition": {
@@ -100573,7 +100573,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "沃土予身",
-              "description": "每9秒获得1层<$ba.shield>护盾（最多2层，部署后立即获得1层），每层护盾破裂时恢复自身20%最大生命"
+              "description": "每9秒获得1层护盾（最多2层，部署后立即获得1层），每层护盾破裂时恢复自身20%最大生命"
             },
             {
               "unlockCondition": {
@@ -100582,7 +100582,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "沃土予身",
-              "description": "每9秒获得1层<$ba.shield>护盾（最多2层，部署后立即获得1层），每层护盾破裂时恢复自身22%（+2%）最大生命"
+              "description": "每9秒获得1层护盾（最多2层，部署后立即获得1层），每层护盾破裂时恢复自身22%（+2%）最大生命"
             },
             {
               "unlockCondition": {
@@ -100591,7 +100591,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "沃土予身",
-              "description": "每9秒获得1层<$ba.shield>护盾（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身20%最大生命"
+              "description": "每9秒获得1层护盾（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身20%最大生命"
             },
             {
               "unlockCondition": {
@@ -100600,7 +100600,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "沃土予身",
-              "description": "每9秒获得1层<$ba.shield>护盾（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身22%（+2%）最大生命"
+              "description": "每9秒获得1层护盾（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身22%（+2%）最大生命"
             }
           ]
         },
@@ -103274,7 +103274,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "注意力误导",
-              "description": "被动技能触发期间阻挡数降至0且获得<$ba.camou>迷彩"
+              "description": "被动技能触发期间阻挡数降至0且获得迷彩"
             },
             {
               "unlockCondition": {
@@ -103283,7 +103283,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "注意力误导",
-              "description": "被动技能触发期间攻击力+8%，阻挡数降至0且获得<$ba.camou>迷彩"
+              "description": "被动技能触发期间攻击力+8%，阻挡数降至0且获得迷彩"
             },
             {
               "unlockCondition": {
@@ -103292,7 +103292,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "注意力误导",
-              "description": "被动技能触发期间攻击力+11%（+3%），阻挡数降至0且获得<$ba.camou>迷彩"
+              "description": "被动技能触发期间攻击力+11%（+3%），阻挡数降至0且获得迷彩"
             },
             {
               "unlockCondition": {
@@ -103301,7 +103301,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "注意力误导",
-              "description": "被动技能触发期间攻击力+15%，阻挡数降至0且获得<$ba.camou>迷彩"
+              "description": "被动技能触发期间攻击力+15%，阻挡数降至0且获得迷彩"
             },
             {
               "unlockCondition": {
@@ -103310,7 +103310,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "注意力误导",
-              "description": "被动技能触发期间攻击力+18%（+3%），阻挡数降至0且获得<$ba.camou>迷彩"
+              "description": "被动技能触发期间攻击力+18%（+3%），阻挡数降至0且获得迷彩"
             }
           ]
         }
@@ -106091,7 +106091,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "铁弦",
-              "description": "部署后立即获得一层<$ba.shield>护盾，护盾破裂后获得7点技力"
+              "description": "部署后立即获得一层护盾，护盾破裂后获得7点技力"
             },
             {
               "unlockCondition": {
@@ -106100,7 +106100,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "铁弦",
-              "description": "部署后立即获得一层<$ba.shield>护盾，护盾破裂后获得9（+2）点技力"
+              "description": "部署后立即获得一层护盾，护盾破裂后获得9（+2）点技力"
             }
           ]
         }
@@ -117839,7 +117839,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "柔光缚目",
-              "description": "攻击时有12%的几率使目标<$ba.root>束缚4秒，不以束缚状态的敌人为攻击目标"
+              "description": "攻击时有12%的几率使目标束缚4秒，不以束缚状态的敌人为攻击目标"
             },
             {
               "unlockCondition": {
@@ -117848,7 +117848,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "柔光缚目",
-              "description": "攻击时有14%（+2%）的几率使目标<$ba.root>束缚4秒，不以束缚状态的敌人为攻击目标"
+              "description": "攻击时有14%（+2%）的几率使目标束缚4秒，不以束缚状态的敌人为攻击目标"
             },
             {
               "unlockCondition": {
@@ -117857,7 +117857,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "柔光缚目",
-              "description": "攻击时有18%的几率使目标<$ba.root>束缚4秒，不以束缚状态的敌人为攻击目标"
+              "description": "攻击时有18%的几率使目标束缚4秒，不以束缚状态的敌人为攻击目标"
             },
             {
               "unlockCondition": {
@@ -117866,7 +117866,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "柔光缚目",
-              "description": "攻击时有20%（+2%）的几率使目标<$ba.root>束缚4秒，不以束缚状态的敌人为攻击目标"
+              "description": "攻击时有20%（+2%）的几率使目标束缚4秒，不以束缚状态的敌人为攻击目标"
             }
           ]
         }
@@ -119861,7 +119861,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "生命之餐",
-              "description": "开启技能时立即恢复30%最大生命值；<$ba.charged>蓄力时效果翻倍"
+              "description": "开启技能时立即恢复30%最大生命值；蓄力时效果翻倍"
             },
             {
               "unlockCondition": {
@@ -119870,7 +119870,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "生命之餐",
-              "description": "开启技能时立即恢复35%（+5%）最大生命值；<$ba.charged>蓄力时效果翻倍"
+              "description": "开启技能时立即恢复35%（+5%）最大生命值；蓄力时效果翻倍"
             },
             {
               "unlockCondition": {
@@ -119879,7 +119879,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "生命之餐",
-              "description": "开启技能时立即恢复40%最大生命值；<$ba.charged>蓄力时效果翻倍"
+              "description": "开启技能时立即恢复40%最大生命值；蓄力时效果翻倍"
             },
             {
               "unlockCondition": {
@@ -119888,7 +119888,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "生命之餐",
-              "description": "开启技能时立即恢复45%（+5%）最大生命值；<$ba.charged>蓄力时效果翻倍"
+              "description": "开启技能时立即恢复45%（+5%）最大生命值；蓄力时效果翻倍"
             }
           ]
         },
@@ -120643,7 +120643,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "英雄的诞生",
-              "description": "在场时，所有【米诺斯】干员生命值高于80%时获得+15%攻击力的<$ba.strong>精力充沛"
+              "description": "在场时，所有【米诺斯】干员生命值高于80%时获得+15%攻击力的精力充沛"
             },
             {
               "unlockCondition": {
@@ -120652,7 +120652,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "英雄的诞生",
-              "description": "在场时，所有【米诺斯】干员生命值高于80%时获得+25%攻击力的<$ba.strong>精力充沛"
+              "description": "在场时，所有【米诺斯】干员生命值高于80%时获得+25%攻击力的精力充沛"
             }
           ]
         },
@@ -124094,7 +124094,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "造型仪调试",
-              "description": "携带2个造型仪（最多部署3个），使一名近战位上的单位防御力+10%并获得1层<$ba.shield>护盾（持续15秒，防御加成不叠加）"
+              "description": "携带2个造型仪（最多部署3个），使一名近战位上的单位防御力+10%并获得1层护盾（持续15秒，防御加成不叠加）"
             },
             {
               "unlockCondition": {
@@ -124103,7 +124103,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "造型仪调试",
-              "description": "携带2个造型仪（最多部署3个），使一名近战位上的单位防御力+13%（+3%）并获得1层<$ba.shield>护盾（持续15秒，防御加成不叠加）"
+              "description": "携带2个造型仪（最多部署3个），使一名近战位上的单位防御力+13%（+3%）并获得1层护盾（持续15秒，防御加成不叠加）"
             },
             {
               "unlockCondition": {
@@ -124112,7 +124112,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "造型仪调试",
-              "description": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+20%并获得1层<$ba.shield>护盾（持续25秒，防御加成不叠加）"
+              "description": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+20%并获得1层护盾（持续25秒，防御加成不叠加）"
             },
             {
               "unlockCondition": {
@@ -124121,7 +124121,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "造型仪调试",
-              "description": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+23%（+3%）并获得1层<$ba.shield>护盾（持续25秒，防御加成不叠加）"
+              "description": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+23%（+3%）并获得1层护盾（持续25秒，防御加成不叠加）"
             },
             {
               "unlockCondition": {
@@ -124130,7 +124130,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "造型仪调试",
-              "description": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+30%并获得2层<$ba.shield>护盾（持续25秒，防御加成不叠加）"
+              "description": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+30%并获得2层护盾（持续25秒，防御加成不叠加）"
             },
             {
               "unlockCondition": {
@@ -124139,7 +124139,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "造型仪调试",
-              "description": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+33%（+3%）并获得2层<$ba.shield>护盾（持续25秒，防御加成不叠加）"
+              "description": "携带3个造型仪（最多部署3个），使一名近战位上的单位防御力+33%（+3%）并获得2层护盾（持续25秒，防御加成不叠加）"
             }
           ]
         }
@@ -127181,7 +127181,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "正义助威·I",
-              "description": "部署后10秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得10%的<$ba.fragile>脆弱效果"
+              "description": "部署后10秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得10%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -127190,7 +127190,7 @@
               },
               "requiredPotentialRank": 1,
               "name": "正义助威·II",
-              "description": "部署后12秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得13%的<$ba.fragile>脆弱效果"
+              "description": "部署后12秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得13%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -127199,7 +127199,7 @@
               },
               "requiredPotentialRank": 2,
               "name": "正义助威·III",
-              "description": "部署后14秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得16%的<$ba.fragile>脆弱效果"
+              "description": "部署后14秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得16%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -127208,7 +127208,7 @@
               },
               "requiredPotentialRank": 3,
               "name": "正义助威·IV",
-              "description": "部署后16秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得19%的<$ba.fragile>脆弱效果"
+              "description": "部署后16秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得19%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -127217,7 +127217,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "正义助威·V",
-              "description": "部署后18秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得22%的<$ba.fragile>脆弱效果"
+              "description": "部署后18秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得22%的脆弱效果"
             },
             {
               "unlockCondition": {
@@ -127226,7 +127226,7 @@
               },
               "requiredPotentialRank": 5,
               "name": "正义助威·VI",
-              "description": "部署后20秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得25%的<$ba.fragile>脆弱效果"
+              "description": "部署后20秒内攻击范围内所有友方远程位单位更不容易被攻击且敌方空中单位获得25%的脆弱效果"
             }
           ]
         }
@@ -133137,7 +133137,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "坚冰",
-              "description": "攻击造成1秒<$ba.cold>寒冷；范围内<$ba.cold>寒冷的敌人受到15%的<$ba.fragile>脆弱，范围内<$ba.frozen>冻结的敌人<$ba.fragile>脆弱效果提升至2倍"
+              "description": "攻击造成1秒寒冷；范围内寒冷的敌人受到15%的脆弱，范围内冻结的敌人脆弱效果提升至2倍"
             },
             {
               "unlockCondition": {
@@ -133146,7 +133146,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "坚冰",
-              "description": "攻击造成1秒<$ba.cold>寒冷；范围内<$ba.cold>寒冷的敌人受到17%（+2%）的<$ba.fragile>脆弱，范围内<$ba.frozen>冻结的敌人<$ba.fragile>脆弱效果提升至2倍"
+              "description": "攻击造成1秒寒冷；范围内寒冷的敌人受到17%（+2%）的脆弱，范围内冻结的敌人脆弱效果提升至2倍"
             },
             {
               "unlockCondition": {
@@ -133155,7 +133155,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "坚冰",
-              "description": "攻击造成1秒<$ba.cold>寒冷；范围内<$ba.cold>寒冷的敌人受到25%的<$ba.fragile>脆弱，范围内<$ba.frozen>冻结的敌人<$ba.fragile>脆弱效果提升至2倍"
+              "description": "攻击造成1秒寒冷；范围内寒冷的敌人受到25%的脆弱，范围内冻结的敌人脆弱效果提升至2倍"
             },
             {
               "unlockCondition": {
@@ -133164,7 +133164,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "坚冰",
-              "description": "攻击造成1秒<$ba.cold>寒冷；范围内<$ba.cold>寒冷的敌人受到27%（+2%）的<$ba.fragile>脆弱，范围内<$ba.frozen>冻结的敌人<$ba.fragile>脆弱效果提升至2倍"
+              "description": "攻击造成1秒寒冷；范围内寒冷的敌人受到27%（+2%）的脆弱，范围内冻结的敌人脆弱效果提升至2倍"
             }
           ]
         },
@@ -133177,7 +133177,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "殊途同归",
-              "description": "灵知在场且部署后经过10秒时，使所有【喀兰贸易】干员获得<$ba.buffres>抵抗"
+              "description": "灵知在场且部署后经过10秒时，使所有【喀兰贸易】干员获得抵抗"
             }
           ]
         }
@@ -134427,7 +134427,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "飘渺彩云",
-              "description": "攻击范围内的友军生命少于40%时，使其获得8%的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命少于40%时，使其获得8%的庇护"
             },
             {
               "unlockCondition": {
@@ -134436,7 +134436,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "飘渺彩云",
-              "description": "攻击范围内的友军生命少于40%时，使其获得14%的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命少于40%时，使其获得14%的庇护"
             },
             {
               "unlockCondition": {
@@ -134445,7 +134445,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "飘渺彩云",
-              "description": "攻击范围内的友军生命少于40%时，使其获得20%的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命少于40%时，使其获得20%的庇护"
             }
           ]
         }
@@ -136460,7 +136460,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "有备无患",
-              "description": "特性消耗费用时，若费用足够则额外消耗5费用，抵消自身受到的下一次晕眩/<$ba.frozen>冻结，并使攻击来源晕眩3秒"
+              "description": "特性消耗费用时，若费用足够则额外消耗5费用，抵消自身受到的下一次晕眩/冻结，并使攻击来源晕眩3秒"
             }
           ]
         }
@@ -137869,7 +137869,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "丛林的荫庇",
-              "description": "攻击范围内的友军生命大于70%时，使其获得8%的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命大于70%时，使其获得8%的庇护"
             },
             {
               "unlockCondition": {
@@ -137878,7 +137878,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "丛林的荫庇",
-              "description": "攻击范围内的友军生命大于70%时，使其获得10%（+2%）的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命大于70%时，使其获得10%（+2%）的庇护"
             },
             {
               "unlockCondition": {
@@ -137887,7 +137887,7 @@
               },
               "requiredPotentialRank": 0,
               "name": "丛林的荫庇",
-              "description": "攻击范围内的友军生命大于70%时，使其获得14%的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命大于70%时，使其获得14%的庇护"
             },
             {
               "unlockCondition": {
@@ -137896,7 +137896,7 @@
               },
               "requiredPotentialRank": 4,
               "name": "丛林的荫庇",
-              "description": "攻击范围内的友军生命大于70%时，使其获得16%（+2%）的<$ba.protect>庇护"
+              "description": "攻击范围内的友军生命大于70%时，使其获得16%（+2%）的庇护"
             }
           ]
         }

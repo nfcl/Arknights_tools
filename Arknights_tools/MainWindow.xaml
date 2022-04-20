@@ -198,7 +198,7 @@
                                             </Border>
                                         </Grid>
                                         -->
-                                        <Grid>
+                                        <Grid Opacity="{Binding ElementName=Talent_Grid, Path=Opacity}" IsEnabled="{Binding ElementName=Talent_Grid, Path=IsEnabled}">
                                             <Grid.RowDefinitions>
                                                 <RowDefinition/>
                                                 <RowDefinition/>
@@ -206,13 +206,21 @@
                                             <TextBlock FontSize="40" Margin="10" Text="天赋"/>
                                             <Grid x:Name="Talent_Grid" Grid.Row="1" Margin="10"/>
                                         </Grid>
-                                        <Grid>
+                                        <Grid Opacity="{Binding ElementName=Skills_Grid, Path=Opacity}" IsEnabled="{Binding ElementName=Skills_Grid, Path=IsEnabled}">
                                             <Grid.RowDefinitions>
                                                 <RowDefinition/>
                                                 <RowDefinition/>
                                             </Grid.RowDefinitions>
                                             <TextBlock FontSize="40" Margin="10" Text="技能"/>
                                             <Grid x:Name="Skills_Grid" Grid.Row="1" Margin="10"/>
+                                        </Grid>
+                                        <Grid Opacity="{Binding ElementName=Parse_Matriels_Grid, Path=Opacity}" IsEnabled="{Binding ElementName=Parse_Matriels_Grid, Path=IsEnabled}">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition/>
+                                                <RowDefinition/>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock FontSize="40" Margin="10" Text="精英化材料"/>
+                                            <Grid x:Name="Parse_Matriels_Grid" Grid.Row="1" Margin="10"/>
                                         </Grid>
                                     </StackPanel>
                                 </ScrollViewer>

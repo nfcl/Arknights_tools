@@ -282,7 +282,7 @@ namespace ClassSum
         /// <para/>matriels.json的json实体类
         /// <para/>保存了材料的数量信息
         /// </summary>
-        public static Matriels_Root MatrielsMakble;
+        public static Matriels_Root Matriels;
         /// <summary>
         /// 干员信息
         /// </summary>
@@ -316,10 +316,12 @@ namespace ClassSum
         public string Name_Ch { get; }
         public string Name_En { get; }
         public string Special { get; }
+        public int Rarity { get; }
         public string ImplementationOrder { get; }
 
         public Grid Skill_DataGrid { get; }
         public Grid Talent_DataGrid { get; }
+        public Grid Parse_Matriels_DataGrid { get; }
         public Button Avatar_Select_Button { get; }
 
         public string Position => position == "RANGED" ? "远程位" : "近战位";
@@ -337,6 +339,9 @@ namespace ClassSum
 
             //位置（近战位和远程位）
             position = original.position;
+
+            //稀有度,-1
+            Rarity = original.rarity;
 
             //描述
             Special = original.description;
@@ -362,6 +367,7 @@ namespace ClassSum
             //技能部分
             {
                 Skill_DataGrid = new Grid();
+                Skill_DataGrid.RowDefinitions.Clear();
                 TextBlock TmpText;
                 Border TmpBorder;
                 SolidColorBrush BackgroundColor;
@@ -706,6 +712,210 @@ namespace ClassSum
                             Talent_DataGrid.Children.Add(tmpborder);
                             Grid.SetRow(tmpborder, Talent_DataGrid.RowDefinitions.Count - 1);
                             Grid.SetColumn(tmpborder, 3);
+                        }
+                    }
+                }
+            }
+
+            //精英化材料部分
+            {
+                TextBlock tmptext;
+                Border tmpborder;
+                Grid tmpgrid;
+                Image tmpimage;
+                StackPanel tmpstack;
+                List<string> dxsz = new List<string>() { "零", "一", "二", "三", "四", "五", "六", "七", "八", "九" };
+                List<List<int>> lmbnum = new List<List<int>>()
+                {
+                    new List<int> {     0,      0  },
+                    new List<int> {     0,      0  },
+                    new List<int> { 10000,      0  },
+                    new List<int> { 15000,  60000  },
+                    new List<int> { 20000, 120000  },
+                    new List<int> { 30000, 180000  },
+                };
+                /*材料uid转图片名称*/
+                Dictionary<int, string> Matriels_pic = new Dictionary<int, string>();
+                /*材料名称加入字典*/
+                foreach (CompositableItem tmpmat in GlobalArgs.Matriels.Matriels.Compositable)
+                {
+                    Matriels_pic[tmpmat.Uid] = tmpmat.En_Name;
+                }
+                /*芯片名称加入字典*/
+                foreach (ChipItem tmpmat in GlobalArgs.Matriels.Matriels.chip)
+                {
+                    Matriels_pic[tmpmat.Uid] = tmpmat.En_Name;
+                }
+                Parse_Matriels_DataGrid = new Grid();
+                {
+                    {
+                        //for (int i = 1; i < original.phases.Count; ++i)
+                        //{
+                        //    while (Parse_Matriels_DataGrid.ColumnDefinitions.Count < original.phases[i].evolveCost.Count + 2)
+                        //    {
+                        //        Parse_Matriels_DataGrid.ColumnDefinitions.Add(new ColumnDefinition());
+                        //    }
+                        //    Parse_Matriels_DataGrid.RowDefinitions.Add(new RowDefinition());
+                        //    tmpimage = new Image()
+                        //    {
+                        //        Stretch = Stretch.None,
+                        //        Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/pharse/Stage_" + i + ".png"))
+                        //    };
+                        //    tmpborder = new Border()
+                        //    {
+                        //        Child = tmpimage,
+                        //        Margin = new Thickness(10)
+                        //    };
+                        //    Parse_Matriels_DataGrid.Children.Add(tmpborder);
+                        //    Grid.SetRow(tmpborder, i - 1);
+                        //    Grid.SetColumn(tmpborder, 0);
+
+                        //    tmpgrid = new Grid();
+                        //    {
+                        //        tmpimage = new Image()
+                        //        {
+                        //            Margin = new Thickness(10),
+                        //            Stretch = Stretch.None,
+                        //            Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/Materials/Dragon_Gate_Coin.png"))
+                        //        };
+                        //        tmpgrid.Children.Add(tmpimage);
+                        //        tmptext = new TextBlock()
+                        //        {
+                        //            Text = lmbnum[original.rarity][i - 1].ToString(),
+                        //            HorizontalAlignment = HorizontalAlignment.Center,
+                        //            VerticalAlignment = VerticalAlignment.Center,
+                        //            Foreground = Brushes.White,
+                        //            Margin = new Thickness(10, 3, 10, 3),
+                        //            FontSize = 25
+                        //        };
+                        //        tmpborder = new Border()
+                        //        {
+                        //            Child = tmptext,
+                        //            Background = new SolidColorBrush(Color.FromArgb(200, 34, 34, 34)),
+                        //            HorizontalAlignment = HorizontalAlignment.Right,
+                        //            VerticalAlignment = VerticalAlignment.Bottom,
+                        //            Margin = new Thickness(0, 0, 75, 27)
+                        //        };
+                        //        tmpgrid.Children.Add(tmpborder);
+                        //    }
+                        //    Parse_Matriels_DataGrid.Children.Add(tmpgrid);
+                        //    Grid.SetRow(tmpgrid, i - 1);
+                        //    Grid.SetColumn(tmpgrid, 1);
+
+                        //    int colnow = 2;
+                        //    foreach (EvolveCostItem tmpcost in original.phases[i].evolveCost)
+                        //    {
+                        //        tmpgrid = new Grid();
+                        //        {
+                        //            tmpimage = new Image()
+                        //            {
+                        //                Stretch = Stretch.None,
+                        //                Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/Materials/" + Matriels_pic[int.Parse(tmpcost.id)] + ".png"))
+                        //            };
+                        //            tmpgrid.Children.Add(tmpimage);
+                        //            tmptext = new TextBlock()
+                        //            {
+                        //                Text = tmpcost.count.ToString(),
+                        //                HorizontalAlignment = HorizontalAlignment.Center,
+                        //                VerticalAlignment = VerticalAlignment.Center,
+                        //                Foreground = Brushes.White,
+                        //                Margin = new Thickness(10, 3, 10, 3),
+                        //                FontSize = 25
+                        //            };
+                        //            tmpborder = new Border()
+                        //            {
+                        //                Child = tmptext,
+                        //                Background = new SolidColorBrush(Color.FromArgb(200, 34, 34, 34)),
+                        //                HorizontalAlignment = HorizontalAlignment.Right,
+                        //                VerticalAlignment = VerticalAlignment.Bottom,
+                        //                Margin = new Thickness(0, 0, 75, 27)
+                        //            };
+                        //            tmpgrid.Children.Add(tmpborder);
+                        //        }
+                        //        Parse_Matriels_DataGrid.Children.Add(tmpgrid);
+                        //        Grid.SetRow(tmpgrid, i - 1);
+                        //        Grid.SetColumn(tmpgrid, colnow);
+                        //        ++colnow;
+                        //    }
+                        //}
+                    }
+                    for (int i = 1; i < original.phases.Count; ++i)
+                    {
+                        Parse_Matriels_DataGrid.RowDefinitions.Add(new RowDefinition());
+                        tmpstack = new StackPanel() { Orientation = Orientation.Horizontal };
+                        Parse_Matriels_DataGrid.Children.Add(tmpstack);
+                        Grid.SetRow(tmpstack, i - 1);
+                        tmpimage = new Image()
+                        {
+                            Stretch = Stretch.None,
+                            Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/pharse/Stage_" + i + ".png"))
+                        };
+                        tmpborder = new Border()
+                        {
+                            Child = tmpimage,
+                            Margin = new Thickness(10)
+                        };
+                        tmpstack.Children.Add(tmpborder);
+
+                        tmpgrid = new Grid();
+                        {
+                            tmpimage = new Image()
+                            {
+                                Margin = new Thickness(10),
+                                Stretch = Stretch.None,
+                                Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/Materials/Dragon_Gate_Coin.png"))
+                            };
+                            tmpgrid.Children.Add(tmpimage);
+                            tmptext = new TextBlock()
+                            {
+                                Text = lmbnum[original.rarity][i - 1].ToString(),
+                                HorizontalAlignment = HorizontalAlignment.Center,
+                                VerticalAlignment = VerticalAlignment.Center,
+                                Foreground = Brushes.White,
+                                Margin = new Thickness(10, 3, 10, 3),
+                                FontSize = 25
+                            };
+                            tmpborder = new Border()
+                            {
+                                Child = tmptext,
+                                Background = new SolidColorBrush(Color.FromArgb(200, 34, 34, 34)),
+                                HorizontalAlignment = HorizontalAlignment.Right,
+                                VerticalAlignment = VerticalAlignment.Bottom,
+                                Margin = new Thickness(0, 0, 25, 25)
+                            };
+                            tmpgrid.Children.Add(tmpborder);
+                        }
+                        tmpstack.Children.Add(tmpgrid);
+                        foreach (EvolveCostItem tmpcost in original.phases[i].evolveCost)
+                        {
+                            tmpgrid = new Grid();
+                            {
+                                tmpimage = new Image()
+                                {
+                                    Stretch = Stretch.None,
+                                    Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/Materials/" + Matriels_pic[int.Parse(tmpcost.id)] + ".png"))
+                                };
+                                tmpgrid.Children.Add(tmpimage);
+                                tmptext = new TextBlock()
+                                {
+                                    Text = tmpcost.count.ToString(),
+                                    HorizontalAlignment = HorizontalAlignment.Center,
+                                    VerticalAlignment = VerticalAlignment.Center,
+                                    Foreground = Brushes.White,
+                                    Margin = new Thickness(10, 3, 10, 3),
+                                    FontSize = 25
+                                };
+                                tmpborder = new Border()
+                                {
+                                    Child = tmptext,
+                                    Background = new SolidColorBrush(Color.FromArgb(200, 34, 34, 34)),
+                                    HorizontalAlignment = HorizontalAlignment.Right,
+                                    VerticalAlignment = VerticalAlignment.Bottom,
+                                    Margin = new Thickness(0, 0, 25, 25)
+                                };
+                                tmpgrid.Children.Add(tmpborder);
+                            }
+                            tmpstack.Children.Add(tmpgrid);
                         }
                     }
                 }

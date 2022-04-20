@@ -300,7 +300,7 @@ namespace json_real
         /// 当前数值的等级
         /// </summary>
         public int level { get; set; }
-        /// <summary>
+        /// <summary> 
         /// 当前等级的数值信息
         /// </summary>
         public Data data { get; set; }

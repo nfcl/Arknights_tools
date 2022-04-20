@@ -190,17 +190,17 @@ namespace Arknights_tools
         {
             Tool tool = new Tool();
             int STORE_MAIN_GRID_COLNUM = 8;
-            GlobalArgs.MatrielsMakble = tool.JsonReader<Matriels_Root>(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json");
-            int matrielnum = GlobalArgs.MatrielsMakble.Matriels.Compositable.Count();
+            GlobalArgs.Matriels = tool.JsonReader<Matriels_Root>(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json");
+            int matrielnum = GlobalArgs.Matriels.Matriels.Compositable.Count();
             GlobalArgs.MatrielMode = new StoreMatrielMode[matrielnum];
             tool.GridCutters(StoreMainGrid,
                                   (matrielnum + STORE_MAIN_GRID_COLNUM - 1) / STORE_MAIN_GRID_COLNUM, STORE_MAIN_GRID_COLNUM,
                                   StoreMainGrid.Width / STORE_MAIN_GRID_COLNUM * 1.15);
             string path;
             int now = 0;
-            foreach (CompositableItem i in GlobalArgs.MatrielsMakble.Matriels.Compositable)
+            foreach (CompositableItem i in GlobalArgs.Matriels.Matriels.Compositable)
             {
-                path = "Resources/image/Materials/Compositable/" + i.Level.ToString() + "_" + i.En_Name + ".png";
+                path = "Resources/image/Materials/" + i.En_Name + ".png";
                 DockPanel tmpdock = new DockPanel();
                 StoreMainGrid.Children.Add(tmpdock);
                 Grid.SetColumn(tmpdock, now % STORE_MAIN_GRID_COLNUM);
@@ -297,10 +297,32 @@ namespace Arknights_tools
             {
                 if (tmp_button.Uid == i.ImplementationOrder)
                 {
-                    Skills_Grid.Children.Clear();
-                    Skills_Grid.Children.Add(i.Skill_DataGrid);
+                    if (i.Skill_DataGrid.RowDefinitions.Count == 0)
+                    {
+                        Skills_Grid.Opacity = 0;
+                        Skills_Grid.IsEnabled = false;
+                    }
+                    else
+                    {
+                        Skills_Grid.Opacity = 1;
+                        Skills_Grid.IsEnabled = true;
+                        Skills_Grid.Children.Clear();
+                        Skills_Grid.Children.Add(i.Skill_DataGrid);
+                    }
                     Talent_Grid.Children.Clear();
                     Talent_Grid.Children.Add(i.Talent_DataGrid);
+                    if (i.Rarity <= 1)
+                    {
+                        Parse_Matriels_Grid.Opacity = 0;
+                        Parse_Matriels_Grid.IsEnabled = false;
+                    }
+                    else
+                    {
+                        Parse_Matriels_Grid.Opacity = 1;
+                        Parse_Matriels_Grid.IsEnabled = true;
+                        Parse_Matriels_Grid.Children.Clear();
+                        Parse_Matriels_Grid.Children.Add(i.Parse_Matriels_DataGrid);
+                    }
                     Charinfo_Pannel.DataContext = i;
                     return;
                 }
@@ -450,7 +472,7 @@ namespace Arknights_tools
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             Tool tool = new Tool();
-            tool.JsonWrite(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json", GlobalArgs.MatrielsMakble);
+            tool.JsonWrite(Directory.GetCurrentDirectory() + "/Resources/json/matriels.json", GlobalArgs.Matriels);
         }
     }
 }
