@@ -143,33 +143,63 @@
                                                     <TextBlock FontSize="20" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Text="{Binding Tag}"/>
                                                 </Border>
 
-                                                <TextBlock Text="{Binding Name_Ch}" FontSize="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30 130"/>
+                                                <TextBlock Text="{Binding Name_Ch, UpdateSourceTrigger=PropertyChanged}" FontSize="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30 130"/>
                                                 <TextBlock Text="{Binding Name_En}" FontSize="40" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="35 250"/>
-                                                <!--
-                                                <Border Name="skin_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Height="200" 
-                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30">
-                                                    <Grid>
-                                                        <Grid.RowDefinitions>
-                                                            <RowDefinition Height="auto"/>
-                                                            <RowDefinition/>
-                                                        </Grid.RowDefinitions>
-                                                        <TextBlock Text="描述" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="10 10 0 0" />
-                                                        <TextBlock Text="阿米娅最常穿着的服装，过大的尺寸似乎暗示了这件衣服曾不属于她不少细节部分都经过手工改造，而时间的痕迹也多有残留。" 
-                                                       FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" Margin="30 0 20 0"  VerticalAlignment="Center" Grid.Row="1" />
-                                                    </Grid>
-                                                </Border>
-                                                -->
-                                                <Border Name="special_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Height="150" 
-                                                    Background="#222222" Opacity="0.8" CornerRadius="5" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 0 30 240">
-                                                    <Grid >
-                                                        <Grid.RowDefinitions>
-                                                            <RowDefinition Height="auto"/>
-                                                            <RowDefinition/>
-                                                        </Grid.RowDefinitions>
-                                                        <TextBlock Text="特性" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10 10 0 0"/>
-                                                        <TextBlock Text="{Binding Special}" Grid.Row="1" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="30 0 20 0"/>
-                                                    </Grid>
-                                                </Border>
+
+                                                <DockPanel HorizontalAlignment="Right">
+                                                    <Border Name="skin_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Margin="0 0 30 30"
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" DockPanel.Dock="Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                                                        <Grid Margin="0 0 0 20">
+                                                            <Grid.RowDefinitions>
+                                                                <RowDefinition Height="auto"/>
+                                                                <RowDefinition Height="auto"/>
+                                                            </Grid.RowDefinitions>
+                                                            <TextBlock Text="描述" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="10 10 0 10" />
+                                                            <TextBlock Text="{Binding Describle}" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" Margin="30 0 20 0"  VerticalAlignment="Center" Grid.Row="1" />
+                                                        </Grid>
+                                                    </Border>
+
+                                                    <Border Name="special_describle_border" BorderBrush="#AAAAAA" BorderThickness="3" Width="400" Margin="0 0 30 15"
+                                                    Background="#222222" Opacity="0.8" CornerRadius="5" DockPanel.Dock="Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                                                        <Grid Margin="0 0 0 20">
+                                                            <Grid.RowDefinitions>
+                                                                <RowDefinition Height="auto"/>
+                                                                <RowDefinition Height="auto"/>
+                                                            </Grid.RowDefinitions>
+                                                            <TextBlock Text="特性" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10 10 0 10"/>
+                                                            <TextBlock Text="{Binding Special}" Grid.Row="1" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="30 0 20 0"/>
+                                                        </Grid>
+                                                    </Border>
+                                                </DockPanel>
+                                                <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+                                                    <Button Style="{DynamicResource Phase0_Select_Button}"/>
+                                                    <Button Style="{DynamicResource Phase1_Select_Button}"/>
+                                                    <Button Style="{DynamicResource Phase2_Select_Button}"/>
+                                                </StackPanel>
+                                                <StackPanel x:Name="Skin_Stackpannel" HorizontalAlignment="Right">
+                                                    <!--<Button Style="{StaticResource Skin_Select_Button}" BorderBrush="Blue" Content="识芳"/>-->
+                                                    <!--<Grid Width="350" Margin="0 30 30 0" Height="100">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="auto"/>    
+                                                            <ColumnDefinition/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <Border BorderBrush="#2222EE" BorderThickness="5 10" HorizontalAlignment="Left"/>
+                                                        <Grid Grid.Column="1" Margin="0 2 0 2">
+                                                            <Border Background="#333333"/>
+                                                            <Image Stretch="Uniform" Width="150" Height="150" Margin="10 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Left" Source="C:/Users/煖風遲來/Desktop/头像_琴柳_skin1.png"/>
+                                                            <Border Width="50" Margin="-100 0 0 0">
+                                                                <Border.Background>
+                                                                    <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                                                                        <GradientStop Color="#FF333333" Offset="0"/>
+                                                                        <GradientStop Color="#00333333" Offset="1"/>
+                                                                    </LinearGradientBrush>
+                                                                </Border.Background>
+                                                            </Border>
+                                                            <TextBlock Text="识芳" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="185,0,0,0"/>
+                                                            <Image Stretch="Uniform" Width="100" Height="100" Margin="259,19,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Source="C:/Users/煖風遲來/Desktop/Charinfo_SkinSelect1.png"/>
+                                                        </Grid>
+                                                    </Grid>-->
+                                                </StackPanel>
                                             </Grid>
                                         </Grid>
                                         <!--

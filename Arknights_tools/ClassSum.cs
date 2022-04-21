@@ -7,6 +7,7 @@ using json_real;
 using System.Windows.Data;
 using System.Collections.ObjectModel;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace ClassSum
 {
@@ -304,13 +305,18 @@ namespace ClassSum
     /// <summary>
     /// 用于储存人物展示的数据和UI进行绑定
     /// </summary>
-    public class Charinfo_Tapitem
+    public class Charinfo_Tapitem: INotifyPropertyChanged
     {
+        #region INPC
+        public event PropertyChangedEventHandler PropertyChanged;
+        public void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        #endregion
+
         private readonly string position;
         private readonly string Profession_Ch;
         private readonly string SubProfessionId_Ch;
         private readonly string SubProfessionId_En;
-        private readonly List<string> picname;
+        private readonly List<SkinItem> skins;
 
         public string Tag { get; }
         public string Name_Ch { get; }
@@ -318,19 +324,69 @@ namespace ClassSum
         public string Special { get; }
         public int Rarity { get; }
         public string ImplementationOrder { get; }
+        public int Skin_now { get; set; }
+        public int Phase_Num { get; }
+
+        public class Skin
+        {
+            #region INPC
+            public event PropertyChangedEventHandler PropertyChanged;
+            public void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            #endregion
+
+            private int _isSelect;
+
+            public string Name { get; }
+            public BitmapImage Avatar { get; }
+            public int Is_Select
+            {
+                get => _isSelect;
+                set
+                {
+                    _isSelect = value;
+                    OnPropertyChanged("Is_Select");
+                }
+            }
+            public SolidColorBrush BorderColor { get; }
+            public Skin(string name, Uri avatar, Color color)
+            {
+                Name = name;
+                Avatar = new BitmapImage(avatar);
+                Is_Select = 0;
+                BorderColor = new SolidColorBrush(color);
+            }
+        }
 
         public Grid Skill_DataGrid { get; }
         public Grid Talent_DataGrid { get; }
         public Grid Parse_Matriels_DataGrid { get; }
+        public List<Button> Skins_Select_Button { get; }
+        public List<string> Skins_picname { get; }
+        public List<Image> Skins_Select { get; }
         public Button Avatar_Select_Button { get; }
 
+        public List<Skin> Skins;
+        public int? Select_Skin = null;
         public string Position => position == "RANGED" ? "远程位" : "近战位";
         public string Professional_Text => Profession_Ch + " - " + SubProfessionId_Ch;
-        public BitmapImage Bust_Paint => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/bust/" + picname[0] + ".png"));
-        public BitmapImage Avatar_Paint => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/avatar/" + picname[0] + ".png"));
-        public BitmapImage Stand_Paint => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/Stdpaint/" + picname[0] + ".png"));
+        public string Describle => skins[Skin_now].describle;
+        public int Skin_Num => Skins_Select.Count - Phase_Num;
+        public BitmapImage Bust_Paint => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/bust/" + Skins_picname[Skin_now] + ".png"));
+        public BitmapImage Avatar_Paint => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/avatar/" + Skins_picname[Skin_now] + ".png"));
+        public BitmapImage Stand_Paint => new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/Stdpaint/" + Skins_picname[Skin_now] + ".png"));
         public BitmapImage Professional_Image => new BitmapImage(new Uri("pack://application:,,,/Resources/image/Optbch/" + SubProfessionId_En + ".png"));
 
+        public void Select_Skin_Click(object sender, RoutedEventArgs e)
+        {
+            Button Sender = sender as Button;
+            if (Select_Skin != null)
+            {
+                Skins[int.Parse(Sender.Uid) - Phase_Num].Is_Select = 0;
+            }
+            Skin_now = int.Parse(Sender.Uid);
+            Skins[int.Parse(Sender.Uid) - Phase_Num].Is_Select = 1;
+            OnPropertyChanged("Stand_Paint");
+        }
 
         public Charinfo_Tapitem(Char_infoItem original)
         {
@@ -359,7 +415,7 @@ namespace ClassSum
             SubProfessionId_Ch = original.SubProfessionId_Ch;
 
             //皮肤名称（英文图片名）
-            picname = original.PicName;
+            skins = original.Skins;
 
             //干员序号
             ImplementationOrder = original.ImplementationOrder.ToString();
@@ -378,6 +434,7 @@ namespace ClassSum
                 { "受击回复", new SolidColorBrush(Color.FromArgb(200,251,178,2  ))},
                 { "手动触发", new SolidColorBrush(Color.FromArgb(200,115,115,115))},
                 { "自动触发", new SolidColorBrush(Color.FromArgb(200,115,115,115))},
+                { "被动"    , new SolidColorBrush(Color.FromArgb(200,115,115,115))},
             };
                 foreach (SkillsItem skilltmp in original.skills)
                 {
@@ -446,6 +503,14 @@ namespace ClassSum
                                             VerticalAlignment = VerticalAlignment.Center
                                         };
                                         Grid.SetRow(TmpBorder, Skill_Kind_Grid.Children.Add(TmpBorder));
+                                        if (TmpText.Text == "被动")
+                                        {
+                                            Grid.SetRowSpan(TmpBorder, 2);
+                                        }
+                                        else
+                                        {
+                                            Grid.SetRowSpan(TmpBorder, 1);
+                                        }
                                     }
                                     if (skilltmp.triggerkind != null)
                                     {
@@ -919,6 +984,181 @@ namespace ClassSum
                         }
                     }
                 }
+            }
+
+            //时装及精英化部分
+            {
+                {
+                    /*
+                    Button SingleSkin_Button;
+                    Grid SingleSkin_Grid;
+                    Border tmpborder;
+                    TextBlock tmptext;
+                    Grid tmpgrid;
+                    Image tmpimage;
+                    Skins_Select_Button = new List<Button>();
+                    Skins_picname = new List<string>();
+                    Skins_Select = new List<Image>();
+                    int num = 0;
+                    string tmpstr;
+                    foreach (SkinItem tmpskin in original.Skins)
+                    {
+                        tmpstr = "";
+                        for (int i = 0; i < tmpskin.picture_name.Length; ++i)
+                        {
+                            if (tmpskin.picture_name[i] == '#')
+                            {
+                                tmpstr += "%23";
+                            }
+                            else
+                            {
+                                tmpstr += tmpskin.picture_name[i];
+                            }
+                        }
+                        ++num;
+                        Skins_picname.Add(tmpstr);
+                        if (tmpskin.is_phase) continue;
+                        SingleSkin_Button = new Button()
+                        {
+                            Width = 350,
+                            Margin = new Thickness(0, 30, 30, -10),
+                            Height = 100,
+                            Background = Brushes.Transparent,
+                            BorderBrush = Brushes.Transparent,
+                            Uid = num.ToString()
+                        };
+                        SingleSkin_Button.Click += Select_Skin;
+                        SingleSkin_Grid = new Grid();
+                        SingleSkin_Button.Content = SingleSkin_Grid;
+                        SingleSkin_Grid.ColumnDefinitions.Add(new ColumnDefinition() { Width = GridLength.Auto });
+                        SingleSkin_Grid.ColumnDefinitions.Add(new ColumnDefinition() { Width = GridLength.Auto });
+                        int tmpr = Convert.ToInt32(tmpskin.color.Substring(0, 2), 16);
+                        int tmpg = Convert.ToInt32(tmpskin.color.Substring(2, 2), 16);
+                        int tmpb = Convert.ToInt32(tmpskin.color.Substring(4, 2), 16);
+                        tmpborder = new Border()
+                        {
+                            Background = new SolidColorBrush(Color.FromRgb((byte)tmpr, (byte)tmpg, (byte)tmpb)),
+                            Width = 10,
+                            HorizontalAlignment = HorizontalAlignment.Left
+                        };
+                        SingleSkin_Grid.Children.Add(tmpborder);
+                        Grid.SetColumn(tmpborder, 0);
+                        tmpgrid = new Grid()
+                        {
+                            Margin = new Thickness(0, 2, 0, 2)
+                        };
+                        SingleSkin_Grid.Children.Add(tmpgrid);
+                        Grid.SetColumn(tmpgrid, 1);
+                        {
+                            tmpborder = new Border()
+                            {
+                                Background = new SolidColorBrush(Color.FromArgb(0xFF,0x33, 0x33, 0x33))
+                            };
+                            tmpgrid.Children.Add(tmpborder);
+                            tmpimage = new Image()
+                            {
+                                Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/avatar/" + Skins_picname[Skins_picname.Count - 1] + ".png")),
+                                Stretch = Stretch.Uniform,
+                                Width = 150,
+                                Height = 150,
+                                Margin = new Thickness(10, 0, 0, 0),
+                                VerticalAlignment = VerticalAlignment.Center,
+                                HorizontalAlignment = HorizontalAlignment.Left,
+                            };
+                            tmpgrid.Children.Add(tmpimage);
+                            tmpborder = new Border()
+                            {
+                                Width = 50,
+                                Margin = new Thickness(-100, 0, 0, 0),
+                                Background = new LinearGradientBrush()
+                                {
+                                    EndPoint = new Point(0, 0.5),
+                                    StartPoint = new Point(1, 0.5),
+                                    GradientStops = new GradientStopCollection()
+                                    {
+                                        new GradientStop()
+                                        {
+                                            Color = Color.FromArgb(0xFF,0x33,0x33,0x33),
+                                            Offset = 0
+                                        },
+                                        new GradientStop()
+                                        {
+                                            Color = Color.FromArgb(0x00,0x33,0x33,0x33),
+                                            Offset = 1
+                                        }
+                                    }
+                                }
+                            };
+                            tmpgrid.Children.Add(tmpborder);
+                            tmptext = new TextBlock()
+                            {
+                                Text = tmpskin.name,
+                                Foreground = Brushes.White,
+                                HorizontalAlignment = HorizontalAlignment.Left,
+                                VerticalAlignment = VerticalAlignment.Center,
+                                Margin = new Thickness(185, 0, 0, 0)
+                            };
+                            tmpgrid.Children.Add(tmptext);
+                            tmpimage = new Image()
+                            {
+                                Stretch = Stretch.Uniform,
+                                Width = 100,
+                                Height = 100,
+                                Opacity = 0,
+                                Margin = new Thickness(259,19,0,0),
+                                VerticalAlignment = VerticalAlignment.Top,
+                                HorizontalAlignment = HorizontalAlignment.Left,
+                                Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/others/Charinfo_SkinSelect1.png"))
+                            };
+                            tmpgrid.Children.Add(tmpimage);
+                            Skins_Select.Add(tmpimage);
+                        }
+                        Skins_Select_Button.Add(SingleSkin_Button);
+                    }
+                    */
+                }
+                string tmpstr;
+                Skins_picname = new List<string>();
+                Skins_Select_Button = new List<Button>();
+                Skins = new List<Skin>();
+                Phase_Num = 0;
+                foreach (SkinItem tmpskin in original.Skins)
+                {
+                    tmpstr = "";
+                    for (int i = 0; i < tmpskin.picture_name.Length; ++i)
+                    {
+                        if (tmpskin.picture_name[i] == '#')
+                        {
+                            tmpstr += "%23";
+                        }
+                        else
+                        {
+                            tmpstr += tmpskin.picture_name[i];
+                        }
+                    }
+                    Skins_picname.Add(tmpstr);
+                    if (tmpskin.is_phase)
+                    {
+                        ++Phase_Num;
+                        continue;
+                    }
+                    int tmpr = Convert.ToInt32(tmpskin.color.Substring(0, 2), 16);
+                    int tmpg = Convert.ToInt32(tmpskin.color.Substring(2, 2), 16);
+                    int tmpb = Convert.ToInt32(tmpskin.color.Substring(4, 2), 16);
+                    Skin tmpskin1 = new Skin(tmpskin.name,
+                        new Uri("pack://application:,,,/Resources/image/char/avatar/" + Skins_picname[Skins_picname.Count - 1] + ".png"),
+                        Color.FromRgb((byte)tmpr, (byte)tmpg, (byte)tmpb));
+                    Button SingleSkin_Button = new Button();
+                    SingleSkin_Button.SetValue(Button.StyleProperty, Application.Current.FindResource("Skin_Select_Button"));
+                    SingleSkin_Button.DataContext = tmpskin1;
+                    SingleSkin_Button.Opacity = 1;
+                    SingleSkin_Button.Click += Select_Skin_Click;
+                    SingleSkin_Button.Content = tmpskin.name;
+                    SingleSkin_Button.Uid = (Skins_picname.Count - 1).ToString();
+                    Skins_Select_Button.Add(SingleSkin_Button);
+                    Skins.Add(tmpskin1);
+                }
+                Skin_now = 0;
             }
 
             //tag词缀（用于绑定数据到UI）

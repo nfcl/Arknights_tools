@@ -225,6 +225,350 @@
             </Setter.Value>
         </Setter>
     </Style>
+    <Style x:Key="Phase0_Select_Button" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Height" Value="75"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Border Width="180" Height="5" Margin="3 -57 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0.5 0" EndPoint="0.5 1">
+                                    <GradientStop Color="White" Offset="1"/>
+                                    <GradientStop Color="Transparent" Offset="0"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border> <!--上-->
+                        <Border Width="180" Height="5" Margin="3 63 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0.5 0" EndPoint="0.5 1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>  <!--下-->
+                        <Border Width="5" Height="55" Margin="-182 3 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0 0.5" EndPoint="1 0.5">
+                                    <GradientStop Color="White" Offset="1"/>
+                                    <GradientStop Color="Transparent" Offset="0"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border> <!--左-->
+                        <Border Width="5" Height="55" Margin="188 3 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0 0.5" EndPoint="1 0.5">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>  <!--右-->
+                        <Border Width="5" Height="5" Margin="-182 -57 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="1 1" GradientOrigin="1 1" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border><!--左上-->
+                        <Border Width="5" Height="5" Margin="-182 63 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="1 0" GradientOrigin="1 0" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border> <!--左下-->
+                        <Border Width="5" Height="5" Margin="188 -57 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="0 1" GradientOrigin="0 1" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border> <!--右上-->
+                        <Border Width="5" Height="5" Margin="188 63 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="0 0" GradientOrigin="0 0" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>  <!--右下-->
+                        <Border Width="1.5" Height="55" Margin="181.5 3 0 0" Background="White"/><!--右补-->
+                        <Border Width="180" Height="1.5" Margin="3 56.5 0 0" Background="White"/><!--右补-->
+
+                        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                            <Grid Width="200" Height="70" Background="#EE222222">
+                                <Image x:Name="PhasePicture" Source="\Resources\image\pharse\Stage_0.png" Margin="0 0 110 10" Width="80" Opacity="1"/>
+                                <Image x:Name="PhasePicture_b" Source="\Resources\image\pharse\Stage_0_b.png" Margin="0 0 110 10" Width="80" Opacity="0"/>
+                                <TextBlock x:Name="PhaseName" Text="初始" FontSize="25" Margin="60 0 0 15" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" From="1" To="0" Storyboard.TargetName="PhasePicture" Storyboard.TargetProperty="Opacity"/>
+                                        <DoubleAnimation Duration="0:0:0.2" From="0" To="1" Storyboard.TargetName="PhasePicture_b" Storyboard.TargetProperty="Opacity"/>
+                                        <ColorAnimation Duration="0:0:0.2" From="White" To="#00c6ff" Storyboard.TargetName="PhaseName" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" From="0" To="1" Storyboard.TargetName="PhasePicture" Storyboard.TargetProperty="Opacity"/>
+                                        <DoubleAnimation Duration="0:0:0.2" From="1" To="0" Storyboard.TargetName="PhasePicture_b" Storyboard.TargetProperty="Opacity"/>
+                                        <ColorAnimation Duration="0:0:0.2" From="#00c6ff" To="White" Storyboard.TargetName="PhaseName" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Phase1_Select_Button" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Height" Value="75"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Border Width="180" Height="5" Margin="3 -57 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0.5 0" EndPoint="0.5 1">
+                                    <GradientStop Color="White" Offset="1"/>
+                                    <GradientStop Color="Transparent" Offset="0"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--上-->
+                        <Border Width="180" Height="5" Margin="3 63 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0.5 0" EndPoint="0.5 1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--下-->
+                        <Border Width="5" Height="55" Margin="-182 3 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0 0.5" EndPoint="1 0.5">
+                                    <GradientStop Color="White" Offset="1"/>
+                                    <GradientStop Color="Transparent" Offset="0"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--左-->
+                        <Border Width="5" Height="55" Margin="188 3 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0 0.5" EndPoint="1 0.5">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--右-->
+                        <Border Width="5" Height="5" Margin="-182 -57 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="1 1" GradientOrigin="1 1" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--左上-->
+                        <Border Width="5" Height="5" Margin="-182 63 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="1 0" GradientOrigin="1 0" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--左下-->
+                        <Border Width="5" Height="5" Margin="188 -57 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="0 1" GradientOrigin="0 1" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--右上-->
+                        <Border Width="5" Height="5" Margin="188 63 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="0 0" GradientOrigin="0 0" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--右下-->
+                        <Border Width="1.5" Height="55" Margin="181.5 3 0 0" Background="White"/>
+                        <!--右补-->
+                        <Border Width="180" Height="1.5" Margin="3 56.5 0 0" Background="White"/>
+                        <!--右补-->
+
+                        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                            <Grid Width="200" Height="70" Background="#EE222222">
+                                <Image x:Name="PhasePicture" Source="\Resources\image\pharse\Stage_1.png" Margin="0 0 110 10" Width="80" Opacity="1"/>
+                                <Image x:Name="PhasePicture_b" Source="\Resources\image\pharse\Stage_1_b.png" Margin="0 0 110 10" Width="80" Opacity="0"/>
+                                <TextBlock x:Name="PhaseName" Text="精英一" FontSize="25" Margin="60 0 0 15" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" From="1" To="0" Storyboard.TargetName="PhasePicture" Storyboard.TargetProperty="Opacity"/>
+                                        <DoubleAnimation Duration="0:0:0.2" From="0" To="1" Storyboard.TargetName="PhasePicture_b" Storyboard.TargetProperty="Opacity"/>
+                                        <ColorAnimation Duration="0:0:0.2" From="White" To="#00c6ff" Storyboard.TargetName="PhaseName" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" From="0" To="1" Storyboard.TargetName="PhasePicture" Storyboard.TargetProperty="Opacity"/>
+                                        <DoubleAnimation Duration="0:0:0.2" From="1" To="0" Storyboard.TargetName="PhasePicture_b" Storyboard.TargetProperty="Opacity"/>
+                                        <ColorAnimation Duration="0:0:0.2" From="#00c6ff" To="White" Storyboard.TargetName="PhaseName" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Phase2_Select_Button" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Height" Value="75"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Border Width="180" Height="5" Margin="3 -57 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0.5 0" EndPoint="0.5 1">
+                                    <GradientStop Color="White" Offset="1"/>
+                                    <GradientStop Color="Transparent" Offset="0"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--上-->
+                        <Border Width="180" Height="5" Margin="3 63 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0.5 0" EndPoint="0.5 1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--下-->
+                        <Border Width="5" Height="55" Margin="-182 3 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0 0.5" EndPoint="1 0.5">
+                                    <GradientStop Color="White" Offset="1"/>
+                                    <GradientStop Color="Transparent" Offset="0"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--左-->
+                        <Border Width="5" Height="55" Margin="188 3 0 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0 0.5" EndPoint="1 0.5">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--右-->
+                        <Border Width="5" Height="5" Margin="-182 -57 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="1 1" GradientOrigin="1 1" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--左上-->
+                        <Border Width="5" Height="5" Margin="-182 63 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="1 0" GradientOrigin="1 0" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--左下-->
+                        <Border Width="5" Height="5" Margin="188 -57 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="0 1" GradientOrigin="0 1" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--右上-->
+                        <Border Width="5" Height="5" Margin="188 63 0 0">
+                            <Border.Background>
+                                <RadialGradientBrush Center="0 0" GradientOrigin="0 0" RadiusX="1" RadiusY="1">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="Transparent" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <!--右下-->
+                        <Border Width="1.5" Height="55" Margin="181.5 3 0 0" Background="White"/>
+                        <!--右补-->
+                        <Border Width="180" Height="1.5" Margin="3 56.5 0 0" Background="White"/>
+                        <!--右补-->
+
+                        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                            <Grid Width="200" Height="70" Background="#EE222222">
+                                <Image x:Name="PhasePicture" Source="\Resources\image\pharse\Stage_2.png" Margin="0 0 110 10" Width="80" Opacity="1"/>
+                                <Image x:Name="PhasePicture_b" Source="\Resources\image\pharse\Stage_2_b.png" Margin="0 0 110 10" Width="80" Opacity="0"/>
+                                <TextBlock x:Name="PhaseName" Text="精英二" FontSize="25" Margin="60 0 0 15" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" From="1" To="0" Storyboard.TargetName="PhasePicture" Storyboard.TargetProperty="Opacity"/>
+                                        <DoubleAnimation Duration="0:0:0.2" From="0" To="1" Storyboard.TargetName="PhasePicture_b" Storyboard.TargetProperty="Opacity"/>
+                                        <ColorAnimation Duration="0:0:0.2" From="White" To="#00c6ff" Storyboard.TargetName="PhaseName" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" From="0" To="1" Storyboard.TargetName="PhasePicture" Storyboard.TargetProperty="Opacity"/>
+                                        <DoubleAnimation Duration="0:0:0.2" From="1" To="0" Storyboard.TargetName="PhasePicture_b" Storyboard.TargetProperty="Opacity"/>
+                                        <ColorAnimation Duration="0:0:0.2" From="#00c6ff" To="White" Storyboard.TargetName="PhaseName" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
     <Style x:Key="CheckBoxStyle1" TargetType="{x:Type CheckBox}">
         <Setter Property="Background" Value="White"/>
         <Setter Property="BorderBrush" Value="Gray"/>
@@ -290,6 +634,35 @@
                             <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="LightGray"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Skin_Select_Button" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid Width="350" Margin="0 30 30 0" Height="100">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Border Background="{Binding BorderColor}" Width="10" HorizontalAlignment="Left"/>
+                        <Grid Grid.Column="1" Margin="0 2 0 2">
+                            <Border Background="#333333"/>
+                            <Image Source="{Binding Avatar}" Stretch="Uniform" Width="150" Height="150" Margin="10 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                            <Border Width="50" Margin="-100 0 0 0">
+                                <Border.Background>
+                                    <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                                        <GradientStop Color="#FF333333" Offset="0"/>
+                                        <GradientStop Color="#00333333" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                            </Border>
+                            <TextBlock x:Name="Name" Text="{Binding Name}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="185,0,0,0"/>
+                            <Image Stretch="Uniform" Width="100" Height="100" Margin="259,19,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Opacity="{Binding Is_Select}" Source="pack://application:,,,/Resources/image/others/Charinfo_SkinSelect1.png"/>
+                        </Grid>
+                    </Grid>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

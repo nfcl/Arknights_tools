@@ -12,13 +12,13 @@ using ClassSum;
 using InitFunction;
 using tool;
 using System.Net;
+using System.ComponentModel;
 
 namespace Arknights_tools
 {
 
     public partial class MainWindow : Window
     {
-
         public MainWindow()
         {
             InitializeComponent();
@@ -32,6 +32,92 @@ namespace Arknights_tools
         /// </summary>
         private void ceshi()
         {
+            //int num;
+            //Tool tool = new Tool();
+            //string htmlvalue;
+            //string qzkt = "<meta property=\"og:image\" content=\"";
+            //int start, end;
+            //string url;
+            //foreach (Char_infoItem i in GlobalArgs.Chartable.char_info)
+            //{
+            //    num = 1;
+            //    foreach (SkinItem tmpskin in i.Skins)
+            //    {
+            //        if (!tmpskin.is_phase)
+            //        {
+            //            if (File.Exists("E:/tmpavatar/" + tmpskin.picture_name + ".png"))
+            //            {
+            //                ++num;
+            //                continue;
+            //            }
+            //        A:
+            //            try
+            //            {
+            //                htmlvalue = tool.GetHtmlStr("https://prts.wiki/w/%E6%96%87%E4%BB%B6:%E5%A4%B4%E5%83%8F_" + i.name + "_skin" + num.ToString() + ".png", "UTF8");
+            //                start = htmlvalue.IndexOf(qzkt);
+            //                start += qzkt.Length;
+            //                end = htmlvalue.IndexOf('\"', start);
+            //                url = htmlvalue.Substring(start, end - start);
+            //                tool.SaveAsWebImg(url, tmpskin.picture_name, "E:/tmpavatar/");
+            //            }
+            //            catch (Exception e)
+            //            {
+            //                goto A;
+            //            }
+
+            //            ++num;
+            //        }
+            //    }
+            /*
+            SkinItem tmpskin;
+            string s;
+            int start, end;
+            foreach (Char_infoItem i in GlobalArgs.Chartable.char_info)
+            {
+                int num = 0;
+                s = File.ReadAllText("E:/tmp/" + i.appellation + ".txt");
+                i.Skins = new List<SkinItem>();
+                for (int tmp2 = 0; tmp2 < 3; ++tmp2)
+                {
+                    if (s.IndexOf("精英" + tmp2.ToString() + "描述=") != -1)
+                    {
+                        tmpskin = new SkinItem();
+                        tmpskin.picture_name = i.PicName[num];
+                        ++num;
+                        tmpskin.is_phase = true;
+                        start = s.IndexOf("精英" + tmp2.ToString() + "描述=") + 6;
+                        end = s.IndexOf("\n", start);
+                        tmpskin.describle = s.Substring(start, end - start);
+                        i.Skins.Add(tmpskin);
+                    }
+                }
+                for (int tmp2 = 1; tmp2 <= 5; ++tmp2)
+                {
+                    if (s.IndexOf("时装" + tmp2.ToString() + "名称=") != -1)
+                    {
+                        tmpskin = new SkinItem();
+                        tmpskin.picture_name = i.PicName[num];
+                        ++num;
+                        tmpskin.is_phase = false;
+                        start = s.IndexOf("时装" + tmp2.ToString() + "名称=") + 6;
+                        end = s.IndexOf("\n", start);
+                        tmpskin.name = s.Substring(start, end - start);
+                        start = s.IndexOf("时装" + tmp2.ToString() + "系列=") + 6;
+                        end = s.IndexOf("\n", start);
+                        tmpskin.series = s.Substring(start, end - start);
+                        start = s.IndexOf("时装" + tmp2.ToString() + "color=") + 10;
+                        end = s.IndexOf("\n", start);
+                        tmpskin.color = s.Substring(start, end - start);
+                        start = s.IndexOf("时装" + tmp2.ToString() + "描述=") + 6;
+                        end = s.IndexOf("\n", start);
+                        tmpskin.describle = s.Substring(start, end - start);
+                        i.Skins.Add(tmpskin);
+                    }
+                }
+            }
+            Tool tool = new Tool();
+            tool.JsonWrite("E:/C#/Arknights_tools/Arknights_tools/Resources/json/character_table.json", GlobalArgs.Chartable);
+            */
             //foreach (Char_infoItem i in GlobalArgs.Chartable.char_info)
             //{
             //    Charinfo_Tapitem newCharinfo = new Charinfo_Tapitem(i);
@@ -146,8 +232,6 @@ namespace Arknights_tools
             //        startid = s.IndexOf("技能名=", s.IndexOf("技能名=", startid) + 10);
             //    }
             //}
-            //Tool tool = new Tool();
-            //tool.JsonWrite("E:/C#/Arknights_tools/Arknights_tools/Resources/json/character_table.json", GlobalArgs.Chartable);
             //string qzkt = "<meta property=\"og:image\" content=\"";
             //int n, m;
             //string s, result;
@@ -236,7 +320,7 @@ namespace Arknights_tools
                 newcharButton.Click += Click_Char_In_Check;
                 Image newcharImage = new Image();
                 newcharButton.Content = newcharImage;
-                newcharImage.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/bust/" + i.PicName[0] + ".png"));
+                newcharImage.Source = new BitmapImage(new Uri("pack://application:,,,/Resources/image/char/bust/" + i.Skins[0].picture_name + ".png"));
                 newcharButton.Style = FindResource("char") as Style;
                 Grid_CharPreview.Children.Add(newcharButton);
                 Grid_CharPreview.RegisterName("CharCheck" + i.ImplementationOrder.ToString(), newcharButton);
@@ -297,6 +381,9 @@ namespace Arknights_tools
             {
                 if (tmp_button.Uid == i.ImplementationOrder)
                 {
+                    Charinfo_Pannel.DataContext = i;
+
+                    Skills_Grid.Children.Clear();
                     if (i.Skill_DataGrid.RowDefinitions.Count == 0)
                     {
                         Skills_Grid.Opacity = 0;
@@ -306,11 +393,13 @@ namespace Arknights_tools
                     {
                         Skills_Grid.Opacity = 1;
                         Skills_Grid.IsEnabled = true;
-                        Skills_Grid.Children.Clear();
                         Skills_Grid.Children.Add(i.Skill_DataGrid);
                     }
+
                     Talent_Grid.Children.Clear();
                     Talent_Grid.Children.Add(i.Talent_DataGrid);
+
+                    Parse_Matriels_Grid.Children.Clear();
                     if (i.Rarity <= 1)
                     {
                         Parse_Matriels_Grid.Opacity = 0;
@@ -320,10 +409,14 @@ namespace Arknights_tools
                     {
                         Parse_Matriels_Grid.Opacity = 1;
                         Parse_Matriels_Grid.IsEnabled = true;
-                        Parse_Matriels_Grid.Children.Clear();
                         Parse_Matriels_Grid.Children.Add(i.Parse_Matriels_DataGrid);
                     }
-                    Charinfo_Pannel.DataContext = i;
+
+                    Skin_Stackpannel.Children.Clear();
+                    foreach (Button Skinbutton in i.Skins_Select_Button)
+                    {
+                        Skin_Stackpannel.Children.Add(Skinbutton);
+                    }
                     return;
                 }
             }

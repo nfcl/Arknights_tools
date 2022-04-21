@@ -330,6 +330,34 @@ namespace json_real
         public List<LvlUpCostItem> lvlUpCost { get; set; }
     }
 
+    public class SkinItem
+    {
+        /// <summary>
+        /// 时装名称
+        /// </summary>
+        public string name { get; set; }
+        /// <summary>
+        /// 图片名称
+        /// </summary>
+        public string picture_name { get; set; }
+        /// <summary>
+        /// 是精英化时装
+        /// </summary>
+        public bool is_phase { get; set; }
+        /// <summary>
+        /// 时装描述
+        /// </summary>
+        public string describle { get; set; }
+        /// <summary>
+        /// 时装系列
+        /// </summary>
+        public string series { get; set; }
+        /// <summary>
+        /// 时装颜色
+        /// </summary>
+        public string color { get; set; }
+    }
+
     public class Char_infoItem
     {
         /// <summary>
@@ -349,9 +377,9 @@ namespace json_real
         /// </summary>
         public int ImplementationOrder { get; set; }
         /// <summary>
-        /// 皮肤名字
+        /// 时装
         /// </summary>
-        public List<string> PicName { get; set; }
+        public List<SkinItem> Skins { get; set; }
         /// <summary>
         /// 描述
         /// </summary>
