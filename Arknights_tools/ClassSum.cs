@@ -334,20 +334,17 @@ namespace ClassSum
             public void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
             #endregion
 
-            private int _isSelect;
-
             public string Name { get; }
             public BitmapImage Avatar { get; }
-            public int Is_Select
-            {
-                get => _isSelect;
-                set
-                {
-                    _isSelect = value;
-                    OnPropertyChanged("Is_Select");
-                }
-            }
+            public Button Mainbutton { get; set; }
+            public int Is_Select { get; set; }
             public SolidColorBrush BorderColor { get; }
+
+            public void SetSelect()
+            {
+                (Mainbutton.Template.FindName("SelectIcon", Mainbutton) as Image).Opacity = Is_Select;
+            }
+
             public Skin(string name, Uri avatar, Color color)
             {
                 Name = name;
@@ -379,13 +376,29 @@ namespace ClassSum
         public void Select_Skin_Click(object sender, RoutedEventArgs e)
         {
             Button Sender = sender as Button;
-            if (Select_Skin != null)
+            if (Skin_now >=Phase_Num)
             {
-                Skins[int.Parse(Sender.Uid) - Phase_Num].Is_Select = 0;
+                Skins[Skin_now - Phase_Num].Is_Select = 0;
+                Skins[Skin_now - Phase_Num].SetSelect();
             }
             Skin_now = int.Parse(Sender.Uid);
-            Skins[int.Parse(Sender.Uid) - Phase_Num].Is_Select = 1;
+            Skins[Skin_now - Phase_Num].Is_Select = 1;
+            Skins[Skin_now - Phase_Num].SetSelect();
             OnPropertyChanged("Stand_Paint");
+            OnPropertyChanged("Describle");
+        }
+
+        public void Select_Phase_Click(object sender, RoutedEventArgs e)
+        {
+            Button Sender = sender as Button;
+            if (Skin_now >= Phase_Num)
+            {
+                Skins[Skin_now - Phase_Num].Is_Select = 0;
+                Skins[Skin_now - Phase_Num].SetSelect();
+            }
+            Skin_now = int.Parse(Sender.Uid);
+            OnPropertyChanged("Stand_Paint");
+            OnPropertyChanged("Describle");
         }
 
         public Charinfo_Tapitem(Char_infoItem original)
@@ -1149,6 +1162,7 @@ namespace ClassSum
                         new Uri("pack://application:,,,/Resources/image/char/avatar/" + Skins_picname[Skins_picname.Count - 1] + ".png"),
                         Color.FromRgb((byte)tmpr, (byte)tmpg, (byte)tmpb));
                     Button SingleSkin_Button = new Button();
+                    tmpskin1.Mainbutton = SingleSkin_Button;
                     SingleSkin_Button.SetValue(Button.StyleProperty, Application.Current.FindResource("Skin_Select_Button"));
                     SingleSkin_Button.DataContext = tmpskin1;
                     SingleSkin_Button.Opacity = 1;

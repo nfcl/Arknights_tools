@@ -660,7 +660,7 @@
                                 </Border.Background>
                             </Border>
                             <TextBlock x:Name="Name" Text="{Binding Name}" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="185,0,0,0"/>
-                            <Image Stretch="Uniform" Width="100" Height="100" Margin="259,19,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Opacity="{Binding Is_Select}" Source="pack://application:,,,/Resources/image/others/Charinfo_SkinSelect1.png"/>
+                            <Image x:Name="SelectIcon" Stretch="Uniform" Width="100" Height="100" Margin="259,19,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Opacity="{Binding Is_Select}" Source="pack://application:,,,/Resources/image/others/Charinfo_SkinSelect1.png"/>
                         </Grid>
                     </Grid>
                 </ControlTemplate>

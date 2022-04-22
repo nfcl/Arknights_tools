@@ -417,6 +417,28 @@ namespace Arknights_tools
                     {
                         Skin_Stackpannel.Children.Add(Skinbutton);
                     }
+
+                    if (i.Rarity >= 3)
+                    {
+                        Phase2.Opacity = 1;
+                        if (i.Name_Ch == "阿米娅")
+                        {
+                            Phase2.Uid = "2";
+                            Phase1.Uid = "1";
+                        }
+                        else
+                        {
+                            Phase2.Uid = "1";
+                            Phase1.Uid = "0";
+                        }
+                    }
+                    else
+                    {
+                        Phase2.Opacity = 0;
+                    }
+                    Phase0.Click += i.Select_Phase_Click;
+                    Phase1.Click += i.Select_Phase_Click;
+                    Phase2.Click += i.Select_Phase_Click;
                     return;
                 }
             }

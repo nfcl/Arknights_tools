@@ -172,9 +172,9 @@
                                                     </Border>
                                                 </DockPanel>
                                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
-                                                    <Button Style="{DynamicResource Phase0_Select_Button}"/>
-                                                    <Button Style="{DynamicResource Phase1_Select_Button}"/>
-                                                    <Button Style="{DynamicResource Phase2_Select_Button}"/>
+                                                    <Button x:Name="Phase0" Uid="0" Style="{DynamicResource Phase0_Select_Button}"/>
+                                                    <Button x:Name="Phase1" Uid="0" Style="{DynamicResource Phase1_Select_Button}"/>
+                                                    <Button x:Name="Phase2" Uid="1" Style="{DynamicResource Phase2_Select_Button}"/>
                                                 </StackPanel>
                                                 <StackPanel x:Name="Skin_Stackpannel" HorizontalAlignment="Right">
                                                     <!--<Button Style="{StaticResource Skin_Select_Button}" BorderBrush="Blue" Content="识芳"/>-->
