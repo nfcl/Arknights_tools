@@ -329,11 +329,6 @@ namespace ClassSum
 
         public class Skin
         {
-            #region INPC
-            public event PropertyChangedEventHandler PropertyChanged;
-            public void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-            #endregion
-
             public string Name { get; }
             public BitmapImage Avatar { get; }
             public Button Mainbutton { get; set; }
